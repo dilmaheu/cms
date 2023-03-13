@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_optional_data_optional_data",
+  "info": {
+    "displayName": "optional-data",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Street_address": {
+      "type": "string"
+    },
+    "Locality": {
+      "type": "string"
+    },
+    "Region": {
+      "type": "string"
+    },
+    "Postal_code": {
+      "type": "biginteger"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "Geo_latitude": {
+      "type": "string"
+    },
+    "Geo_longitude": {
+      "type": "string"
+    }
+  }
+}

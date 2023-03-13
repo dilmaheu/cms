@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_blogs",
+  "info": {
+    "singularName": "home-blog",
+    "pluralName": "home-blogs",
+    "displayName": "Home blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "search-engine.meta"
+    },
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

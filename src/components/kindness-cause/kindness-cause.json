@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_kindness_cause_kindness_causes",
+  "info": {
+    "displayName": "Kindness Cause",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cause": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "featured_blob": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

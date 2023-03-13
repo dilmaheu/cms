@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_transparency_items_transparencies",
+  "info": {
+    "displayName": "Transparency",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Transparency_item_title": {
+      "type": "string",
+      "required": true
+    },
+    "Transparency_item_text": {
+      "type": "richtext"
+    },
+    "Transparency_item_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

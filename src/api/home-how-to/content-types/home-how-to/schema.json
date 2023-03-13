@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_how_tos",
+  "info": {
+    "singularName": "home-how-to",
+    "pluralName": "home-how-tos",
+    "displayName": "Home how to",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "search-engine.meta"
+    }
+  }
+}

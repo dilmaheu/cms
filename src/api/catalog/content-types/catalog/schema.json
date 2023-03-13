@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "catalogs",
+  "info": {
+    "singularName": "catalog",
+    "pluralName": "catalogs",
+    "displayName": "Catalog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.product"
+    }
+  }
+}

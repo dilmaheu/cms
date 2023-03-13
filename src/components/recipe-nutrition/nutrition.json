@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_recipe_nutrition_nutritions",
+  "info": {
+    "displayName": "nutrition",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Nutrition_name": {
+      "type": "string"
+    },
+    "Nutrition_measurements_unit": {
+      "type": "enumeration",
+      "enum": [
+        "milligram",
+        "gram",
+        "kilogram"
+      ]
+    },
+    "Nutrition_amount": {
+      "type": "integer"
+    }
+  }
+}

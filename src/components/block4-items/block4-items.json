@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_block4_items_block4_items",
+  "info": {
+    "displayName": "Block4_items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Block4_Value": {
+      "type": "string",
+      "required": true
+    },
+    "Block4_description": {
+      "type": "string",
+      "required": true
+    },
+    "Block4_icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

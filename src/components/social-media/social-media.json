@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_social_media_social_medias",
+  "info": {
+    "displayName": "Social_media",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Facebook": {
+      "type": "boolean",
+      "required": false
+    },
+    "Google": {
+      "type": "boolean",
+      "required": false
+    },
+    "Twitter": {
+      "type": "boolean"
+    }
+  }
+}

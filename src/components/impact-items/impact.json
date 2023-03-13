@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_impact_items_impacts",
+  "info": {
+    "displayName": "Impact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Impact_item_title": {
+      "type": "string",
+      "required": true
+    },
+    "Impact_item_text": {
+      "type": "richtext"
+    },
+    "Impact_item_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

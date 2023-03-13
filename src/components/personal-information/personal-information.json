@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_personal_information_personal_informations",
+  "info": {
+    "displayName": "Personal_information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Social_media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "social-media.social-media"
+    },
+    "Social_media_title": {
+      "type": "string"
+    },
+    "Label_phone": {
+      "type": "string",
+      "required": true
+    },
+    "Label_email": {
+      "type": "string",
+      "required": true
+    },
+    "Label_delivery_address": {
+      "type": "string",
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Label_billing_address": {
+      "type": "string",
+      "required": true
+    },
+    "Label_username": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

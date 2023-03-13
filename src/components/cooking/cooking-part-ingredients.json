@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_cooking_cooking_part_ingredients",
+  "info": {
+    "displayName": "cooking_part_ingredients",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Cooking_part_ingredient_name": {
+      "type": "string",
+      "required": true
+    },
+    "Cooking_part_ingredient_amount": {
+      "type": "decimal"
+    },
+    "Cooking_part_ingredient_measurements_unit": {
+      "type": "enumeration",
+      "enum": [
+        "cup",
+        "gr",
+        "ml",
+        "kg",
+        "l",
+        "spoon",
+        "tablespoon",
+        "teaspoon"
+      ]
+    }
+  }
+}

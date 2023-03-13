@@ -1,0 +1,455 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipes",
+  "info": {
+    "singularName": "recipe",
+    "pluralName": "recipes",
+    "displayName": "Recipe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "maxLength": 60,
+      "minLength": 20
+    },
+    "Intro_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": true,
+      "maxLength": 250,
+      "minLength": 200
+    },
+    "Intro_blob": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::person.person",
+      "inversedBy": "recipes"
+    },
+    "Time_preparation": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "regex": "^\\d{2}:([0-1]\\d|2[0-3]):([0-5]\\d)$"
+    },
+    "Time_cooking": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "regex": "^\\d{2}:([0-1]\\d|2[0-3]):([0-5]\\d)$"
+    },
+    "Block_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": true
+    },
+    "Recipe_variations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::recipe.recipe"
+    },
+    "Time_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": true
+    },
+    "Nutrition": {
+      "displayName": "nutrition",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "recipe-nutrition.nutrition"
+    },
+    "Nutrition_yield": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
+    },
+    "Cooking_part": {
+      "displayName": "cooking_part",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "cooking.cooking-part"
+    },
+    "Relevant_recipes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::recipe.recipe"
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "search-engine.meta",
+      "required": true
+    },
+    "Cuisine": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Afghani",
+        "African",
+        "African, Portuguese",
+        "American",
+        "Andhra",
+        "Arabian",
+        "Arabian, Lebanese",
+        "Arabian, Mexican",
+        "Arabian, Middle Eastern",
+        "Asian",
+        "Assamese",
+        "Australian",
+        "Awadhi",
+        "Awadhi, Mughlai",
+        "bakery",
+        "Bar Food",
+        "Bar Food, Brazilian",
+        "Bar Food, Modern Australian",
+        "Bar Food, Sandwich, Seafood",
+        "Bar Food, Seafood, Vegetarian",
+        "Bar Food, Steak",
+        "BBQ",
+        "BBQ, Breakfast, Southern",
+        "BBQ, Caribbean, Cajun",
+        "BBQ, Caribbean, Seafood",
+        "BBQ, Grill, Brazilian",
+        "BBQ, Sandwich",
+        "BBQ, Southern",
+        "Bengali",
+        "Bengali, Seafood",
+        "Beverages",
+        "Bihari",
+        "Biryani",
+        "Brazilian",
+        "Brazilian, Bar Food",
+        "Brazilian, Grill",
+        "Brazilian, Mineira",
+        "Brazilian, North Eastern",
+        "Brazilian, Seafood",
+        "Brazilian, Steak",
+        "Breakfast",
+        "Breakfast, Cajun",
+        "Breakfast, Coffee and Tea",
+        "Breakfast, Coffee and Tea, Modern Australian",
+        "Breakfast, Diner",
+        "Breakfast, Diner, Sandwich",
+        "Breakfast, Diner, Southern",
+        "Breakfast, French",
+        "Breakfast, Mexican",
+        "Breakfast, Mexican, Southwestern",
+        "Breakfast, Modern Australian",
+        "Breakfast, Pizza",
+        "Breakfast, Sandwich",
+        "Breakfast, Spanish, Tapas",
+        "Breakfast, Vegetarian",
+        "British",
+        "British, Bar Food, Sandwich",
+        "British, Contemporary",
+        "British, French",
+        "British, Scottish, Seafood",
+        "British, Steak",
+        "Burger",
+        "Cafe",
+        "Cajun",
+        "Caribbean",
+        "Caribbean, Mexican, Cajun",
+        "Caribbean, Seafood",
+        "Caribbean, Seafood, Steak",
+        "Chinese",
+        "Coffee and Tea, Mediterranean",
+        "Coffee and Tea, Modern Australian",
+        "Coffee and Tea, Sandwich",
+        "Coffee and Tea, Tapas, Australian",
+        "Coffee and Tea, Tea, Modern Australian",
+        "Contemporary",
+        "Continental",
+        "Continental, European",
+        "Continental, Kerala",
+        "Continental, Lebanese, Mexican",
+        "Continental, Mexican",
+        "Continental, Mexican, Mediterranean",
+        "Continental, Seafood, Goan, Andhra, Kerala, Thai",
+        "Continental, Tex-Mex",
+        "Cuban, Spanish",
+        "Cuisine Varies",
+        "Desserts",
+        "Drinks Only",
+        "European",
+        "European, Contemporary",
+        "European, Continental",
+        "European, Continental, Pizza",
+        "European, German",
+        "European, International, Tapas",
+        "European, Lebanese, Mediterranean",
+        "European, Mediterranean, Contemporary",
+        "European, Pizza",
+        "European, South African",
+        "European, South African, Steak",
+        "European, Spanish",
+        "FAST FOOD",
+        "Filipino",
+        "Filipino, Mexican",
+        "Finger Food",
+        "French",
+        "French, Kiwi",
+        "French, Mediterranean, European",
+        "French, Western",
+        "German",
+        "German, Ice Cream",
+        "Goan",
+        "Goan, Mangalorean, Continental, French",
+        "Goan, Seafood",
+        "Greek",
+        "Greek, Lebanese",
+        "Greek, Mediterranean",
+        "Greek, Mediterranean, Middle Eastern",
+        "Greek, Mediterranean, Vegetarian",
+        "Gujarati",
+        "Gujarati, Rajasthani",
+        "Hawaiian",
+        "Hawaiian, Seafood",
+        "Hawaiian, Seafood, Steak",
+        "Healthy Food",
+        "Hyderabadi",
+        "Hyderabadi, Awadhi",
+        "Ice Cream",
+        "indian",
+        "Indonesian",
+        "International",
+        "International, Mediterranean, Sandwich",
+        "International, Pizza",
+        "International, Southern",
+        "International, Southern, Vegetarian",
+        "International, Tapas, Vegetarian",
+        "Irish",
+        "italian",
+        "Japanese",
+        "Japanese, French",
+        "Japanese, Korean",
+        "Japanese, Seafood, Sushi",
+        "Japanese, Steak",
+        "Japanese, Steak, Sushi",
+        "Japanese, Sushi",
+        "Japanese, Sushi, Ramen",
+        "Japanese, Sushi, Teriyaki",
+        "Japanese, Sushi, Thai",
+        "Japanese, Thai, Sushi",
+        "Japanese, Tibetan, Vietnamese, Korean",
+        "Juices",
+        "Kashmiri",
+        "Kashmiri, Mughlai",
+        "Kebab",
+        "Kebab, Izgara",
+        "Kebab, Turkish Pizza",
+        "Kebab, Turkish Pizza, Dí_ner",
+        "Kerala",
+        "Kiwi, European",
+        "Korean",
+        "Lebanese",
+        "Lebanese, Arabian",
+        "Lebanese, Arabian, Middle Eastern",
+        "Lebanese, Arabian, Moroccan",
+        "Lebanese, Mediterranean, Arabian",
+        "Lebanese, Mediterranean, Middle Eastern, Arabian",
+        "Lucknowi",
+        "Lucknowi, Mughlai",
+        "Maharashtrian",
+        "Malaysian",
+        "Malaysian, Indonesian",
+        "Malaysian, Thai",
+        "Malaysian, Thai, Kerala, Vietnamese, Sri Lankan",
+        "Mediterranean",
+        "Mediterranean, Continental",
+        "Mediterranean, European",
+        "Mediterranean, Seafood",
+        "Mediterranean, Tapas, Vegetarian",
+        "Mediterranean, Turkish",
+        "Mexican",
+        "Mexican, Grill",
+        "Mexican, Southwestern, Sushi",
+        "Mexican, Southwestern, Tex-Mex",
+        "Mexican, Spanish",
+        "Mexican, Tex-Mex",
+        "Mexican, Vegetarian",
+        "Middle Eastern, Arabian",
+        "Mithai",
+        "Modern Australian",
+        "Modern Australian, Australian",
+        "Mughlai",
+        "Mughlai, Afghani",
+        "Mughlai, Hyderabadi",
+        "Mughlai, Lucknowi",
+        "Mughlai, Lucknowi, Awadhi",
+        "Naga",
+        "Naga, Tibetan",
+        "Nepalese",
+        "Nepalese, Tibetan",
+        "North Eastern",
+        "Oriya",
+        "Pakistani",
+        "Parsi",
+        "Parsi, Iranian",
+        "Patisserie, Coffee and Tea",
+        "Peranakan, Indonesian",
+        "Pizza",
+        "Pizza, Bar Food",
+        "Pizza, Bar Food, Sandwich",
+        "Pizza, Grill",
+        "Pizza, Ice Cream",
+        "Pizza, Sandwich",
+        "Pizza, Sandwich, Vegetarian",
+        "Pizza, Seafood, Steak",
+        "Portuguese, African",
+        "Portuguese, African, Lebanese",
+        "Pub Food",
+        "Rajasthani",
+        "Rajasthani, Gujarati, Mughlai",
+        "Ramen, Japanese",
+        "Raw Meats",
+        "Salad, Continental",
+        "Sandwich",
+        "Sandwich, Seafood, Cajun",
+        "Sandwich, Seafood, Steak",
+        "Sandwich, Sushi, Tapas",
+        "Seafood",
+        "Seafood, African, Sushi",
+        "Seafood, Bar Food, Brazilian",
+        "Seafood, Continental, European",
+        "Seafood, Continental, European, German",
+        "Seafood, French",
+        "Seafood, Japanese, Sushi",
+        "Seafood, Kiwi",
+        "Seafood, Mediterranean",
+        "Seafood, Southern",
+        "Seafood, Steak",
+        "Seafood, Steak, Vegetarian",
+        "Seafood, Sushi",
+        "Seafood, Tapas, Bar Food",
+        "Seafood, Western",
+        "Singaporean, Australian, German",
+        "Southern",
+        "Southern, Cajun, Soul Food",
+        "Spanish, Tapas",
+        "Sri Lankan",
+        "Steak",
+        "Steak, BBQ",
+        "Steak, Scottish, British",
+        "Steak, Seafood, Grill",
+        "Steak, Tapas, Bar Food",
+        "Street Food",
+        "Sunda, Indonesian",
+        "Sushi",
+        "Sushi, Japanese",
+        "Sushi, Japanese, Cantonese",
+        "Sushi, Teriyaki",
+        "Sushi, Thai",
+        "Tapas",
+        "Tea",
+        "Tea, Modern Australian",
+        "Thai",
+        "Thai, Japanese",
+        "Tibetan",
+        "Tibetan, Nepalese",
+        "Turkish",
+        "Turkish Pizza",
+        "Turkish, Arabian, Middle Eastern",
+        "Turkish, Arabian, Moroccan, Lebanese",
+        "Turkish, Mediterranean, Middle Eastern",
+        "Vietnamese",
+        "Vietnamese, Fish and Chips",
+        "World Cuisine"
+      ],
+      "required": true
+    },
+    "Category": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Appetizer",
+        "Salad",
+        "Main-course",
+        "Side-dish",
+        "Baked-goods",
+        "Dessert",
+        "Snack",
+        "Soup",
+        "Holiday",
+        "Vegetarian Dishes"
+      ],
+      "required": true
+    }
+  }
+}

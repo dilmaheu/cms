@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_menu_navs",
+  "info": {
+    "displayName": "menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Visibility": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

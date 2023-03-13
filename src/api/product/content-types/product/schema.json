@@ -1,0 +1,644 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "maxLength": 60,
+      "minLength": 20
+    },
+    "Intro_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": true,
+      "minLength": 150,
+      "maxLength": 250
+    },
+    "Intro_blob": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Block_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": true
+    },
+    "Price": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "decimal",
+      "required": true
+    },
+    "Currency": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "ADP",
+        "AED",
+        "AFA",
+        "AFN",
+        "ALK",
+        "ALL",
+        "AMD",
+        "ANG",
+        "AOA",
+        "AOK",
+        "AON",
+        "AOR",
+        "ARA",
+        "ARP",
+        "ARS",
+        "ARY",
+        "ATS",
+        "AUD",
+        "AWG",
+        "AYM",
+        "AZM",
+        "AZN",
+        "BAD",
+        "BAM",
+        "BBD",
+        "BDT",
+        "BEC",
+        "BEF",
+        "BEL",
+        "BGJ",
+        "BGK",
+        "BGL",
+        "BGN",
+        "BHD",
+        "BIF",
+        "BMD",
+        "BND",
+        "BOB",
+        "BOP",
+        "BOV",
+        "BRB",
+        "BRC",
+        "BRE",
+        "BRL",
+        "BRN",
+        "BRR",
+        "BSD",
+        "BTN",
+        "BUK",
+        "BWP",
+        "BYB",
+        "BYN",
+        "BYR",
+        "BZD",
+        "CAD",
+        "CDF",
+        "CHC",
+        "CHE",
+        "CHF",
+        "CHW",
+        "CLF",
+        "CLP",
+        "CNY",
+        "COP",
+        "COU",
+        "CRC",
+        "CSD",
+        "CSJ",
+        "CSK",
+        "CUC",
+        "CUP",
+        "CVE",
+        "CYP",
+        "CZK",
+        "DDM",
+        "DEM",
+        "DJF",
+        "DKK",
+        "DOP",
+        "DZD",
+        "ECS",
+        "ECV",
+        "EEK",
+        "EGP",
+        "ERN",
+        "ESA",
+        "ESB",
+        "ESP",
+        "ETB",
+        "EUR",
+        "FIM",
+        "FJD",
+        "FKP",
+        "FRF",
+        "GBP",
+        "GEK",
+        "GEL",
+        "GHC",
+        "GHP",
+        "GHS",
+        "GIP",
+        "GMD",
+        "GNE",
+        "GNF",
+        "GNS",
+        "GQE",
+        "GRD",
+        "GTQ",
+        "GWE",
+        "GWP",
+        "GYD",
+        "HKD",
+        "HNL",
+        "HRD",
+        "HRK",
+        "HTG",
+        "HUF",
+        "IDR",
+        "IEP",
+        "ILP",
+        "ILR",
+        "ILS",
+        "INR",
+        "IQD",
+        "IRR",
+        "ISJ",
+        "ISK",
+        "ITL",
+        "JMD",
+        "JOD",
+        "JPY",
+        "KES",
+        "KGS",
+        "KHR",
+        "KMF",
+        "KPW",
+        "KRW",
+        "KWD",
+        "KYD",
+        "KZT",
+        "LAJ",
+        "LAK",
+        "LBP",
+        "LKR",
+        "LRD",
+        "LSL",
+        "LSM",
+        "LTL",
+        "LTT",
+        "LUC",
+        "LUF",
+        "LUL",
+        "LVL",
+        "LVR",
+        "LYD",
+        "MAD",
+        "MDL",
+        "MGA",
+        "MGF",
+        "MKD",
+        "MLF",
+        "MMK",
+        "MNT",
+        "MOP",
+        "MRO",
+        "MRU",
+        "MTL",
+        "MTP",
+        "MUR",
+        "MVQ",
+        "MVR",
+        "MWK",
+        "MXN",
+        "MXP",
+        "MXV",
+        "MYR",
+        "MZE",
+        "MZM",
+        "MZN",
+        "NAD",
+        "NGN",
+        "NIC",
+        "NIO",
+        "NLG",
+        "NOK",
+        "NPR",
+        "NZD",
+        "OMR",
+        "PAB",
+        "PEH",
+        "PEI",
+        "PEN",
+        "PES",
+        "PGK",
+        "PHP",
+        "PKR",
+        "PLN",
+        "PLZ",
+        "PTE",
+        "PYG",
+        "QAR",
+        "RHD",
+        "ROK",
+        "ROL",
+        "RON",
+        "RSD",
+        "RUB",
+        "RUR",
+        "RWF",
+        "SAR",
+        "SBD",
+        "SCR",
+        "SDD",
+        "SDG",
+        "SDP",
+        "SEK",
+        "SGD",
+        "SHP",
+        "SIT",
+        "SKK",
+        "SLL",
+        "SOS",
+        "SRD",
+        "SRG",
+        "SSP",
+        "STD",
+        "STN",
+        "SUR",
+        "SVC",
+        "SYP",
+        "SZL",
+        "THB",
+        "TJR",
+        "TJS",
+        "TMM",
+        "TMT",
+        "TND",
+        "TOP",
+        "TPE",
+        "TRL",
+        "TRY",
+        "TTD",
+        "TWD",
+        "TZS",
+        "UAH",
+        "UAK",
+        "UGS",
+        "UGW",
+        "UGX",
+        "USD",
+        "USN",
+        "USS",
+        "UYI",
+        "UYN",
+        "UYP",
+        "UYU",
+        "UYW",
+        "UZS",
+        "VEB",
+        "VEF",
+        "VES",
+        "VNC",
+        "VND",
+        "VUV",
+        "WST",
+        "XAF",
+        "XAG",
+        "XAU",
+        "XBA",
+        "XBB",
+        "XBC",
+        "XBD",
+        "XCD",
+        "XDR",
+        "XEU",
+        "XFO",
+        "XFU",
+        "XOF",
+        "XPD",
+        "XPF",
+        "XPT",
+        "XRE",
+        "XSU",
+        "XTS",
+        "XUA",
+        "XXX",
+        "YDD",
+        "YER",
+        "YUD",
+        "YUM",
+        "YUN",
+        "ZAL",
+        "ZAR",
+        "ZMK",
+        "ZMW",
+        "ZRN",
+        "ZRZ",
+        "ZWC",
+        "ZWD",
+        "ZWL",
+        "ZWN",
+        "ZWR"
+      ],
+      "default": "EUR",
+      "required": true
+    },
+    "SKU": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "GTIN_Barcode": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "biginteger",
+      "required": true
+    },
+    "Weight": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer"
+    },
+    "Weight_unit": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "gm",
+        "oz"
+      ],
+      "default": "gm"
+    },
+    "Weight_tea": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "decimal"
+    },
+    "Weight_tea_unit": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "gm",
+        "oz"
+      ],
+      "default": "gm"
+    },
+    "estate_name": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::estate.estate"
+    },
+    "related_blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "related_recipes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::recipe.recipe"
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "search-engine.meta",
+      "required": true
+    },
+    "Price_breakdown_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Price_breakdown": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "price-breakdown.price-breakdown"
+    },
+    "Transparency_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Transparency": {
+      "displayName": "Transparency",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "transparency-items.transparency"
+    },
+    "Impact_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Impact": {
+      "displayName": "Impact",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "impact-items.impact"
+    },
+    "product_infos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product-info.product-info"
+    },
+    "related_how_tos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::how-to.how-to"
+    },
+    "related_products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::brand.brand",
+      "inversedBy": "products"
+    },
+    "Stock_out": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "required": false
+    },
+    "In_stock_date": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "date",
+      "required": false
+    },
+    "Stock_amount": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "biginteger",
+      "required": true,
+      "default": "0"
+    },
+    "Water_temperature": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "unique": false
+    },
+    "Brewing_time": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    },
+    "variant": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product-variant.product-variant",
+      "inversedBy": "products"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product-category.product-category",
+      "inversedBy": "products"
+    },
+    "sub_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product-sub-category.product-sub-category",
+      "inversedBy": "products"
+    },
+    "size": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product-size.product-size",
+      "inversedBy": "products"
+    },
+    "Water_temperature_unit": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "degree"
+      ],
+      "default": "degree"
+    },
+    "Brewing_time_unit": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "minute"
+      ],
+      "default": "minute"
+    }
+  }
+}

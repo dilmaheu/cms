@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_breadcrumb_steps_breadcrumb_steps",
+  "info": {
+    "displayName": "Breadcrumb-steps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

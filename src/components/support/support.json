@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_support_supports",
+  "info": {
+    "displayName": "Support",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Button_text": {
+      "type": "string",
+      "required": true
+    },
+    "Button_link": {
+      "type": "string"
+    },
+    "Button_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

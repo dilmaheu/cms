@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "people",
+  "info": {
+    "singularName": "person",
+    "pluralName": "people",
+    "displayName": "Person",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "givenName": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "familyName": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "email",
+      "unique": false
+    },
+    "admin_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user",
+      "private": true
+    },
+    "Profile_picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "Links": {
+      "type": "dynamiczone",
+      "components": [
+        "link.link"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog.blog",
+      "mappedBy": "authors"
+    },
+    "how_tos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::how-to.how-to",
+      "mappedBy": "authors"
+    },
+    "recipes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::recipe.recipe",
+      "mappedBy": "authors"
+    }
+  }
+}

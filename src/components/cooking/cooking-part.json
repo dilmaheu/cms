@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_cooking_cooking_parts",
+  "info": {
+    "displayName": "cooking_part",
+    "icon": "clipboard-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Cooking_part_name": {
+      "type": "string"
+    },
+    "Cooking_part_steps": {
+      "displayName": "cooking_part_steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "cooking.cooking-part-steps"
+    },
+    "Cooking_part_step_tip": {
+      "type": "text"
+    },
+    "Cooking_part_ingredients": {
+      "displayName": "cooking_part_ingredients",
+      "type": "component",
+      "repeatable": true,
+      "component": "cooking.cooking-part-ingredients"
+    }
+  }
+}

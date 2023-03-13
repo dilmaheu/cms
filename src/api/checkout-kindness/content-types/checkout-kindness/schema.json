@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "checkout_kindnesses",
+  "info": {
+    "singularName": "checkout-kindness",
+    "pluralName": "checkout-kindnesses",
+    "displayName": "Checkout Kindness",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Intro_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "search-engine.meta"
+    },
+    "checkout_step_order": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer"
+    },
+    "kindness_causes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::kindness-cause.kindness-cause"
+    }
+  }
+}

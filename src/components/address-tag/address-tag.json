@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_address_tag_address_tags",
+  "info": {
+    "displayName": "Address_tag"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

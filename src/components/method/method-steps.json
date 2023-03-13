@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_method_method_steps",
+  "info": {
+    "displayName": "Method steps",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "Step_title": {
+      "type": "string",
+      "maxLength": 60,
+      "minLength": 20,
+      "required": true
+    },
+    "Step_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "Step_blob": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

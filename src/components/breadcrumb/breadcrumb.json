@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_breadcrumb_breadcrumbs",
+  "info": {
+    "displayName": "Breadcrumb",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Steps": {
+      "displayName": "Breadcrumb-steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "breadcrumb-steps.breadcrumb-steps"
+    }
+  }
+}

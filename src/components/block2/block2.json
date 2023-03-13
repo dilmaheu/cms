@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_block2_block2s",
+  "info": {
+    "displayName": "Block2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Block2_title": {
+      "type": "string",
+      "required": true
+    },
+    "Button_change_cause_text": {
+      "type": "string",
+      "required": true
+    },
+    "Label_my_selected_cause": {
+      "type": "string"
+    },
+    "Label_let_dilmah_pick_cause": {
+      "type": "string"
+    },
+    "Let_dilmah_pick_cause_text": {
+      "type": "richtext"
+    },
+    "Notification_cause_update_text": {
+      "type": "string"
+    },
+    "Block2_text": {
+      "type": "richtext"
+    },
+    "My_selected_cause_text": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_block3_block3s",
+  "info": {
+    "displayName": "Block3",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Block3_title": {
+      "type": "string",
+      "required": true
+    },
+    "Label_order": {
+      "type": "string"
+    },
+    "Button_track_package_text": {
+      "type": "string"
+    },
+    "Button_buy_again_text": {
+      "type": "string"
+    },
+    "Button_sold_out_text": {
+      "type": "string"
+    },
+    "Button_view_all_orders_text": {
+      "type": "string"
+    },
+    "text_more_products_in_this_order": {
+      "type": "string"
+    },
+    "text_estimated_delivery": {
+      "type": "string"
+    },
+    "text_estimated_shipment": {
+      "type": "string"
+    },
+    "Empty_order_blob": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Empty_order_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "Empty_order_button_text": {
+      "type": "string"
+    },
+    "Empty_order_button_link": {
+      "type": "string"
+    },
+    "text_delivered": {
+      "type": "string",
+      "required": true
+    },
+    "Button_track_package": {
+      "type": "boolean"
+    }
+  }
+}

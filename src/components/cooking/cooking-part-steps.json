@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cooking_cooking_part_steps",
+  "info": {
+    "displayName": "cooking_part_steps",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Cooking_part_steps_text": {
+      "type": "text"
+    },
+    "Cooking_part_steps_blob": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

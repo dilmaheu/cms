@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_method_methods",
+  "info": {
+    "displayName": "Method",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Method_title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 60,
+      "minLength": 20
+    },
+    "Steps": {
+      "displayName": "Method steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "method.method-steps",
+      "required": true
+    }
+  }
+}

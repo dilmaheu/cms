@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "user_account_addresses",
+  "info": {
+    "singularName": "user-account-address",
+    "pluralName": "user-account-addresses",
+    "displayName": "User account address",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Breadcrumb": {
+      "type": "component",
+      "repeatable": false,
+      "component": "breadcrumb.breadcrumb",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "search-engine.meta",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

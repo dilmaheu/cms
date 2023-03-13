@@ -1,0 +1,133 @@
+{
+  "kind": "singleType",
+  "collectionName": "user_account_dashboards",
+  "info": {
+    "singularName": "user-account-dashboard",
+    "pluralName": "user-account-dashboards",
+    "displayName": "User account dashboard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Personal_information": {
+      "displayName": "Personal_information",
+      "type": "component",
+      "repeatable": false,
+      "component": "personal-information.personal-information",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Block2_visibility": {
+      "type": "boolean",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Block2": {
+      "displayName": "Block2",
+      "type": "component",
+      "repeatable": false,
+      "component": "block2.block2",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Block3_visibility": {
+      "type": "boolean",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Block3": {
+      "displayName": "Block3",
+      "type": "component",
+      "repeatable": false,
+      "component": "block3.block3",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Support_visibility": {
+      "type": "boolean",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Support": {
+      "displayName": "Support",
+      "type": "component",
+      "repeatable": false,
+      "component": "support.support",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Breadcrumb": {
+      "displayName": "Breadcrumb",
+      "type": "component",
+      "repeatable": false,
+      "component": "breadcrumb.breadcrumb",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "text_content": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "search-engine.meta",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

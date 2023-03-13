@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_search_engine_metas",
+  "info": {
+    "displayName": "Meta",
+    "icon": "search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HTML_Title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 60,
+      "minLength": 30
+    },
+    "Meta_description": {
+      "type": "string",
+      "required": true,
+      "minLength": 70,
+      "maxLength": 120
+    },
+    "noindex": {
+      "type": "boolean",
+      "default": false
+    },
+    "nofollow": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "URL_slug": {
+      "type": "string",
+      "required": true
+    },
+    "Canonical_link": {
+      "type": "string"
+    }
+  }
+}

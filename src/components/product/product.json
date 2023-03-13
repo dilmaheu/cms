@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_product_products",
+  "info": {
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "unique": false
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

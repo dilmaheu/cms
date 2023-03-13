@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_recipes",
+  "info": {
+    "singularName": "home-recipe",
+    "pluralName": "home-recipes",
+    "displayName": "Home recipe"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "search-engine.meta"
+    }
+  }
+}

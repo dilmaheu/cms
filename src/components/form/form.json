@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_form_forms",
+  "info": {
+    "displayName": "Form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "First_name": {
+      "type": "boolean"
+    },
+    "Last_name": {
+      "type": "boolean"
+    },
+    "Email": {
+      "type": "boolean"
+    },
+    "Phone": {
+      "type": "boolean"
+    },
+    "Submit_button_text": {
+      "type": "string"
+    },
+    "Blob": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Email_or_phone": {
+      "type": "boolean"
+    }
+  }
+}
