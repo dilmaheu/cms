@@ -503,23 +503,31 @@
       ]
     },
     "user_account_nav_background": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "user_account_nav_background_sm": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "nav_background_sm": {
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

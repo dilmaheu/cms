@@ -10,10 +10,6 @@
       "type": "string",
       "required": true
     },
-    "Button_change_cause_text": {
-      "type": "string",
-      "required": true
-    },
     "Label_my_selected_cause": {
       "type": "string"
     },

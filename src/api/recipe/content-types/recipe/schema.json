@@ -450,6 +450,12 @@
         "Vegetarian Dishes"
       ],
       "required": true
+    },
+    "Related_products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "recipes"
     }
   }
 }

@@ -67,17 +67,6 @@
         }
       }
     },
-    "Block3": {
-      "displayName": "Block3",
-      "type": "component",
-      "repeatable": false,
-      "component": "block3.block3",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "Support_visibility": {
       "type": "boolean",
       "required": true,
@@ -109,15 +98,6 @@
         }
       }
     },
-    "text_content": {
-      "type": "string",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "Meta": {
       "type": "component",
       "repeatable": false,
@@ -128,6 +108,14 @@
           "localized": true
         }
       }
+    },
+    "Block3_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

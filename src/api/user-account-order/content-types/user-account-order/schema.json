@@ -38,13 +38,14 @@
       "component": "search-engine.meta",
       "required": true
     },
-    "Button_change_text": {
+    "Title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

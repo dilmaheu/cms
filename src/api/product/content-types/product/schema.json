@@ -559,7 +559,7 @@
     "In_stock_date": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "date",
@@ -639,6 +639,12 @@
         "minute"
       ],
       "default": "minute"
+    },
+    "recipes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::recipe.recipe",
+      "mappedBy": "Related_products"
     }
   }
 }
