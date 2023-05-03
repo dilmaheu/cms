@@ -1,0 +1,97 @@
+{
+  "key": "plugin_content_manager_configuration_components::block4-items.block4-items",
+  "value": {
+    "uid": "block4-items.block4-items",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Block4_Value",
+      "defaultSortBy": "Block4_Value",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block4_Value": {
+        "edit": {
+          "label": "Block4_Value",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block4_Value",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block4_description": {
+        "edit": {
+          "label": "Block4_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block4_description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block4_icon": {
+        "edit": {
+          "label": "Block4_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block4_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Block4_Value",
+        "Block4_description",
+        "Block4_icon"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Block4_Value",
+            "size": 6
+          },
+          {
+            "name": "Block4_description",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block4_icon",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

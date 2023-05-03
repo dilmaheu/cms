@@ -1,0 +1,95 @@
+{
+  "key": "plugin_content_manager_configuration_components::support.support",
+  "value": {
+    "uid": "support.support",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Button_text",
+      "defaultSortBy": "Button_text",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Button_text": {
+        "edit": {
+          "label": "Button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_link": {
+        "edit": {
+          "label": "Button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_icon": {
+        "edit": {
+          "label": "Button_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Button_text",
+        "Button_icon",
+        "Button_link"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Button_text",
+            "size": 4
+          },
+          {
+            "name": "Button_link",
+            "size": 4
+          },
+          {
+            "name": "Button_icon",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

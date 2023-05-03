@@ -1,0 +1,195 @@
+{
+  "key": "plugin_content_manager_configuration_components::personal-information.personal-information",
+  "value": {
+    "uid": "personal-information.personal-information",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Social_media_title",
+      "defaultSortBy": "Social_media_title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Social_media": {
+        "edit": {
+          "label": "Social_media",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Social_media",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Social_media_title": {
+        "edit": {
+          "label": "Social_media_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Social_media_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Label_phone": {
+        "edit": {
+          "label": "Label_phone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label_phone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Label_email": {
+        "edit": {
+          "label": "Label_email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label_email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Label_delivery_address": {
+        "edit": {
+          "label": "Label_delivery_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label_delivery_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Name": {
+        "edit": {
+          "label": "Name",
+          "description": "This will show as section name in the 'Content' area",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Label_billing_address": {
+        "edit": {
+          "label": "Label_billing_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label_billing_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Label_username": {
+        "edit": {
+          "label": "Label_username",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label_username",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Label_delivery_address",
+        "Label_billing_address",
+        "Label_username"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Label_username",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Label_phone",
+            "size": 6
+          },
+          {
+            "name": "Label_email",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Label_delivery_address",
+            "size": 6
+          },
+          {
+            "name": "Label_billing_address",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Social_media_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Social_media",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

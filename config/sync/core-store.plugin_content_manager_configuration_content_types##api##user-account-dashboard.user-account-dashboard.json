@@ -1,0 +1,260 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::user-account-dashboard.user-account-dashboard",
+  "value": {
+    "uid": "api::user-account-dashboard.user-account-dashboard",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Title",
+      "defaultSortBy": "Title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "add <username> to show the name of the user",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Personal_information": {
+        "edit": {
+          "label": "Personal_information",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Personal_information",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block2_visibility": {
+        "edit": {
+          "label": "Block2_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2": {
+        "edit": {
+          "label": "Block2",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block3_visibility": {
+        "edit": {
+          "label": "Block3_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block3_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Support_visibility": {
+        "edit": {
+          "label": "Support_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Support_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Support": {
+        "edit": {
+          "label": "Support",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Support",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Breadcrumb": {
+        "edit": {
+          "label": "Breadcrumb",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Breadcrumb",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block3_title": {
+        "edit": {
+          "label": "Block3_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block3_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "Title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Personal_information",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block2_visibility",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block2",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block3_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Support_visibility",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Support",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Breadcrumb",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "Title",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

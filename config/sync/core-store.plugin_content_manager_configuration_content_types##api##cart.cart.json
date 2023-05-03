@@ -1,0 +1,162 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::cart.cart",
+  "value": {
+    "uid": "api::cart.cart",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "text_cart",
+      "defaultSortBy": "text_cart",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_cart": {
+        "edit": {
+          "label": "text_cart",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_cart",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_product": {
+        "edit": {
+          "label": "text_product",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_product",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_go_to_checkout": {
+        "edit": {
+          "label": "text_go_to_checkout",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_go_to_checkout",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "text_remove": {
+        "edit": {
+          "label": "text_remove",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_remove",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "text_cart",
+        "text_product",
+        "text_go_to_checkout"
+      ],
+      "edit": [
+        [
+          {
+            "name": "text_cart",
+            "size": 6
+          },
+          {
+            "name": "text_product",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_remove",
+            "size": 6
+          },
+          {
+            "name": "text_go_to_checkout",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

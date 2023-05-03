@@ -1,0 +1,674 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::aria-label-recurring-element.aria-label-recurring-element",
+  "value": {
+    "uid": "api::aria-label-recurring-element.aria-label-recurring-element",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Intro_text",
+      "defaultSortBy": "Intro_text",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Intro_text": {
+        "edit": {
+          "label": "Intro_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Latest_post_text": {
+        "edit": {
+          "label": "Latest_post_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Latest_post_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Wrote_by_text": {
+        "edit": {
+          "label": "Wrote_by_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Wrote_by_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Post_text": {
+        "edit": {
+          "label": "Post_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Post_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "All_posts_text": {
+        "edit": {
+          "label": "All_posts_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "All_posts_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Items_text": {
+        "edit": {
+          "label": "Items_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Items_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Kindness_Item_text": {
+        "edit": {
+          "label": "Kindness_Item_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Kindness_Item_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Kindness_Items_text": {
+        "edit": {
+          "label": "Kindness_Items_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Kindness_Items_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Post_intro_text": {
+        "edit": {
+          "label": "Post_intro_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Post_intro_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Post_details_text": {
+        "edit": {
+          "label": "Post_details_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Post_details_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Recipe_timing_text": {
+        "edit": {
+          "label": "Recipe_timing_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Recipe_timing_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Recipe_step_text": {
+        "edit": {
+          "label": "Recipe_step_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Recipe_step_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Howto_method_text": {
+        "edit": {
+          "label": "Howto_method_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Howto_method_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Estate_location_map_text": {
+        "edit": {
+          "label": "Estate_location_map_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Estate_location_map_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_quantity_minus_button_text": {
+        "edit": {
+          "label": "Product_quantity_minus_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_quantity_minus_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_quantity_plus_button_text": {
+        "edit": {
+          "label": "Product_quantity_plus_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_quantity_plus_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_quantity_text": {
+        "edit": {
+          "label": "Product_quantity_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_quantity_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_related_kindness_info_text": {
+        "edit": {
+          "label": "Product_related_kindness_info_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_related_kindness_info_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Crowdfunding_plans_text": {
+        "edit": {
+          "label": "Crowdfunding_plans_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Crowdfunding_plans_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Crowdfunding_plan_text": {
+        "edit": {
+          "label": "Crowdfunding_plan_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Crowdfunding_plan_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Crowdfunding_total_raised_text": {
+        "edit": {
+          "label": "Crowdfunding_total_raised_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Crowdfunding_total_raised_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Navbar_language_selectors_text": {
+        "edit": {
+          "label": "Navbar_language_selectors_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navbar_language_selectors_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Navbar_open_cart_text": {
+        "edit": {
+          "label": "Navbar_open_cart_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navbar_open_cart_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Navbar_open_sidebar_menu_text": {
+        "edit": {
+          "label": "Navbar_open_sidebar_menu_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navbar_open_sidebar_menu_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Navbar_close_sidebar_menu_text": {
+        "edit": {
+          "label": "Navbar_close_sidebar_menu_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navbar_close_sidebar_menu_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_post_of_text": {
+        "edit": {
+          "label": "Product_post_of_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_post_of_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_all_teas_text": {
+        "edit": {
+          "label": "Product_all_teas_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_all_teas_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_tea_item_text": {
+        "edit": {
+          "label": "Product_tea_item_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_tea_item_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Navbar_open_localization_menu_text": {
+        "edit": {
+          "label": "Navbar_open_localization_menu_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navbar_open_localization_menu_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Navbar_close_localization_menu_text": {
+        "edit": {
+          "label": "Navbar_close_localization_menu_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navbar_close_localization_menu_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Testing": {
+        "edit": {
+          "label": "Testing",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Testing",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Testing_2": {
+        "edit": {
+          "label": "Testing_2",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Testing_2",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Intro_text",
+        "createdAt",
+        "Latest_post_text"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Intro_text",
+            "size": 6
+          },
+          {
+            "name": "Latest_post_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Wrote_by_text",
+            "size": 6
+          },
+          {
+            "name": "Post_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "All_posts_text",
+            "size": 6
+          },
+          {
+            "name": "Items_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Kindness_Item_text",
+            "size": 6
+          },
+          {
+            "name": "Kindness_Items_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Post_intro_text",
+            "size": 6
+          },
+          {
+            "name": "Post_details_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Recipe_timing_text",
+            "size": 6
+          },
+          {
+            "name": "Recipe_step_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Howto_method_text",
+            "size": 6
+          },
+          {
+            "name": "Estate_location_map_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Product_all_teas_text",
+            "size": 6
+          },
+          {
+            "name": "Product_tea_item_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Product_quantity_minus_button_text",
+            "size": 6
+          },
+          {
+            "name": "Product_quantity_plus_button_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Product_quantity_text",
+            "size": 6
+          },
+          {
+            "name": "Product_related_kindness_info_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Crowdfunding_plans_text",
+            "size": 6
+          },
+          {
+            "name": "Crowdfunding_plan_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Crowdfunding_total_raised_text",
+            "size": 6
+          },
+          {
+            "name": "Navbar_language_selectors_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Navbar_open_cart_text",
+            "size": 6
+          },
+          {
+            "name": "Navbar_open_sidebar_menu_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Navbar_close_sidebar_menu_text",
+            "size": 6
+          },
+          {
+            "name": "Navbar_open_localization_menu_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Navbar_close_localization_menu_text",
+            "size": 6
+          },
+          {
+            "name": "Product_post_of_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Testing",
+            "size": 6
+          },
+          {
+            "name": "Testing_2",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

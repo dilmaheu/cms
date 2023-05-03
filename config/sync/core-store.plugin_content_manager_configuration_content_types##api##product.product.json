@@ -1,0 +1,805 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::product.product",
+  "value": {
+    "uid": "api::product.product",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 100,
+      "mainField": "Title",
+      "defaultSortBy": "createdAt",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "20 - 60 characters. The ideal length of a headline is 6 words.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Intro_text": {
+        "edit": {
+          "label": "Intro_text",
+          "description": "This is an intro to the targeted topic / keywords. 1) Use the topic / keywords in an organic readable way. 2) 150 - 250 characters. 3) Maximum of 2 paragraphs. 4) Include other related Keywords the Audience Actually Searches On related to the topic. 5) Use an active voice and make it actionable. 6) Show specifications related to the topic/focus keyword/actuality (year/season), where possible.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Intro_blob": {
+        "edit": {
+          "label": "Intro_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block_text": {
+        "edit": {
+          "label": "Block_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Price": {
+        "edit": {
+          "label": "Price",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Price",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Currency": {
+        "edit": {
+          "label": "Currency",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Currency",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "SKU": {
+        "edit": {
+          "label": "SKU",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SKU",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "GTIN_Barcode": {
+        "edit": {
+          "label": "GTIN_Barcode",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "GTIN_Barcode",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Weight": {
+        "edit": {
+          "label": "Weight",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Weight",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Weight_unit": {
+        "edit": {
+          "label": "Weight_unit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Weight_unit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Weight_tea": {
+        "edit": {
+          "label": "Weight_tea",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Weight_tea",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Weight_tea_unit": {
+        "edit": {
+          "label": "Weight_tea_unit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Weight_tea_unit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "estate_name": {
+        "edit": {
+          "label": "estate_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Estate_name"
+        },
+        "list": {
+          "label": "estate_name",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "related_blogs": {
+        "edit": {
+          "label": "related_blogs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "related_blogs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "related_recipes": {
+        "edit": {
+          "label": "related_recipes",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "related_recipes",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Price_breakdown_text": {
+        "edit": {
+          "label": "Price_breakdown_text",
+          "description": "Please add \"<total_spent>\" to show total amount",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Price_breakdown_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Price_breakdown": {
+        "edit": {
+          "label": "Price_breakdown",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Price_breakdown",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Transparency_text": {
+        "edit": {
+          "label": "Transparency_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Transparency_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Transparency": {
+        "edit": {
+          "label": "Transparency",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Transparency",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Impact_text": {
+        "edit": {
+          "label": "Impact_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Impact_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Impact": {
+        "edit": {
+          "label": "Impact",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Impact",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "product_infos": {
+        "edit": {
+          "label": "product_infos",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Product_info_title"
+        },
+        "list": {
+          "label": "product_infos",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "related_how_tos": {
+        "edit": {
+          "label": "related_how_tos",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "related_how_tos",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "related_products": {
+        "edit": {
+          "label": "related_products",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "related_products",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "brand": {
+        "edit": {
+          "label": "brand",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Brand_name"
+        },
+        "list": {
+          "label": "brand",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Stock_out": {
+        "edit": {
+          "label": "Stock_out",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Stock_out",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "In_stock_date": {
+        "edit": {
+          "label": "In_stock_date",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "In_stock_date",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Stock_amount": {
+        "edit": {
+          "label": "Stock_amount",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Stock_amount",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Water_temperature": {
+        "edit": {
+          "label": "Water_temperature",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Water_temperature",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Brewing_time": {
+        "edit": {
+          "label": "Brewing_time",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Brewing_time",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "variant": {
+        "edit": {
+          "label": "variant",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "variant",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "category": {
+        "edit": {
+          "label": "category",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "category",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "sub_category": {
+        "edit": {
+          "label": "sub_category",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "sub_category",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "size": {
+        "edit": {
+          "label": "size",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "size",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Water_temperature_unit": {
+        "edit": {
+          "label": "Water_temperature_unit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Water_temperature_unit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Brewing_time_unit": {
+        "edit": {
+          "label": "Brewing_time_unit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Brewing_time_unit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipes": {
+        "edit": {
+          "label": "recipes",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "recipes",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "Title",
+            "size": 6
+          },
+          {
+            "name": "Intro_blob",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "category",
+            "size": 6
+          },
+          {
+            "name": "sub_category",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "variant",
+            "size": 6
+          },
+          {
+            "name": "size",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Water_temperature",
+            "size": 6
+          },
+          {
+            "name": "Water_temperature_unit",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Brewing_time",
+            "size": 6
+          },
+          {
+            "name": "Brewing_time_unit",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Intro_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Price",
+            "size": 4
+          },
+          {
+            "name": "Currency",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Stock_amount",
+            "size": 4
+          },
+          {
+            "name": "In_stock_date",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "SKU",
+            "size": 4
+          },
+          {
+            "name": "GTIN_Barcode",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Weight",
+            "size": 4
+          },
+          {
+            "name": "Weight_unit",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Weight_tea",
+            "size": 4
+          },
+          {
+            "name": "Weight_tea_unit",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Price_breakdown_text",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "Price_breakdown",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Transparency_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Transparency",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Impact_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Impact",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "product_infos",
+            "size": 6
+          },
+          {
+            "name": "estate_name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "related_blogs",
+            "size": 6
+          },
+          {
+            "name": "related_recipes",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "related_how_tos",
+            "size": 6
+          },
+          {
+            "name": "related_products",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "brand",
+            "size": 6
+          },
+          {
+            "name": "recipes",
+            "size": 6
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "SKU",
+        "Title",
+        "Stock_amount",
+        "updatedAt"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

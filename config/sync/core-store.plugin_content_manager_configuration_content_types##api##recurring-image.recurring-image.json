@@ -1,0 +1,1026 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::recurring-image.recurring-image",
+  "value": {
+    "uid": "api::recurring-image.recurring-image",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "hero_background": {
+        "edit": {
+          "label": "hero_background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "hero_background",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "crowdfunding_info_section_background": {
+        "edit": {
+          "label": "crowdfunding_info_section_background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "crowdfunding_info_section_background",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footer_background": {
+        "edit": {
+          "label": "footer_background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footer_background",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "left_post_leaf": {
+        "edit": {
+          "label": "left_post_leaf",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "left_post_leaf",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footer_leaf_sm": {
+        "edit": {
+          "label": "footer_leaf_sm",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footer_leaf_sm",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "logo": {
+        "edit": {
+          "label": "logo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "error_notification": {
+        "edit": {
+          "label": "error_notification",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_notification",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "warning_notification": {
+        "edit": {
+          "label": "warning_notification",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "warning_notification",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "info_notification": {
+        "edit": {
+          "label": "info_notification",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "info_notification",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "success_notification": {
+        "edit": {
+          "label": "success_notification",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "success_notification",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "white_love_ribbon": {
+        "edit": {
+          "label": "white_love_ribbon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "white_love_ribbon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_love_ribbon": {
+        "edit": {
+          "label": "green_love_ribbon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_love_ribbon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "love_gift": {
+        "edit": {
+          "label": "love_gift",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "love_gift",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "white_cup": {
+        "edit": {
+          "label": "white_cup",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "white_cup",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_cup": {
+        "edit": {
+          "label": "green_cup",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_cup",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "light_green_cup": {
+        "edit": {
+          "label": "light_green_cup",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "light_green_cup",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_book": {
+        "edit": {
+          "label": "green_book",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_book",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "favicon": {
+        "edit": {
+          "label": "favicon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "favicon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "white_right_arrow": {
+        "edit": {
+          "label": "white_right_arrow",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "white_right_arrow",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_right_arrow": {
+        "edit": {
+          "label": "green_right_arrow",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_right_arrow",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "white_down_arrow": {
+        "edit": {
+          "label": "white_down_arrow",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "white_down_arrow",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_down_arrow": {
+        "edit": {
+          "label": "green_down_arrow",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_down_arrow",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footer_leaf": {
+        "edit": {
+          "label": "footer_leaf",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footer_leaf",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_leaf": {
+        "edit": {
+          "label": "green_leaf",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_leaf",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "white_clock": {
+        "edit": {
+          "label": "white_clock",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "white_clock",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "left_quote": {
+        "edit": {
+          "label": "left_quote",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "left_quote",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_bulb": {
+        "edit": {
+          "label": "green_bulb",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_bulb",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "white_flower": {
+        "edit": {
+          "label": "white_flower",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "white_flower",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "light_green_flower": {
+        "edit": {
+          "label": "light_green_flower",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "light_green_flower",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "light_green_clock": {
+        "edit": {
+          "label": "light_green_clock",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "light_green_clock",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_product_cart": {
+        "edit": {
+          "label": "green_product_cart",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_product_cart",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_product_cart_plus": {
+        "edit": {
+          "label": "green_product_cart_plus",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_product_cart_plus",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "shipping_hero_background": {
+        "edit": {
+          "label": "shipping_hero_background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "shipping_hero_background",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_love": {
+        "edit": {
+          "label": "green_love",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_love",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_leaf_icon": {
+        "edit": {
+          "label": "green_leaf_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_leaf_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_no_icon": {
+        "edit": {
+          "label": "green_no_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_no_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "green_package_icon": {
+        "edit": {
+          "label": "green_package_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "green_package_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "white_product_cart": {
+        "edit": {
+          "label": "white_product_cart",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "white_product_cart",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "hero_background_sm": {
+        "edit": {
+          "label": "hero_background_sm",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "hero_background_sm",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footer_background_sm": {
+        "edit": {
+          "label": "footer_background_sm",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footer_background_sm",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "checkout_header_background": {
+        "edit": {
+          "label": "checkout_header_background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "checkout_header_background",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "checkout_header_background_sm": {
+        "edit": {
+          "label": "checkout_header_background_sm",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "checkout_header_background_sm",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "checkout_pre_post_background": {
+        "edit": {
+          "label": "checkout_pre_post_background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "checkout_pre_post_background",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "checkout_pre_post_background_sm": {
+        "edit": {
+          "label": "checkout_pre_post_background_sm",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "checkout_pre_post_background_sm",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "nav_background": {
+        "edit": {
+          "label": "nav_background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nav_background",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sidebar_background": {
+        "edit": {
+          "label": "sidebar_background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sidebar_background",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tick": {
+        "edit": {
+          "label": "tick",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "tick",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "user_account_nav_background": {
+        "edit": {
+          "label": "user_account_nav_background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "user_account_nav_background",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "user_account_nav_background_sm": {
+        "edit": {
+          "label": "user_account_nav_background_sm",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "user_account_nav_background_sm",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "nav_background_sm": {
+        "edit": {
+          "label": "nav_background_sm",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nav_background_sm",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "logo",
+            "size": 6
+          },
+          {
+            "name": "favicon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "nav_background",
+            "size": 6
+          },
+          {
+            "name": "nav_background_sm",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "sidebar_background",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "hero_background",
+            "size": 6
+          },
+          {
+            "name": "hero_background_sm",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "footer_background",
+            "size": 6
+          },
+          {
+            "name": "footer_background_sm",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "user_account_nav_background",
+            "size": 6
+          },
+          {
+            "name": "user_account_nav_background_sm",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "crowdfunding_info_section_background",
+            "size": 6
+          },
+          {
+            "name": "shipping_hero_background",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "checkout_header_background",
+            "size": 6
+          },
+          {
+            "name": "checkout_header_background_sm",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "checkout_pre_post_background",
+            "size": 6
+          },
+          {
+            "name": "checkout_pre_post_background_sm",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "footer_leaf",
+            "size": 6
+          },
+          {
+            "name": "footer_leaf_sm",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_notification",
+            "size": 6
+          },
+          {
+            "name": "warning_notification",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "info_notification",
+            "size": 6
+          },
+          {
+            "name": "success_notification",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "white_love_ribbon",
+            "size": 6
+          },
+          {
+            "name": "green_love_ribbon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "green_love",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "white_cup",
+            "size": 6
+          },
+          {
+            "name": "green_cup",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "light_green_cup",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "white_right_arrow",
+            "size": 6
+          },
+          {
+            "name": "green_right_arrow",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "white_down_arrow",
+            "size": 6
+          },
+          {
+            "name": "green_down_arrow",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "white_clock",
+            "size": 6
+          },
+          {
+            "name": "light_green_clock",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "white_flower",
+            "size": 6
+          },
+          {
+            "name": "light_green_flower",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "love_gift",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "left_quote",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "green_book",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "green_leaf",
+            "size": 6
+          },
+          {
+            "name": "left_post_leaf",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "green_leaf_icon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "green_bulb",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "white_product_cart",
+            "size": 6
+          },
+          {
+            "name": "green_product_cart",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "green_product_cart_plus",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "green_no_icon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "green_package_icon",
+            "size": 6
+          },
+          {
+            "name": "tick",
+            "size": 6
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "hero_background",
+        "crowdfunding_info_section_background",
+        "footer_background"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

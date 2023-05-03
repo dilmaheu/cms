@@ -1,0 +1,104 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::product-info.product-info",
+  "value": {
+    "uid": "api::product-info.product-info",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Product_info_title",
+      "defaultSortBy": "Product_info_title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_info_title": {
+        "edit": {
+          "label": "Product_info_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_info_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_info_icon": {
+        "edit": {
+          "label": "Product_info_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_info_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Product_info_title",
+        "Product_info_icon",
+        "createdAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Product_info_title",
+            "size": 6
+          },
+          {
+            "name": "Product_info_icon",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

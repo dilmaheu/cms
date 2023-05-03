@@ -1,0 +1,10 @@
+{
+  "name": "Public",
+  "description": "Default role given to unauthenticated user.",
+  "type": "public",
+  "permissions": [
+    {
+      "action": "plugin::i18n.locales.listLocales"
+    }
+  ]
+}

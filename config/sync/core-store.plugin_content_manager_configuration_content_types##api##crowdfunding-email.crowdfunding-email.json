@@ -1,0 +1,258 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::crowdfunding-email.crowdfunding-email",
+  "value": {
+    "uid": "api::crowdfunding-email.crowdfunding-email",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "From_name",
+      "defaultSortBy": "From_name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "From_name": {
+        "edit": {
+          "label": "From_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "From_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "From_email": {
+        "edit": {
+          "label": "From_email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "From_email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Subject": {
+        "edit": {
+          "label": "Subject",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Subject",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Preview_text": {
+        "edit": {
+          "label": "Preview_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Preview_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Preheader_text": {
+        "edit": {
+          "label": "Preheader_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Preheader_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Body": {
+        "edit": {
+          "label": "Body",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Body",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Overview": {
+        "edit": {
+          "label": "Overview",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Overview",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Total": {
+        "edit": {
+          "label": "Total",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Total",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Invoice": {
+        "edit": {
+          "label": "Invoice",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Invoice",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "VAT": {
+        "edit": {
+          "label": "VAT",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "VAT",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "From_name",
+        "From_email",
+        "Subject"
+      ],
+      "edit": [
+        [
+          {
+            "name": "From_name",
+            "size": 6
+          },
+          {
+            "name": "From_email",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Subject",
+            "size": 6
+          },
+          {
+            "name": "Preview_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Preheader_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Body",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Overview",
+            "size": 6
+          },
+          {
+            "name": "Total",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Invoice",
+            "size": 6
+          },
+          {
+            "name": "VAT",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

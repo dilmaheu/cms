@@ -1,0 +1,191 @@
+{
+  "key": "plugin_content_manager_configuration_components::optional-data.optional-data",
+  "value": {
+    "uid": "optional-data.optional-data",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Street_address",
+      "defaultSortBy": "Street_address",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Street_address": {
+        "edit": {
+          "label": "Street_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Street_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Locality": {
+        "edit": {
+          "label": "Locality",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Locality",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Region": {
+        "edit": {
+          "label": "Region",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Region",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Postal_code": {
+        "edit": {
+          "label": "Postal_code",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Postal_code",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Country": {
+        "edit": {
+          "label": "Country",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Country",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Telephone": {
+        "edit": {
+          "label": "Telephone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Telephone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Geo_latitude": {
+        "edit": {
+          "label": "Geo_latitude",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Geo_latitude",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Geo_longitude": {
+        "edit": {
+          "label": "Geo_longitude",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Geo_longitude",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Telephone",
+        "Street_address",
+        "Locality"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Telephone",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Street_address",
+            "size": 6
+          },
+          {
+            "name": "Locality",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Region",
+            "size": 4
+          },
+          {
+            "name": "Postal_code",
+            "size": 4
+          },
+          {
+            "name": "Country",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Geo_latitude",
+            "size": 4
+          },
+          {
+            "name": "Geo_longitude",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

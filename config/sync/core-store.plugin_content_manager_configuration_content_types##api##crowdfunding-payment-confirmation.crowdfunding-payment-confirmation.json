@@ -1,0 +1,186 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::crowdfunding-payment-confirmation.crowdfunding-payment-confirmation",
+  "value": {
+    "uid": "api::crowdfunding-payment-confirmation.crowdfunding-payment-confirmation",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Title",
+      "defaultSortBy": "Title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Intro_text": {
+        "edit": {
+          "label": "Intro_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Heading_block": {
+        "edit": {
+          "label": "Heading_block",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Heading_block",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block_text": {
+        "edit": {
+          "label": "Block_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block_blob": {
+        "edit": {
+          "label": "Block_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Title",
+        "Heading_block",
+        "Block_blob"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Intro_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Heading_block",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block_blob",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

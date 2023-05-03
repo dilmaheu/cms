@@ -1,0 +1,124 @@
+{
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "api::aria-label-recurring-element.aria-label-recurring-element.find"
+    },
+    {
+      "action": "api::basic-page.basic-page.find"
+    },
+    {
+      "action": "api::basic-page.basic-page.findOne"
+    },
+    {
+      "action": "api::blog.blog.find"
+    },
+    {
+      "action": "api::blog.blog.findOne"
+    },
+    {
+      "action": "api::crowdfunding-email.crowdfunding-email.find"
+    },
+    {
+      "action": "api::crowdfunding-form.crowdfunding-form.find"
+    },
+    {
+      "action": "api::crowdfunding-home.crowdfunding-home.find"
+    },
+    {
+      "action": "api::crowdfunding-payment-confirmation.crowdfunding-payment-confirmation.find"
+    },
+    {
+      "action": "api::crowdfunding-plan.crowdfunding-plan.find"
+    },
+    {
+      "action": "api::crowdfunding-plan.crowdfunding-plan.findOne"
+    },
+    {
+      "action": "api::estate.estate.find"
+    },
+    {
+      "action": "api::estate.estate.findOne"
+    },
+    {
+      "action": "api::home-blog.home-blog.find"
+    },
+    {
+      "action": "api::home-estate.home-estate.find"
+    },
+    {
+      "action": "api::home-how-to.home-how-to.find"
+    },
+    {
+      "action": "api::home-product.home-product.find"
+    },
+    {
+      "action": "api::home-recipe.home-recipe.find"
+    },
+    {
+      "action": "api::homepage.homepage.find"
+    },
+    {
+      "action": "api::how-to.how-to.find"
+    },
+    {
+      "action": "api::how-to.how-to.findOne"
+    },
+    {
+      "action": "api::organization.organization.find"
+    },
+    {
+      "action": "api::organization.organization.findOne"
+    },
+    {
+      "action": "api::person.person.find"
+    },
+    {
+      "action": "api::person.person.findOne"
+    },
+    {
+      "action": "api::product.product.find"
+    },
+    {
+      "action": "api::product.product.findOne"
+    },
+    {
+      "action": "api::recipe.recipe.find"
+    },
+    {
+      "action": "api::recipe.recipe.findOne"
+    },
+    {
+      "action": "api::recurring-element.recurring-element.find"
+    },
+    {
+      "action": "api::robots-text.robots-text.find"
+    },
+    {
+      "action": "api::security-text.security-text.find"
+    },
+    {
+      "action": "plugin::i18n.locales.listLocales"
+    },
+    {
+      "action": "plugin::upload.content-api.find"
+    },
+    {
+      "action": "plugin::upload.content-api.findOne"
+    },
+    {
+      "action": "plugin::users-permissions.auth.callback"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.user.findOne"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::person.person",
+  "value": {
+    "uid": "api::person.person",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "givenName",
+      "defaultSortBy": "givenName",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "givenName": {
+        "edit": {
+          "label": "givenName",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "givenName",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "familyName": {
+        "edit": {
+          "label": "familyName",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "familyName",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "email": {
+        "edit": {
+          "label": "email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "admin_user": {
+        "edit": {
+          "label": "admin_user",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "admin_user",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Profile_picture": {
+        "edit": {
+          "label": "Profile_picture",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Profile_picture",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Links": {
+        "edit": {
+          "label": "Links",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Links",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "blogs": {
+        "edit": {
+          "label": "blogs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "blogs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "how_tos": {
+        "edit": {
+          "label": "how_tos",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "how_tos",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "recipes": {
+        "edit": {
+          "label": "recipes",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "recipes",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Profile_picture",
+        "givenName",
+        "familyName",
+        "email"
+      ],
+      "edit": [
+        [
+          {
+            "name": "givenName",
+            "size": 6
+          },
+          {
+            "name": "familyName",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "email",
+            "size": 6
+          },
+          {
+            "name": "Profile_picture",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Links",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "admin_user",
+            "size": 6
+          },
+          {
+            "name": "blogs",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "how_tos",
+            "size": 6
+          },
+          {
+            "name": "recipes",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,403 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::home-elephant-path.home-elephant-path",
+  "value": {
+    "uid": "api::home-elephant-path.home-elephant-path",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Title",
+      "defaultSortBy": "Title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Intro_text": {
+        "edit": {
+          "label": "Intro_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Heading_button_text": {
+        "edit": {
+          "label": "Heading_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Heading_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Heading_button_link": {
+        "edit": {
+          "label": "Heading_button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Heading_button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Intro_blob": {
+        "edit": {
+          "label": "Intro_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Information": {
+        "edit": {
+          "label": "Information",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Information",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block2_title": {
+        "edit": {
+          "label": "Block2_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2_text": {
+        "edit": {
+          "label": "Block2_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block2_button_text": {
+        "edit": {
+          "label": "Block2_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2_button_link": {
+        "edit": {
+          "label": "Block2_button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2_blob": {
+        "edit": {
+          "label": "Block2_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block3_title": {
+        "edit": {
+          "label": "Block3_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block3_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Relevant_items_title": {
+        "edit": {
+          "label": "Relevant_items_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Relevant_items_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Relevant_items_text": {
+        "edit": {
+          "label": "Relevant_items_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Relevant_items_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Relevant_blogs": {
+        "edit": {
+          "label": "Relevant_blogs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "Relevant_blogs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Impacts": {
+        "edit": {
+          "label": "Impacts",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Impacts",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "Title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Intro_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Heading_button_text",
+            "size": 6
+          },
+          {
+            "name": "Heading_button_link",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Intro_blob",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Information",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block2_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block2_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block2_button_text",
+            "size": 6
+          },
+          {
+            "name": "Block2_button_link",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block2_blob",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block3_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Impacts",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Relevant_items_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Relevant_items_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Relevant_blogs",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "Title",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

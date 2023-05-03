@@ -1,0 +1,244 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::user-account.user-account",
+  "value": {
+    "uid": "api::user-account.user-account",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Title",
+      "defaultSortBy": "Title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Intro_text": {
+        "edit": {
+          "label": "Intro_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Intro_blob": {
+        "edit": {
+          "label": "Intro_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Form": {
+        "edit": {
+          "label": "Form",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Form",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block_text": {
+        "edit": {
+          "label": "Block_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Social_media": {
+        "edit": {
+          "label": "Social_media",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Social_media",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Button_pretext": {
+        "edit": {
+          "label": "Button_pretext",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_pretext",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_text": {
+        "edit": {
+          "label": "Button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "Title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Intro_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Intro_blob",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Form",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Social_media",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Button_pretext",
+            "size": 6
+          },
+          {
+            "name": "Button_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "Title",
+        "Intro_blob",
+        "Form"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

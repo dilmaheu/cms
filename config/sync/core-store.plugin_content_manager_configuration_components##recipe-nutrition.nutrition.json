@@ -1,0 +1,97 @@
+{
+  "key": "plugin_content_manager_configuration_components::recipe-nutrition.nutrition",
+  "value": {
+    "uid": "recipe-nutrition.nutrition",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Nutrition_name",
+      "defaultSortBy": "Nutrition_name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Nutrition_name": {
+        "edit": {
+          "label": "Nutrition_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nutrition_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Nutrition_measurements_unit": {
+        "edit": {
+          "label": "Nutrition_measurements_unit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nutrition_measurements_unit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Nutrition_amount": {
+        "edit": {
+          "label": "Nutrition_amount",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nutrition_amount",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Nutrition_name",
+        "Nutrition_measurements_unit",
+        "Nutrition_amount"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Nutrition_name",
+            "size": 6
+          },
+          {
+            "name": "Nutrition_measurements_unit",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Nutrition_amount",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

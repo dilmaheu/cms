@@ -1,0 +1,98 @@
+{
+  "key": "plugin_content_manager_configuration_components::impact-items.impact",
+  "value": {
+    "uid": "impact-items.impact",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Impact_item_title",
+      "defaultSortBy": "Impact_item_title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Impact_item_title": {
+        "edit": {
+          "label": "Impact_item_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Impact_item_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Impact_item_text": {
+        "edit": {
+          "label": "Impact_item_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Impact_item_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Impact_item_icon": {
+        "edit": {
+          "label": "Impact_item_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Impact_item_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Impact_item_title",
+        "Impact_item_icon"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Impact_item_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Impact_item_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Impact_item_icon",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

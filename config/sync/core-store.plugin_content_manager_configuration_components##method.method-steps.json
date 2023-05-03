@@ -1,0 +1,98 @@
+{
+  "key": "plugin_content_manager_configuration_components::method.method-steps",
+  "value": {
+    "uid": "method.method-steps",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Step_title",
+      "defaultSortBy": "Step_title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Step_title": {
+        "edit": {
+          "label": "Step_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Step_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Step_text": {
+        "edit": {
+          "label": "Step_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Step_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Step_blob": {
+        "edit": {
+          "label": "Step_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Step_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Step_title",
+        "Step_blob"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Step_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Step_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Step_blob",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

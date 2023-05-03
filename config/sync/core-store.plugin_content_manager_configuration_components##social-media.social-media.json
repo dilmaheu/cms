@@ -1,0 +1,94 @@
+{
+  "key": "plugin_content_manager_configuration_components::social-media.social-media",
+  "value": {
+    "uid": "social-media.social-media",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Facebook": {
+        "edit": {
+          "label": "Facebook",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Facebook",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Google": {
+        "edit": {
+          "label": "Google",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Google",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Twitter": {
+        "edit": {
+          "label": "Twitter",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Twitter",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Facebook",
+        "Google"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Facebook",
+            "size": 4
+          },
+          {
+            "name": "Google",
+            "size": 4
+          },
+          {
+            "name": "Twitter",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

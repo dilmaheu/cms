@@ -1,0 +1,397 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::home-product.home-product",
+  "value": {
+    "uid": "api::home-product.home-product",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Intro_text": {
+        "edit": {
+          "label": "Intro_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Intro_blob": {
+        "edit": {
+          "label": "Intro_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Heading_button_text": {
+        "edit": {
+          "label": "Heading_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Heading_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Heading_button_link": {
+        "edit": {
+          "label": "Heading_button_link",
+          "description": "Title in lowercase of each section would be as sections id. ( ex. All teas => all-teas)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Heading_button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "blogs": {
+        "edit": {
+          "label": "blogs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "blogs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block2_title": {
+        "edit": {
+          "label": "Block2_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2_button_text": {
+        "edit": {
+          "label": "Block2_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2_button_link": {
+        "edit": {
+          "label": "Block2_button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2_blob": {
+        "edit": {
+          "label": "Block2_blob",
+          "description": "Please Upload  2:1  Aspect Ratio Image",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Aria_label_all_teas_text": {
+        "edit": {
+          "label": "Aria_label_all_teas_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Aria_label_all_teas_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Aria_label_tea_item_text": {
+        "edit": {
+          "label": "Aria_label_tea_item_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Aria_label_tea_item_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Category_title": {
+        "edit": {
+          "label": "Category_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Category_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block_title": {
+        "edit": {
+          "label": "Block_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block_text": {
+        "edit": {
+          "label": "Block_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block3_text": {
+        "edit": {
+          "label": "Block3_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block3_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Meta",
+        "createdAt",
+        "updatedAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Title",
+            "size": 6
+          },
+          {
+            "name": "Intro_blob",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Intro_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Heading_button_text",
+            "size": 4
+          },
+          {
+            "name": "Heading_button_link",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Category_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block2_title",
+            "size": 6
+          },
+          {
+            "name": "Block2_blob",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block2_button_text",
+            "size": 4
+          },
+          {
+            "name": "Block2_button_link",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block3_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Aria_label_tea_item_text",
+            "size": 4
+          },
+          {
+            "name": "Aria_label_all_teas_text",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "blogs",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

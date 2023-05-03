@@ -1,0 +1,402 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::recipe.recipe",
+  "value": {
+    "uid": "api::recipe.recipe",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Title",
+      "defaultSortBy": "Title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "20 - 60 characters. The ideal length of a headline is 6 words.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Intro_text": {
+        "edit": {
+          "label": "Intro_text",
+          "description": "This is an intro to the targeted topic / keywords. 1) Use the topic / keywords in an organic readable way. 2) 200 - 250 characters. 3) Maximum of 2 paragraphs. 4) Include other related Keywords the Audience Actually Searches On related to the topic. 5) Use an active voice and make it actionable. 6) Show specifications related to the topic/focus keyword/actuality (year/season), where possible.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Intro_blob": {
+        "edit": {
+          "label": "Intro_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "authors": {
+        "edit": {
+          "label": "authors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "givenName"
+        },
+        "list": {
+          "label": "authors",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Time_preparation": {
+        "edit": {
+          "label": "Time_preparation",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Time_preparation",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Time_cooking": {
+        "edit": {
+          "label": "Time_cooking",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Time_cooking",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block_text": {
+        "edit": {
+          "label": "Block_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Recipe_variations": {
+        "edit": {
+          "label": "Recipe_variations",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "Recipe_variations",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Time_text": {
+        "edit": {
+          "label": "Time_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Time_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Nutrition": {
+        "edit": {
+          "label": "Nutrition",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nutrition",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Nutrition_yield": {
+        "edit": {
+          "label": "Nutrition_yield",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nutrition_yield",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Cooking_part": {
+        "edit": {
+          "label": "Cooking_part",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Cooking_part",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Relevant_recipes": {
+        "edit": {
+          "label": "Relevant_recipes",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "Relevant_recipes",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Cuisine": {
+        "edit": {
+          "label": "Cuisine",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Cuisine",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Category": {
+        "edit": {
+          "label": "Category",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Category",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Related_products": {
+        "edit": {
+          "label": "Related_products",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "Related_products",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Title",
+        "Intro_blob",
+        "authors"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Intro_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Intro_blob",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Cuisine",
+            "size": 6
+          },
+          {
+            "name": "Category",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Time_preparation",
+            "size": 6
+          },
+          {
+            "name": "Time_cooking",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Time_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Nutrition",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Nutrition_yield",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Cooking_part",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "authors",
+            "size": 6
+          },
+          {
+            "name": "Recipe_variations",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Relevant_recipes",
+            "size": 6
+          },
+          {
+            "name": "Related_products",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

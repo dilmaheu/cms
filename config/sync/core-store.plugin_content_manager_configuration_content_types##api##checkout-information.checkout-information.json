@@ -1,0 +1,489 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::checkout-information.checkout-information",
+  "value": {
+    "uid": "api::checkout-information.checkout-information",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_contact_info": {
+        "edit": {
+          "label": "text_contact_info",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_contact_info",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_shipping_address": {
+        "edit": {
+          "label": "text_shipping_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_shipping_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_email_address": {
+        "edit": {
+          "label": "text_email_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_email_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "email_address_placeholder": {
+        "edit": {
+          "label": "email_address_placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email_address_placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_first_name": {
+        "edit": {
+          "label": "text_first_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_first_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "first_name_placeholder": {
+        "edit": {
+          "label": "first_name_placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "first_name_placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_last_name": {
+        "edit": {
+          "label": "text_last_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_last_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "last_name_placeholder": {
+        "edit": {
+          "label": "last_name_placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "last_name_placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_country": {
+        "edit": {
+          "label": "text_country",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_country",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "country_placeholder": {
+        "edit": {
+          "label": "country_placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "country_placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_city": {
+        "edit": {
+          "label": "text_city",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_city",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "city_placeholder": {
+        "edit": {
+          "label": "city_placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "city_placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_street": {
+        "edit": {
+          "label": "text_street",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_street",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "street_placeholder": {
+        "edit": {
+          "label": "street_placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "street_placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_postal_code": {
+        "edit": {
+          "label": "text_postal_code",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_postal_code",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "postal_code_placeholder": {
+        "edit": {
+          "label": "postal_code_placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "postal_code_placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_continue_to_shipping": {
+        "edit": {
+          "label": "text_continue_to_shipping",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_continue_to_shipping",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "text_return_to_cart": {
+        "edit": {
+          "label": "text_return_to_cart",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_return_to_cart",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "checkout_step_order": {
+        "edit": {
+          "label": "checkout_step_order",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "checkout_step_order",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Aria_label_form_text": {
+        "edit": {
+          "label": "Aria_label_form_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Aria_label_form_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "countries": {
+        "edit": {
+          "label": "countries",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "countries",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "text_contact_info"
+      ],
+      "edit": [
+        [
+          {
+            "name": "checkout_step_order",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Aria_label_form_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_contact_info",
+            "size": 6
+          },
+          {
+            "name": "text_shipping_address",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_email_address",
+            "size": 6
+          },
+          {
+            "name": "email_address_placeholder",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_first_name",
+            "size": 6
+          },
+          {
+            "name": "first_name_placeholder",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_last_name",
+            "size": 6
+          },
+          {
+            "name": "last_name_placeholder",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_country",
+            "size": 6
+          },
+          {
+            "name": "country_placeholder",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "countries",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_city",
+            "size": 6
+          },
+          {
+            "name": "city_placeholder",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_street",
+            "size": 6
+          },
+          {
+            "name": "street_placeholder",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_postal_code",
+            "size": 6
+          },
+          {
+            "name": "postal_code_placeholder",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_continue_to_shipping",
+            "size": 6
+          },
+          {
+            "name": "text_return_to_cart",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

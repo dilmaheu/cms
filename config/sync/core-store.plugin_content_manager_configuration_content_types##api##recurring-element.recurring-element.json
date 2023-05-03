@@ -1,0 +1,1366 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::recurring-element.recurring-element",
+  "value": {
+    "uid": "api::recurring-element.recurring-element",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Logo": {
+        "edit": {
+          "label": "Logo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Logo_tagline": {
+        "edit": {
+          "label": "Logo_tagline",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Logo_tagline",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Footer_text": {
+        "edit": {
+          "label": "Footer_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Footer_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Favicon": {
+        "edit": {
+          "label": "Favicon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Favicon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Company_name": {
+        "edit": {
+          "label": "Company_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Company_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Company_address": {
+        "edit": {
+          "label": "Company_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Company_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Company_email": {
+        "edit": {
+          "label": "Company_email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Company_email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_chapter": {
+        "edit": {
+          "label": "text_chapter",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_chapter",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_practices_to_follow": {
+        "edit": {
+          "label": "text_practices_to_follow",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_practices_to_follow",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_practices": {
+        "edit": {
+          "label": "text_practices",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_practices",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_explore_the_world_of_kindness": {
+        "edit": {
+          "label": "text_explore_the_world_of_kindness",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_explore_the_world_of_kindness",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "OpenGraph_default": {
+        "edit": {
+          "label": "OpenGraph_default",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "OpenGraph_default",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "recipe_prep": {
+        "edit": {
+          "label": "recipe_prep",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_prep",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_cook": {
+        "edit": {
+          "label": "recipe_cook",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_cook",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_total": {
+        "edit": {
+          "label": "recipe_total",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_total",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_jump_to_recipe": {
+        "edit": {
+          "label": "recipe_jump_to_recipe",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_jump_to_recipe",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_similar": {
+        "edit": {
+          "label": "recipe_similar",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_similar",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_recipe": {
+        "edit": {
+          "label": "recipe_recipe",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_recipe",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_minutes": {
+        "edit": {
+          "label": "recipe_minutes",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_minutes",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_nutrition_information": {
+        "edit": {
+          "label": "recipe_nutrition_information",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_nutrition_information",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_yield": {
+        "edit": {
+          "label": "recipe_yield",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_yield",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_amount_per_serving": {
+        "edit": {
+          "label": "recipe_amount_per_serving",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_amount_per_serving",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_ingredients": {
+        "edit": {
+          "label": "recipe_ingredients",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_ingredients",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_serving_size": {
+        "edit": {
+          "label": "recipe_serving_size",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_serving_size",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_cooking_instructions": {
+        "edit": {
+          "label": "recipe_cooking_instructions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_cooking_instructions",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_tips": {
+        "edit": {
+          "label": "recipe_tips",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_tips",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_discover": {
+        "edit": {
+          "label": "recipe_discover",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_discover",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_minute": {
+        "edit": {
+          "label": "recipe_minute",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_minute",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_hour": {
+        "edit": {
+          "label": "recipe_hour",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_hour",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_hours": {
+        "edit": {
+          "label": "recipe_hours",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_hours",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_day": {
+        "edit": {
+          "label": "recipe_day",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_day",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "recipe_days": {
+        "edit": {
+          "label": "recipe_days",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "recipe_days",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "estate_location": {
+        "edit": {
+          "label": "estate_location",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "estate_location",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_kindness_impact": {
+        "edit": {
+          "label": "product_kindness_impact",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_kindness_impact",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_add": {
+        "edit": {
+          "label": "product_add",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_add",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_add_cart": {
+        "edit": {
+          "label": "product_add_cart",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_add_cart",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_add_cart_for": {
+        "edit": {
+          "label": "product_add_cart_for",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_add_cart_for",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_made_love_from": {
+        "edit": {
+          "label": "product_made_love_from",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_made_love_from",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_size": {
+        "edit": {
+          "label": "product_size",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_size",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_quantity": {
+        "edit": {
+          "label": "product_quantity",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_quantity",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_each_penny_you_spend": {
+        "edit": {
+          "label": "product_each_penny_you_spend",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_each_penny_you_spend",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_check_where_going": {
+        "edit": {
+          "label": "product_check_where_going",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_check_where_going",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_price_breakdown_title": {
+        "edit": {
+          "label": "product_price_breakdown_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_price_breakdown_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_transparency_title": {
+        "edit": {
+          "label": "product_transparency_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_transparency_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_impact_title": {
+        "edit": {
+          "label": "product_impact_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_impact_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_content": {
+        "edit": {
+          "label": "text_content",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_content",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Item_stock_text": {
+        "edit": {
+          "label": "Item_stock_text",
+          "description": "add <date> to show the estimate stock date",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Item_stock_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_sold_out_text": {
+        "edit": {
+          "label": "Product_sold_out_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_sold_out_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Nav_menu": {
+        "edit": {
+          "label": "Nav_menu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Nav_menu_search_visibility": {
+        "edit": {
+          "label": "Nav_menu_search_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu_search_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Nav_menu_language_selector_visibility": {
+        "edit": {
+          "label": "Nav_menu_language_selector_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu_language_selector_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Nav_menu_cart_visibility": {
+        "edit": {
+          "label": "Nav_menu_cart_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu_cart_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Nav_menu_cart_icon": {
+        "edit": {
+          "label": "Nav_menu_cart_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu_cart_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Nav_menu_profile_visibility": {
+        "edit": {
+          "label": "Nav_menu_profile_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu_profile_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Nav_menu_profile_icon": {
+        "edit": {
+          "label": "Nav_menu_profile_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu_profile_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Footer_menu": {
+        "edit": {
+          "label": "Footer_menu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Footer_menu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "text_all_tea_variants": {
+        "edit": {
+          "label": "text_all_tea_variants",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_all_tea_variants",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_all_tea_sizes": {
+        "edit": {
+          "label": "text_all_tea_sizes",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_all_tea_sizes",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Recipes_related_products_title_text": {
+        "edit": {
+          "label": "Recipes_related_products_title_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Recipes_related_products_title_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_stock_other_formats_text": {
+        "edit": {
+          "label": "Product_stock_other_formats_text",
+          "description": "add <number> to show the amount available formats/variants",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_stock_other_formats_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_stock_other_formats_text_singular": {
+        "edit": {
+          "label": "Product_stock_other_formats_text_singular",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_stock_other_formats_text_singular",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Nav_menu_localization_visibility": {
+        "edit": {
+          "label": "Nav_menu_localization_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu_localization_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Nav_menu_localization_icon": {
+        "edit": {
+          "label": "Nav_menu_localization_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu_localization_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "text_shipping_country": {
+        "edit": {
+          "label": "text_shipping_country",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_shipping_country",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_language": {
+        "edit": {
+          "label": "text_language",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_language",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_currency": {
+        "edit": {
+          "label": "text_currency",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_currency",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_save_text": {
+        "edit": {
+          "label": "Button_save_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_save_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_go_back_text": {
+        "edit": {
+          "label": "Button_go_back_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_go_back_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "Logo",
+            "size": 4
+          },
+          {
+            "name": "Logo_tagline",
+            "size": 4
+          },
+          {
+            "name": "Favicon",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Footer_text",
+            "size": 6
+          },
+          {
+            "name": "OpenGraph_default",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Company_name",
+            "size": 6
+          },
+          {
+            "name": "Company_email",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Company_address",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "Nav_menu",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Nav_menu_search_visibility",
+            "size": 4
+          },
+          {
+            "name": "Nav_menu_language_selector_visibility",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Nav_menu_localization_visibility",
+            "size": 4
+          },
+          {
+            "name": "Nav_menu_localization_icon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Nav_menu_cart_visibility",
+            "size": 4
+          },
+          {
+            "name": "Nav_menu_cart_icon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Nav_menu_profile_visibility",
+            "size": 4
+          },
+          {
+            "name": "Nav_menu_profile_icon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_shipping_country",
+            "size": 4
+          },
+          {
+            "name": "text_language",
+            "size": 4
+          },
+          {
+            "name": "text_currency",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Button_save_text",
+            "size": 4
+          },
+          {
+            "name": "Button_go_back_text",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Footer_menu",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "text_chapter",
+            "size": 6
+          },
+          {
+            "name": "text_practices_to_follow",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_practices",
+            "size": 6
+          },
+          {
+            "name": "text_explore_the_world_of_kindness",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "recipe_prep",
+            "size": 6
+          },
+          {
+            "name": "recipe_cook",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "recipe_total",
+            "size": 6
+          },
+          {
+            "name": "recipe_jump_to_recipe",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "recipe_similar",
+            "size": 6
+          },
+          {
+            "name": "recipe_recipe",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "recipe_day",
+            "size": 6
+          },
+          {
+            "name": "recipe_days",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "recipe_hour",
+            "size": 6
+          },
+          {
+            "name": "recipe_hours",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "recipe_minute",
+            "size": 6
+          },
+          {
+            "name": "recipe_minutes",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "recipe_nutrition_information",
+            "size": 6
+          },
+          {
+            "name": "recipe_yield",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "recipe_amount_per_serving",
+            "size": 6
+          },
+          {
+            "name": "recipe_ingredients",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "recipe_serving_size",
+            "size": 6
+          },
+          {
+            "name": "recipe_cooking_instructions",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "recipe_tips",
+            "size": 6
+          },
+          {
+            "name": "recipe_discover",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Recipes_related_products_title_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "estate_location",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_content",
+            "size": 6
+          },
+          {
+            "name": "product_made_love_from",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "product_kindness_impact",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "product_add",
+            "size": 6
+          },
+          {
+            "name": "product_add_cart",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "product_add_cart_for",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "product_size",
+            "size": 6
+          },
+          {
+            "name": "product_quantity",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "product_each_penny_you_spend",
+            "size": 6
+          },
+          {
+            "name": "product_check_where_going",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "product_price_breakdown_title",
+            "size": 6
+          },
+          {
+            "name": "product_transparency_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "product_impact_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Product_sold_out_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Item_stock_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Product_stock_other_formats_text",
+            "size": 6
+          },
+          {
+            "name": "Product_stock_other_formats_text_singular",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_all_tea_variants",
+            "size": 6
+          },
+          {
+            "name": "text_all_tea_sizes",
+            "size": 6
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

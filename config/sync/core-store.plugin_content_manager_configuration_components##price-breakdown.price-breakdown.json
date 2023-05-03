@@ -1,0 +1,115 @@
+{
+  "key": "plugin_content_manager_configuration_components::price-breakdown.price-breakdown",
+  "value": {
+    "uid": "price-breakdown.price-breakdown",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Item_name",
+      "defaultSortBy": "Item_name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Item_name": {
+        "edit": {
+          "label": "Item_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Item_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Spent_amount": {
+        "edit": {
+          "label": "Spent_amount",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Spent_amount",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Currency": {
+        "edit": {
+          "label": "Currency",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Currency",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Item_color_code": {
+        "edit": {
+          "label": "Item_color_code",
+          "description": "Please add Hex formatted color code (Ex.: #2b4b50)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Item_color_code",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Item_name",
+        "Spent_amount",
+        "Currency"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Item_name",
+            "size": 6
+          },
+          {
+            "name": "Item_color_code",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Spent_amount",
+            "size": 4
+          },
+          {
+            "name": "Currency",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

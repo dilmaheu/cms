@@ -1,0 +1,6290 @@
+{
+  "name": "Super Admin",
+  "code": "strapi-super-admin",
+  "description": "Super Admins can access and manage all features and settings.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::aria-label-recurring-element.aria-label-recurring-element",
+      "properties": {
+        "fields": [
+          "Intro_text",
+          "Latest_post_text",
+          "Wrote_by_text",
+          "Post_text",
+          "All_posts_text",
+          "Items_text",
+          "Kindness_Item_text",
+          "Kindness_Items_text",
+          "Post_intro_text",
+          "Post_details_text",
+          "Recipe_timing_text",
+          "Recipe_step_text",
+          "Howto_method_text",
+          "Estate_location_map_text",
+          "Product_quantity_minus_button_text",
+          "Product_quantity_plus_button_text",
+          "Product_quantity_text",
+          "Product_related_kindness_info_text",
+          "Crowdfunding_plans_text",
+          "Crowdfunding_plan_text",
+          "Crowdfunding_total_raised_text",
+          "Navbar_language_selectors_text",
+          "Navbar_open_cart_text",
+          "Navbar_open_sidebar_menu_text",
+          "Navbar_close_sidebar_menu_text",
+          "Product_post_of_text",
+          "Product_all_teas_text",
+          "Product_tea_item_text",
+          "Navbar_open_localization_menu_text",
+          "Navbar_close_localization_menu_text",
+          "Testing",
+          "Testing_2"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::aria-label-recurring-element.aria-label-recurring-element",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::aria-label-recurring-element.aria-label-recurring-element",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::aria-label-recurring-element.aria-label-recurring-element",
+      "properties": {
+        "fields": [
+          "Intro_text",
+          "Latest_post_text",
+          "Wrote_by_text",
+          "Post_text",
+          "All_posts_text",
+          "Items_text",
+          "Kindness_Item_text",
+          "Kindness_Items_text",
+          "Post_intro_text",
+          "Post_details_text",
+          "Recipe_timing_text",
+          "Recipe_step_text",
+          "Howto_method_text",
+          "Estate_location_map_text",
+          "Product_quantity_minus_button_text",
+          "Product_quantity_plus_button_text",
+          "Product_quantity_text",
+          "Product_related_kindness_info_text",
+          "Crowdfunding_plans_text",
+          "Crowdfunding_plan_text",
+          "Crowdfunding_total_raised_text",
+          "Navbar_language_selectors_text",
+          "Navbar_open_cart_text",
+          "Navbar_open_sidebar_menu_text",
+          "Navbar_close_sidebar_menu_text",
+          "Product_post_of_text",
+          "Product_all_teas_text",
+          "Product_tea_item_text",
+          "Navbar_open_localization_menu_text",
+          "Navbar_close_localization_menu_text",
+          "Testing",
+          "Testing_2"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::aria-label-recurring-element.aria-label-recurring-element",
+      "properties": {
+        "fields": [
+          "Intro_text",
+          "Latest_post_text",
+          "Wrote_by_text",
+          "Post_text",
+          "All_posts_text",
+          "Items_text",
+          "Kindness_Item_text",
+          "Kindness_Items_text",
+          "Post_intro_text",
+          "Post_details_text",
+          "Recipe_timing_text",
+          "Recipe_step_text",
+          "Howto_method_text",
+          "Estate_location_map_text",
+          "Product_quantity_minus_button_text",
+          "Product_quantity_plus_button_text",
+          "Product_quantity_text",
+          "Product_related_kindness_info_text",
+          "Crowdfunding_plans_text",
+          "Crowdfunding_plan_text",
+          "Crowdfunding_total_raised_text",
+          "Navbar_language_selectors_text",
+          "Navbar_open_cart_text",
+          "Navbar_open_sidebar_menu_text",
+          "Navbar_close_sidebar_menu_text",
+          "Product_post_of_text",
+          "Product_all_teas_text",
+          "Product_tea_item_text",
+          "Navbar_open_localization_menu_text",
+          "Navbar_close_localization_menu_text",
+          "Testing",
+          "Testing_2"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::basic-page.basic-page",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Heading_block",
+          "Block_text",
+          "Block_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::basic-page.basic-page",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::basic-page.basic-page",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::basic-page.basic-page",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Heading_block",
+          "Block_text",
+          "Block_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::basic-page.basic-page",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Heading_block",
+          "Block_text",
+          "Block_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::blog.blog",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "Block_text",
+          "blogs",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::blog.blog",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::blog.blog",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::blog.blog",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "Block_text",
+          "blogs",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::blog.blog",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "Block_text",
+          "blogs",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::brand.brand",
+      "properties": {
+        "fields": [
+          "Brand_name",
+          "products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::brand.brand",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::brand.brand",
+      "properties": {
+        "fields": [
+          "Brand_name",
+          "products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::brand.brand",
+      "properties": {
+        "fields": [
+          "Brand_name",
+          "products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::cart.cart",
+      "properties": {
+        "fields": [
+          "text_cart",
+          "text_product",
+          "text_go_to_checkout",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "text_remove"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::cart.cart",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::cart.cart",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::cart.cart",
+      "properties": {
+        "fields": [
+          "text_cart",
+          "text_product",
+          "text_go_to_checkout",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "text_remove"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::cart.cart",
+      "properties": {
+        "fields": [
+          "text_cart",
+          "text_product",
+          "text_go_to_checkout",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "text_remove"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::catalog.catalog",
+      "properties": {
+        "fields": [
+          "Products.Title",
+          "Products.products"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::catalog.catalog",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::catalog.catalog",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::catalog.catalog",
+      "properties": {
+        "fields": [
+          "Products.Title",
+          "Products.products"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::catalog.catalog",
+      "properties": {
+        "fields": [
+          "Products.Title",
+          "Products.products"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::checkout-flow.checkout-flow",
+      "properties": {
+        "fields": [
+          "steps",
+          "shortened_steps"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::checkout-flow.checkout-flow",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::checkout-flow.checkout-flow",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::checkout-flow.checkout-flow",
+      "properties": {
+        "fields": [
+          "steps",
+          "shortened_steps"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::checkout-flow.checkout-flow",
+      "properties": {
+        "fields": [
+          "steps",
+          "shortened_steps"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::checkout-information.checkout-information",
+      "properties": {
+        "fields": [
+          "text_contact_info",
+          "text_shipping_address",
+          "text_email_address",
+          "email_address_placeholder",
+          "text_first_name",
+          "first_name_placeholder",
+          "text_last_name",
+          "last_name_placeholder",
+          "text_country",
+          "country_placeholder",
+          "text_city",
+          "city_placeholder",
+          "text_street",
+          "street_placeholder",
+          "text_postal_code",
+          "postal_code_placeholder",
+          "text_continue_to_shipping",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "text_return_to_cart",
+          "checkout_step_order",
+          "Aria_label_form_text",
+          "countries"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::checkout-information.checkout-information",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::checkout-information.checkout-information",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::checkout-information.checkout-information",
+      "properties": {
+        "fields": [
+          "text_contact_info",
+          "text_shipping_address",
+          "text_email_address",
+          "email_address_placeholder",
+          "text_first_name",
+          "first_name_placeholder",
+          "text_last_name",
+          "last_name_placeholder",
+          "text_country",
+          "country_placeholder",
+          "text_city",
+          "city_placeholder",
+          "text_street",
+          "street_placeholder",
+          "text_postal_code",
+          "postal_code_placeholder",
+          "text_continue_to_shipping",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "text_return_to_cart",
+          "checkout_step_order",
+          "Aria_label_form_text",
+          "countries"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::checkout-information.checkout-information",
+      "properties": {
+        "fields": [
+          "text_contact_info",
+          "text_shipping_address",
+          "text_email_address",
+          "email_address_placeholder",
+          "text_first_name",
+          "first_name_placeholder",
+          "text_last_name",
+          "last_name_placeholder",
+          "text_country",
+          "country_placeholder",
+          "text_city",
+          "city_placeholder",
+          "text_street",
+          "street_placeholder",
+          "text_postal_code",
+          "postal_code_placeholder",
+          "text_continue_to_shipping",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "text_return_to_cart",
+          "checkout_step_order",
+          "Aria_label_form_text",
+          "countries"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::checkout-kindness.checkout-kindness",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "checkout_step_order",
+          "kindness_causes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::checkout-kindness.checkout-kindness",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::checkout-kindness.checkout-kindness",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::checkout-kindness.checkout-kindness",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "checkout_step_order",
+          "kindness_causes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::checkout-kindness.checkout-kindness",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "checkout_step_order",
+          "kindness_causes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::checkout-recurring-element.checkout-recurring-element",
+      "properties": {
+        "fields": [
+          "text_add",
+          "text_add_to_cart",
+          "text_add_to_cart_for",
+          "text_size",
+          "text_quantity",
+          "text_cart",
+          "text_order_summary",
+          "text_subtotal",
+          "text_shipping",
+          "text_tax",
+          "text_total",
+          "text_shipping_calculated_at_checkout",
+          "text_proceed_to_checkout",
+          "text_continue_to_payment",
+          "text_return_to_information",
+          "text_edit_cart",
+          "text_continue_shopping",
+          "text_empty_cart",
+          "Aria_label_cart_focus_text",
+          "Aria_label_cart_close_button_text",
+          "Aria_label_cart_items_text",
+          "Aria_label_remove_cart_item_button_text",
+          "Aria_label_cart_item_quantity_minus_button_text",
+          "Aria_label_cart_item_quantity_plus_button_text",
+          "Aria_label_cart_item_quantity_text",
+          "Aria_label_kindness_cause_items_text",
+          "text_variant"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::checkout-recurring-element.checkout-recurring-element",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::checkout-recurring-element.checkout-recurring-element",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::checkout-recurring-element.checkout-recurring-element",
+      "properties": {
+        "fields": [
+          "text_add",
+          "text_add_to_cart",
+          "text_add_to_cart_for",
+          "text_size",
+          "text_quantity",
+          "text_cart",
+          "text_order_summary",
+          "text_subtotal",
+          "text_shipping",
+          "text_tax",
+          "text_total",
+          "text_shipping_calculated_at_checkout",
+          "text_proceed_to_checkout",
+          "text_continue_to_payment",
+          "text_return_to_information",
+          "text_edit_cart",
+          "text_continue_shopping",
+          "text_empty_cart",
+          "Aria_label_cart_focus_text",
+          "Aria_label_cart_close_button_text",
+          "Aria_label_cart_items_text",
+          "Aria_label_remove_cart_item_button_text",
+          "Aria_label_cart_item_quantity_minus_button_text",
+          "Aria_label_cart_item_quantity_plus_button_text",
+          "Aria_label_cart_item_quantity_text",
+          "Aria_label_kindness_cause_items_text",
+          "text_variant"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::checkout-recurring-element.checkout-recurring-element",
+      "properties": {
+        "fields": [
+          "text_add",
+          "text_add_to_cart",
+          "text_add_to_cart_for",
+          "text_size",
+          "text_quantity",
+          "text_cart",
+          "text_order_summary",
+          "text_subtotal",
+          "text_shipping",
+          "text_tax",
+          "text_total",
+          "text_shipping_calculated_at_checkout",
+          "text_proceed_to_checkout",
+          "text_continue_to_payment",
+          "text_return_to_information",
+          "text_edit_cart",
+          "text_continue_shopping",
+          "text_empty_cart",
+          "Aria_label_cart_focus_text",
+          "Aria_label_cart_close_button_text",
+          "Aria_label_cart_items_text",
+          "Aria_label_remove_cart_item_button_text",
+          "Aria_label_cart_item_quantity_minus_button_text",
+          "Aria_label_cart_item_quantity_plus_button_text",
+          "Aria_label_cart_item_quantity_text",
+          "Aria_label_kindness_cause_items_text",
+          "text_variant"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::checkout-shipping.checkout-shipping",
+      "properties": {
+        "fields": [
+          "text_contact",
+          "text_delivery_address",
+          "text_change",
+          "text_shipping_method",
+          "text_continue_to_payment",
+          "text_return_to_information",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "checkout_step_order",
+          "Aria_label_kindness_delivery_address_form_text",
+          "Aria_label_delivery_address_text",
+          "Aria_label_email_address_text",
+          "Aria_label_change_text",
+          "Aria_label_order_summery_text",
+          "shipping_methods"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::checkout-shipping.checkout-shipping",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::checkout-shipping.checkout-shipping",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::checkout-shipping.checkout-shipping",
+      "properties": {
+        "fields": [
+          "text_contact",
+          "text_delivery_address",
+          "text_change",
+          "text_shipping_method",
+          "text_continue_to_payment",
+          "text_return_to_information",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "checkout_step_order",
+          "Aria_label_kindness_delivery_address_form_text",
+          "Aria_label_delivery_address_text",
+          "Aria_label_email_address_text",
+          "Aria_label_change_text",
+          "Aria_label_order_summery_text",
+          "shipping_methods"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::checkout-shipping.checkout-shipping",
+      "properties": {
+        "fields": [
+          "text_contact",
+          "text_delivery_address",
+          "text_change",
+          "text_shipping_method",
+          "text_continue_to_payment",
+          "text_return_to_information",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "checkout_step_order",
+          "Aria_label_kindness_delivery_address_form_text",
+          "Aria_label_delivery_address_text",
+          "Aria_label_email_address_text",
+          "Aria_label_change_text",
+          "Aria_label_order_summery_text",
+          "shipping_methods"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::checkout-success.checkout-success",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "text_here_is_how",
+          "linked_post_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::checkout-success.checkout-success",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::checkout-success.checkout-success",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::checkout-success.checkout-success",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "text_here_is_how",
+          "linked_post_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::checkout-success.checkout-success",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "text_here_is_how",
+          "linked_post_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::country.country",
+      "properties": {
+        "fields": [
+          "name"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::country.country",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::country.country",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::country.country",
+      "properties": {
+        "fields": [
+          "name"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::country.country",
+      "properties": {
+        "fields": [
+          "name"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::crowdfunding-email.crowdfunding-email",
+      "properties": {
+        "fields": [
+          "From_name",
+          "From_email",
+          "Subject",
+          "Preview_text",
+          "Preheader_text",
+          "Body",
+          "Overview",
+          "Total",
+          "Invoice",
+          "VAT"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::crowdfunding-email.crowdfunding-email",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::crowdfunding-email.crowdfunding-email",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::crowdfunding-email.crowdfunding-email",
+      "properties": {
+        "fields": [
+          "From_name",
+          "From_email",
+          "Subject",
+          "Preview_text",
+          "Preheader_text",
+          "Body",
+          "Overview",
+          "Total",
+          "Invoice",
+          "VAT"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::crowdfunding-email.crowdfunding-email",
+      "properties": {
+        "fields": [
+          "From_name",
+          "From_email",
+          "Subject",
+          "Preview_text",
+          "Preheader_text",
+          "Body",
+          "Overview",
+          "Total",
+          "Invoice",
+          "VAT"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::crowdfunding-form.crowdfunding-form",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::crowdfunding-form.crowdfunding-form",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::crowdfunding-form.crowdfunding-form",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::crowdfunding-form.crowdfunding-form",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::crowdfunding-form.crowdfunding-form",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::crowdfunding-home.crowdfunding-home",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_plans",
+          "Heading_block",
+          "Block_text",
+          "Block_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Heading_goal",
+          "Heading_supporters"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::crowdfunding-home.crowdfunding-home",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::crowdfunding-home.crowdfunding-home",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::crowdfunding-home.crowdfunding-home",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_plans",
+          "Heading_block",
+          "Block_text",
+          "Block_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Heading_goal",
+          "Heading_supporters"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::crowdfunding-home.crowdfunding-home",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_plans",
+          "Heading_block",
+          "Block_text",
+          "Block_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Heading_goal",
+          "Heading_supporters"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::crowdfunding-payment-confirmation.crowdfunding-payment-confirmation",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Heading_block",
+          "Block_text",
+          "Block_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::crowdfunding-payment-confirmation.crowdfunding-payment-confirmation",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::crowdfunding-payment-confirmation.crowdfunding-payment-confirmation",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::crowdfunding-payment-confirmation.crowdfunding-payment-confirmation",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Heading_block",
+          "Block_text",
+          "Block_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::crowdfunding-payment-confirmation.crowdfunding-payment-confirmation",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Heading_block",
+          "Block_text",
+          "Block_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::crowdfunding-plan.crowdfunding-plan",
+      "properties": {
+        "fields": [
+          "Title",
+          "Title_icon",
+          "Price_EUR_excl_VAT",
+          "Intro_text",
+          "List",
+          "Button_text",
+          "Perk"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::crowdfunding-plan.crowdfunding-plan",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::crowdfunding-plan.crowdfunding-plan",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::crowdfunding-plan.crowdfunding-plan",
+      "properties": {
+        "fields": [
+          "Title",
+          "Title_icon",
+          "Price_EUR_excl_VAT",
+          "Intro_text",
+          "List",
+          "Button_text",
+          "Perk"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::crowdfunding-plan.crowdfunding-plan",
+      "properties": {
+        "fields": [
+          "Title",
+          "Title_icon",
+          "Price_EUR_excl_VAT",
+          "Intro_text",
+          "List",
+          "Button_text",
+          "Perk"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::e-mail.e-mail",
+      "properties": {
+        "fields": [
+          "Type",
+          "From_name",
+          "From_email",
+          "Subject",
+          "Preview_text",
+          "Body",
+          "Overview",
+          "Total",
+          "Invoice",
+          "Preheader_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::e-mail.e-mail",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::e-mail.e-mail",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::e-mail.e-mail",
+      "properties": {
+        "fields": [
+          "Type",
+          "From_name",
+          "From_email",
+          "Subject",
+          "Preview_text",
+          "Body",
+          "Overview",
+          "Total",
+          "Invoice",
+          "Preheader_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::e-mail.e-mail",
+      "properties": {
+        "fields": [
+          "Type",
+          "From_name",
+          "From_email",
+          "Subject",
+          "Preview_text",
+          "Body",
+          "Overview",
+          "Total",
+          "Invoice",
+          "Preheader_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::ecommerce-payment-confirmation-mail.ecommerce-payment-confirmation-mail",
+      "properties": {
+        "fields": [
+          "From_name",
+          "From_email",
+          "Subject",
+          "Preview_text",
+          "Preheader_text",
+          "Body",
+          "Overview",
+          "Total",
+          "Invoice",
+          "VAT"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::ecommerce-payment-confirmation-mail.ecommerce-payment-confirmation-mail",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::ecommerce-payment-confirmation-mail.ecommerce-payment-confirmation-mail",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::ecommerce-payment-confirmation-mail.ecommerce-payment-confirmation-mail",
+      "properties": {
+        "fields": [
+          "From_name",
+          "From_email",
+          "Subject",
+          "Preview_text",
+          "Preheader_text",
+          "Body",
+          "Overview",
+          "Total",
+          "Invoice",
+          "VAT"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::ecommerce-payment-confirmation-mail.ecommerce-payment-confirmation-mail",
+      "properties": {
+        "fields": [
+          "From_name",
+          "From_email",
+          "Subject",
+          "Preview_text",
+          "Preheader_text",
+          "Body",
+          "Overview",
+          "Total",
+          "Invoice",
+          "VAT"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::estate.estate",
+      "properties": {
+        "fields": [
+          "Estate_name",
+          "Intro_text",
+          "Intro_blob",
+          "Block_text",
+          "Location",
+          "Location_link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "blogs",
+          "Optional_data.Street_address",
+          "Optional_data.Locality",
+          "Optional_data.Region",
+          "Optional_data.Postal_code",
+          "Optional_data.Country",
+          "Optional_data.Telephone",
+          "Optional_data.Geo_latitude",
+          "Optional_data.Geo_longitude"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::estate.estate",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::estate.estate",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::estate.estate",
+      "properties": {
+        "fields": [
+          "Estate_name",
+          "Intro_text",
+          "Intro_blob",
+          "Block_text",
+          "Location",
+          "Location_link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "blogs",
+          "Optional_data.Street_address",
+          "Optional_data.Locality",
+          "Optional_data.Region",
+          "Optional_data.Postal_code",
+          "Optional_data.Country",
+          "Optional_data.Telephone",
+          "Optional_data.Geo_latitude",
+          "Optional_data.Geo_longitude"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::estate.estate",
+      "properties": {
+        "fields": [
+          "Estate_name",
+          "Intro_text",
+          "Intro_blob",
+          "Block_text",
+          "Location",
+          "Location_link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "blogs",
+          "Optional_data.Street_address",
+          "Optional_data.Locality",
+          "Optional_data.Region",
+          "Optional_data.Postal_code",
+          "Optional_data.Country",
+          "Optional_data.Telephone",
+          "Optional_data.Geo_latitude",
+          "Optional_data.Geo_longitude"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-blog.home-blog",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-blog.home-blog",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-blog.home-blog",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-blog.home-blog",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-elephant-path.home-elephant-path",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Intro_blob",
+          "Information.Title",
+          "Information.Intro_text",
+          "Information.Blob",
+          "Information.Blog",
+          "Block2_title",
+          "Block2_text",
+          "Block2_button_text",
+          "Block2_button_link",
+          "Block2_blob",
+          "Block3_title",
+          "Relevant_items_title",
+          "Relevant_items_text",
+          "Relevant_blogs",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-elephant-path.home-elephant-path",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::home-elephant-path.home-elephant-path",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-elephant-path.home-elephant-path",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Intro_blob",
+          "Information.Title",
+          "Information.Intro_text",
+          "Information.Blob",
+          "Information.Blog",
+          "Block2_title",
+          "Block2_text",
+          "Block2_button_text",
+          "Block2_button_link",
+          "Block2_blob",
+          "Block3_title",
+          "Relevant_items_title",
+          "Relevant_items_text",
+          "Relevant_blogs",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-elephant-path.home-elephant-path",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Intro_blob",
+          "Information.Title",
+          "Information.Intro_text",
+          "Information.Blob",
+          "Information.Blog",
+          "Block2_title",
+          "Block2_text",
+          "Block2_button_text",
+          "Block2_button_link",
+          "Block2_blob",
+          "Block3_title",
+          "Relevant_items_title",
+          "Relevant_items_text",
+          "Relevant_blogs",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-estate.home-estate",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_block",
+          "Block_text",
+          "Block2_text",
+          "Block2_blob",
+          "Block3",
+          "Block4_heading",
+          "Block4_items.Block4_Value",
+          "Block4_items.Block4_description",
+          "Block4_items.Block4_icon",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "blogs",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Aria_label_all_estates_text",
+          "Block4_items_aria_label_text",
+          "Block3_aria_label_text",
+          "Block2_aria_label_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-estate.home-estate",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-estate.home-estate",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_block",
+          "Block_text",
+          "Block2_text",
+          "Block2_blob",
+          "Block3",
+          "Block4_heading",
+          "Block4_items.Block4_Value",
+          "Block4_items.Block4_description",
+          "Block4_items.Block4_icon",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "blogs",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Aria_label_all_estates_text",
+          "Block4_items_aria_label_text",
+          "Block3_aria_label_text",
+          "Block2_aria_label_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-estate.home-estate",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_block",
+          "Block_text",
+          "Block2_text",
+          "Block2_blob",
+          "Block3",
+          "Block4_heading",
+          "Block4_items.Block4_Value",
+          "Block4_items.Block4_description",
+          "Block4_items.Block4_icon",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "blogs",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Aria_label_all_estates_text",
+          "Block4_items_aria_label_text",
+          "Block3_aria_label_text",
+          "Block2_aria_label_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-how-to.home-how-to",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-how-to.home-how-to",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::home-how-to.home-how-to",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-how-to.home-how-to",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-how-to.home-how-to",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-product.home-product",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_button_text",
+          "Heading_button_link",
+          "blogs",
+          "Block2_title",
+          "Block2_button_text",
+          "Block2_button_link",
+          "Block2_blob",
+          "Aria_label_all_teas_text",
+          "Aria_label_tea_item_text",
+          "Category_title",
+          "Block_title",
+          "Block_text",
+          "Block3_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-product.home-product",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::home-product.home-product",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-product.home-product",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_button_text",
+          "Heading_button_link",
+          "blogs",
+          "Block2_title",
+          "Block2_button_text",
+          "Block2_button_link",
+          "Block2_blob",
+          "Aria_label_all_teas_text",
+          "Aria_label_tea_item_text",
+          "Category_title",
+          "Block_title",
+          "Block_text",
+          "Block3_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-product.home-product",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_button_text",
+          "Heading_button_link",
+          "blogs",
+          "Block2_title",
+          "Block2_button_text",
+          "Block2_button_link",
+          "Block2_blob",
+          "Aria_label_all_teas_text",
+          "Aria_label_tea_item_text",
+          "Category_title",
+          "Block_title",
+          "Block_text",
+          "Block3_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-recipe.home-recipe",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-recipe.home-recipe",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-recipe.home-recipe",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-recipe.home-recipe",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::how-to.how-to",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "blogs",
+          "Method.Method_title",
+          "Method.Steps.Step_title",
+          "Method.Steps.Step_text",
+          "Method.Steps.Step_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::how-to.how-to",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::how-to.how-to",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::how-to.how-to",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "blogs",
+          "Method.Method_title",
+          "Method.Steps.Step_title",
+          "Method.Steps.Step_text",
+          "Method.Steps.Step_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::how-to.how-to",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "blogs",
+          "Method.Method_title",
+          "Method.Steps.Step_title",
+          "Method.Steps.Step_text",
+          "Method.Steps.Step_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::i18n.i18n",
+      "properties": {
+        "fields": [
+          "code",
+          "language"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::i18n.i18n",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::i18n.i18n",
+      "properties": {
+        "fields": [
+          "code",
+          "language"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::i18n.i18n",
+      "properties": {
+        "fields": [
+          "code",
+          "language"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::kindness-cause.kindness-cause",
+      "properties": {
+        "fields": [
+          "cause",
+          "description",
+          "featured_blob"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::kindness-cause.kindness-cause",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::kindness-cause.kindness-cause",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::kindness-cause.kindness-cause",
+      "properties": {
+        "fields": [
+          "cause",
+          "description",
+          "featured_blob"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::kindness-cause.kindness-cause",
+      "properties": {
+        "fields": [
+          "cause",
+          "description",
+          "featured_blob"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::notification.notification",
+      "properties": {
+        "fields": [
+          "Type",
+          "Title",
+          "Content",
+          "Closing_Enabled"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::notification.notification",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::notification.notification",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::notification.notification",
+      "properties": {
+        "fields": [
+          "Type",
+          "Title",
+          "Content",
+          "Closing_Enabled"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::notification.notification",
+      "properties": {
+        "fields": [
+          "Type",
+          "Title",
+          "Content",
+          "Closing_Enabled"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::organization.organization",
+      "properties": {
+        "fields": [
+          "Name",
+          "email"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::organization.organization",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::organization.organization",
+      "properties": {
+        "fields": [
+          "Name",
+          "email"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::organization.organization",
+      "properties": {
+        "fields": [
+          "Name",
+          "email"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::person.person",
+      "properties": {
+        "fields": [
+          "givenName",
+          "familyName",
+          "email",
+          "admin_user",
+          "Profile_picture",
+          "Links",
+          "blogs",
+          "how_tos",
+          "recipes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::person.person",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::person.person",
+      "properties": {
+        "fields": [
+          "givenName",
+          "familyName",
+          "email",
+          "admin_user",
+          "Profile_picture",
+          "Links",
+          "blogs",
+          "how_tos",
+          "recipes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::person.person",
+      "properties": {
+        "fields": [
+          "givenName",
+          "familyName",
+          "email",
+          "admin_user",
+          "Profile_picture",
+          "Links",
+          "blogs",
+          "how_tos",
+          "recipes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product-category.product-category",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_blob",
+          "Intro_text",
+          "Heading_button_text",
+          "Sub_categories",
+          "Block_text",
+          "Relevant_items_title",
+          "Relevant_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "products",
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product-category.product-category",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::product-category.product-category",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product-category.product-category",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_blob",
+          "Intro_text",
+          "Heading_button_text",
+          "Sub_categories",
+          "Block_text",
+          "Relevant_items_title",
+          "Relevant_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "products",
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product-category.product-category",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_blob",
+          "Intro_text",
+          "Heading_button_text",
+          "Sub_categories",
+          "Block_text",
+          "Relevant_items_title",
+          "Relevant_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "products",
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product-info.product-info",
+      "properties": {
+        "fields": [
+          "Product_info_title",
+          "Product_info_icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product-info.product-info",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product-info.product-info",
+      "properties": {
+        "fields": [
+          "Product_info_title",
+          "Product_info_icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product-info.product-info",
+      "properties": {
+        "fields": [
+          "Product_info_title",
+          "Product_info_icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product-size.product-size",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product-size.product-size",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::product-size.product-size",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product-size.product-size",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product-size.product-size",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product-sub-category.product-sub-category",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product-sub-category.product-sub-category",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::product-sub-category.product-sub-category",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product-sub-category.product-sub-category",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product-sub-category.product-sub-category",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product-variant.product-variant",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product-variant.product-variant",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::product-variant.product-variant",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product-variant.product-variant",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product-variant.product-variant",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product.product",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Block_text",
+          "Price",
+          "Currency",
+          "SKU",
+          "GTIN_Barcode",
+          "Weight",
+          "Weight_unit",
+          "Weight_tea",
+          "Weight_tea_unit",
+          "estate_name",
+          "related_blogs",
+          "related_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Price_breakdown_text",
+          "Price_breakdown.Item_name",
+          "Price_breakdown.Spent_amount",
+          "Price_breakdown.Currency",
+          "Price_breakdown.Item_color_code",
+          "Transparency_text",
+          "Transparency.Transparency_item_title",
+          "Transparency.Transparency_item_text",
+          "Transparency.Transparency_item_icon",
+          "Impact_text",
+          "Impact.Impact_item_title",
+          "Impact.Impact_item_text",
+          "Impact.Impact_item_icon",
+          "product_infos",
+          "related_how_tos",
+          "related_products",
+          "brand",
+          "Stock_out",
+          "In_stock_date",
+          "Stock_amount",
+          "Water_temperature",
+          "Brewing_time",
+          "variant",
+          "category",
+          "sub_category",
+          "size",
+          "Water_temperature_unit",
+          "Brewing_time_unit",
+          "recipes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product.product",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::product.product",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product.product",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Block_text",
+          "Price",
+          "Currency",
+          "SKU",
+          "GTIN_Barcode",
+          "Weight",
+          "Weight_unit",
+          "Weight_tea",
+          "Weight_tea_unit",
+          "estate_name",
+          "related_blogs",
+          "related_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Price_breakdown_text",
+          "Price_breakdown.Item_name",
+          "Price_breakdown.Spent_amount",
+          "Price_breakdown.Currency",
+          "Price_breakdown.Item_color_code",
+          "Transparency_text",
+          "Transparency.Transparency_item_title",
+          "Transparency.Transparency_item_text",
+          "Transparency.Transparency_item_icon",
+          "Impact_text",
+          "Impact.Impact_item_title",
+          "Impact.Impact_item_text",
+          "Impact.Impact_item_icon",
+          "product_infos",
+          "related_how_tos",
+          "related_products",
+          "brand",
+          "Stock_out",
+          "In_stock_date",
+          "Stock_amount",
+          "Water_temperature",
+          "Brewing_time",
+          "variant",
+          "category",
+          "sub_category",
+          "size",
+          "Water_temperature_unit",
+          "Brewing_time_unit",
+          "recipes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product.product",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Block_text",
+          "Price",
+          "Currency",
+          "SKU",
+          "GTIN_Barcode",
+          "Weight",
+          "Weight_unit",
+          "Weight_tea",
+          "Weight_tea_unit",
+          "estate_name",
+          "related_blogs",
+          "related_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Price_breakdown_text",
+          "Price_breakdown.Item_name",
+          "Price_breakdown.Spent_amount",
+          "Price_breakdown.Currency",
+          "Price_breakdown.Item_color_code",
+          "Transparency_text",
+          "Transparency.Transparency_item_title",
+          "Transparency.Transparency_item_text",
+          "Transparency.Transparency_item_icon",
+          "Impact_text",
+          "Impact.Impact_item_title",
+          "Impact.Impact_item_text",
+          "Impact.Impact_item_icon",
+          "product_infos",
+          "related_how_tos",
+          "related_products",
+          "brand",
+          "Stock_out",
+          "In_stock_date",
+          "Stock_amount",
+          "Water_temperature",
+          "Brewing_time",
+          "variant",
+          "category",
+          "sub_category",
+          "size",
+          "Water_temperature_unit",
+          "Brewing_time_unit",
+          "recipes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::recipe.recipe",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "Time_preparation",
+          "Time_cooking",
+          "Block_text",
+          "Recipe_variations",
+          "Time_text",
+          "Nutrition.Nutrition_name",
+          "Nutrition.Nutrition_measurements_unit",
+          "Nutrition.Nutrition_amount",
+          "Nutrition_yield",
+          "Cooking_part.Cooking_part_name",
+          "Cooking_part.Cooking_part_steps.Cooking_part_steps_text",
+          "Cooking_part.Cooking_part_steps.Cooking_part_steps_blob",
+          "Cooking_part.Cooking_part_step_tip",
+          "Cooking_part.Cooking_part_ingredients.Cooking_part_ingredient_name",
+          "Cooking_part.Cooking_part_ingredients.Cooking_part_ingredient_amount",
+          "Cooking_part.Cooking_part_ingredients.Cooking_part_ingredient_measurements_unit",
+          "Relevant_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Cuisine",
+          "Category",
+          "Related_products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::recipe.recipe",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::recipe.recipe",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::recipe.recipe",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "Time_preparation",
+          "Time_cooking",
+          "Block_text",
+          "Recipe_variations",
+          "Time_text",
+          "Nutrition.Nutrition_name",
+          "Nutrition.Nutrition_measurements_unit",
+          "Nutrition.Nutrition_amount",
+          "Nutrition_yield",
+          "Cooking_part.Cooking_part_name",
+          "Cooking_part.Cooking_part_steps.Cooking_part_steps_text",
+          "Cooking_part.Cooking_part_steps.Cooking_part_steps_blob",
+          "Cooking_part.Cooking_part_step_tip",
+          "Cooking_part.Cooking_part_ingredients.Cooking_part_ingredient_name",
+          "Cooking_part.Cooking_part_ingredients.Cooking_part_ingredient_amount",
+          "Cooking_part.Cooking_part_ingredients.Cooking_part_ingredient_measurements_unit",
+          "Relevant_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Cuisine",
+          "Category",
+          "Related_products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::recipe.recipe",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "Time_preparation",
+          "Time_cooking",
+          "Block_text",
+          "Recipe_variations",
+          "Time_text",
+          "Nutrition.Nutrition_name",
+          "Nutrition.Nutrition_measurements_unit",
+          "Nutrition.Nutrition_amount",
+          "Nutrition_yield",
+          "Cooking_part.Cooking_part_name",
+          "Cooking_part.Cooking_part_steps.Cooking_part_steps_text",
+          "Cooking_part.Cooking_part_steps.Cooking_part_steps_blob",
+          "Cooking_part.Cooking_part_step_tip",
+          "Cooking_part.Cooking_part_ingredients.Cooking_part_ingredient_name",
+          "Cooking_part.Cooking_part_ingredients.Cooking_part_ingredient_amount",
+          "Cooking_part.Cooking_part_ingredients.Cooking_part_ingredient_measurements_unit",
+          "Relevant_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Cuisine",
+          "Category",
+          "Related_products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "fields": [
+          "Logo",
+          "Logo_tagline",
+          "Footer_text",
+          "Favicon",
+          "Company_name",
+          "Company_address",
+          "Company_email",
+          "text_chapter",
+          "text_practices_to_follow",
+          "text_practices",
+          "text_explore_the_world_of_kindness",
+          "OpenGraph_default",
+          "recipe_prep",
+          "recipe_cook",
+          "recipe_total",
+          "recipe_jump_to_recipe",
+          "recipe_similar",
+          "recipe_recipe",
+          "recipe_minutes",
+          "recipe_nutrition_information",
+          "recipe_yield",
+          "recipe_amount_per_serving",
+          "recipe_ingredients",
+          "recipe_serving_size",
+          "recipe_cooking_instructions",
+          "recipe_tips",
+          "recipe_discover",
+          "recipe_minute",
+          "recipe_hour",
+          "recipe_hours",
+          "recipe_day",
+          "recipe_days",
+          "estate_location",
+          "product_kindness_impact",
+          "product_add",
+          "product_add_cart",
+          "product_add_cart_for",
+          "product_made_love_from",
+          "product_size",
+          "product_quantity",
+          "product_each_penny_you_spend",
+          "product_check_where_going",
+          "product_price_breakdown_title",
+          "product_transparency_title",
+          "product_impact_title",
+          "text_content",
+          "Item_stock_text",
+          "Product_sold_out_text",
+          "Nav_menu.Visibility",
+          "Nav_menu.Title",
+          "Nav_menu.Link",
+          "Nav_menu_search_visibility",
+          "Nav_menu_language_selector_visibility",
+          "Nav_menu_cart_visibility",
+          "Nav_menu_cart_icon",
+          "Nav_menu_profile_visibility",
+          "Nav_menu_profile_icon",
+          "Footer_menu.Visibility",
+          "Footer_menu.Title",
+          "Footer_menu.Link",
+          "text_all_tea_variants",
+          "text_all_tea_sizes",
+          "Recipes_related_products_title_text",
+          "Product_stock_other_formats_text",
+          "Product_stock_other_formats_text_singular",
+          "Nav_menu_localization_visibility",
+          "Nav_menu_localization_icon",
+          "text_shipping_country",
+          "text_language",
+          "text_currency",
+          "Button_save_text",
+          "Button_go_back_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "fields": [
+          "Logo",
+          "Logo_tagline",
+          "Footer_text",
+          "Favicon",
+          "Company_name",
+          "Company_address",
+          "Company_email",
+          "text_chapter",
+          "text_practices_to_follow",
+          "text_practices",
+          "text_explore_the_world_of_kindness",
+          "OpenGraph_default",
+          "recipe_prep",
+          "recipe_cook",
+          "recipe_total",
+          "recipe_jump_to_recipe",
+          "recipe_similar",
+          "recipe_recipe",
+          "recipe_minutes",
+          "recipe_nutrition_information",
+          "recipe_yield",
+          "recipe_amount_per_serving",
+          "recipe_ingredients",
+          "recipe_serving_size",
+          "recipe_cooking_instructions",
+          "recipe_tips",
+          "recipe_discover",
+          "recipe_minute",
+          "recipe_hour",
+          "recipe_hours",
+          "recipe_day",
+          "recipe_days",
+          "estate_location",
+          "product_kindness_impact",
+          "product_add",
+          "product_add_cart",
+          "product_add_cart_for",
+          "product_made_love_from",
+          "product_size",
+          "product_quantity",
+          "product_each_penny_you_spend",
+          "product_check_where_going",
+          "product_price_breakdown_title",
+          "product_transparency_title",
+          "product_impact_title",
+          "text_content",
+          "Item_stock_text",
+          "Product_sold_out_text",
+          "Nav_menu.Visibility",
+          "Nav_menu.Title",
+          "Nav_menu.Link",
+          "Nav_menu_search_visibility",
+          "Nav_menu_language_selector_visibility",
+          "Nav_menu_cart_visibility",
+          "Nav_menu_cart_icon",
+          "Nav_menu_profile_visibility",
+          "Nav_menu_profile_icon",
+          "Footer_menu.Visibility",
+          "Footer_menu.Title",
+          "Footer_menu.Link",
+          "text_all_tea_variants",
+          "text_all_tea_sizes",
+          "Recipes_related_products_title_text",
+          "Product_stock_other_formats_text",
+          "Product_stock_other_formats_text_singular",
+          "Nav_menu_localization_visibility",
+          "Nav_menu_localization_icon",
+          "text_shipping_country",
+          "text_language",
+          "text_currency",
+          "Button_save_text",
+          "Button_go_back_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "fields": [
+          "Logo",
+          "Logo_tagline",
+          "Footer_text",
+          "Favicon",
+          "Company_name",
+          "Company_address",
+          "Company_email",
+          "text_chapter",
+          "text_practices_to_follow",
+          "text_practices",
+          "text_explore_the_world_of_kindness",
+          "OpenGraph_default",
+          "recipe_prep",
+          "recipe_cook",
+          "recipe_total",
+          "recipe_jump_to_recipe",
+          "recipe_similar",
+          "recipe_recipe",
+          "recipe_minutes",
+          "recipe_nutrition_information",
+          "recipe_yield",
+          "recipe_amount_per_serving",
+          "recipe_ingredients",
+          "recipe_serving_size",
+          "recipe_cooking_instructions",
+          "recipe_tips",
+          "recipe_discover",
+          "recipe_minute",
+          "recipe_hour",
+          "recipe_hours",
+          "recipe_day",
+          "recipe_days",
+          "estate_location",
+          "product_kindness_impact",
+          "product_add",
+          "product_add_cart",
+          "product_add_cart_for",
+          "product_made_love_from",
+          "product_size",
+          "product_quantity",
+          "product_each_penny_you_spend",
+          "product_check_where_going",
+          "product_price_breakdown_title",
+          "product_transparency_title",
+          "product_impact_title",
+          "text_content",
+          "Item_stock_text",
+          "Product_sold_out_text",
+          "Nav_menu.Visibility",
+          "Nav_menu.Title",
+          "Nav_menu.Link",
+          "Nav_menu_search_visibility",
+          "Nav_menu_language_selector_visibility",
+          "Nav_menu_cart_visibility",
+          "Nav_menu_cart_icon",
+          "Nav_menu_profile_visibility",
+          "Nav_menu_profile_icon",
+          "Footer_menu.Visibility",
+          "Footer_menu.Title",
+          "Footer_menu.Link",
+          "text_all_tea_variants",
+          "text_all_tea_sizes",
+          "Recipes_related_products_title_text",
+          "Product_stock_other_formats_text",
+          "Product_stock_other_formats_text_singular",
+          "Nav_menu_localization_visibility",
+          "Nav_menu_localization_icon",
+          "text_shipping_country",
+          "text_language",
+          "text_currency",
+          "Button_save_text",
+          "Button_go_back_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::recurring-image.recurring-image",
+      "properties": {
+        "fields": [
+          "hero_background",
+          "crowdfunding_info_section_background",
+          "footer_background",
+          "left_post_leaf",
+          "footer_leaf_sm",
+          "logo",
+          "error_notification",
+          "warning_notification",
+          "info_notification",
+          "success_notification",
+          "white_love_ribbon",
+          "green_love_ribbon",
+          "love_gift",
+          "white_cup",
+          "green_cup",
+          "light_green_cup",
+          "green_book",
+          "favicon",
+          "white_right_arrow",
+          "green_right_arrow",
+          "white_down_arrow",
+          "green_down_arrow",
+          "footer_leaf",
+          "green_leaf",
+          "white_clock",
+          "left_quote",
+          "green_bulb",
+          "white_flower",
+          "light_green_flower",
+          "light_green_clock",
+          "green_product_cart",
+          "green_product_cart_plus",
+          "shipping_hero_background",
+          "green_love",
+          "green_leaf_icon",
+          "green_no_icon",
+          "green_package_icon",
+          "white_product_cart",
+          "hero_background_sm",
+          "footer_background_sm",
+          "checkout_header_background",
+          "checkout_header_background_sm",
+          "checkout_pre_post_background",
+          "checkout_pre_post_background_sm",
+          "nav_background",
+          "sidebar_background",
+          "tick",
+          "user_account_nav_background",
+          "user_account_nav_background_sm",
+          "nav_background_sm"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::recurring-image.recurring-image",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::recurring-image.recurring-image",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::recurring-image.recurring-image",
+      "properties": {
+        "fields": [
+          "hero_background",
+          "crowdfunding_info_section_background",
+          "footer_background",
+          "left_post_leaf",
+          "footer_leaf_sm",
+          "logo",
+          "error_notification",
+          "warning_notification",
+          "info_notification",
+          "success_notification",
+          "white_love_ribbon",
+          "green_love_ribbon",
+          "love_gift",
+          "white_cup",
+          "green_cup",
+          "light_green_cup",
+          "green_book",
+          "favicon",
+          "white_right_arrow",
+          "green_right_arrow",
+          "white_down_arrow",
+          "green_down_arrow",
+          "footer_leaf",
+          "green_leaf",
+          "white_clock",
+          "left_quote",
+          "green_bulb",
+          "white_flower",
+          "light_green_flower",
+          "light_green_clock",
+          "green_product_cart",
+          "green_product_cart_plus",
+          "shipping_hero_background",
+          "green_love",
+          "green_leaf_icon",
+          "green_no_icon",
+          "green_package_icon",
+          "white_product_cart",
+          "hero_background_sm",
+          "footer_background_sm",
+          "checkout_header_background",
+          "checkout_header_background_sm",
+          "checkout_pre_post_background",
+          "checkout_pre_post_background_sm",
+          "nav_background",
+          "sidebar_background",
+          "tick",
+          "user_account_nav_background",
+          "user_account_nav_background_sm",
+          "nav_background_sm"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::recurring-image.recurring-image",
+      "properties": {
+        "fields": [
+          "hero_background",
+          "crowdfunding_info_section_background",
+          "footer_background",
+          "left_post_leaf",
+          "footer_leaf_sm",
+          "logo",
+          "error_notification",
+          "warning_notification",
+          "info_notification",
+          "success_notification",
+          "white_love_ribbon",
+          "green_love_ribbon",
+          "love_gift",
+          "white_cup",
+          "green_cup",
+          "light_green_cup",
+          "green_book",
+          "favicon",
+          "white_right_arrow",
+          "green_right_arrow",
+          "white_down_arrow",
+          "green_down_arrow",
+          "footer_leaf",
+          "green_leaf",
+          "white_clock",
+          "left_quote",
+          "green_bulb",
+          "white_flower",
+          "light_green_flower",
+          "light_green_clock",
+          "green_product_cart",
+          "green_product_cart_plus",
+          "shipping_hero_background",
+          "green_love",
+          "green_leaf_icon",
+          "green_no_icon",
+          "green_package_icon",
+          "white_product_cart",
+          "hero_background_sm",
+          "footer_background_sm",
+          "checkout_header_background",
+          "checkout_header_background_sm",
+          "checkout_pre_post_background",
+          "checkout_pre_post_background_sm",
+          "nav_background",
+          "sidebar_background",
+          "tick",
+          "user_account_nav_background",
+          "user_account_nav_background_sm",
+          "nav_background_sm"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::robots-text.robots-text",
+      "properties": {
+        "fields": [
+          "Text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::robots-text.robots-text",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::robots-text.robots-text",
+      "properties": {
+        "fields": [
+          "Text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::robots-text.robots-text",
+      "properties": {
+        "fields": [
+          "Text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::security-text.security-text",
+      "properties": {
+        "fields": [
+          "Text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::security-text.security-text",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::security-text.security-text",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::security-text.security-text",
+      "properties": {
+        "fields": [
+          "Text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::security-text.security-text",
+      "properties": {
+        "fields": [
+          "Text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::shipping-method.shipping-method",
+      "properties": {
+        "fields": [
+          "method",
+          "cost",
+          "description"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::shipping-method.shipping-method",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::shipping-method.shipping-method",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::shipping-method.shipping-method",
+      "properties": {
+        "fields": [
+          "method",
+          "cost",
+          "description"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::shipping-method.shipping-method",
+      "properties": {
+        "fields": [
+          "method",
+          "cost",
+          "description"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::user-account-address.user-account-address",
+      "properties": {
+        "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title",
+          "Block2_title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::user-account-address.user-account-address",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::user-account-address.user-account-address",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::user-account-address.user-account-address",
+      "properties": {
+        "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title",
+          "Block2_title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::user-account-address.user-account-address",
+      "properties": {
+        "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title",
+          "Block2_title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::user-account-dashboard.user-account-dashboard",
+      "properties": {
+        "fields": [
+          "Title",
+          "Personal_information.Social_media.Facebook",
+          "Personal_information.Social_media.Google",
+          "Personal_information.Social_media.Twitter",
+          "Personal_information.Social_media_title",
+          "Personal_information.Label_phone",
+          "Personal_information.Label_email",
+          "Personal_information.Label_delivery_address",
+          "Personal_information.Name",
+          "Personal_information.Label_billing_address",
+          "Personal_information.Label_username",
+          "Block2_visibility",
+          "Block2.Block2_title",
+          "Block2.Label_my_selected_cause",
+          "Block2.Label_let_dilmah_pick_cause",
+          "Block2.Let_dilmah_pick_cause_text",
+          "Block2.Notification_cause_update_text",
+          "Block2.Block2_text",
+          "Block2.My_selected_cause_text",
+          "Block3_visibility",
+          "Support_visibility",
+          "Support.Button_text",
+          "Support.Button_link",
+          "Support.Button_icon",
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Block3_title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::user-account-dashboard.user-account-dashboard",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::user-account-dashboard.user-account-dashboard",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::user-account-dashboard.user-account-dashboard",
+      "properties": {
+        "fields": [
+          "Title",
+          "Personal_information.Social_media.Facebook",
+          "Personal_information.Social_media.Google",
+          "Personal_information.Social_media.Twitter",
+          "Personal_information.Social_media_title",
+          "Personal_information.Label_phone",
+          "Personal_information.Label_email",
+          "Personal_information.Label_delivery_address",
+          "Personal_information.Name",
+          "Personal_information.Label_billing_address",
+          "Personal_information.Label_username",
+          "Block2_visibility",
+          "Block2.Block2_title",
+          "Block2.Label_my_selected_cause",
+          "Block2.Label_let_dilmah_pick_cause",
+          "Block2.Let_dilmah_pick_cause_text",
+          "Block2.Notification_cause_update_text",
+          "Block2.Block2_text",
+          "Block2.My_selected_cause_text",
+          "Block3_visibility",
+          "Support_visibility",
+          "Support.Button_text",
+          "Support.Button_link",
+          "Support.Button_icon",
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Block3_title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::user-account-dashboard.user-account-dashboard",
+      "properties": {
+        "fields": [
+          "Title",
+          "Personal_information.Social_media.Facebook",
+          "Personal_information.Social_media.Google",
+          "Personal_information.Social_media.Twitter",
+          "Personal_information.Social_media_title",
+          "Personal_information.Label_phone",
+          "Personal_information.Label_email",
+          "Personal_information.Label_delivery_address",
+          "Personal_information.Name",
+          "Personal_information.Label_billing_address",
+          "Personal_information.Label_username",
+          "Block2_visibility",
+          "Block2.Block2_title",
+          "Block2.Label_my_selected_cause",
+          "Block2.Label_let_dilmah_pick_cause",
+          "Block2.Let_dilmah_pick_cause_text",
+          "Block2.Notification_cause_update_text",
+          "Block2.Block2_text",
+          "Block2.My_selected_cause_text",
+          "Block3_visibility",
+          "Support_visibility",
+          "Support.Button_text",
+          "Support.Button_link",
+          "Support.Button_icon",
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Block3_title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::user-account-order.user-account-order",
+      "properties": {
+        "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::user-account-order.user-account-order",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::user-account-order.user-account-order",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::user-account-order.user-account-order",
+      "properties": {
+        "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::user-account-order.user-account-order",
+      "properties": {
+        "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::user-account-recurring-element.user-account-recurring-element",
+      "properties": {
+        "fields": [
+          "Facebook_icon",
+          "Google_icon",
+          "Twitter_icon",
+          "Input_label_first_name",
+          "Input_label_last_name",
+          "Input_label_email",
+          "Input_label_phone",
+          "Input_placeholder_first_name",
+          "Input_placeholder_last_name",
+          "Input_placeholder_email",
+          "Input_placeholder_phone",
+          "Input_placeholder_email_or_phone",
+          "Social_media_divider_or_text",
+          "Input_label_country",
+          "Input_placeholder_country",
+          "Input_label_city",
+          "Input_placeholder_city",
+          "Input_label_street",
+          "Input_placeholder_street",
+          "Input_label_postal_code",
+          "Input_placeholder_postal_code",
+          "Button_add_text",
+          "Button_edit_text",
+          "Button_update_text",
+          "Button_add_new_address_text",
+          "Button_make_default_text",
+          "Tag_default_text",
+          "Label_tag_text",
+          "Address_tag.Title",
+          "Button_save_text",
+          "Button_cancel_text",
+          "Checkbox_set_default_address_text",
+          "Checkbox_set_billing_address_text",
+          "text_more_address",
+          "text_content",
+          "Notification_address_update_text",
+          "Notification_default_address_update_text",
+          "Notification_billing_address_update_text",
+          "text_saved_Addresses",
+          "text_hide_more_address",
+          "Button_remove_text",
+          "text_connected",
+          "text_not_connected",
+          "Label_order",
+          "Button_track_package",
+          "Button_track_package_text",
+          "Button_buy_again_text",
+          "Button_sold_out_text",
+          "Button_view_all_orders_text",
+          "text_more_products_in_this_order",
+          "text_estimated_delivery",
+          "text_estimated_shipment",
+          "text_delivered",
+          "Tag_others_text",
+          "Tag_others_placeholder_text",
+          "Empty_order_blob",
+          "Empty_order_text",
+          "Empty_order_button_text",
+          "Empty_order_button_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::user-account-recurring-element.user-account-recurring-element",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::user-account-recurring-element.user-account-recurring-element",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::user-account-recurring-element.user-account-recurring-element",
+      "properties": {
+        "fields": [
+          "Facebook_icon",
+          "Google_icon",
+          "Twitter_icon",
+          "Input_label_first_name",
+          "Input_label_last_name",
+          "Input_label_email",
+          "Input_label_phone",
+          "Input_placeholder_first_name",
+          "Input_placeholder_last_name",
+          "Input_placeholder_email",
+          "Input_placeholder_phone",
+          "Input_placeholder_email_or_phone",
+          "Social_media_divider_or_text",
+          "Input_label_country",
+          "Input_placeholder_country",
+          "Input_label_city",
+          "Input_placeholder_city",
+          "Input_label_street",
+          "Input_placeholder_street",
+          "Input_label_postal_code",
+          "Input_placeholder_postal_code",
+          "Button_add_text",
+          "Button_edit_text",
+          "Button_update_text",
+          "Button_add_new_address_text",
+          "Button_make_default_text",
+          "Tag_default_text",
+          "Label_tag_text",
+          "Address_tag.Title",
+          "Button_save_text",
+          "Button_cancel_text",
+          "Checkbox_set_default_address_text",
+          "Checkbox_set_billing_address_text",
+          "text_more_address",
+          "text_content",
+          "Notification_address_update_text",
+          "Notification_default_address_update_text",
+          "Notification_billing_address_update_text",
+          "text_saved_Addresses",
+          "text_hide_more_address",
+          "Button_remove_text",
+          "text_connected",
+          "text_not_connected",
+          "Label_order",
+          "Button_track_package",
+          "Button_track_package_text",
+          "Button_buy_again_text",
+          "Button_sold_out_text",
+          "Button_view_all_orders_text",
+          "text_more_products_in_this_order",
+          "text_estimated_delivery",
+          "text_estimated_shipment",
+          "text_delivered",
+          "Tag_others_text",
+          "Tag_others_placeholder_text",
+          "Empty_order_blob",
+          "Empty_order_text",
+          "Empty_order_button_text",
+          "Empty_order_button_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::user-account-recurring-element.user-account-recurring-element",
+      "properties": {
+        "fields": [
+          "Facebook_icon",
+          "Google_icon",
+          "Twitter_icon",
+          "Input_label_first_name",
+          "Input_label_last_name",
+          "Input_label_email",
+          "Input_label_phone",
+          "Input_placeholder_first_name",
+          "Input_placeholder_last_name",
+          "Input_placeholder_email",
+          "Input_placeholder_phone",
+          "Input_placeholder_email_or_phone",
+          "Social_media_divider_or_text",
+          "Input_label_country",
+          "Input_placeholder_country",
+          "Input_label_city",
+          "Input_placeholder_city",
+          "Input_label_street",
+          "Input_placeholder_street",
+          "Input_label_postal_code",
+          "Input_placeholder_postal_code",
+          "Button_add_text",
+          "Button_edit_text",
+          "Button_update_text",
+          "Button_add_new_address_text",
+          "Button_make_default_text",
+          "Tag_default_text",
+          "Label_tag_text",
+          "Address_tag.Title",
+          "Button_save_text",
+          "Button_cancel_text",
+          "Checkbox_set_default_address_text",
+          "Checkbox_set_billing_address_text",
+          "text_more_address",
+          "text_content",
+          "Notification_address_update_text",
+          "Notification_default_address_update_text",
+          "Notification_billing_address_update_text",
+          "text_saved_Addresses",
+          "text_hide_more_address",
+          "Button_remove_text",
+          "text_connected",
+          "text_not_connected",
+          "Label_order",
+          "Button_track_package",
+          "Button_track_package_text",
+          "Button_buy_again_text",
+          "Button_sold_out_text",
+          "Button_view_all_orders_text",
+          "text_more_products_in_this_order",
+          "text_estimated_delivery",
+          "text_estimated_shipment",
+          "text_delivered",
+          "Tag_others_text",
+          "Tag_others_placeholder_text",
+          "Empty_order_blob",
+          "Empty_order_text",
+          "Empty_order_button_text",
+          "Empty_order_button_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::user-account.user-account",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Form.First_name",
+          "Form.Last_name",
+          "Form.Email",
+          "Form.Phone",
+          "Form.Submit_button_text",
+          "Form.Blob",
+          "Form.Email_or_phone",
+          "Block_text",
+          "Social_media.Facebook",
+          "Social_media.Google",
+          "Social_media.Twitter",
+          "Button_pretext",
+          "Button_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::user-account.user-account",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::user-account.user-account",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::user-account.user-account",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Form.First_name",
+          "Form.Last_name",
+          "Form.Email",
+          "Form.Phone",
+          "Form.Submit_button_text",
+          "Form.Blob",
+          "Form.Email_or_phone",
+          "Block_text",
+          "Social_media.Facebook",
+          "Social_media.Google",
+          "Social_media.Twitter",
+          "Button_pretext",
+          "Button_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::user-account.user-account",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Form.First_name",
+          "Form.Last_name",
+          "Form.Email",
+          "Form.Phone",
+          "Form.Submit_button_text",
+          "Form.Blob",
+          "Form.Email_or_phone",
+          "Block_text",
+          "Social_media.Facebook",
+          "Social_media.Google",
+          "Social_media.Twitter",
+          "Button_pretext",
+          "Button_text",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de",
+          "fr",
+          "it"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.access",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.regenerate",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.access",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.regenerate",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.menu-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.collection-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.components.configure-layout",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::users-permissions.user",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.single-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-type-builder.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::email.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}
