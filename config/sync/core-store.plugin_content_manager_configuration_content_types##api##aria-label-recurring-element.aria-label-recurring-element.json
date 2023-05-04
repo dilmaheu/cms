@@ -468,6 +468,34 @@
           "sortable": true
         }
       },
+      "Kindness_impact_items": {
+        "edit": {
+          "label": "Kindness_impact_items",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Kindness_impact_items",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Kindness_items_of_text": {
+        "edit": {
+          "label": "Kindness_items_of_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Kindness_items_of_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -498,12 +526,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Intro_text",
-        "createdAt",
-        "Latest_post_text"
-      ],
       "edit": [
         [
           {
@@ -542,6 +564,16 @@
           },
           {
             "name": "Kindness_Items_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Kindness_items_of_text",
+            "size": 6
+          },
+          {
+            "name": "Kindness_impact_items",
             "size": 6
           }
         ],
@@ -665,6 +697,12 @@
             "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Intro_text",
+        "createdAt",
+        "Latest_post_text"
       ]
     }
   },

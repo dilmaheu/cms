@@ -61,19 +61,38 @@
           "searchable": false,
           "sortable": false
         }
+      },
+      "Value_unit": {
+        "edit": {
+          "label": "Value_unit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Value_unit",
+          "searchable": true,
+          "sortable": true
+        }
       }
     },
     "layouts": {
       "list": [
         "id",
         "Value",
-        "Icon"
+        "Icon",
+        "Value_unit"
       ],
       "edit": [
         [
           {
             "name": "Value",
             "size": 6
+          },
+          {
+            "name": "Value_unit",
+            "size": 4
           }
         ],
         [

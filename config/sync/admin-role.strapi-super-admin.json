@@ -39,7 +39,9 @@
           "Navbar_open_localization_menu_text",
           "Navbar_close_localization_menu_text",
           "Testing",
-          "Testing_2"
+          "Testing_2",
+          "Kindness_impact_items",
+          "Kindness_items_of_text"
         ],
         "locales": [
           "en",
@@ -115,7 +117,9 @@
           "Navbar_open_localization_menu_text",
           "Navbar_close_localization_menu_text",
           "Testing",
-          "Testing_2"
+          "Testing_2",
+          "Kindness_impact_items",
+          "Kindness_items_of_text"
         ],
         "locales": [
           "en",
@@ -163,7 +167,9 @@
           "Navbar_open_localization_menu_text",
           "Navbar_close_localization_menu_text",
           "Testing",
-          "Testing_2"
+          "Testing_2",
+          "Kindness_impact_items",
+          "Kindness_items_of_text"
         ],
         "locales": [
           "en",
@@ -2439,7 +2445,8 @@
           "Meta.Canonical_link",
           "Impacts.Value",
           "Impacts.Description",
-          "Impacts.Icon"
+          "Impacts.Icon",
+          "Impacts.Value_unit"
         ],
         "locales": [
           "en",
@@ -2510,7 +2517,8 @@
           "Meta.Canonical_link",
           "Impacts.Value",
           "Impacts.Description",
-          "Impacts.Icon"
+          "Impacts.Icon",
+          "Impacts.Value_unit"
         ],
         "locales": [
           "en",
@@ -2553,7 +2561,8 @@
           "Meta.Canonical_link",
           "Impacts.Value",
           "Impacts.Description",
-          "Impacts.Icon"
+          "Impacts.Icon",
+          "Impacts.Value_unit"
         ],
         "locales": [
           "en",
