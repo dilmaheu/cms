@@ -63,7 +63,7 @@
         }
       }
     },
-    "Information": {
+    "Description": {
       "displayName": "elephant path",
       "type": "component",
       "repeatable": true,

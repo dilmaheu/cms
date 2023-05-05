@@ -256,22 +256,6 @@
       },
       "type": "string"
     },
-    "Testing": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "Testing_2": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "Kindness_impact_items": {
       "pluginOptions": {
         "i18n": {
