@@ -440,34 +440,6 @@
           "sortable": true
         }
       },
-      "Testing": {
-        "edit": {
-          "label": "Testing",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Testing",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Testing_2": {
-        "edit": {
-          "label": "Testing_2",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Testing_2",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "Kindness_impact_items": {
         "edit": {
           "label": "Kindness_impact_items",
@@ -526,6 +498,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "Intro_text",
+        "createdAt",
+        "Latest_post_text"
+      ],
       "edit": [
         [
           {
@@ -686,23 +664,7 @@
             "name": "Product_post_of_text",
             "size": 6
           }
-        ],
-        [
-          {
-            "name": "Testing",
-            "size": 6
-          },
-          {
-            "name": "Testing_2",
-            "size": 6
-          }
         ]
-      ],
-      "list": [
-        "id",
-        "Intro_text",
-        "createdAt",
-        "Latest_post_text"
       ]
     }
   },

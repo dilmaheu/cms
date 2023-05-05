@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "cs": "config-sync"
   },
   "dependencies": {
     "@retikolo/drag-drop-content-types": "^1.3.4",

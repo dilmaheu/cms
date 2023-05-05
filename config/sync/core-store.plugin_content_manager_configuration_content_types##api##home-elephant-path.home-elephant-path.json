@@ -90,16 +90,16 @@
           "sortable": false
         }
       },
-      "Information": {
+      "Description": {
         "edit": {
-          "label": "Information",
+          "label": "Description",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Information",
+          "label": "Description",
           "searchable": false,
           "sortable": false
         }
@@ -320,7 +320,7 @@
         ],
         [
           {
-            "name": "Information",
+            "name": "Description",
             "size": 12
           }
         ],

@@ -51,7 +51,7 @@
       "Blob": {
         "edit": {
           "label": "Blob",
-          "description": "",
+          "description": "Please Upload  .svg formatted icons",
           "placeholder": "",
           "visible": true,
           "editable": true
