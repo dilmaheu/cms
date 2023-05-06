@@ -82,7 +82,8 @@
       "list": [
         "id",
         "Title",
-        "Blob"
+        "Blob",
+        "Blog"
       ],
       "edit": [
         [
