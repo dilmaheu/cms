@@ -1,0 +1,29 @@
+name: Deploy Production CMS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy Production CMS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy Production CMS via SSH
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            cd strapi/dilmahtea.me/main
+            git pull
+            npm run cs import -- --yes
+            npm i
+            npm run build
+            cd ../../..
+            echo 2 | ./mystrapi.sh
+            echo 1 | ./mystrapi.sh
