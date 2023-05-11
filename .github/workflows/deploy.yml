@@ -25,5 +25,5 @@ jobs:
             npm i
             npm run build
             cd ../../..
-            echo 2 | ./mystrapi.sh
-            echo 1 | ./mystrapi.sh
+            echo 2 | ./services.sh
+            echo 1 | ./services.sh
