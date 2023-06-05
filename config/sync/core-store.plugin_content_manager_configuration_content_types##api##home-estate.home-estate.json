@@ -146,20 +146,6 @@
           "sortable": true
         }
       },
-      "Block4_items": {
-        "edit": {
-          "label": "Block4_items",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block4_items",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "Meta": {
         "edit": {
           "label": "Meta",
@@ -227,20 +213,6 @@
         },
         "list": {
           "label": "Aria_label_all_estates_text",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Block4_items_aria_label_text": {
-        "edit": {
-          "label": "Block4_items_aria_label_text",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block4_items_aria_label_text",
           "searchable": true,
           "sortable": true
         }
@@ -317,6 +289,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "Title",
+        "Intro_blob",
+        "Heading_block"
+      ],
       "edit": [
         [
           {
@@ -392,21 +370,11 @@
           {
             "name": "Block4_heading",
             "size": 6
-          },
-          {
-            "name": "Block4_items_aria_label_text",
-            "size": 6
           }
         ],
         [
           {
             "name": "Impacts",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "Block4_items",
             "size": 12
           }
         ],
@@ -428,12 +396,6 @@
             "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "Title",
-        "Intro_blob",
-        "Heading_block"
       ]
     }
   },
