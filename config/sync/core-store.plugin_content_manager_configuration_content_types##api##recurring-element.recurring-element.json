@@ -972,6 +972,20 @@
           "sortable": true
         }
       },
+      "search_text_no_result_found": {
+        "edit": {
+          "label": "search_text_no_result_found",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "search_text_no_result_found",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1002,6 +1016,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
+      ],
       "edit": [
         [
           {
@@ -1350,13 +1370,13 @@
             "name": "text_all_tea_sizes",
             "size": 6
           }
+        ],
+        [
+          {
+            "name": "search_text_no_result_found",
+            "size": 6
+          }
         ]
-      ],
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
       ]
     }
   },

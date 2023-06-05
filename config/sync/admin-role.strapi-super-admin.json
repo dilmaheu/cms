@@ -39,7 +39,8 @@
           "Navbar_open_localization_menu_text",
           "Navbar_close_localization_menu_text",
           "Kindness_impact_items",
-          "Kindness_items_of_text"
+          "Kindness_items_of_text",
+          "Highlighted_post_text"
         ],
         "locales": [
           "en",
@@ -115,7 +116,8 @@
           "Navbar_open_localization_menu_text",
           "Navbar_close_localization_menu_text",
           "Kindness_impact_items",
-          "Kindness_items_of_text"
+          "Kindness_items_of_text",
+          "Highlighted_post_text"
         ],
         "locales": [
           "en",
@@ -163,7 +165,8 @@
           "Navbar_open_localization_menu_text",
           "Navbar_close_localization_menu_text",
           "Kindness_impact_items",
-          "Kindness_items_of_text"
+          "Kindness_items_of_text",
+          "Highlighted_post_text"
         ],
         "locales": [
           "en",
@@ -2597,7 +2600,11 @@
           "Aria_label_all_estates_text",
           "Block4_items_aria_label_text",
           "Block3_aria_label_text",
-          "Block2_aria_label_text"
+          "Block2_aria_label_text",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon",
+          "Impacts.Value_unit"
         ],
         "locales": [
           "en",
@@ -2652,7 +2659,11 @@
           "Aria_label_all_estates_text",
           "Block4_items_aria_label_text",
           "Block3_aria_label_text",
-          "Block2_aria_label_text"
+          "Block2_aria_label_text",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon",
+          "Impacts.Value_unit"
         ],
         "locales": [
           "en",
@@ -2693,7 +2704,11 @@
           "Aria_label_all_estates_text",
           "Block4_items_aria_label_text",
           "Block3_aria_label_text",
-          "Block2_aria_label_text"
+          "Block2_aria_label_text",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon",
+          "Impacts.Value_unit"
         ],
         "locales": [
           "en",
@@ -3031,7 +3046,37 @@
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link"
+          "Meta.Canonical_link",
+          "Title",
+          "Intro_text",
+          "Block_title",
+          "Block2_title",
+          "Block2_text",
+          "Block2_blob",
+          "Block2_button_text",
+          "Block2_button_link",
+          "Block3_title",
+          "Block3_text",
+          "Estates",
+          "Block4_title",
+          "Block5_title",
+          "Block5_text",
+          "Block5_blob",
+          "Block5_button_text",
+          "Block5_button_link",
+          "Block6_title",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon",
+          "Impacts.Value_unit",
+          "Block_visibility",
+          "Block2_visibility",
+          "Block3_visibility",
+          "Block4_visibility",
+          "Block5_visibility",
+          "Block6_visibility",
+          "Intro_blob",
+          "Intro_blob_sm"
         ],
         "locales": [
           "en",
@@ -3081,7 +3126,37 @@
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link"
+          "Meta.Canonical_link",
+          "Title",
+          "Intro_text",
+          "Block_title",
+          "Block2_title",
+          "Block2_text",
+          "Block2_blob",
+          "Block2_button_text",
+          "Block2_button_link",
+          "Block3_title",
+          "Block3_text",
+          "Estates",
+          "Block4_title",
+          "Block5_title",
+          "Block5_text",
+          "Block5_blob",
+          "Block5_button_text",
+          "Block5_button_link",
+          "Block6_title",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon",
+          "Impacts.Value_unit",
+          "Block_visibility",
+          "Block2_visibility",
+          "Block3_visibility",
+          "Block4_visibility",
+          "Block5_visibility",
+          "Block6_visibility",
+          "Intro_blob",
+          "Intro_blob_sm"
         ],
         "locales": [
           "en",
@@ -3103,7 +3178,37 @@
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link"
+          "Meta.Canonical_link",
+          "Title",
+          "Intro_text",
+          "Block_title",
+          "Block2_title",
+          "Block2_text",
+          "Block2_blob",
+          "Block2_button_text",
+          "Block2_button_link",
+          "Block3_title",
+          "Block3_text",
+          "Estates",
+          "Block4_title",
+          "Block5_title",
+          "Block5_text",
+          "Block5_blob",
+          "Block5_button_text",
+          "Block5_button_link",
+          "Block6_title",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon",
+          "Impacts.Value_unit",
+          "Block_visibility",
+          "Block2_visibility",
+          "Block3_visibility",
+          "Block4_visibility",
+          "Block5_visibility",
+          "Block6_visibility",
+          "Intro_blob",
+          "Intro_blob_sm"
         ],
         "locales": [
           "en",
@@ -4552,7 +4657,8 @@
           "text_language",
           "text_currency",
           "Button_save_text",
-          "Button_go_back_text"
+          "Button_go_back_text",
+          "search_text_no_result_found"
         ],
         "locales": [
           "en",
@@ -4668,7 +4774,8 @@
           "text_language",
           "text_currency",
           "Button_save_text",
-          "Button_go_back_text"
+          "Button_go_back_text",
+          "search_text_no_result_found"
         ],
         "locales": [
           "en",
@@ -4756,7 +4863,8 @@
           "text_language",
           "text_currency",
           "Button_save_text",
-          "Button_go_back_text"
+          "Button_go_back_text",
+          "search_text_no_result_found"
         ],
         "locales": [
           "en",

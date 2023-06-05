@@ -273,6 +273,20 @@
           "sortable": true
         }
       },
+      "Impacts": {
+        "edit": {
+          "label": "Impacts",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Impacts",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -382,6 +396,12 @@
           {
             "name": "Block4_items_aria_label_text",
             "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Impacts",
+            "size": 12
           }
         ],
         [

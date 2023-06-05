@@ -179,6 +179,16 @@
         }
       },
       "type": "string"
+    },
+    "Impacts": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "kindness-impact.impact"
     }
   }
 }

@@ -468,6 +468,20 @@
           "sortable": true
         }
       },
+      "Highlighted_post_text": {
+        "edit": {
+          "label": "Highlighted_post_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Highlighted_post_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -498,12 +512,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Intro_text",
-        "createdAt",
-        "Latest_post_text"
-      ],
       "edit": [
         [
           {
@@ -517,19 +525,35 @@
         ],
         [
           {
-            "name": "Wrote_by_text",
+            "name": "Highlighted_post_text",
             "size": 6
           },
           {
-            "name": "Post_text",
+            "name": "Wrote_by_text",
             "size": 6
           }
         ],
         [
           {
-            "name": "All_posts_text",
+            "name": "Post_text",
             "size": 6
           },
+          {
+            "name": "All_posts_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Post_intro_text",
+            "size": 6
+          },
+          {
+            "name": "Post_details_text",
+            "size": 6
+          }
+        ],
+        [
           {
             "name": "Items_text",
             "size": 6
@@ -557,16 +581,6 @@
         ],
         [
           {
-            "name": "Post_intro_text",
-            "size": 6
-          },
-          {
-            "name": "Post_details_text",
-            "size": 6
-          }
-        ],
-        [
-          {
             "name": "Recipe_timing_text",
             "size": 6
           },
@@ -579,7 +593,9 @@
           {
             "name": "Howto_method_text",
             "size": 6
-          },
+          }
+        ],
+        [
           {
             "name": "Estate_location_map_text",
             "size": 6
@@ -607,9 +623,15 @@
         ],
         [
           {
-            "name": "Product_quantity_text",
+            "name": "Product_post_of_text",
             "size": 6
           },
+          {
+            "name": "Product_quantity_text",
+            "size": 6
+          }
+        ],
+        [
           {
             "name": "Product_related_kindness_info_text",
             "size": 6
@@ -617,21 +639,17 @@
         ],
         [
           {
-            "name": "Crowdfunding_plans_text",
+            "name": "Crowdfunding_plan_text",
             "size": 6
           },
           {
-            "name": "Crowdfunding_plan_text",
+            "name": "Crowdfunding_plans_text",
             "size": 6
           }
         ],
         [
           {
             "name": "Crowdfunding_total_raised_text",
-            "size": 6
-          },
-          {
-            "name": "Navbar_language_selectors_text",
             "size": 6
           }
         ],
@@ -661,10 +679,16 @@
             "size": 6
           },
           {
-            "name": "Product_post_of_text",
+            "name": "Navbar_language_selectors_text",
             "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Intro_text",
+        "createdAt",
+        "Latest_post_text"
       ]
     }
   },

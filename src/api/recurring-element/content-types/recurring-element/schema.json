@@ -647,6 +647,14 @@
       },
       "type": "string",
       "required": true
+    },
+    "search_text_no_result_found": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

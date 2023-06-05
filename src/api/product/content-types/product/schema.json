@@ -545,7 +545,8 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::brand.brand",
-      "inversedBy": "products"
+      "inversedBy": "products",
+      "required": true
     },
     "Stock_out": {
       "pluginOptions": {
@@ -596,13 +597,15 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::product-variant.product-variant",
-      "inversedBy": "products"
+      "inversedBy": "products",
+      "required": true
     },
     "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::product-category.product-category",
-      "inversedBy": "products"
+      "inversedBy": "products",
+      "required": true
     },
     "sub_category": {
       "type": "relation",
@@ -614,7 +617,8 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::product-size.product-size",
-      "inversedBy": "products"
+      "inversedBy": "products",
+      "required": true
     },
     "Water_temperature_unit": {
       "pluginOptions": {
