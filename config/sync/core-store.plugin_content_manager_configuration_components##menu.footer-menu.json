@@ -1,0 +1,57 @@
+{
+  "key": "plugin_content_manager_configuration_components::menu.footer-menu",
+  "value": {
+    "uid": "menu.footer-menu",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Heading_name",
+      "defaultSortBy": "Heading_name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Heading_name": {
+        "edit": {
+          "label": "Heading_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Heading_name",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Heading_name"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Heading_name",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

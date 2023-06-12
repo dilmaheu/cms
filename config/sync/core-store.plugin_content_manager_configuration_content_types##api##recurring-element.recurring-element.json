@@ -790,20 +790,6 @@
           "sortable": false
         }
       },
-      "Footer_menu": {
-        "edit": {
-          "label": "Footer_menu",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Footer_menu",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "text_all_tea_variants": {
         "edit": {
           "label": "text_all_tea_variants",
@@ -986,6 +972,20 @@
           "sortable": true
         }
       },
+      "Footer_menu": {
+        "edit": {
+          "label": "Footer_menu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Footer_menu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1016,12 +1016,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
-      ],
       "edit": [
         [
           {
@@ -1111,6 +1105,12 @@
         ],
         [
           {
+            "name": "Footer_menu",
+            "size": 12
+          }
+        ],
+        [
+          {
             "name": "text_shipping_country",
             "size": 4
           },
@@ -1131,12 +1131,6 @@
           {
             "name": "Button_go_back_text",
             "size": 4
-          }
-        ],
-        [
-          {
-            "name": "Footer_menu",
-            "size": 12
           }
         ],
         [
@@ -1377,6 +1371,12 @@
             "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
       ]
     }
   },

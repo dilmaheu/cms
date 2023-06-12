@@ -1,0 +1,115 @@
+{
+  "key": "plugin_content_manager_configuration_components::footer-menu.menu",
+  "value": {
+    "uid": "footer-menu.menu",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Title",
+      "defaultSortBy": "Title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Visibility": {
+        "edit": {
+          "label": "Visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Link": {
+        "edit": {
+          "label": "Link",
+          "description": "Please add \"mailto:\" before email address & \"tel:\" for phone ",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Icon": {
+        "edit": {
+          "label": "Icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Icon",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Visibility",
+        "Title",
+        "Link"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Visibility",
+            "size": 4
+          },
+          {
+            "name": "Icon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Title",
+            "size": 6
+          },
+          {
+            "name": "Link",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

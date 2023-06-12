@@ -526,17 +526,6 @@
         }
       }
     },
-    "Footer_menu": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "menu.nav",
-      "required": true
-    },
     "text_all_tea_variants": {
       "pluginOptions": {
         "i18n": {
@@ -655,6 +644,17 @@
         }
       },
       "type": "string"
+    },
+    "Footer_menu": {
+      "displayName": "Footer_menu",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "footer-menu.footer-menu"
     }
   }
 }

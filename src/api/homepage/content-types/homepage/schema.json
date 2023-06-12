@@ -196,7 +196,8 @@
           "localized": true
         }
       },
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "Block2_visibility": {
       "pluginOptions": {
@@ -204,7 +205,8 @@
           "localized": true
         }
       },
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "Block3_visibility": {
       "pluginOptions": {
@@ -212,7 +214,8 @@
           "localized": true
         }
       },
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "Block4_visibility": {
       "pluginOptions": {
@@ -220,7 +223,8 @@
           "localized": true
         }
       },
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "Block5_visibility": {
       "pluginOptions": {
@@ -228,7 +232,8 @@
           "localized": true
         }
       },
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "Block6_visibility": {
       "pluginOptions": {
@@ -236,7 +241,8 @@
           "localized": true
         }
       },
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "Intro_blob": {
       "type": "media",

@@ -3640,6 +3640,51 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::payment-method.payment-method",
+      "properties": {
+        "fields": [
+          "method",
+          "supported_countries"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::payment-method.payment-method",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::payment-method.payment-method",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::payment-method.payment-method",
+      "properties": {
+        "fields": [
+          "method",
+          "supported_countries"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::payment-method.payment-method",
+      "properties": {
+        "fields": [
+          "method",
+          "supported_countries"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::person.person",
       "properties": {
         "fields": [
@@ -4631,9 +4676,6 @@
           "Nav_menu_cart_icon",
           "Nav_menu_profile_visibility",
           "Nav_menu_profile_icon",
-          "Footer_menu.Visibility",
-          "Footer_menu.Title",
-          "Footer_menu.Link",
           "text_all_tea_variants",
           "text_all_tea_sizes",
           "Recipes_related_products_title_text",
@@ -4646,7 +4688,12 @@
           "text_currency",
           "Button_save_text",
           "Button_go_back_text",
-          "search_text_no_result_found"
+          "search_text_no_result_found",
+          "Footer_menu.Heading_name",
+          "Footer_menu.Menu.Visibility",
+          "Footer_menu.Menu.Title",
+          "Footer_menu.Menu.Link",
+          "Footer_menu.Menu.Icon"
         ],
         "locales": [
           "en",
@@ -4748,9 +4795,6 @@
           "Nav_menu_cart_icon",
           "Nav_menu_profile_visibility",
           "Nav_menu_profile_icon",
-          "Footer_menu.Visibility",
-          "Footer_menu.Title",
-          "Footer_menu.Link",
           "text_all_tea_variants",
           "text_all_tea_sizes",
           "Recipes_related_products_title_text",
@@ -4763,7 +4807,12 @@
           "text_currency",
           "Button_save_text",
           "Button_go_back_text",
-          "search_text_no_result_found"
+          "search_text_no_result_found",
+          "Footer_menu.Heading_name",
+          "Footer_menu.Menu.Visibility",
+          "Footer_menu.Menu.Title",
+          "Footer_menu.Menu.Link",
+          "Footer_menu.Menu.Icon"
         ],
         "locales": [
           "en",
@@ -4837,9 +4886,6 @@
           "Nav_menu_cart_icon",
           "Nav_menu_profile_visibility",
           "Nav_menu_profile_icon",
-          "Footer_menu.Visibility",
-          "Footer_menu.Title",
-          "Footer_menu.Link",
           "text_all_tea_variants",
           "text_all_tea_sizes",
           "Recipes_related_products_title_text",
@@ -4852,7 +4898,12 @@
           "text_currency",
           "Button_save_text",
           "Button_go_back_text",
-          "search_text_no_result_found"
+          "search_text_no_result_found",
+          "Footer_menu.Heading_name",
+          "Footer_menu.Menu.Visibility",
+          "Footer_menu.Menu.Title",
+          "Footer_menu.Menu.Link",
+          "Footer_menu.Menu.Icon"
         ],
         "locales": [
           "en",

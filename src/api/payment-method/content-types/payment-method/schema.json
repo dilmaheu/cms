@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payment_methods",
+  "info": {
+    "singularName": "payment-method",
+    "pluralName": "payment-methods",
+    "displayName": "Payment Method"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "method": {
+      "type": "enumeration",
+      "enum": [
+        "card",
+        "acss_debit",
+        "affirm",
+        "afterpay_clearpay",
+        "alipay",
+        "au_becs_debit",
+        "bacs_debit",
+        "bancontact",
+        "blik",
+        "boleto",
+        "cashapp",
+        "customer_balance",
+        "eps",
+        "fpx",
+        "giropay",
+        "grabpay",
+        "ideal",
+        "klarna",
+        "konbini",
+        "link",
+        "oxxo",
+        "p24",
+        "paynow",
+        "paypal",
+        "pix",
+        "promptpay",
+        "sepa_debit",
+        "sofort",
+        "us_bank_account",
+        "wechat_pay",
+        "zip"
+      ],
+      "required": true
+    },
+    "supported_countries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::country.country"
+    }
+  }
+}

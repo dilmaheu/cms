@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_menu_footer_menus",
+  "info": {
+    "displayName": "Footer_menu"
+  },
+  "options": {},
+  "attributes": {
+    "Heading_name": {
+      "type": "string"
+    }
+  }
+}
