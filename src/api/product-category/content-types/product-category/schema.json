@@ -65,7 +65,8 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "richtext",
+      "required": false
     },
     "Relevant_items_title": {
       "pluginOptions": {
@@ -106,7 +107,8 @@
           "localized": true
         }
       },
-      "component": "breadcrumb.breadcrumb"
+      "component": "breadcrumb.breadcrumb",
+      "required": false
     }
   }
 }
