@@ -572,9 +572,10 @@
           "localized": false
         }
       },
-      "type": "biginteger",
+      "type": "integer",
       "required": true,
-      "default": "0"
+      "default": 0,
+      "min": 0
     },
     "Water_temperature": {
       "pluginOptions": {

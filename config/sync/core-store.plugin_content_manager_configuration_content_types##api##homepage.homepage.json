@@ -413,6 +413,34 @@
           "sortable": false
         }
       },
+      "Intro_video": {
+        "edit": {
+          "label": "Intro_video",
+          "description": "Please Upload  at 3:1 ratio & not more than 1920px width",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_video",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Intro_video_sm": {
+        "edit": {
+          "label": "Intro_video_sm",
+          "description": "Please Upload  at 5:6 ratio & not more than 550px width",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Intro_video_sm",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -463,6 +491,16 @@
           },
           {
             "name": "Intro_blob_sm",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Intro_video",
+            "size": 6
+          },
+          {
+            "name": "Intro_video_sm",
             "size": 6
           }
         ],
