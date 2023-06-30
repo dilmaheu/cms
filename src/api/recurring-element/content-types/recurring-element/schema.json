@@ -655,6 +655,14 @@
         }
       },
       "component": "footer-menu.footer-menu"
+    },
+    "text_lang_selector_unavailable": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

@@ -1364,7 +1364,8 @@
       "subject": "api::country.country",
       "properties": {
         "fields": [
-          "name"
+          "name",
+          "code"
         ],
         "locales": [
           "en",
@@ -1409,7 +1410,8 @@
       "subject": "api::country.country",
       "properties": {
         "fields": [
-          "name"
+          "name",
+          "code"
         ],
         "locales": [
           "en",
@@ -1426,7 +1428,8 @@
       "subject": "api::country.country",
       "properties": {
         "fields": [
-          "name"
+          "name",
+          "code"
         ],
         "locales": [
           "en",
@@ -3064,7 +3067,9 @@
           "Block5_visibility",
           "Block6_visibility",
           "Intro_blob",
-          "Intro_blob_sm"
+          "Intro_blob_sm",
+          "Intro_video",
+          "Intro_video_sm"
         ],
         "locales": [
           "en",
@@ -3144,7 +3149,9 @@
           "Block5_visibility",
           "Block6_visibility",
           "Intro_blob",
-          "Intro_blob_sm"
+          "Intro_blob_sm",
+          "Intro_video",
+          "Intro_video_sm"
         ],
         "locales": [
           "en",
@@ -3196,7 +3203,9 @@
           "Block5_visibility",
           "Block6_visibility",
           "Intro_blob",
-          "Intro_blob_sm"
+          "Intro_blob_sm",
+          "Intro_video",
+          "Intro_video_sm"
         ],
         "locales": [
           "en",
@@ -4580,7 +4589,8 @@
           "Footer_menu.Menu.Visibility",
           "Footer_menu.Menu.Title",
           "Footer_menu.Menu.Link",
-          "Footer_menu.Menu.Icon"
+          "Footer_menu.Menu.Icon",
+          "text_lang_selector_unavailable"
         ],
         "locales": [
           "en",
@@ -4699,7 +4709,8 @@
           "Footer_menu.Menu.Visibility",
           "Footer_menu.Menu.Title",
           "Footer_menu.Menu.Link",
-          "Footer_menu.Menu.Icon"
+          "Footer_menu.Menu.Icon",
+          "text_lang_selector_unavailable"
         ],
         "locales": [
           "en",
@@ -4790,7 +4801,8 @@
           "Footer_menu.Menu.Visibility",
           "Footer_menu.Menu.Title",
           "Footer_menu.Menu.Link",
-          "Footer_menu.Menu.Icon"
+          "Footer_menu.Menu.Icon",
+          "text_lang_selector_unavailable"
         ],
         "locales": [
           "en",
