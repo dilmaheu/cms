@@ -720,6 +720,20 @@
           "sortable": false
         }
       },
+      "white_love": {
+        "edit": {
+          "label": "white_love",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "white_love",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -880,6 +894,10 @@
         [
           {
             "name": "green_love",
+            "size": 6
+          },
+          {
+            "name": "white_love",
             "size": 6
           }
         ],

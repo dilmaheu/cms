@@ -528,6 +528,13 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "white_love": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
