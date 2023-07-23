@@ -7,8 +7,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "Region",
-      "defaultSortBy": "Region",
+      "mainField": "name",
+      "defaultSortBy": "name",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,44 +20,44 @@
           "sortable": true
         }
       },
-      "Region": {
+      "name": {
         "edit": {
-          "label": "Region",
+          "label": "name",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Region",
+          "label": "name",
           "searchable": true,
           "sortable": true
         }
       },
-      "Code": {
+      "code": {
         "edit": {
-          "label": "Code",
+          "label": "code",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Code",
+          "label": "code",
           "searchable": true,
           "sortable": true
         }
       },
-      "Flag": {
+      "flag": {
         "edit": {
-          "label": "Flag",
+          "label": "flag",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Flag",
+          "label": "flag",
           "searchable": false,
           "sortable": false
         }
@@ -94,24 +94,24 @@
     "layouts": {
       "list": [
         "id",
-        "Region",
-        "Code",
-        "Flag"
+        "name",
+        "code",
+        "flag"
       ],
       "edit": [
         [
           {
-            "name": "Region",
+            "name": "name",
             "size": 6
           },
           {
-            "name": "Code",
+            "name": "code",
             "size": 6
           }
         ],
         [
           {
-            "name": "Flag",
+            "name": "flag",
             "size": 6
           }
         ]
