@@ -482,6 +482,20 @@
           "sortable": true
         }
       },
+      "Navbar_region_selectors_text": {
+        "edit": {
+          "label": "Navbar_region_selectors_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navbar_region_selectors_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -676,6 +690,12 @@
         [
           {
             "name": "Navbar_close_localization_menu_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Navbar_region_selectors_text",
             "size": 6
           },
           {

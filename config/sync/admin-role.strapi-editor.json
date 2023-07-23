@@ -4587,7 +4587,9 @@
           "Footer_menu.Menu.Title",
           "Footer_menu.Menu.Link",
           "Footer_menu.Menu.Icon",
-          "text_lang_selector_unavailable"
+          "text_lang_selector_unavailable",
+          "text_region",
+          "Nav_menu_region_selector_visibility"
         ],
         "locales": [
           "en",
@@ -4707,7 +4709,9 @@
           "Footer_menu.Menu.Title",
           "Footer_menu.Menu.Link",
           "Footer_menu.Menu.Icon",
-          "text_lang_selector_unavailable"
+          "text_lang_selector_unavailable",
+          "text_region",
+          "Nav_menu_region_selector_visibility"
         ],
         "locales": [
           "en",
@@ -4799,7 +4803,9 @@
           "Footer_menu.Menu.Title",
           "Footer_menu.Menu.Link",
           "Footer_menu.Menu.Icon",
-          "text_lang_selector_unavailable"
+          "text_lang_selector_unavailable",
+          "text_region",
+          "Nav_menu_region_selector_visibility"
         ],
         "locales": [
           "en",

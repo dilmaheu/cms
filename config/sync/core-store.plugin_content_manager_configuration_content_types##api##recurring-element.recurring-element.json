@@ -1000,6 +1000,34 @@
           "sortable": true
         }
       },
+      "text_region": {
+        "edit": {
+          "label": "text_region",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_region",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Nav_menu_region_selector_visibility": {
+        "edit": {
+          "label": "Nav_menu_region_selector_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu_region_selector_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1030,12 +1058,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
-      ],
       "edit": [
         [
           {
@@ -1089,8 +1111,12 @@
             "size": 4
           },
           {
+            "name": "Nav_menu_region_selector_visibility",
+            "size": 4
+          },
+          {
             "name": "Nav_menu_language_selector_visibility",
-            "size": 6
+            "size": 4
           }
         ],
         [
@@ -1100,7 +1126,7 @@
           },
           {
             "name": "Nav_menu_localization_icon",
-            "size": 6
+            "size": 8
           }
         ],
         [
@@ -1110,7 +1136,7 @@
           },
           {
             "name": "Nav_menu_cart_icon",
-            "size": 6
+            "size": 8
           }
         ],
         [
@@ -1120,7 +1146,7 @@
           },
           {
             "name": "Nav_menu_profile_icon",
-            "size": 6
+            "size": 8
           }
         ],
         [
@@ -1131,26 +1157,32 @@
         ],
         [
           {
-            "name": "text_shipping_country",
-            "size": 4
+            "name": "text_region",
+            "size": 6
           },
           {
             "name": "text_language",
-            "size": 4
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_shipping_country",
+            "size": 6
           },
           {
             "name": "text_currency",
-            "size": 4
+            "size": 6
           }
         ],
         [
           {
             "name": "Button_save_text",
-            "size": 4
+            "size": 6
           },
           {
             "name": "Button_go_back_text",
-            "size": 4
+            "size": 6
           }
         ],
         [
@@ -1395,6 +1427,12 @@
             "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
       ]
     }
   },

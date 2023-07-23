@@ -663,6 +663,24 @@
         }
       },
       "type": "string"
+    },
+    "text_region": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "Nav_menu_region_selector_visibility": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "required": true
     }
   }
 }

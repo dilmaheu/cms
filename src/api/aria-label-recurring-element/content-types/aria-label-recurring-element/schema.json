@@ -279,6 +279,14 @@
         }
       },
       "type": "string"
+    },
+    "Navbar_region_selectors_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
