@@ -176,16 +176,16 @@
           "sortable": true
         }
       },
-      "Cooking_part": {
+      "Instructions_part": {
         "edit": {
-          "label": "Cooking_part",
+          "label": "Instructions_part",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Cooking_part",
+          "label": "Instructions_part",
           "searchable": false,
           "sortable": false
         }
@@ -363,12 +363,6 @@
         ],
         [
           {
-            "name": "Cooking_part",
-            "size": 12
-          }
-        ],
-        [
-          {
             "name": "Meta",
             "size": 12
           }
@@ -391,6 +385,12 @@
           {
             "name": "Related_products",
             "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Instructions_part",
+            "size": 12
           }
         ]
       ]

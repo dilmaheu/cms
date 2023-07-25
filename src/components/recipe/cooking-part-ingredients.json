@@ -1,20 +1,20 @@
 {
   "collectionName": "components_cooking_cooking_part_ingredients",
   "info": {
-    "displayName": "cooking_part_ingredients",
+    "displayName": "instructions_part_ingredients",
     "icon": "filter",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Cooking_part_ingredient_name": {
+    "Instructions_part_ingredient_name": {
       "type": "string",
       "required": true
     },
-    "Cooking_part_ingredient_amount": {
+    "Instructions_part_ingredient_amount": {
       "type": "decimal"
     },
-    "Cooking_part_ingredient_measurements_unit": {
+    "Instructions_part_ingredient_measurements_unit": {
       "type": "enumeration",
       "enum": [
         "cup",

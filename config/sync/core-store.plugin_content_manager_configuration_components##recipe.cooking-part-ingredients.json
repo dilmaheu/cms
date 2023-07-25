@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_components::cooking.cooking-part-ingredients",
+  "key": "plugin_content_manager_configuration_components::recipe.cooking-part-ingredients",
   "value": {
-    "uid": "cooking.cooking-part-ingredients",
+    "uid": "recipe.cooking-part-ingredients",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "Cooking_part_ingredient_name",
-      "defaultSortBy": "Cooking_part_ingredient_name",
+      "mainField": "Instructions_part_ingredient_name",
+      "defaultSortBy": "Instructions_part_ingredient_name",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,44 +20,44 @@
           "sortable": false
         }
       },
-      "Cooking_part_ingredient_name": {
+      "Instructions_part_ingredient_name": {
         "edit": {
-          "label": "Cooking_part_ingredient_name",
+          "label": "Instructions_part_ingredient_name",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Cooking_part_ingredient_name",
+          "label": "Instructions_part_ingredient_name",
           "searchable": true,
           "sortable": true
         }
       },
-      "Cooking_part_ingredient_amount": {
+      "Instructions_part_ingredient_amount": {
         "edit": {
-          "label": "Cooking_part_ingredient_amount",
+          "label": "Instructions_part_ingredient_amount",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Cooking_part_ingredient_amount",
+          "label": "Instructions_part_ingredient_amount",
           "searchable": true,
           "sortable": true
         }
       },
-      "Cooking_part_ingredient_measurements_unit": {
+      "Instructions_part_ingredient_measurements_unit": {
         "edit": {
-          "label": "Cooking_part_ingredient_measurements_unit",
+          "label": "Instructions_part_ingredient_measurements_unit",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Cooking_part_ingredient_measurements_unit",
+          "label": "Instructions_part_ingredient_measurements_unit",
           "searchable": true,
           "sortable": true
         }
@@ -66,24 +66,24 @@
     "layouts": {
       "list": [
         "id",
-        "Cooking_part_ingredient_name",
-        "Cooking_part_ingredient_amount",
-        "Cooking_part_ingredient_measurements_unit"
+        "Instructions_part_ingredient_name",
+        "Instructions_part_ingredient_amount",
+        "Instructions_part_ingredient_measurements_unit"
       ],
       "edit": [
         [
           {
-            "name": "Cooking_part_ingredient_name",
+            "name": "Instructions_part_ingredient_name",
             "size": 6
           },
           {
-            "name": "Cooking_part_ingredient_amount",
+            "name": "Instructions_part_ingredient_amount",
             "size": 4
           }
         ],
         [
           {
-            "name": "Cooking_part_ingredient_measurements_unit",
+            "name": "Instructions_part_ingredient_measurements_unit",
             "size": 6
           }
         ]

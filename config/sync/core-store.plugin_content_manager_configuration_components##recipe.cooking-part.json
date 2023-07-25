@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_components::cooking.cooking-part",
+  "key": "plugin_content_manager_configuration_components::recipe.cooking-part",
   "value": {
-    "uid": "cooking.cooking-part",
+    "uid": "recipe.cooking-part",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "Cooking_part_name",
-      "defaultSortBy": "Cooking_part_name",
+      "mainField": "Instructions_part_name",
+      "defaultSortBy": "Instructions_part_name",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,58 +20,58 @@
           "sortable": false
         }
       },
-      "Cooking_part_name": {
+      "Instructions_part_name": {
         "edit": {
-          "label": "Cooking_part_name",
+          "label": "Instructions_part_name",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Cooking_part_name",
+          "label": "Instructions_part_name",
           "searchable": true,
           "sortable": true
         }
       },
-      "Cooking_part_steps": {
+      "Instructions_part_steps": {
         "edit": {
-          "label": "Cooking_part_steps",
+          "label": "Instructions_part_steps",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Cooking_part_steps",
+          "label": "Instructions_part_steps",
           "searchable": false,
           "sortable": false
         }
       },
-      "Cooking_part_step_tip": {
+      "Instructions_part_step_tip": {
         "edit": {
-          "label": "Cooking_part_step_tip",
+          "label": "Instructions_part_step_tip",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Cooking_part_step_tip",
+          "label": "Instructions_part_step_tip",
           "searchable": true,
           "sortable": true
         }
       },
-      "Cooking_part_ingredients": {
+      "Instructions_part_ingredients": {
         "edit": {
-          "label": "Cooking_part_ingredients",
+          "label": "Instructions_part_ingredients",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Cooking_part_ingredients",
+          "label": "Instructions_part_ingredients",
           "searchable": false,
           "sortable": false
         }
@@ -80,32 +80,32 @@
     "layouts": {
       "list": [
         "id",
-        "Cooking_part_name",
-        "Cooking_part_steps",
-        "Cooking_part_step_tip"
+        "Instructions_part_name",
+        "Instructions_part_steps",
+        "Instructions_part_step_tip"
       ],
       "edit": [
         [
           {
-            "name": "Cooking_part_name",
+            "name": "Instructions_part_name",
             "size": 6
           }
         ],
         [
           {
-            "name": "Cooking_part_steps",
+            "name": "Instructions_part_steps",
             "size": 12
           }
         ],
         [
           {
-            "name": "Cooking_part_step_tip",
+            "name": "Instructions_part_step_tip",
             "size": 6
           }
         ],
         [
           {
-            "name": "Cooking_part_ingredients",
+            "name": "Instructions_part_ingredients",
             "size": 12
           }
         ]
