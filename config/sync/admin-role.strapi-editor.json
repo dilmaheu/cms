@@ -3996,6 +3996,13 @@
           "Nutrition.Nutrition_measurements_unit",
           "Nutrition.Nutrition_amount",
           "Nutrition_yield",
+          "Instructions_part.Instructions_part_name",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_blob",
+          "Instructions_part.Instructions_part_step_tip",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_amount",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_measurements_unit",
           "Relevant_recipes",
           "Meta.HTML_Title",
           "Meta.Meta_description",
@@ -4005,10 +4012,7 @@
           "Meta.Canonical_link",
           "Cuisine",
           "Category",
-          "Related_products",
-          "Instructions_part.Instructions_part_name",
-          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name"
+          "Related_products"
         ],
         "locales": [
           "en",
@@ -4060,6 +4064,13 @@
           "Nutrition.Nutrition_measurements_unit",
           "Nutrition.Nutrition_amount",
           "Nutrition_yield",
+          "Instructions_part.Instructions_part_name",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_blob",
+          "Instructions_part.Instructions_part_step_tip",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_amount",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_measurements_unit",
           "Relevant_recipes",
           "Meta.HTML_Title",
           "Meta.Meta_description",
@@ -4069,10 +4080,7 @@
           "Meta.Canonical_link",
           "Cuisine",
           "Category",
-          "Related_products",
-          "Instructions_part.Instructions_part_name",
-          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name"
+          "Related_products"
         ],
         "locales": [
           "en",
@@ -4100,6 +4108,13 @@
           "Nutrition.Nutrition_measurements_unit",
           "Nutrition.Nutrition_amount",
           "Nutrition_yield",
+          "Instructions_part.Instructions_part_name",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_blob",
+          "Instructions_part.Instructions_part_step_tip",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_amount",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_measurements_unit",
           "Relevant_recipes",
           "Meta.HTML_Title",
           "Meta.Meta_description",
@@ -4109,10 +4124,7 @@
           "Meta.Canonical_link",
           "Cuisine",
           "Category",
-          "Related_products",
-          "Instructions_part.Instructions_part_name",
-          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name"
+          "Related_products"
         ],
         "locales": [
           "en",

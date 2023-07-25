@@ -75,7 +75,7 @@
       },
       "type": "string",
       "regex": "^\\d{2}:([0-1]\\d|2[0-3]):([0-5]\\d)$",
-      "required": true
+      "required": false
     },
     "Block_text": {
       "pluginOptions": {
