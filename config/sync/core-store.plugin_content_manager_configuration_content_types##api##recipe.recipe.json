@@ -292,12 +292,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Title",
-        "Intro_blob",
-        "authors"
-      ],
       "edit": [
         [
           {
@@ -363,6 +357,12 @@
         ],
         [
           {
+            "name": "Instructions_part",
+            "size": 12
+          }
+        ],
+        [
+          {
             "name": "Meta",
             "size": 12
           }
@@ -386,13 +386,13 @@
             "name": "Related_products",
             "size": 6
           }
-        ],
-        [
-          {
-            "name": "Instructions_part",
-            "size": 12
-          }
         ]
+      ],
+      "list": [
+        "id",
+        "Title",
+        "Intro_blob",
+        "authors"
       ]
     }
   },

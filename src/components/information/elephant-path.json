@@ -8,11 +8,11 @@
   "attributes": {
     "Title": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "Intro_text": {
       "type": "richtext",
-      "required": false
+      "required": true
     },
     "Blob": {
       "type": "media",

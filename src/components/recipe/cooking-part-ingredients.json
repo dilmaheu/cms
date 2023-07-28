@@ -12,7 +12,8 @@
       "required": true
     },
     "Instructions_part_ingredient_amount": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true
     },
     "Instructions_part_ingredient_measurements_unit": {
       "type": "enumeration",
