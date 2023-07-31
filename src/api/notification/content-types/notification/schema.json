@@ -22,13 +22,16 @@
         "Error",
         "Warning",
         "Info",
-        "Success"
+        "Success",
+        "Default"
       ],
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      }
+      },
+      "required": true,
+      "default": "Default"
     },
     "Title": {
       "type": "string",
@@ -36,7 +39,8 @@
         "i18n": {
           "localized": false
         }
-      }
+      },
+      "required": true
     },
     "Content": {
       "type": "richtext",
@@ -44,7 +48,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "Closing_Enabled": {
       "type": "boolean",
@@ -52,7 +57,18 @@
         "i18n": {
           "localized": false
         }
-      }
+      },
+      "required": true
+    },
+    "top": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "required": true,
+      "default": false
     }
   }
 }

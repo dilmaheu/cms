@@ -91,6 +91,20 @@
           "sortable": false
         }
       },
+      "text_submit_kindness_cause": {
+        "edit": {
+          "label": "text_submit_kindness_cause",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_submit_kindness_cause",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -121,12 +135,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Title",
-        "createdAt",
-        "updatedAt"
-      ],
       "edit": [
         [
           {
@@ -154,10 +162,22 @@
         ],
         [
           {
+            "name": "text_submit_kindness_cause",
+            "size": 6
+          }
+        ],
+        [
+          {
             "name": "Meta",
             "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Title",
+        "createdAt",
+        "updatedAt"
       ]
     }
   },

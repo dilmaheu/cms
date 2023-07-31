@@ -76,6 +76,20 @@
           "sortable": true
         }
       },
+      "top": {
+        "edit": {
+          "label": "top",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "top",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -106,12 +120,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Type",
-        "Title",
-        "Closing_Enabled"
-      ],
       "edit": [
         [
           {
@@ -131,10 +139,20 @@
         ],
         [
           {
+            "name": "top",
+            "size": 6
+          },
+          {
             "name": "Closing_Enabled",
-            "size": 4
+            "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Type",
+        "Title",
+        "Closing_Enabled"
       ]
     }
   },

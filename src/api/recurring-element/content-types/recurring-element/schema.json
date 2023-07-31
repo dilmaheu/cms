@@ -681,6 +681,14 @@
       },
       "type": "boolean",
       "required": true
+    },
+    "text_skip": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

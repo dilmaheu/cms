@@ -806,7 +806,8 @@
           "Meta.URL_slug",
           "Meta.Canonical_link",
           "checkout_step_order",
-          "kindness_causes"
+          "kindness_causes",
+          "text_submit_kindness_cause"
         ],
         "locales": [
           "en",
@@ -854,7 +855,8 @@
           "Meta.URL_slug",
           "Meta.Canonical_link",
           "checkout_step_order",
-          "kindness_causes"
+          "kindness_causes",
+          "text_submit_kindness_cause"
         ],
         "locales": [
           "en",
@@ -878,7 +880,8 @@
           "Meta.URL_slug",
           "Meta.Canonical_link",
           "checkout_step_order",
-          "kindness_causes"
+          "kindness_causes",
+          "text_submit_kindness_cause"
         ],
         "locales": [
           "en",
@@ -3209,7 +3212,8 @@
           "Type",
           "Title",
           "Content",
-          "Closing_Enabled"
+          "Closing_Enabled",
+          "top"
         ],
         "locales": [
           "en",
@@ -3251,7 +3255,8 @@
           "Type",
           "Title",
           "Content",
-          "Closing_Enabled"
+          "Closing_Enabled",
+          "top"
         ],
         "locales": [
           "en",
@@ -3269,7 +3274,8 @@
           "Type",
           "Title",
           "Content",
-          "Closing_Enabled"
+          "Closing_Enabled",
+          "top"
         ],
         "locales": [
           "en",
@@ -4321,7 +4327,8 @@
           "Footer_menu.Menu.Icon",
           "text_lang_selector_unavailable",
           "text_region",
-          "Nav_menu_region_selector_visibility"
+          "Nav_menu_region_selector_visibility",
+          "text_skip"
         ],
         "locales": [
           "en",
@@ -4437,7 +4444,8 @@
           "Footer_menu.Menu.Icon",
           "text_lang_selector_unavailable",
           "text_region",
-          "Nav_menu_region_selector_visibility"
+          "Nav_menu_region_selector_visibility",
+          "text_skip"
         ],
         "locales": [
           "en",
@@ -4529,7 +4537,8 @@
           "Footer_menu.Menu.Icon",
           "text_lang_selector_unavailable",
           "text_region",
-          "Nav_menu_region_selector_visibility"
+          "Nav_menu_region_selector_visibility",
+          "text_skip"
         ],
         "locales": [
           "en",

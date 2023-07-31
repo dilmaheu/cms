@@ -54,6 +54,15 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::kindness-cause.kindness-cause"
+    },
+    "text_submit_kindness_cause": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }

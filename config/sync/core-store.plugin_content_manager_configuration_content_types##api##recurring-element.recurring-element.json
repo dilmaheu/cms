@@ -1028,6 +1028,20 @@
           "sortable": true
         }
       },
+      "text_skip": {
+        "edit": {
+          "label": "text_skip",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_skip",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1058,6 +1072,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
+      ],
       "edit": [
         [
           {
@@ -1426,13 +1446,13 @@
             "name": "text_lang_selector_unavailable",
             "size": 6
           }
+        ],
+        [
+          {
+            "name": "text_skip",
+            "size": 6
+          }
         ]
-      ],
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
       ]
     }
   },
