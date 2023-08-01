@@ -689,6 +689,14 @@
         }
       },
       "type": "string"
+    },
+    "text_select_your_region": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

@@ -1042,6 +1042,20 @@
           "sortable": true
         }
       },
+      "text_select_your_region": {
+        "edit": {
+          "label": "text_select_your_region",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_select_your_region",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1072,12 +1086,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
-      ],
       "edit": [
         [
           {
@@ -1177,11 +1185,17 @@
         ],
         [
           {
+            "name": "text_language",
+            "size": 6
+          }
+        ],
+        [
+          {
             "name": "text_region",
             "size": 6
           },
           {
-            "name": "text_language",
+            "name": "text_select_your_region",
             "size": 6
           }
         ],
@@ -1453,6 +1467,12 @@
             "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
       ]
     }
   },
