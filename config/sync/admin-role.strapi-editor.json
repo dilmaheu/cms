@@ -4223,7 +4223,8 @@
           "text_lang_selector_unavailable",
           "text_region",
           "Nav_menu_region_selector_visibility",
-          "text_skip"
+          "text_skip",
+          "text_select_your_region"
         ],
         "locales": [
           "en",
@@ -4340,7 +4341,8 @@
           "text_lang_selector_unavailable",
           "text_region",
           "Nav_menu_region_selector_visibility",
-          "text_skip"
+          "text_skip",
+          "text_select_your_region"
         ],
         "locales": [
           "en",
@@ -4433,7 +4435,8 @@
           "text_lang_selector_unavailable",
           "text_region",
           "Nav_menu_region_selector_visibility",
-          "text_skip"
+          "text_skip",
+          "text_select_your_region"
         ],
         "locales": [
           "en",
