@@ -95,6 +95,14 @@
           "localized": true
         }
       }
+    },
+    "Shipping": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
