@@ -90,62 +90,6 @@
           "sortable": true
         }
       },
-      "Block2_text": {
-        "edit": {
-          "label": "Block2_text",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block2_text",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "Block2_blob": {
-        "edit": {
-          "label": "Block2_blob",
-          "description": "Please Upload  2:1  Aspect Ratio Image",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block2_blob",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "Block2_button_text": {
-        "edit": {
-          "label": "Block2_button_text",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block2_button_text",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Block2_button_link": {
-        "edit": {
-          "label": "Block2_button_link",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block2_button_link",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "Block3_title": {
         "edit": {
           "label": "Block3_title",
@@ -158,20 +102,6 @@
           "label": "Block3_title",
           "searchable": true,
           "sortable": true
-        }
-      },
-      "Block3_text": {
-        "edit": {
-          "label": "Block3_text",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block3_text",
-          "searchable": false,
-          "sortable": false
         }
       },
       "Estates": {
@@ -229,48 +159,6 @@
           "label": "Block5_text",
           "searchable": false,
           "sortable": false
-        }
-      },
-      "Block5_blob": {
-        "edit": {
-          "label": "Block5_blob",
-          "description": "Please Upload  6:5  Aspect Ratio Image",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block5_blob",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "Block5_button_text": {
-        "edit": {
-          "label": "Block5_button_text",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block5_button_text",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Block5_button_link": {
-        "edit": {
-          "label": "Block5_button_link",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block5_button_link",
-          "searchable": true,
-          "sortable": true
         }
       },
       "Block6_title": {
@@ -427,6 +315,245 @@
           "sortable": false
         }
       },
+      "Block4_text": {
+        "edit": {
+          "label": "Block4_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block4_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block4_button_text": {
+        "edit": {
+          "label": "Block4_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block4_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block4_button_link": {
+        "edit": {
+          "label": "Block4_button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block4_button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block4_blob": {
+        "edit": {
+          "label": "Block4_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block4_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block6_button_text": {
+        "edit": {
+          "label": "Block6_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block6_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block6_button_link": {
+        "edit": {
+          "label": "Block6_button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block6_button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block7_title": {
+        "edit": {
+          "label": "Block7_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block7_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block7_visibility": {
+        "edit": {
+          "label": "Block7_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block7_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block7_button_text": {
+        "edit": {
+          "label": "Block7_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block7_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block7_button_link": {
+        "edit": {
+          "label": "Block7_button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block7_button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block8_visibility": {
+        "edit": {
+          "label": "Block8_visibility",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block8_visibility",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block8_title": {
+        "edit": {
+          "label": "Block8_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block8_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block7_text": {
+        "edit": {
+          "label": "Block7_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block7_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block7_blob": {
+        "edit": {
+          "label": "Block7_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block7_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block6_products": {
+        "edit": {
+          "label": "Block6_products",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "Block6_products",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block_button_text": {
+        "edit": {
+          "label": "Block_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block_button_link": {
+        "edit": {
+          "label": "Block_button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -506,6 +633,16 @@
         ],
         [
           {
+            "name": "Block_button_text",
+            "size": 4
+          },
+          {
+            "name": "Block_button_link",
+            "size": 4
+          }
+        ],
+        [
+          {
             "name": "Block2_visibility",
             "size": 4
           }
@@ -513,28 +650,6 @@
         [
           {
             "name": "Block2_title",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Block2_text",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "Block2_button_text",
-            "size": 4
-          },
-          {
-            "name": "Block2_button_link",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "Block2_blob",
             "size": 6
           }
         ],
@@ -552,18 +667,6 @@
         ],
         [
           {
-            "name": "Block3_text",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "Estates",
-            "size": 6
-          }
-        ],
-        [
-          {
             "name": "Block4_visibility",
             "size": 4
           }
@@ -571,6 +674,28 @@
         [
           {
             "name": "Block4_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block4_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block4_button_text",
+            "size": 4
+          },
+          {
+            "name": "Block4_button_link",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block4_blob",
             "size": 6
           }
         ],
@@ -594,17 +719,7 @@
         ],
         [
           {
-            "name": "Block5_button_text",
-            "size": 4
-          },
-          {
-            "name": "Block5_button_link",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "Block5_blob",
+            "name": "Estates",
             "size": 6
           }
         ],
@@ -617,6 +732,68 @@
         [
           {
             "name": "Block6_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block6_products",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block6_button_text",
+            "size": 4
+          },
+          {
+            "name": "Block6_button_link",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block7_visibility",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block7_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block7_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block7_button_text",
+            "size": 4
+          },
+          {
+            "name": "Block7_button_link",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block7_blob",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block8_visibility",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block8_title",
             "size": 6
           }
         ],

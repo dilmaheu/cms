@@ -63,6 +63,20 @@
           "sortable": true
         }
       },
+      "Icon": {
+        "edit": {
+          "label": "Icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -99,6 +113,12 @@
             "name": "Title",
             "size": 6
           },
+          {
+            "name": "Icon",
+            "size": 6
+          }
+        ],
+        [
           {
             "name": "products",
             "size": 6

@@ -1,14 +1,12 @@
 {
-  "collectionName": "components_menu_navs",
+  "collectionName": "components_nav_menu_sub_menus",
   "info": {
-    "displayName": "menu",
-    "description": ""
+    "displayName": "Sub_menu"
   },
   "options": {},
   "attributes": {
     "Visibility": {
       "type": "boolean",
-      "default": true,
       "required": true
     },
     "Title": {
@@ -18,12 +16,6 @@
     "Link": {
       "type": "string",
       "required": true
-    },
-    "Sub_menu": {
-      "displayName": "Sub_menu",
-      "type": "component",
-      "repeatable": true,
-      "component": "nav-menu.sub-menu"
     }
   }
 }

@@ -163,20 +163,6 @@
           "sortable": false
         }
       },
-      "Breadcrumb": {
-        "edit": {
-          "label": "Breadcrumb",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Breadcrumb",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -207,6 +193,13 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "Title",
+        "Intro_blob",
+        "createdAt",
+        "updatedAt"
+      ],
       "edit": [
         [
           {
@@ -244,12 +237,6 @@
         ],
         [
           {
-            "name": "Breadcrumb",
-            "size": 12
-          }
-        ],
-        [
-          {
             "name": "Relevant_items_title",
             "size": 6
           },
@@ -270,13 +257,6 @@
             "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "Title",
-        "Intro_blob",
-        "createdAt",
-        "updatedAt"
       ]
     }
   },

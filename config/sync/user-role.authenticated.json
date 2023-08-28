@@ -97,6 +97,9 @@
       "action": "api::robots-text.robots-text.find"
     },
     {
+      "action": "api::search-result.search-result.find"
+    },
+    {
       "action": "api::security-text.security-text.find"
     },
     {

@@ -41,7 +41,9 @@
           "Kindness_impact_items",
           "Kindness_items_of_text",
           "Highlighted_post_text",
-          "Navbar_region_selectors_text"
+          "Navbar_region_selectors_text",
+          "Navbar_open_sidebar_sub_menu_text",
+          "Navbar_close_sidebar_sub_menu_text"
         ],
         "locales": [
           "en",
@@ -113,7 +115,9 @@
           "Kindness_impact_items",
           "Kindness_items_of_text",
           "Highlighted_post_text",
-          "Navbar_region_selectors_text"
+          "Navbar_region_selectors_text",
+          "Navbar_open_sidebar_sub_menu_text",
+          "Navbar_close_sidebar_sub_menu_text"
         ],
         "locales": [
           "en",
@@ -161,7 +165,9 @@
           "Kindness_impact_items",
           "Kindness_items_of_text",
           "Highlighted_post_text",
-          "Navbar_region_selectors_text"
+          "Navbar_region_selectors_text",
+          "Navbar_open_sidebar_sub_menu_text",
+          "Navbar_close_sidebar_sub_menu_text"
         ],
         "locales": [
           "en",
@@ -2796,19 +2802,11 @@
           "Intro_text",
           "Block_title",
           "Block2_title",
-          "Block2_text",
-          "Block2_blob",
-          "Block2_button_text",
-          "Block2_button_link",
           "Block3_title",
-          "Block3_text",
           "Estates",
           "Block4_title",
           "Block5_title",
           "Block5_text",
-          "Block5_blob",
-          "Block5_button_text",
-          "Block5_button_link",
           "Block6_title",
           "Impacts.Value",
           "Impacts.Description",
@@ -2822,7 +2820,11 @@
           "Block6_visibility",
           "Intro_blob",
           "Intro_blob_sm",
-          "Intro_video"
+          "Intro_video",
+          "Block4_blob",
+          "Block7_visibility",
+          "Block8_visibility",
+          "Block7_blob"
         ],
         "locales": [
           "en",
@@ -2871,19 +2873,11 @@
           "Intro_text",
           "Block_title",
           "Block2_title",
-          "Block2_text",
-          "Block2_blob",
-          "Block2_button_text",
-          "Block2_button_link",
           "Block3_title",
-          "Block3_text",
           "Estates",
           "Block4_title",
           "Block5_title",
           "Block5_text",
-          "Block5_blob",
-          "Block5_button_text",
-          "Block5_button_link",
           "Block6_title",
           "Impacts.Value",
           "Impacts.Description",
@@ -2897,7 +2891,11 @@
           "Block6_visibility",
           "Intro_blob",
           "Intro_blob_sm",
-          "Intro_video"
+          "Intro_video",
+          "Block4_blob",
+          "Block7_visibility",
+          "Block8_visibility",
+          "Block7_blob"
         ],
         "locales": [
           "en",
@@ -2922,19 +2920,11 @@
           "Intro_text",
           "Block_title",
           "Block2_title",
-          "Block2_text",
-          "Block2_blob",
-          "Block2_button_text",
-          "Block2_button_link",
           "Block3_title",
-          "Block3_text",
           "Estates",
           "Block4_title",
           "Block5_title",
           "Block5_text",
-          "Block5_blob",
-          "Block5_button_text",
-          "Block5_button_link",
           "Block6_title",
           "Impacts.Value",
           "Impacts.Description",
@@ -2948,7 +2938,11 @@
           "Block6_visibility",
           "Intro_blob",
           "Intro_blob_sm",
-          "Intro_video"
+          "Intro_video",
+          "Block4_blob",
+          "Block7_visibility",
+          "Block8_visibility",
+          "Block7_blob"
         ],
         "locales": [
           "en",
@@ -3385,9 +3379,7 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "products",
-          "Breadcrumb.Steps.Name",
-          "Breadcrumb.Steps.Link"
+          "products"
         ],
         "locales": [
           "en",
@@ -3440,9 +3432,7 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "products",
-          "Breadcrumb.Steps.Name",
-          "Breadcrumb.Steps.Link"
+          "products"
         ],
         "locales": [
           "en",
@@ -3471,9 +3461,7 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "products",
-          "Breadcrumb.Steps.Name",
-          "Breadcrumb.Steps.Link"
+          "products"
         ],
         "locales": [
           "en",
@@ -3700,7 +3688,8 @@
         "fields": [
           "Title",
           "products",
-          "rank"
+          "rank",
+          "Icon"
         ],
         "locales": [
           "en",
@@ -3741,7 +3730,8 @@
         "fields": [
           "Title",
           "products",
-          "rank"
+          "rank",
+          "Icon"
         ],
         "locales": [
           "en",
@@ -3758,7 +3748,8 @@
         "fields": [
           "Title",
           "products",
-          "rank"
+          "rank",
+          "Icon"
         ],
         "locales": [
           "en",
@@ -4224,7 +4215,15 @@
           "text_region",
           "Nav_menu_region_selector_visibility",
           "text_skip",
-          "text_select_your_region"
+          "text_select_your_region",
+          "Product_available_other_formats_text",
+          "Product_available_other_formats_text_singular",
+          "Product_stock_available_text",
+          "Product_available_text",
+          "Product_other_formats_text",
+          "Product_other_formats_singular_text",
+          "Product_other_formats_text_sm",
+          "Product_other_formats_singular_text_sm"
         ],
         "locales": [
           "en",
@@ -4342,7 +4341,15 @@
           "text_region",
           "Nav_menu_region_selector_visibility",
           "text_skip",
-          "text_select_your_region"
+          "text_select_your_region",
+          "Product_available_other_formats_text",
+          "Product_available_other_formats_text_singular",
+          "Product_stock_available_text",
+          "Product_available_text",
+          "Product_other_formats_text",
+          "Product_other_formats_singular_text",
+          "Product_other_formats_text_sm",
+          "Product_other_formats_singular_text_sm"
         ],
         "locales": [
           "en",
@@ -4436,7 +4443,15 @@
           "text_region",
           "Nav_menu_region_selector_visibility",
           "text_skip",
-          "text_select_your_region"
+          "text_select_your_region",
+          "Product_available_other_formats_text",
+          "Product_available_other_formats_text_singular",
+          "Product_stock_available_text",
+          "Product_available_text",
+          "Product_other_formats_text",
+          "Product_other_formats_singular_text",
+          "Product_other_formats_text_sm",
+          "Product_other_formats_singular_text_sm"
         ],
         "locales": [
           "en",
@@ -4704,6 +4719,87 @@
           "name",
           "code",
           "flag"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::search-result.search-result",
+      "properties": {
+        "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Title",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::search-result.search-result",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::search-result.search-result",
+      "properties": {
+        "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Title",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::search-result.search-result",
+      "properties": {
+        "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
+          "Title",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link"
         ],
         "locales": [
           "en",

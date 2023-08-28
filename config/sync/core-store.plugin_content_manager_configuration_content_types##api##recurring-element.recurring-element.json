@@ -835,7 +835,7 @@
       "Product_stock_other_formats_text": {
         "edit": {
           "label": "Product_stock_other_formats_text",
-          "description": "add <number> to show the amount available formats/variants",
+          "description": "add <count> to show the amount available formats/variants",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1052,6 +1052,118 @@
         },
         "list": {
           "label": "text_select_your_region",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_available_other_formats_text": {
+        "edit": {
+          "label": "Product_available_other_formats_text",
+          "description": "add <count> to show the amount available formats/variants",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_available_other_formats_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_available_other_formats_text_singular": {
+        "edit": {
+          "label": "Product_available_other_formats_text_singular",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_available_other_formats_text_singular",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_stock_available_text": {
+        "edit": {
+          "label": "Product_stock_available_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_stock_available_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_available_text": {
+        "edit": {
+          "label": "Product_available_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_available_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_other_formats_text": {
+        "edit": {
+          "label": "Product_other_formats_text",
+          "description": "dd <count> to show the amount available formats/variants",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_other_formats_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_other_formats_singular_text": {
+        "edit": {
+          "label": "Product_other_formats_singular_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_other_formats_singular_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_other_formats_text_sm": {
+        "edit": {
+          "label": "Product_other_formats_text_sm",
+          "description": "dd <count> to show the amount available formats/variants",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_other_formats_text_sm",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Product_other_formats_singular_text_sm": {
+        "edit": {
+          "label": "Product_other_formats_singular_text_sm",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Product_other_formats_singular_text_sm",
           "searchable": true,
           "sortable": true
         }
@@ -1438,6 +1550,46 @@
           },
           {
             "name": "Product_stock_other_formats_text_singular",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Product_available_other_formats_text",
+            "size": 6
+          },
+          {
+            "name": "Product_available_other_formats_text_singular",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Product_stock_available_text",
+            "size": 6
+          },
+          {
+            "name": "Product_available_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Product_other_formats_text",
+            "size": 6
+          },
+          {
+            "name": "Product_other_formats_singular_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Product_other_formats_text_sm",
+            "size": 6
+          },
+          {
+            "name": "Product_other_formats_singular_text_sm",
             "size": 6
           }
         ],

@@ -287,6 +287,24 @@
         }
       },
       "type": "string"
+    },
+    "Navbar_open_sidebar_sub_menu_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false
+    },
+    "Navbar_close_sidebar_sub_menu_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false
     }
   }
 }

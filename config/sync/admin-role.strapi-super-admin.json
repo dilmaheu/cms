@@ -41,7 +41,9 @@
           "Kindness_impact_items",
           "Kindness_items_of_text",
           "Highlighted_post_text",
-          "Navbar_region_selectors_text"
+          "Navbar_region_selectors_text",
+          "Navbar_open_sidebar_sub_menu_text",
+          "Navbar_close_sidebar_sub_menu_text"
         ],
         "locales": [
           "en",
@@ -113,7 +115,9 @@
           "Kindness_impact_items",
           "Kindness_items_of_text",
           "Highlighted_post_text",
-          "Navbar_region_selectors_text"
+          "Navbar_region_selectors_text",
+          "Navbar_open_sidebar_sub_menu_text",
+          "Navbar_close_sidebar_sub_menu_text"
         ],
         "locales": [
           "en",
@@ -161,7 +165,9 @@
           "Kindness_impact_items",
           "Kindness_items_of_text",
           "Highlighted_post_text",
-          "Navbar_region_selectors_text"
+          "Navbar_region_selectors_text",
+          "Navbar_open_sidebar_sub_menu_text",
+          "Navbar_close_sidebar_sub_menu_text"
         ],
         "locales": [
           "en",
@@ -2799,19 +2805,11 @@
           "Intro_text",
           "Block_title",
           "Block2_title",
-          "Block2_text",
-          "Block2_blob",
-          "Block2_button_text",
-          "Block2_button_link",
           "Block3_title",
-          "Block3_text",
           "Estates",
           "Block4_title",
           "Block5_title",
           "Block5_text",
-          "Block5_blob",
-          "Block5_button_text",
-          "Block5_button_link",
           "Block6_title",
           "Impacts.Value",
           "Impacts.Description",
@@ -2825,7 +2823,24 @@
           "Block6_visibility",
           "Intro_blob",
           "Intro_blob_sm",
-          "Intro_video"
+          "Intro_video",
+          "Block4_text",
+          "Block4_button_text",
+          "Block4_button_link",
+          "Block4_blob",
+          "Block6_button_text",
+          "Block6_button_link",
+          "Block7_title",
+          "Block7_visibility",
+          "Block7_button_text",
+          "Block7_button_link",
+          "Block8_visibility",
+          "Block8_title",
+          "Block7_text",
+          "Block7_blob",
+          "Block6_products",
+          "Block_button_text",
+          "Block_button_link"
         ],
         "locales": [
           "en",
@@ -2874,19 +2889,11 @@
           "Intro_text",
           "Block_title",
           "Block2_title",
-          "Block2_text",
-          "Block2_blob",
-          "Block2_button_text",
-          "Block2_button_link",
           "Block3_title",
-          "Block3_text",
           "Estates",
           "Block4_title",
           "Block5_title",
           "Block5_text",
-          "Block5_blob",
-          "Block5_button_text",
-          "Block5_button_link",
           "Block6_title",
           "Impacts.Value",
           "Impacts.Description",
@@ -2900,7 +2907,24 @@
           "Block6_visibility",
           "Intro_blob",
           "Intro_blob_sm",
-          "Intro_video"
+          "Intro_video",
+          "Block4_text",
+          "Block4_button_text",
+          "Block4_button_link",
+          "Block4_blob",
+          "Block6_button_text",
+          "Block6_button_link",
+          "Block7_title",
+          "Block7_visibility",
+          "Block7_button_text",
+          "Block7_button_link",
+          "Block8_visibility",
+          "Block8_title",
+          "Block7_text",
+          "Block7_blob",
+          "Block6_products",
+          "Block_button_text",
+          "Block_button_link"
         ],
         "locales": [
           "en",
@@ -2925,19 +2949,11 @@
           "Intro_text",
           "Block_title",
           "Block2_title",
-          "Block2_text",
-          "Block2_blob",
-          "Block2_button_text",
-          "Block2_button_link",
           "Block3_title",
-          "Block3_text",
           "Estates",
           "Block4_title",
           "Block5_title",
           "Block5_text",
-          "Block5_blob",
-          "Block5_button_text",
-          "Block5_button_link",
           "Block6_title",
           "Impacts.Value",
           "Impacts.Description",
@@ -2951,7 +2967,24 @@
           "Block6_visibility",
           "Intro_blob",
           "Intro_blob_sm",
-          "Intro_video"
+          "Intro_video",
+          "Block4_text",
+          "Block4_button_text",
+          "Block4_button_link",
+          "Block4_blob",
+          "Block6_button_text",
+          "Block6_button_link",
+          "Block7_title",
+          "Block7_visibility",
+          "Block7_button_text",
+          "Block7_button_link",
+          "Block8_visibility",
+          "Block8_title",
+          "Block7_text",
+          "Block7_blob",
+          "Block6_products",
+          "Block_button_text",
+          "Block_button_link"
         ],
         "locales": [
           "en",
@@ -3493,9 +3526,7 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "products",
-          "Breadcrumb.Steps.Name",
-          "Breadcrumb.Steps.Link"
+          "products"
         ],
         "locales": [
           "en",
@@ -3548,9 +3579,7 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "products",
-          "Breadcrumb.Steps.Name",
-          "Breadcrumb.Steps.Link"
+          "products"
         ],
         "locales": [
           "en",
@@ -3579,358 +3608,1332 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
+          "products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product-info.product-info",
+      "properties": {
+        "fields": [
+          "Product_info_title",
+          "Product_info_icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product-info.product-info",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product-info.product-info",
+      "properties": {
+        "fields": [
+          "Product_info_title",
+          "Product_info_icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product-info.product-info",
+      "properties": {
+        "fields": [
+          "Product_info_title",
+          "Product_info_icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product-size.product-size",
+      "properties": {
+        "fields": [
+          "Title",
           "products",
+          "rank"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product-size.product-size",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::product-size.product-size",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product-size.product-size",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product-size.product-size",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product-sub-category.product-sub-category",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product-sub-category.product-sub-category",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::product-sub-category.product-sub-category",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product-sub-category.product-sub-category",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product-sub-category.product-sub-category",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product-variant.product-variant",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank",
+          "Icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product-variant.product-variant",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::product-variant.product-variant",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product-variant.product-variant",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank",
+          "Icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product-variant.product-variant",
+      "properties": {
+        "fields": [
+          "Title",
+          "products",
+          "rank",
+          "Icon"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::product.product",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Block_text",
+          "Price",
+          "Currency",
+          "SKU",
+          "GTIN_Barcode",
+          "Weight",
+          "Weight_unit",
+          "Weight_tea",
+          "Weight_tea_unit",
+          "estate_name",
+          "related_blogs",
+          "related_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Price_breakdown_text",
+          "Price_breakdown.Item_name",
+          "Price_breakdown.Spent_amount",
+          "Price_breakdown.Currency",
+          "Price_breakdown.Item_color_code",
+          "Transparency_text",
+          "Transparency.Transparency_item_title",
+          "Transparency.Transparency_item_text",
+          "Transparency.Transparency_item_icon",
+          "Impact_text",
+          "Impact.Impact_item_title",
+          "Impact.Impact_item_text",
+          "Impact.Impact_item_icon",
+          "product_infos",
+          "related_how_tos",
+          "related_products",
+          "brand",
+          "Stock_out",
+          "In_stock_date",
+          "Stock_amount",
+          "Water_temperature",
+          "Brewing_time",
+          "variant",
+          "category",
+          "sub_category",
+          "size",
+          "Water_temperature_unit",
+          "Brewing_time_unit",
+          "recipes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::product.product",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::product.product",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::product.product",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Block_text",
+          "Price",
+          "Currency",
+          "SKU",
+          "GTIN_Barcode",
+          "Weight",
+          "Weight_unit",
+          "Weight_tea",
+          "Weight_tea_unit",
+          "estate_name",
+          "related_blogs",
+          "related_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Price_breakdown_text",
+          "Price_breakdown.Item_name",
+          "Price_breakdown.Spent_amount",
+          "Price_breakdown.Currency",
+          "Price_breakdown.Item_color_code",
+          "Transparency_text",
+          "Transparency.Transparency_item_title",
+          "Transparency.Transparency_item_text",
+          "Transparency.Transparency_item_icon",
+          "Impact_text",
+          "Impact.Impact_item_title",
+          "Impact.Impact_item_text",
+          "Impact.Impact_item_icon",
+          "product_infos",
+          "related_how_tos",
+          "related_products",
+          "brand",
+          "Stock_out",
+          "In_stock_date",
+          "Stock_amount",
+          "Water_temperature",
+          "Brewing_time",
+          "variant",
+          "category",
+          "sub_category",
+          "size",
+          "Water_temperature_unit",
+          "Brewing_time_unit",
+          "recipes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product.product",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Block_text",
+          "Price",
+          "Currency",
+          "SKU",
+          "GTIN_Barcode",
+          "Weight",
+          "Weight_unit",
+          "Weight_tea",
+          "Weight_tea_unit",
+          "estate_name",
+          "related_blogs",
+          "related_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Price_breakdown_text",
+          "Price_breakdown.Item_name",
+          "Price_breakdown.Spent_amount",
+          "Price_breakdown.Currency",
+          "Price_breakdown.Item_color_code",
+          "Transparency_text",
+          "Transparency.Transparency_item_title",
+          "Transparency.Transparency_item_text",
+          "Transparency.Transparency_item_icon",
+          "Impact_text",
+          "Impact.Impact_item_title",
+          "Impact.Impact_item_text",
+          "Impact.Impact_item_icon",
+          "product_infos",
+          "related_how_tos",
+          "related_products",
+          "brand",
+          "Stock_out",
+          "In_stock_date",
+          "Stock_amount",
+          "Water_temperature",
+          "Brewing_time",
+          "variant",
+          "category",
+          "sub_category",
+          "size",
+          "Water_temperature_unit",
+          "Brewing_time_unit",
+          "recipes"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::recipe.recipe",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "Time_preparation",
+          "Time_cooking",
+          "Block_text",
+          "Recipe_variations",
+          "Time_text",
+          "Nutrition.Nutrition_name",
+          "Nutrition.Nutrition_measurements_unit",
+          "Nutrition.Nutrition_amount",
+          "Nutrition_yield",
+          "Instructions_part.Instructions_part_name",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_blob",
+          "Instructions_part.Instructions_part_step_tip",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_amount",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_measurements_unit",
+          "Relevant_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Cuisine",
+          "Category",
+          "Related_products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::recipe.recipe",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::recipe.recipe",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::recipe.recipe",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "Time_preparation",
+          "Time_cooking",
+          "Block_text",
+          "Recipe_variations",
+          "Time_text",
+          "Nutrition.Nutrition_name",
+          "Nutrition.Nutrition_measurements_unit",
+          "Nutrition.Nutrition_amount",
+          "Nutrition_yield",
+          "Instructions_part.Instructions_part_name",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_blob",
+          "Instructions_part.Instructions_part_step_tip",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_amount",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_measurements_unit",
+          "Relevant_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Cuisine",
+          "Category",
+          "Related_products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::recipe.recipe",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "authors",
+          "Time_preparation",
+          "Time_cooking",
+          "Block_text",
+          "Recipe_variations",
+          "Time_text",
+          "Nutrition.Nutrition_name",
+          "Nutrition.Nutrition_measurements_unit",
+          "Nutrition.Nutrition_amount",
+          "Nutrition_yield",
+          "Instructions_part.Instructions_part_name",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
+          "Instructions_part.Instructions_part_steps.Instructions_part_steps_blob",
+          "Instructions_part.Instructions_part_step_tip",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_amount",
+          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_measurements_unit",
+          "Relevant_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Cuisine",
+          "Category",
+          "Related_products"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "fields": [
+          "Logo",
+          "Logo_tagline",
+          "Footer_text",
+          "Favicon",
+          "Company_name",
+          "Company_address",
+          "Company_email",
+          "text_chapter",
+          "text_practices_to_follow",
+          "text_practices",
+          "text_explore_the_world_of_kindness",
+          "OpenGraph_default",
+          "recipe_prep",
+          "recipe_cook",
+          "recipe_total",
+          "recipe_jump_to_recipe",
+          "recipe_similar",
+          "recipe_recipe",
+          "recipe_minutes",
+          "recipe_nutrition_information",
+          "recipe_yield",
+          "recipe_amount_per_serving",
+          "recipe_ingredients",
+          "recipe_serving_size",
+          "recipe_cooking_instructions",
+          "recipe_tips",
+          "recipe_discover",
+          "recipe_minute",
+          "recipe_hour",
+          "recipe_hours",
+          "recipe_day",
+          "recipe_days",
+          "estate_location",
+          "product_kindness_impact",
+          "product_add",
+          "product_add_cart",
+          "product_add_cart_for",
+          "product_made_love_from",
+          "product_size",
+          "product_quantity",
+          "product_each_penny_you_spend",
+          "product_check_where_going",
+          "product_price_breakdown_title",
+          "product_transparency_title",
+          "product_impact_title",
+          "text_content",
+          "Item_stock_text",
+          "Product_sold_out_text",
+          "Nav_menu.Visibility",
+          "Nav_menu.Title",
+          "Nav_menu.Link",
+          "Nav_menu.Sub_menu.Visibility",
+          "Nav_menu.Sub_menu.Title",
+          "Nav_menu.Sub_menu.Link",
+          "Nav_menu_search_visibility",
+          "Nav_menu_language_selector_visibility",
+          "Nav_menu_cart_visibility",
+          "Nav_menu_cart_icon",
+          "Nav_menu_profile_visibility",
+          "Nav_menu_profile_icon",
+          "text_all_tea_variants",
+          "text_all_tea_sizes",
+          "Recipes_related_products_title_text",
+          "Product_stock_other_formats_text",
+          "Product_stock_other_formats_text_singular",
+          "Nav_menu_localization_visibility",
+          "Nav_menu_localization_icon",
+          "text_shipping_country",
+          "text_language",
+          "text_currency",
+          "Button_save_text",
+          "Button_go_back_text",
+          "search_text_no_result_found",
+          "Footer_menu.Heading_name",
+          "Footer_menu.Menu.Visibility",
+          "Footer_menu.Menu.Title",
+          "Footer_menu.Menu.Link",
+          "Footer_menu.Menu.Icon",
+          "text_lang_selector_unavailable",
+          "text_region",
+          "Nav_menu_region_selector_visibility",
+          "text_skip",
+          "text_select_your_region",
+          "Product_available_other_formats_text",
+          "Product_available_other_formats_text_singular",
+          "Product_stock_available_text",
+          "Product_available_text",
+          "Product_other_formats_text",
+          "Product_other_formats_singular_text",
+          "Product_other_formats_text_sm",
+          "Product_other_formats_singular_text_sm"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "fields": [
+          "Logo",
+          "Logo_tagline",
+          "Footer_text",
+          "Favicon",
+          "Company_name",
+          "Company_address",
+          "Company_email",
+          "text_chapter",
+          "text_practices_to_follow",
+          "text_practices",
+          "text_explore_the_world_of_kindness",
+          "OpenGraph_default",
+          "recipe_prep",
+          "recipe_cook",
+          "recipe_total",
+          "recipe_jump_to_recipe",
+          "recipe_similar",
+          "recipe_recipe",
+          "recipe_minutes",
+          "recipe_nutrition_information",
+          "recipe_yield",
+          "recipe_amount_per_serving",
+          "recipe_ingredients",
+          "recipe_serving_size",
+          "recipe_cooking_instructions",
+          "recipe_tips",
+          "recipe_discover",
+          "recipe_minute",
+          "recipe_hour",
+          "recipe_hours",
+          "recipe_day",
+          "recipe_days",
+          "estate_location",
+          "product_kindness_impact",
+          "product_add",
+          "product_add_cart",
+          "product_add_cart_for",
+          "product_made_love_from",
+          "product_size",
+          "product_quantity",
+          "product_each_penny_you_spend",
+          "product_check_where_going",
+          "product_price_breakdown_title",
+          "product_transparency_title",
+          "product_impact_title",
+          "text_content",
+          "Item_stock_text",
+          "Product_sold_out_text",
+          "Nav_menu.Visibility",
+          "Nav_menu.Title",
+          "Nav_menu.Link",
+          "Nav_menu.Sub_menu.Visibility",
+          "Nav_menu.Sub_menu.Title",
+          "Nav_menu.Sub_menu.Link",
+          "Nav_menu_search_visibility",
+          "Nav_menu_language_selector_visibility",
+          "Nav_menu_cart_visibility",
+          "Nav_menu_cart_icon",
+          "Nav_menu_profile_visibility",
+          "Nav_menu_profile_icon",
+          "text_all_tea_variants",
+          "text_all_tea_sizes",
+          "Recipes_related_products_title_text",
+          "Product_stock_other_formats_text",
+          "Product_stock_other_formats_text_singular",
+          "Nav_menu_localization_visibility",
+          "Nav_menu_localization_icon",
+          "text_shipping_country",
+          "text_language",
+          "text_currency",
+          "Button_save_text",
+          "Button_go_back_text",
+          "search_text_no_result_found",
+          "Footer_menu.Heading_name",
+          "Footer_menu.Menu.Visibility",
+          "Footer_menu.Menu.Title",
+          "Footer_menu.Menu.Link",
+          "Footer_menu.Menu.Icon",
+          "text_lang_selector_unavailable",
+          "text_region",
+          "Nav_menu_region_selector_visibility",
+          "text_skip",
+          "text_select_your_region",
+          "Product_available_other_formats_text",
+          "Product_available_other_formats_text_singular",
+          "Product_stock_available_text",
+          "Product_available_text",
+          "Product_other_formats_text",
+          "Product_other_formats_singular_text",
+          "Product_other_formats_text_sm",
+          "Product_other_formats_singular_text_sm"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "fields": [
+          "Logo",
+          "Logo_tagline",
+          "Footer_text",
+          "Favicon",
+          "Company_name",
+          "Company_address",
+          "Company_email",
+          "text_chapter",
+          "text_practices_to_follow",
+          "text_practices",
+          "text_explore_the_world_of_kindness",
+          "OpenGraph_default",
+          "recipe_prep",
+          "recipe_cook",
+          "recipe_total",
+          "recipe_jump_to_recipe",
+          "recipe_similar",
+          "recipe_recipe",
+          "recipe_minutes",
+          "recipe_nutrition_information",
+          "recipe_yield",
+          "recipe_amount_per_serving",
+          "recipe_ingredients",
+          "recipe_serving_size",
+          "recipe_cooking_instructions",
+          "recipe_tips",
+          "recipe_discover",
+          "recipe_minute",
+          "recipe_hour",
+          "recipe_hours",
+          "recipe_day",
+          "recipe_days",
+          "estate_location",
+          "product_kindness_impact",
+          "product_add",
+          "product_add_cart",
+          "product_add_cart_for",
+          "product_made_love_from",
+          "product_size",
+          "product_quantity",
+          "product_each_penny_you_spend",
+          "product_check_where_going",
+          "product_price_breakdown_title",
+          "product_transparency_title",
+          "product_impact_title",
+          "text_content",
+          "Item_stock_text",
+          "Product_sold_out_text",
+          "Nav_menu.Visibility",
+          "Nav_menu.Title",
+          "Nav_menu.Link",
+          "Nav_menu.Sub_menu.Visibility",
+          "Nav_menu.Sub_menu.Title",
+          "Nav_menu.Sub_menu.Link",
+          "Nav_menu_search_visibility",
+          "Nav_menu_language_selector_visibility",
+          "Nav_menu_cart_visibility",
+          "Nav_menu_cart_icon",
+          "Nav_menu_profile_visibility",
+          "Nav_menu_profile_icon",
+          "text_all_tea_variants",
+          "text_all_tea_sizes",
+          "Recipes_related_products_title_text",
+          "Product_stock_other_formats_text",
+          "Product_stock_other_formats_text_singular",
+          "Nav_menu_localization_visibility",
+          "Nav_menu_localization_icon",
+          "text_shipping_country",
+          "text_language",
+          "text_currency",
+          "Button_save_text",
+          "Button_go_back_text",
+          "search_text_no_result_found",
+          "Footer_menu.Heading_name",
+          "Footer_menu.Menu.Visibility",
+          "Footer_menu.Menu.Title",
+          "Footer_menu.Menu.Link",
+          "Footer_menu.Menu.Icon",
+          "text_lang_selector_unavailable",
+          "text_region",
+          "Nav_menu_region_selector_visibility",
+          "text_skip",
+          "text_select_your_region",
+          "Product_available_other_formats_text",
+          "Product_available_other_formats_text_singular",
+          "Product_stock_available_text",
+          "Product_available_text",
+          "Product_other_formats_text",
+          "Product_other_formats_singular_text",
+          "Product_other_formats_text_sm",
+          "Product_other_formats_singular_text_sm"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::recurring-image.recurring-image",
+      "properties": {
+        "fields": [
+          "hero_background",
+          "crowdfunding_info_section_background",
+          "footer_background",
+          "left_post_leaf",
+          "footer_leaf_sm",
+          "logo",
+          "error_notification",
+          "warning_notification",
+          "info_notification",
+          "success_notification",
+          "white_love_ribbon",
+          "green_love_ribbon",
+          "love_gift",
+          "white_cup",
+          "green_cup",
+          "light_green_cup",
+          "green_book",
+          "favicon",
+          "white_right_arrow",
+          "green_right_arrow",
+          "white_down_arrow",
+          "green_down_arrow",
+          "footer_leaf",
+          "green_leaf",
+          "white_clock",
+          "left_quote",
+          "green_bulb",
+          "white_flower",
+          "light_green_flower",
+          "light_green_clock",
+          "green_product_cart",
+          "green_product_cart_plus",
+          "shipping_hero_background",
+          "green_love",
+          "green_leaf_icon",
+          "green_no_icon",
+          "green_package_icon",
+          "white_product_cart",
+          "hero_background_sm",
+          "footer_background_sm",
+          "checkout_header_background",
+          "checkout_header_background_sm",
+          "checkout_pre_post_background",
+          "checkout_pre_post_background_sm",
+          "nav_background",
+          "sidebar_background",
+          "tick",
+          "user_account_nav_background",
+          "user_account_nav_background_sm",
+          "nav_background_sm",
+          "white_love"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::recurring-image.recurring-image",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::recurring-image.recurring-image",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::recurring-image.recurring-image",
+      "properties": {
+        "fields": [
+          "hero_background",
+          "crowdfunding_info_section_background",
+          "footer_background",
+          "left_post_leaf",
+          "footer_leaf_sm",
+          "logo",
+          "error_notification",
+          "warning_notification",
+          "info_notification",
+          "success_notification",
+          "white_love_ribbon",
+          "green_love_ribbon",
+          "love_gift",
+          "white_cup",
+          "green_cup",
+          "light_green_cup",
+          "green_book",
+          "favicon",
+          "white_right_arrow",
+          "green_right_arrow",
+          "white_down_arrow",
+          "green_down_arrow",
+          "footer_leaf",
+          "green_leaf",
+          "white_clock",
+          "left_quote",
+          "green_bulb",
+          "white_flower",
+          "light_green_flower",
+          "light_green_clock",
+          "green_product_cart",
+          "green_product_cart_plus",
+          "shipping_hero_background",
+          "green_love",
+          "green_leaf_icon",
+          "green_no_icon",
+          "green_package_icon",
+          "white_product_cart",
+          "hero_background_sm",
+          "footer_background_sm",
+          "checkout_header_background",
+          "checkout_header_background_sm",
+          "checkout_pre_post_background",
+          "checkout_pre_post_background_sm",
+          "nav_background",
+          "sidebar_background",
+          "tick",
+          "user_account_nav_background",
+          "user_account_nav_background_sm",
+          "nav_background_sm",
+          "white_love"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::recurring-image.recurring-image",
+      "properties": {
+        "fields": [
+          "hero_background",
+          "crowdfunding_info_section_background",
+          "footer_background",
+          "left_post_leaf",
+          "footer_leaf_sm",
+          "logo",
+          "error_notification",
+          "warning_notification",
+          "info_notification",
+          "success_notification",
+          "white_love_ribbon",
+          "green_love_ribbon",
+          "love_gift",
+          "white_cup",
+          "green_cup",
+          "light_green_cup",
+          "green_book",
+          "favicon",
+          "white_right_arrow",
+          "green_right_arrow",
+          "white_down_arrow",
+          "green_down_arrow",
+          "footer_leaf",
+          "green_leaf",
+          "white_clock",
+          "left_quote",
+          "green_bulb",
+          "white_flower",
+          "light_green_flower",
+          "light_green_clock",
+          "green_product_cart",
+          "green_product_cart_plus",
+          "shipping_hero_background",
+          "green_love",
+          "green_leaf_icon",
+          "green_no_icon",
+          "green_package_icon",
+          "white_product_cart",
+          "hero_background_sm",
+          "footer_background_sm",
+          "checkout_header_background",
+          "checkout_header_background_sm",
+          "checkout_pre_post_background",
+          "checkout_pre_post_background_sm",
+          "nav_background",
+          "sidebar_background",
+          "tick",
+          "user_account_nav_background",
+          "user_account_nav_background_sm",
+          "nav_background_sm",
+          "white_love"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::region.region",
+      "properties": {
+        "fields": [
+          "name",
+          "code",
+          "flag"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::region.region",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::region.region",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::region.region",
+      "properties": {
+        "fields": [
+          "name",
+          "code",
+          "flag"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::region.region",
+      "properties": {
+        "fields": [
+          "name",
+          "code",
+          "flag"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::robots-text.robots-text",
+      "properties": {
+        "fields": [
+          "Text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::robots-text.robots-text",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::robots-text.robots-text",
+      "properties": {
+        "fields": [
+          "Text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::robots-text.robots-text",
+      "properties": {
+        "fields": [
+          "Text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::search-result.search-result",
+      "properties": {
+        "fields": [
           "Breadcrumb.Steps.Name",
-          "Breadcrumb.Steps.Link"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::product-info.product-info",
-      "properties": {
-        "fields": [
-          "Product_info_title",
-          "Product_info_icon"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::product-info.product-info",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::product-info.product-info",
-      "properties": {
-        "fields": [
-          "Product_info_title",
-          "Product_info_icon"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::product-info.product-info",
-      "properties": {
-        "fields": [
-          "Product_info_title",
-          "Product_info_icon"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::product-size.product-size",
-      "properties": {
-        "fields": [
+          "Breadcrumb.Steps.Link",
           "Title",
-          "products",
-          "rank"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::product-size.product-size",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::product-size.product-size",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::product-size.product-size",
-      "properties": {
-        "fields": [
-          "Title",
-          "products",
-          "rank"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::product-size.product-size",
-      "properties": {
-        "fields": [
-          "Title",
-          "products",
-          "rank"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::product-sub-category.product-sub-category",
-      "properties": {
-        "fields": [
-          "Title",
-          "Intro_text",
-          "products"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::product-sub-category.product-sub-category",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::product-sub-category.product-sub-category",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::product-sub-category.product-sub-category",
-      "properties": {
-        "fields": [
-          "Title",
-          "Intro_text",
-          "products"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::product-sub-category.product-sub-category",
-      "properties": {
-        "fields": [
-          "Title",
-          "Intro_text",
-          "products"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::product-variant.product-variant",
-      "properties": {
-        "fields": [
-          "Title",
-          "products",
-          "rank"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::product-variant.product-variant",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::product-variant.product-variant",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::product-variant.product-variant",
-      "properties": {
-        "fields": [
-          "Title",
-          "products",
-          "rank"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::product-variant.product-variant",
-      "properties": {
-        "fields": [
-          "Title",
-          "products",
-          "rank"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::product.product",
-      "properties": {
-        "fields": [
-          "Title",
-          "Intro_text",
-          "Intro_blob",
-          "Block_text",
-          "Price",
-          "Currency",
-          "SKU",
-          "GTIN_Barcode",
-          "Weight",
-          "Weight_unit",
-          "Weight_tea",
-          "Weight_tea_unit",
-          "estate_name",
-          "related_blogs",
-          "related_recipes",
           "Meta.HTML_Title",
           "Meta.Meta_description",
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "Price_breakdown_text",
-          "Price_breakdown.Item_name",
-          "Price_breakdown.Spent_amount",
-          "Price_breakdown.Currency",
-          "Price_breakdown.Item_color_code",
-          "Transparency_text",
-          "Transparency.Transparency_item_title",
-          "Transparency.Transparency_item_text",
-          "Transparency.Transparency_item_icon",
-          "Impact_text",
-          "Impact.Impact_item_title",
-          "Impact.Impact_item_text",
-          "Impact.Impact_item_icon",
-          "product_infos",
-          "related_how_tos",
-          "related_products",
-          "brand",
-          "Stock_out",
-          "In_stock_date",
-          "Stock_amount",
-          "Water_temperature",
-          "Brewing_time",
-          "variant",
-          "category",
-          "sub_category",
-          "size",
-          "Water_temperature_unit",
-          "Brewing_time_unit",
-          "recipes"
+          "Meta.Canonical_link"
         ],
         "locales": [
           "en",
@@ -3942,19 +4945,7 @@
     },
     {
       "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::product.product",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::product.product",
+      "subject": "api::search-result.search-result",
       "properties": {
         "locales": [
           "en",
@@ -3966,59 +4957,18 @@
     },
     {
       "action": "plugin::content-manager.explorer.read",
-      "subject": "api::product.product",
+      "subject": "api::search-result.search-result",
       "properties": {
         "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
           "Title",
-          "Intro_text",
-          "Intro_blob",
-          "Block_text",
-          "Price",
-          "Currency",
-          "SKU",
-          "GTIN_Barcode",
-          "Weight",
-          "Weight_unit",
-          "Weight_tea",
-          "Weight_tea_unit",
-          "estate_name",
-          "related_blogs",
-          "related_recipes",
           "Meta.HTML_Title",
           "Meta.Meta_description",
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "Price_breakdown_text",
-          "Price_breakdown.Item_name",
-          "Price_breakdown.Spent_amount",
-          "Price_breakdown.Currency",
-          "Price_breakdown.Item_color_code",
-          "Transparency_text",
-          "Transparency.Transparency_item_title",
-          "Transparency.Transparency_item_text",
-          "Transparency.Transparency_item_icon",
-          "Impact_text",
-          "Impact.Impact_item_title",
-          "Impact.Impact_item_text",
-          "Impact.Impact_item_icon",
-          "product_infos",
-          "related_how_tos",
-          "related_products",
-          "brand",
-          "Stock_out",
-          "In_stock_date",
-          "Stock_amount",
-          "Water_temperature",
-          "Brewing_time",
-          "variant",
-          "category",
-          "sub_category",
-          "size",
-          "Water_temperature_unit",
-          "Brewing_time_unit",
-          "recipes"
+          "Meta.Canonical_link"
         ],
         "locales": [
           "en",
@@ -4030,829 +4980,23 @@
     },
     {
       "action": "plugin::content-manager.explorer.update",
-      "subject": "api::product.product",
+      "subject": "api::search-result.search-result",
       "properties": {
         "fields": [
+          "Breadcrumb.Steps.Name",
+          "Breadcrumb.Steps.Link",
           "Title",
-          "Intro_text",
-          "Intro_blob",
-          "Block_text",
-          "Price",
-          "Currency",
-          "SKU",
-          "GTIN_Barcode",
-          "Weight",
-          "Weight_unit",
-          "Weight_tea",
-          "Weight_tea_unit",
-          "estate_name",
-          "related_blogs",
-          "related_recipes",
           "Meta.HTML_Title",
           "Meta.Meta_description",
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "Price_breakdown_text",
-          "Price_breakdown.Item_name",
-          "Price_breakdown.Spent_amount",
-          "Price_breakdown.Currency",
-          "Price_breakdown.Item_color_code",
-          "Transparency_text",
-          "Transparency.Transparency_item_title",
-          "Transparency.Transparency_item_text",
-          "Transparency.Transparency_item_icon",
-          "Impact_text",
-          "Impact.Impact_item_title",
-          "Impact.Impact_item_text",
-          "Impact.Impact_item_icon",
-          "product_infos",
-          "related_how_tos",
-          "related_products",
-          "brand",
-          "Stock_out",
-          "In_stock_date",
-          "Stock_amount",
-          "Water_temperature",
-          "Brewing_time",
-          "variant",
-          "category",
-          "sub_category",
-          "size",
-          "Water_temperature_unit",
-          "Brewing_time_unit",
-          "recipes"
+          "Meta.Canonical_link"
         ],
         "locales": [
           "en",
           "nl-NL",
           "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::recipe.recipe",
-      "properties": {
-        "fields": [
-          "Title",
-          "Intro_text",
-          "Intro_blob",
-          "authors",
-          "Time_preparation",
-          "Time_cooking",
-          "Block_text",
-          "Recipe_variations",
-          "Time_text",
-          "Nutrition.Nutrition_name",
-          "Nutrition.Nutrition_measurements_unit",
-          "Nutrition.Nutrition_amount",
-          "Nutrition_yield",
-          "Instructions_part.Instructions_part_name",
-          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
-          "Instructions_part.Instructions_part_steps.Instructions_part_steps_blob",
-          "Instructions_part.Instructions_part_step_tip",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_amount",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_measurements_unit",
-          "Relevant_recipes",
-          "Meta.HTML_Title",
-          "Meta.Meta_description",
-          "Meta.noindex",
-          "Meta.nofollow",
-          "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "Cuisine",
-          "Category",
-          "Related_products"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::recipe.recipe",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::recipe.recipe",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::recipe.recipe",
-      "properties": {
-        "fields": [
-          "Title",
-          "Intro_text",
-          "Intro_blob",
-          "authors",
-          "Time_preparation",
-          "Time_cooking",
-          "Block_text",
-          "Recipe_variations",
-          "Time_text",
-          "Nutrition.Nutrition_name",
-          "Nutrition.Nutrition_measurements_unit",
-          "Nutrition.Nutrition_amount",
-          "Nutrition_yield",
-          "Instructions_part.Instructions_part_name",
-          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
-          "Instructions_part.Instructions_part_steps.Instructions_part_steps_blob",
-          "Instructions_part.Instructions_part_step_tip",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_amount",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_measurements_unit",
-          "Relevant_recipes",
-          "Meta.HTML_Title",
-          "Meta.Meta_description",
-          "Meta.noindex",
-          "Meta.nofollow",
-          "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "Cuisine",
-          "Category",
-          "Related_products"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::recipe.recipe",
-      "properties": {
-        "fields": [
-          "Title",
-          "Intro_text",
-          "Intro_blob",
-          "authors",
-          "Time_preparation",
-          "Time_cooking",
-          "Block_text",
-          "Recipe_variations",
-          "Time_text",
-          "Nutrition.Nutrition_name",
-          "Nutrition.Nutrition_measurements_unit",
-          "Nutrition.Nutrition_amount",
-          "Nutrition_yield",
-          "Instructions_part.Instructions_part_name",
-          "Instructions_part.Instructions_part_steps.Instructions_part_steps_text",
-          "Instructions_part.Instructions_part_steps.Instructions_part_steps_blob",
-          "Instructions_part.Instructions_part_step_tip",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_name",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_amount",
-          "Instructions_part.Instructions_part_ingredients.Instructions_part_ingredient_measurements_unit",
-          "Relevant_recipes",
-          "Meta.HTML_Title",
-          "Meta.Meta_description",
-          "Meta.noindex",
-          "Meta.nofollow",
-          "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "Cuisine",
-          "Category",
-          "Related_products"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::recurring-element.recurring-element",
-      "properties": {
-        "fields": [
-          "Logo",
-          "Logo_tagline",
-          "Footer_text",
-          "Favicon",
-          "Company_name",
-          "Company_address",
-          "Company_email",
-          "text_chapter",
-          "text_practices_to_follow",
-          "text_practices",
-          "text_explore_the_world_of_kindness",
-          "OpenGraph_default",
-          "recipe_prep",
-          "recipe_cook",
-          "recipe_total",
-          "recipe_jump_to_recipe",
-          "recipe_similar",
-          "recipe_recipe",
-          "recipe_minutes",
-          "recipe_nutrition_information",
-          "recipe_yield",
-          "recipe_amount_per_serving",
-          "recipe_ingredients",
-          "recipe_serving_size",
-          "recipe_cooking_instructions",
-          "recipe_tips",
-          "recipe_discover",
-          "recipe_minute",
-          "recipe_hour",
-          "recipe_hours",
-          "recipe_day",
-          "recipe_days",
-          "estate_location",
-          "product_kindness_impact",
-          "product_add",
-          "product_add_cart",
-          "product_add_cart_for",
-          "product_made_love_from",
-          "product_size",
-          "product_quantity",
-          "product_each_penny_you_spend",
-          "product_check_where_going",
-          "product_price_breakdown_title",
-          "product_transparency_title",
-          "product_impact_title",
-          "text_content",
-          "Item_stock_text",
-          "Product_sold_out_text",
-          "Nav_menu.Visibility",
-          "Nav_menu.Title",
-          "Nav_menu.Link",
-          "Nav_menu_search_visibility",
-          "Nav_menu_language_selector_visibility",
-          "Nav_menu_cart_visibility",
-          "Nav_menu_cart_icon",
-          "Nav_menu_profile_visibility",
-          "Nav_menu_profile_icon",
-          "text_all_tea_variants",
-          "text_all_tea_sizes",
-          "Recipes_related_products_title_text",
-          "Product_stock_other_formats_text",
-          "Product_stock_other_formats_text_singular",
-          "Nav_menu_localization_visibility",
-          "Nav_menu_localization_icon",
-          "text_shipping_country",
-          "text_language",
-          "text_currency",
-          "Button_save_text",
-          "Button_go_back_text",
-          "search_text_no_result_found",
-          "Footer_menu.Heading_name",
-          "Footer_menu.Menu.Visibility",
-          "Footer_menu.Menu.Title",
-          "Footer_menu.Menu.Link",
-          "Footer_menu.Menu.Icon",
-          "text_lang_selector_unavailable",
-          "text_region",
-          "Nav_menu_region_selector_visibility",
-          "text_skip",
-          "text_select_your_region"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::recurring-element.recurring-element",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::recurring-element.recurring-element",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::recurring-element.recurring-element",
-      "properties": {
-        "fields": [
-          "Logo",
-          "Logo_tagline",
-          "Footer_text",
-          "Favicon",
-          "Company_name",
-          "Company_address",
-          "Company_email",
-          "text_chapter",
-          "text_practices_to_follow",
-          "text_practices",
-          "text_explore_the_world_of_kindness",
-          "OpenGraph_default",
-          "recipe_prep",
-          "recipe_cook",
-          "recipe_total",
-          "recipe_jump_to_recipe",
-          "recipe_similar",
-          "recipe_recipe",
-          "recipe_minutes",
-          "recipe_nutrition_information",
-          "recipe_yield",
-          "recipe_amount_per_serving",
-          "recipe_ingredients",
-          "recipe_serving_size",
-          "recipe_cooking_instructions",
-          "recipe_tips",
-          "recipe_discover",
-          "recipe_minute",
-          "recipe_hour",
-          "recipe_hours",
-          "recipe_day",
-          "recipe_days",
-          "estate_location",
-          "product_kindness_impact",
-          "product_add",
-          "product_add_cart",
-          "product_add_cart_for",
-          "product_made_love_from",
-          "product_size",
-          "product_quantity",
-          "product_each_penny_you_spend",
-          "product_check_where_going",
-          "product_price_breakdown_title",
-          "product_transparency_title",
-          "product_impact_title",
-          "text_content",
-          "Item_stock_text",
-          "Product_sold_out_text",
-          "Nav_menu.Visibility",
-          "Nav_menu.Title",
-          "Nav_menu.Link",
-          "Nav_menu_search_visibility",
-          "Nav_menu_language_selector_visibility",
-          "Nav_menu_cart_visibility",
-          "Nav_menu_cart_icon",
-          "Nav_menu_profile_visibility",
-          "Nav_menu_profile_icon",
-          "text_all_tea_variants",
-          "text_all_tea_sizes",
-          "Recipes_related_products_title_text",
-          "Product_stock_other_formats_text",
-          "Product_stock_other_formats_text_singular",
-          "Nav_menu_localization_visibility",
-          "Nav_menu_localization_icon",
-          "text_shipping_country",
-          "text_language",
-          "text_currency",
-          "Button_save_text",
-          "Button_go_back_text",
-          "search_text_no_result_found",
-          "Footer_menu.Heading_name",
-          "Footer_menu.Menu.Visibility",
-          "Footer_menu.Menu.Title",
-          "Footer_menu.Menu.Link",
-          "Footer_menu.Menu.Icon",
-          "text_lang_selector_unavailable",
-          "text_region",
-          "Nav_menu_region_selector_visibility",
-          "text_skip",
-          "text_select_your_region"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::recurring-element.recurring-element",
-      "properties": {
-        "fields": [
-          "Logo",
-          "Logo_tagline",
-          "Footer_text",
-          "Favicon",
-          "Company_name",
-          "Company_address",
-          "Company_email",
-          "text_chapter",
-          "text_practices_to_follow",
-          "text_practices",
-          "text_explore_the_world_of_kindness",
-          "OpenGraph_default",
-          "recipe_prep",
-          "recipe_cook",
-          "recipe_total",
-          "recipe_jump_to_recipe",
-          "recipe_similar",
-          "recipe_recipe",
-          "recipe_minutes",
-          "recipe_nutrition_information",
-          "recipe_yield",
-          "recipe_amount_per_serving",
-          "recipe_ingredients",
-          "recipe_serving_size",
-          "recipe_cooking_instructions",
-          "recipe_tips",
-          "recipe_discover",
-          "recipe_minute",
-          "recipe_hour",
-          "recipe_hours",
-          "recipe_day",
-          "recipe_days",
-          "estate_location",
-          "product_kindness_impact",
-          "product_add",
-          "product_add_cart",
-          "product_add_cart_for",
-          "product_made_love_from",
-          "product_size",
-          "product_quantity",
-          "product_each_penny_you_spend",
-          "product_check_where_going",
-          "product_price_breakdown_title",
-          "product_transparency_title",
-          "product_impact_title",
-          "text_content",
-          "Item_stock_text",
-          "Product_sold_out_text",
-          "Nav_menu.Visibility",
-          "Nav_menu.Title",
-          "Nav_menu.Link",
-          "Nav_menu_search_visibility",
-          "Nav_menu_language_selector_visibility",
-          "Nav_menu_cart_visibility",
-          "Nav_menu_cart_icon",
-          "Nav_menu_profile_visibility",
-          "Nav_menu_profile_icon",
-          "text_all_tea_variants",
-          "text_all_tea_sizes",
-          "Recipes_related_products_title_text",
-          "Product_stock_other_formats_text",
-          "Product_stock_other_formats_text_singular",
-          "Nav_menu_localization_visibility",
-          "Nav_menu_localization_icon",
-          "text_shipping_country",
-          "text_language",
-          "text_currency",
-          "Button_save_text",
-          "Button_go_back_text",
-          "search_text_no_result_found",
-          "Footer_menu.Heading_name",
-          "Footer_menu.Menu.Visibility",
-          "Footer_menu.Menu.Title",
-          "Footer_menu.Menu.Link",
-          "Footer_menu.Menu.Icon",
-          "text_lang_selector_unavailable",
-          "text_region",
-          "Nav_menu_region_selector_visibility",
-          "text_skip",
-          "text_select_your_region"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::recurring-image.recurring-image",
-      "properties": {
-        "fields": [
-          "hero_background",
-          "crowdfunding_info_section_background",
-          "footer_background",
-          "left_post_leaf",
-          "footer_leaf_sm",
-          "logo",
-          "error_notification",
-          "warning_notification",
-          "info_notification",
-          "success_notification",
-          "white_love_ribbon",
-          "green_love_ribbon",
-          "love_gift",
-          "white_cup",
-          "green_cup",
-          "light_green_cup",
-          "green_book",
-          "favicon",
-          "white_right_arrow",
-          "green_right_arrow",
-          "white_down_arrow",
-          "green_down_arrow",
-          "footer_leaf",
-          "green_leaf",
-          "white_clock",
-          "left_quote",
-          "green_bulb",
-          "white_flower",
-          "light_green_flower",
-          "light_green_clock",
-          "green_product_cart",
-          "green_product_cart_plus",
-          "shipping_hero_background",
-          "green_love",
-          "green_leaf_icon",
-          "green_no_icon",
-          "green_package_icon",
-          "white_product_cart",
-          "hero_background_sm",
-          "footer_background_sm",
-          "checkout_header_background",
-          "checkout_header_background_sm",
-          "checkout_pre_post_background",
-          "checkout_pre_post_background_sm",
-          "nav_background",
-          "sidebar_background",
-          "tick",
-          "user_account_nav_background",
-          "user_account_nav_background_sm",
-          "nav_background_sm",
-          "white_love"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::recurring-image.recurring-image",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::recurring-image.recurring-image",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::recurring-image.recurring-image",
-      "properties": {
-        "fields": [
-          "hero_background",
-          "crowdfunding_info_section_background",
-          "footer_background",
-          "left_post_leaf",
-          "footer_leaf_sm",
-          "logo",
-          "error_notification",
-          "warning_notification",
-          "info_notification",
-          "success_notification",
-          "white_love_ribbon",
-          "green_love_ribbon",
-          "love_gift",
-          "white_cup",
-          "green_cup",
-          "light_green_cup",
-          "green_book",
-          "favicon",
-          "white_right_arrow",
-          "green_right_arrow",
-          "white_down_arrow",
-          "green_down_arrow",
-          "footer_leaf",
-          "green_leaf",
-          "white_clock",
-          "left_quote",
-          "green_bulb",
-          "white_flower",
-          "light_green_flower",
-          "light_green_clock",
-          "green_product_cart",
-          "green_product_cart_plus",
-          "shipping_hero_background",
-          "green_love",
-          "green_leaf_icon",
-          "green_no_icon",
-          "green_package_icon",
-          "white_product_cart",
-          "hero_background_sm",
-          "footer_background_sm",
-          "checkout_header_background",
-          "checkout_header_background_sm",
-          "checkout_pre_post_background",
-          "checkout_pre_post_background_sm",
-          "nav_background",
-          "sidebar_background",
-          "tick",
-          "user_account_nav_background",
-          "user_account_nav_background_sm",
-          "nav_background_sm",
-          "white_love"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::recurring-image.recurring-image",
-      "properties": {
-        "fields": [
-          "hero_background",
-          "crowdfunding_info_section_background",
-          "footer_background",
-          "left_post_leaf",
-          "footer_leaf_sm",
-          "logo",
-          "error_notification",
-          "warning_notification",
-          "info_notification",
-          "success_notification",
-          "white_love_ribbon",
-          "green_love_ribbon",
-          "love_gift",
-          "white_cup",
-          "green_cup",
-          "light_green_cup",
-          "green_book",
-          "favicon",
-          "white_right_arrow",
-          "green_right_arrow",
-          "white_down_arrow",
-          "green_down_arrow",
-          "footer_leaf",
-          "green_leaf",
-          "white_clock",
-          "left_quote",
-          "green_bulb",
-          "white_flower",
-          "light_green_flower",
-          "light_green_clock",
-          "green_product_cart",
-          "green_product_cart_plus",
-          "shipping_hero_background",
-          "green_love",
-          "green_leaf_icon",
-          "green_no_icon",
-          "green_package_icon",
-          "white_product_cart",
-          "hero_background_sm",
-          "footer_background_sm",
-          "checkout_header_background",
-          "checkout_header_background_sm",
-          "checkout_pre_post_background",
-          "checkout_pre_post_background_sm",
-          "nav_background",
-          "sidebar_background",
-          "tick",
-          "user_account_nav_background",
-          "user_account_nav_background_sm",
-          "nav_background_sm",
-          "white_love"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::region.region",
-      "properties": {
-        "fields": [
-          "name",
-          "code",
-          "flag"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::region.region",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::region.region",
-      "properties": {
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::region.region",
-      "properties": {
-        "fields": [
-          "name",
-          "code",
-          "flag"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::region.region",
-      "properties": {
-        "fields": [
-          "name",
-          "code",
-          "flag"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::robots-text.robots-text",
-      "properties": {
-        "fields": [
-          "Text"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::robots-text.robots-text",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::robots-text.robots-text",
-      "properties": {
-        "fields": [
-          "Text"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::robots-text.robots-text",
-      "properties": {
-        "fields": [
-          "Text"
         ]
       },
       "conditions": []

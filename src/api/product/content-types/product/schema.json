@@ -599,15 +599,13 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::product-variant.product-variant",
-      "inversedBy": "products",
-      "required": true
+      "inversedBy": "products"
     },
     "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::product-category.product-category",
-      "inversedBy": "products",
-      "required": true
+      "inversedBy": "products"
     },
     "sub_category": {
       "type": "relation",

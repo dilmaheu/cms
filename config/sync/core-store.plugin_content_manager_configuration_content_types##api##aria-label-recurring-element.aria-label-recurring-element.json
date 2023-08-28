@@ -496,6 +496,34 @@
           "sortable": true
         }
       },
+      "Navbar_open_sidebar_sub_menu_text": {
+        "edit": {
+          "label": "Navbar_open_sidebar_sub_menu_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navbar_open_sidebar_sub_menu_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Navbar_close_sidebar_sub_menu_text": {
+        "edit": {
+          "label": "Navbar_close_sidebar_sub_menu_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navbar_close_sidebar_sub_menu_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -680,6 +708,16 @@
         [
           {
             "name": "Navbar_close_sidebar_menu_text",
+            "size": 6
+          },
+          {
+            "name": "Navbar_open_sidebar_sub_menu_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Navbar_close_sidebar_sub_menu_text",
             "size": 6
           },
           {
