@@ -15,7 +15,7 @@
     "@strapi/plugin-graphql": "^4.9.0",
     "@strapi/plugin-i18n": "^4.9.0",
     "@strapi/plugin-users-permissions": "^4.9.0",
-    "@strapi/strapi": "^4.9.0",
+    "@strapi/strapi": "^4.10.8",
     "better-sqlite3": "^7.6.2",
     "strapi-plugin-config-sync": "^1.1.2",
     "typescript": "^5.0.4"
