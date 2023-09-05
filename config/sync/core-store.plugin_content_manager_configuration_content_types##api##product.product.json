@@ -8,7 +8,7 @@
       "searchable": true,
       "pageSize": 100,
       "mainField": "Title",
-      "defaultSortBy": "createdAt",
+      "defaultSortBy": "rank",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -564,6 +564,34 @@
           "sortable": false
         }
       },
+      "rank": {
+        "edit": {
+          "label": "rank",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "rank",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Active_from": {
+        "edit": {
+          "label": "Active_from",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Active_from",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -655,6 +683,12 @@
           {
             "name": "Block_text",
             "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Active_from",
+            "size": 4
           }
         ],
         [
@@ -788,10 +822,17 @@
             "name": "recipes",
             "size": 6
           }
+        ],
+        [
+          {
+            "name": "rank",
+            "size": 6
+          }
         ]
       ],
       "list": [
         "id",
+        "rank",
         "SKU",
         "Title",
         "Stock_amount",

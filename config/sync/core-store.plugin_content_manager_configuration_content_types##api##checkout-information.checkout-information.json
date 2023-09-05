@@ -329,6 +329,48 @@
           "sortable": false
         }
       },
+      "text_customer": {
+        "edit": {
+          "label": "text_customer",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_customer",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Guest_intro_text": {
+        "edit": {
+          "label": "Guest_intro_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Guest_intro_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Sign_in_text": {
+        "edit": {
+          "label": "Sign_in_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Sign_in_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -359,12 +401,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "text_contact_info"
-      ],
       "edit": [
         [
           {
@@ -380,9 +416,23 @@
         ],
         [
           {
-            "name": "text_contact_info",
+            "name": "text_customer",
             "size": 6
-          },
+          }
+        ],
+        [
+          {
+            "name": "Guest_intro_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Sign_in_text",
+            "size": 12
+          }
+        ],
+        [
           {
             "name": "text_shipping_address",
             "size": 6
@@ -479,7 +529,19 @@
             "name": "Meta",
             "size": 12
           }
+        ],
+        [
+          {
+            "name": "text_contact_info",
+            "size": 6
+          }
         ]
+      ],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "text_contact_info"
       ]
     }
   },

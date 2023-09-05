@@ -649,6 +649,24 @@
       "relation": "manyToMany",
       "target": "api::recipe.recipe",
       "mappedBy": "Related_products"
+    },
+    "rank": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false
+    },
+    "Active_from": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "date",
+      "unique": false
     }
   }
 }

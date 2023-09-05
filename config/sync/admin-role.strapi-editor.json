@@ -682,7 +682,9 @@
           "text_return_to_cart",
           "checkout_step_order",
           "Aria_label_form_text",
-          "countries"
+          "countries",
+          "text_customer",
+          "Sign_in_text"
         ],
         "locales": [
           "en",
@@ -747,7 +749,9 @@
           "text_return_to_cart",
           "checkout_step_order",
           "Aria_label_form_text",
-          "countries"
+          "countries",
+          "text_customer",
+          "Sign_in_text"
         ],
         "locales": [
           "en",
@@ -788,7 +792,9 @@
           "text_return_to_cart",
           "checkout_step_order",
           "Aria_label_form_text",
-          "countries"
+          "countries",
+          "text_customer",
+          "Sign_in_text"
         ],
         "locales": [
           "en",

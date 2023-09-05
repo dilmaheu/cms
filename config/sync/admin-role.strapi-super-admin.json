@@ -682,7 +682,10 @@
           "text_return_to_cart",
           "checkout_step_order",
           "Aria_label_form_text",
-          "countries"
+          "countries",
+          "text_customer",
+          "Guest_intro_text",
+          "Sign_in_text"
         ],
         "locales": [
           "en",
@@ -747,7 +750,10 @@
           "text_return_to_cart",
           "checkout_step_order",
           "Aria_label_form_text",
-          "countries"
+          "countries",
+          "text_customer",
+          "Guest_intro_text",
+          "Sign_in_text"
         ],
         "locales": [
           "en",
@@ -788,7 +794,10 @@
           "text_return_to_cart",
           "checkout_step_order",
           "Aria_label_form_text",
-          "countries"
+          "countries",
+          "text_customer",
+          "Guest_intro_text",
+          "Sign_in_text"
         ],
         "locales": [
           "en",
@@ -3960,7 +3969,9 @@
           "size",
           "Water_temperature_unit",
           "Brewing_time_unit",
-          "recipes"
+          "recipes",
+          "rank",
+          "Active_from"
         ],
         "locales": [
           "en",
@@ -4048,7 +4059,9 @@
           "size",
           "Water_temperature_unit",
           "Brewing_time_unit",
-          "recipes"
+          "recipes",
+          "rank",
+          "Active_from"
         ],
         "locales": [
           "en",
@@ -4112,7 +4125,9 @@
           "size",
           "Water_temperature_unit",
           "Brewing_time_unit",
-          "recipes"
+          "recipes",
+          "rank",
+          "Active_from"
         ],
         "locales": [
           "en",
