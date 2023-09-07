@@ -3819,7 +3819,9 @@
           "size",
           "Water_temperature_unit",
           "Brewing_time_unit",
-          "recipes"
+          "recipes",
+          "rank",
+          "Active_from"
         ],
         "locales": [
           "en",
@@ -3907,7 +3909,9 @@
           "size",
           "Water_temperature_unit",
           "Brewing_time_unit",
-          "recipes"
+          "recipes",
+          "rank",
+          "Active_from"
         ],
         "locales": [
           "en",
@@ -3971,7 +3975,9 @@
           "size",
           "Water_temperature_unit",
           "Brewing_time_unit",
-          "recipes"
+          "recipes",
+          "rank",
+          "Active_from"
         ],
         "locales": [
           "en",

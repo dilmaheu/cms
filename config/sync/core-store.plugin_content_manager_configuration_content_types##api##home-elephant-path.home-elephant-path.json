@@ -259,6 +259,20 @@
           "sortable": false
         }
       },
+      "Block2_heading": {
+        "edit": {
+          "label": "Block2_heading",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_heading",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -322,6 +336,12 @@
           {
             "name": "Description",
             "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Block2_heading",
+            "size": 6
           }
         ],
         [

@@ -2264,7 +2264,8 @@
           "Impacts.Value",
           "Impacts.Description",
           "Impacts.Icon",
-          "Impacts.Value_unit"
+          "Impacts.Value_unit",
+          "Block2_heading"
         ],
         "locales": [
           "en",
@@ -2330,7 +2331,8 @@
           "Impacts.Value",
           "Impacts.Description",
           "Impacts.Icon",
-          "Impacts.Value_unit"
+          "Impacts.Value_unit",
+          "Block2_heading"
         ],
         "locales": [
           "en",
@@ -2372,7 +2374,8 @@
           "Impacts.Value",
           "Impacts.Description",
           "Impacts.Icon",
-          "Impacts.Value_unit"
+          "Impacts.Value_unit",
+          "Block2_heading"
         ],
         "locales": [
           "en",
