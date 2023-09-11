@@ -26,6 +26,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::blog.blog"
+    },
+    "Link": {
+      "type": "string"
     }
   }
 }

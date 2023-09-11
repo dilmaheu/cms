@@ -41,22 +41,6 @@
         }
       },
       "component": "search-engine.meta"
-    },
-    "text_here_is_how": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "linked_post_text": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
     }
   }
 }

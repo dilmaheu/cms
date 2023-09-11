@@ -1188,9 +1188,7 @@
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "text_here_is_how",
-          "linked_post_text"
+          "Meta.Canonical_link"
         ],
         "locales": [
           "en",
@@ -1236,9 +1234,7 @@
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "text_here_is_how",
-          "linked_post_text"
+          "Meta.Canonical_link"
         ],
         "locales": [
           "en",
@@ -1260,9 +1256,7 @@
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "text_here_is_how",
-          "linked_post_text"
+          "Meta.Canonical_link"
         ],
         "locales": [
           "en",
@@ -2238,34 +2232,25 @@
       "properties": {
         "fields": [
           "Title",
-          "Intro_text",
-          "Heading_button_text",
-          "Heading_button_link",
           "Intro_blob",
           "Description.Title",
           "Description.Intro_text",
           "Description.Blob",
           "Description.Blog",
+          "Description.Link",
           "Block2_title",
           "Block2_text",
           "Block2_button_text",
           "Block2_button_link",
           "Block2_blob",
-          "Block3_title",
-          "Relevant_items_title",
-          "Relevant_items_text",
-          "Relevant_blogs",
           "Meta.HTML_Title",
           "Meta.Meta_description",
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "Impacts.Value",
-          "Impacts.Description",
-          "Impacts.Icon",
-          "Impacts.Value_unit",
-          "Block2_heading"
+          "Block2_heading",
+          "Intro_text"
         ],
         "locales": [
           "en",
@@ -2305,34 +2290,25 @@
       "properties": {
         "fields": [
           "Title",
-          "Intro_text",
-          "Heading_button_text",
-          "Heading_button_link",
           "Intro_blob",
           "Description.Title",
           "Description.Intro_text",
           "Description.Blob",
           "Description.Blog",
+          "Description.Link",
           "Block2_title",
           "Block2_text",
           "Block2_button_text",
           "Block2_button_link",
           "Block2_blob",
-          "Block3_title",
-          "Relevant_items_title",
-          "Relevant_items_text",
-          "Relevant_blogs",
           "Meta.HTML_Title",
           "Meta.Meta_description",
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "Impacts.Value",
-          "Impacts.Description",
-          "Impacts.Icon",
-          "Impacts.Value_unit",
-          "Block2_heading"
+          "Block2_heading",
+          "Intro_text"
         ],
         "locales": [
           "en",
@@ -2348,34 +2324,25 @@
       "properties": {
         "fields": [
           "Title",
-          "Intro_text",
-          "Heading_button_text",
-          "Heading_button_link",
           "Intro_blob",
           "Description.Title",
           "Description.Intro_text",
           "Description.Blob",
           "Description.Blog",
+          "Description.Link",
           "Block2_title",
           "Block2_text",
           "Block2_button_text",
           "Block2_button_link",
           "Block2_blob",
-          "Block3_title",
-          "Relevant_items_title",
-          "Relevant_items_text",
-          "Relevant_blogs",
           "Meta.HTML_Title",
           "Meta.Meta_description",
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "Impacts.Value",
-          "Impacts.Description",
-          "Impacts.Icon",
-          "Impacts.Value_unit",
-          "Block2_heading"
+          "Block2_heading",
+          "Intro_text"
         ],
         "locales": [
           "en",

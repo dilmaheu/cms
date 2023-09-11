@@ -76,6 +76,20 @@
           "searchable": true,
           "sortable": true
         }
+      },
+      "Link": {
+        "edit": {
+          "label": "Link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Link",
+          "searchable": true,
+          "sortable": true
+        }
       }
     },
     "layouts": {
@@ -106,8 +120,14 @@
         ],
         [
           {
-            "name": "Blog",
+            "name": "Link",
             "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Blog",
+            "size": 4
           }
         ]
       ]

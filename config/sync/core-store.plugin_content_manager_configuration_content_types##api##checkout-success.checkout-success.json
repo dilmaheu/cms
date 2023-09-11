@@ -62,34 +62,6 @@
           "sortable": false
         }
       },
-      "text_here_is_how": {
-        "edit": {
-          "label": "text_here_is_how",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_here_is_how",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "linked_post_text": {
-        "edit": {
-          "label": "linked_post_text",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "linked_post_text",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -137,18 +109,6 @@
           {
             "name": "Intro_text",
             "size": 12
-          }
-        ],
-        [
-          {
-            "name": "linked_post_text",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "text_here_is_how",
-            "size": 6
           }
         ],
         [
