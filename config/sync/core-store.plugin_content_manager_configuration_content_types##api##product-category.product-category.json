@@ -148,6 +148,20 @@
           "sortable": false
         }
       },
+      "Category_type": {
+        "edit": {
+          "label": "Category_type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Category_type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "products": {
         "edit": {
           "label": "products",
@@ -159,6 +173,21 @@
         },
         "list": {
           "label": "products",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "products_tea_format": {
+        "edit": {
+          "label": "products_tea_format",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "products_tea_format",
           "searchable": false,
           "sortable": false
         }
@@ -225,6 +254,12 @@
         ],
         [
           {
+            "name": "Category_type",
+            "size": 6
+          }
+        ],
+        [
+          {
             "name": "Sub_categories",
             "size": 6
           }
@@ -254,6 +289,10 @@
         [
           {
             "name": "products",
+            "size": 6
+          },
+          {
+            "name": "products_tea_format",
             "size": 6
           }
         ]

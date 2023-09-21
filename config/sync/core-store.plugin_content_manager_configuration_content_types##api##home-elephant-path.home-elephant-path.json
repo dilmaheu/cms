@@ -160,20 +160,6 @@
           "sortable": true
         }
       },
-      "Intro_text": {
-        "edit": {
-          "label": "Intro_text",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Intro_text",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -266,12 +252,6 @@
         [
           {
             "name": "Meta",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "Intro_text",
             "size": 12
           }
         ]

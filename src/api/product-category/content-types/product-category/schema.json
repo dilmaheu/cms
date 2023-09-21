@@ -93,11 +93,31 @@
       "component": "search-engine.meta",
       "required": true
     },
+    "Category_type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Tea format",
+        "Tea range"
+      ],
+      "required": false,
+      "default": "Tea format"
+    },
     "products": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product",
       "mappedBy": "category"
+    },
+    "products_tea_format": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "mappedBy": "category_tea_format"
     }
   }
 }

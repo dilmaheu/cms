@@ -592,6 +592,21 @@
           "sortable": true
         }
       },
+      "category_tea_format": {
+        "edit": {
+          "label": "category_tea_format",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "category_tea_format",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -622,6 +637,14 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "rank",
+        "SKU",
+        "Title",
+        "Stock_amount",
+        "updatedAt"
+      ],
       "edit": [
         [
           {
@@ -634,10 +657,6 @@
           }
         ],
         [
-          {
-            "name": "category",
-            "size": 6
-          },
           {
             "name": "sub_category",
             "size": 6
@@ -827,16 +846,18 @@
           {
             "name": "rank",
             "size": 6
+          },
+          {
+            "name": "category",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "category_tea_format",
+            "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "rank",
-        "SKU",
-        "Title",
-        "Stock_amount",
-        "updatedAt"
       ]
     }
   },

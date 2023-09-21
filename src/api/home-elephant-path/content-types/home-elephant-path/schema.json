@@ -4,7 +4,7 @@
   "info": {
     "singularName": "home-elephant-path",
     "pluralName": "home-elephant-paths",
-    "displayName": "Home elephant path",
+    "displayName": "Home kindness",
     "description": ""
   },
   "options": {
@@ -114,14 +114,6 @@
         }
       },
       "type": "string"
-    },
-    "Intro_text": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
     }
   }
 }

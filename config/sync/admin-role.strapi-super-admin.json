@@ -2249,8 +2249,7 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "Block2_heading",
-          "Intro_text"
+          "Block2_heading"
         ],
         "locales": [
           "en",
@@ -2307,8 +2306,7 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "Block2_heading",
-          "Intro_text"
+          "Block2_heading"
         ],
         "locales": [
           "en",
@@ -2341,8 +2339,7 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "Block2_heading",
-          "Intro_text"
+          "Block2_heading"
         ],
         "locales": [
           "en",
@@ -3505,7 +3502,9 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "products"
+          "Category_type",
+          "products",
+          "products_tea_format"
         ],
         "locales": [
           "en",
@@ -3558,7 +3557,9 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "products"
+          "Category_type",
+          "products",
+          "products_tea_format"
         ],
         "locales": [
           "en",
@@ -3587,7 +3588,9 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
-          "products"
+          "Category_type",
+          "products",
+          "products_tea_format"
         ],
         "locales": [
           "en",
@@ -3941,7 +3944,8 @@
           "Brewing_time_unit",
           "recipes",
           "rank",
-          "Active_from"
+          "Active_from",
+          "category_tea_format"
         ],
         "locales": [
           "en",
@@ -4031,7 +4035,8 @@
           "Brewing_time_unit",
           "recipes",
           "rank",
-          "Active_from"
+          "Active_from",
+          "category_tea_format"
         ],
         "locales": [
           "en",
@@ -4097,7 +4102,8 @@
           "Brewing_time_unit",
           "recipes",
           "rank",
-          "Active_from"
+          "Active_from",
+          "category_tea_format"
         ],
         "locales": [
           "en",

@@ -667,6 +667,12 @@
       },
       "type": "date",
       "unique": false
+    },
+    "category_tea_format": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product-category.product-category",
+      "inversedBy": "products_tea_format"
     }
   }
 }
