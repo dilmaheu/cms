@@ -668,11 +668,11 @@
       "type": "date",
       "unique": false
     },
-    "category_tea_format": {
+    "category_tea_range": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::product-category.product-category",
-      "inversedBy": "products_tea_format"
+      "inversedBy": "products_tea_range"
     }
   }
 }

@@ -3504,7 +3504,7 @@
           "Meta.Canonical_link",
           "Category_type",
           "products",
-          "products_tea_format"
+          "products_tea_range"
         ],
         "locales": [
           "en",
@@ -3559,7 +3559,7 @@
           "Meta.Canonical_link",
           "Category_type",
           "products",
-          "products_tea_format"
+          "products_tea_range"
         ],
         "locales": [
           "en",
@@ -3590,7 +3590,7 @@
           "Meta.Canonical_link",
           "Category_type",
           "products",
-          "products_tea_format"
+          "products_tea_range"
         ],
         "locales": [
           "en",
@@ -3945,7 +3945,7 @@
           "recipes",
           "rank",
           "Active_from",
-          "category_tea_format"
+          "category_tea_range"
         ],
         "locales": [
           "en",
@@ -4036,7 +4036,7 @@
           "recipes",
           "rank",
           "Active_from",
-          "category_tea_format"
+          "category_tea_range"
         ],
         "locales": [
           "en",
@@ -4103,7 +4103,7 @@
           "recipes",
           "rank",
           "Active_from",
-          "category_tea_format"
+          "category_tea_range"
         ],
         "locales": [
           "en",

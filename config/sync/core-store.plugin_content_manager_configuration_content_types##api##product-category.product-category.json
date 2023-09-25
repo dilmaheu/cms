@@ -177,9 +177,9 @@
           "sortable": false
         }
       },
-      "products_tea_format": {
+      "products_tea_range": {
         "edit": {
-          "label": "products_tea_format",
+          "label": "products_tea_range",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -187,7 +187,7 @@
           "mainField": "Title"
         },
         "list": {
-          "label": "products_tea_format",
+          "label": "products_tea_range",
           "searchable": false,
           "sortable": false
         }
@@ -292,7 +292,7 @@
             "size": 6
           },
           {
-            "name": "products_tea_format",
+            "name": "products_tea_range",
             "size": 6
           }
         ]

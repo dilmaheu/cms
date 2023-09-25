@@ -592,9 +592,9 @@
           "sortable": true
         }
       },
-      "category_tea_format": {
+      "category_tea_range": {
         "edit": {
-          "label": "category_tea_format",
+          "label": "category_tea_range",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -602,7 +602,7 @@
           "mainField": "Title"
         },
         "list": {
-          "label": "category_tea_format",
+          "label": "category_tea_range",
           "searchable": true,
           "sortable": true
         }
@@ -657,6 +657,10 @@
           }
         ],
         [
+          {
+            "name": "category",
+            "size": 6
+          },
           {
             "name": "sub_category",
             "size": 6
@@ -848,13 +852,7 @@
             "size": 6
           },
           {
-            "name": "category",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "category_tea_format",
+            "name": "category_tea_range",
             "size": 6
           }
         ]

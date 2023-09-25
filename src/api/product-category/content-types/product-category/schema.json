@@ -113,11 +113,11 @@
       "target": "api::product.product",
       "mappedBy": "category"
     },
-    "products_tea_format": {
+    "products_tea_range": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product",
-      "mappedBy": "category_tea_format"
+      "mappedBy": "category_tea_range"
     }
   }
 }
