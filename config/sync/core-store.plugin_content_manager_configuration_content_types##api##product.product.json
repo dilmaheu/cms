@@ -637,14 +637,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "rank",
-        "SKU",
-        "Title",
-        "Stock_amount",
-        "updatedAt"
-      ],
       "edit": [
         [
           {
@@ -663,6 +655,12 @@
           },
           {
             "name": "sub_category",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "category_tea_range",
             "size": 6
           }
         ],
@@ -850,12 +848,17 @@
           {
             "name": "rank",
             "size": 6
-          },
-          {
-            "name": "category_tea_range",
-            "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "rank",
+        "SKU",
+        "Title",
+        "variant",
+        "Stock_amount",
+        "updatedAt"
       ]
     }
   },

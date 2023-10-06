@@ -25,7 +25,7 @@
       "type": "string",
       "required": true,
       "maxLength": 60,
-      "minLength": 20
+      "minLength": 5
     },
     "Intro_text": {
       "pluginOptions": {
