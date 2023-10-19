@@ -105,6 +105,15 @@
       },
       "component": "search-engine.meta",
       "required": true
+    },
+    "UID": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "unique": false
     }
   }
 }

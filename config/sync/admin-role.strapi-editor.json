@@ -684,6 +684,7 @@
           "Aria_label_form_text",
           "countries",
           "text_customer",
+          "Guest_intro_text",
           "Sign_in_text"
         ],
         "locales": [
@@ -751,6 +752,7 @@
           "Aria_label_form_text",
           "countries",
           "text_customer",
+          "Guest_intro_text",
           "Sign_in_text"
         ],
         "locales": [
@@ -794,6 +796,7 @@
           "Aria_label_form_text",
           "countries",
           "text_customer",
+          "Guest_intro_text",
           "Sign_in_text"
         ],
         "locales": [
@@ -1934,7 +1937,8 @@
           "Overview",
           "Total",
           "Invoice",
-          "VAT"
+          "VAT",
+          "Shipping"
         ],
         "locales": [
           "en",
@@ -1982,7 +1986,8 @@
           "Overview",
           "Total",
           "Invoice",
-          "VAT"
+          "VAT",
+          "Shipping"
         ],
         "locales": [
           "en",
@@ -2006,7 +2011,8 @@
           "Overview",
           "Total",
           "Invoice",
-          "VAT"
+          "VAT",
+          "Shipping"
         ],
         "locales": [
           "en",
@@ -2231,6 +2237,7 @@
           "Description.Intro_text",
           "Description.Blob",
           "Description.Blog",
+          "Description.Link",
           "Block2_title",
           "Block2_text",
           "Block2_button_text",
@@ -2241,7 +2248,8 @@
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link"
+          "Meta.Canonical_link",
+          "Block2_heading"
         ],
         "locales": [
           "en",
@@ -2286,6 +2294,7 @@
           "Description.Intro_text",
           "Description.Blob",
           "Description.Blog",
+          "Description.Link",
           "Block2_title",
           "Block2_text",
           "Block2_button_text",
@@ -2296,7 +2305,8 @@
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link"
+          "Meta.Canonical_link",
+          "Block2_heading"
         ],
         "locales": [
           "en",
@@ -2317,6 +2327,7 @@
           "Description.Intro_text",
           "Description.Blob",
           "Description.Blog",
+          "Description.Link",
           "Block2_title",
           "Block2_text",
           "Block2_button_text",
@@ -2327,7 +2338,8 @@
           "Meta.noindex",
           "Meta.nofollow",
           "Meta.URL_slug",
-          "Meta.Canonical_link"
+          "Meta.Canonical_link",
+          "Block2_heading"
         ],
         "locales": [
           "en",
@@ -2788,10 +2800,23 @@
           "Intro_blob",
           "Intro_blob_sm",
           "Intro_video",
+          "Block4_text",
+          "Block4_button_text",
+          "Block4_button_link",
           "Block4_blob",
+          "Block6_button_text",
+          "Block6_button_link",
+          "Block7_title",
           "Block7_visibility",
+          "Block7_button_text",
+          "Block7_button_link",
           "Block8_visibility",
-          "Block7_blob"
+          "Block8_title",
+          "Block7_text",
+          "Block7_blob",
+          "Block6_products",
+          "Block_button_text",
+          "Block_button_link"
         ],
         "locales": [
           "en",
@@ -2859,10 +2884,23 @@
           "Intro_blob",
           "Intro_blob_sm",
           "Intro_video",
+          "Block4_text",
+          "Block4_button_text",
+          "Block4_button_link",
           "Block4_blob",
+          "Block6_button_text",
+          "Block6_button_link",
+          "Block7_title",
           "Block7_visibility",
+          "Block7_button_text",
+          "Block7_button_link",
           "Block8_visibility",
-          "Block7_blob"
+          "Block8_title",
+          "Block7_text",
+          "Block7_blob",
+          "Block6_products",
+          "Block_button_text",
+          "Block_button_link"
         ],
         "locales": [
           "en",
@@ -2906,10 +2944,23 @@
           "Intro_blob",
           "Intro_blob_sm",
           "Intro_video",
+          "Block4_text",
+          "Block4_button_text",
+          "Block4_button_link",
           "Block4_blob",
+          "Block6_button_text",
+          "Block6_button_link",
+          "Block7_title",
           "Block7_visibility",
+          "Block7_button_text",
+          "Block7_button_link",
           "Block8_visibility",
-          "Block7_blob"
+          "Block8_title",
+          "Block7_text",
+          "Block7_blob",
+          "Block6_products",
+          "Block_button_text",
+          "Block_button_link"
         ],
         "locales": [
           "en",
@@ -3346,8 +3397,9 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
+          "Category_type",
           "products",
-          "Category_type"
+          "products_tea_range"
         ],
         "locales": [
           "en",
@@ -3400,8 +3452,9 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
+          "Category_type",
           "products",
-          "Category_type"
+          "products_tea_range"
         ],
         "locales": [
           "en",
@@ -3430,8 +3483,9 @@
           "Meta.nofollow",
           "Meta.URL_slug",
           "Meta.Canonical_link",
+          "Category_type",
           "products",
-          "Category_type"
+          "products_tea_range"
         ],
         "locales": [
           "en",
@@ -3778,13 +3832,16 @@
           "Water_temperature",
           "Brewing_time",
           "variant",
+          "category",
           "sub_category",
           "size",
           "Water_temperature_unit",
           "Brewing_time_unit",
           "recipes",
           "rank",
-          "Active_from"
+          "Active_from",
+          "category_tea_range",
+          "VatPercentage"
         ],
         "locales": [
           "en",
@@ -3867,13 +3924,16 @@
           "Water_temperature",
           "Brewing_time",
           "variant",
+          "category",
           "sub_category",
           "size",
           "Water_temperature_unit",
           "Brewing_time_unit",
           "recipes",
           "rank",
-          "Active_from"
+          "Active_from",
+          "category_tea_range",
+          "VatPercentage"
         ],
         "locales": [
           "en",
@@ -3932,13 +3992,16 @@
           "Water_temperature",
           "Brewing_time",
           "variant",
+          "category",
           "sub_category",
           "size",
           "Water_temperature_unit",
           "Brewing_time_unit",
           "recipes",
           "rank",
-          "Active_from"
+          "Active_from",
+          "category_tea_range",
+          "VatPercentage"
         ],
         "locales": [
           "en",
@@ -4160,6 +4223,9 @@
           "Nav_menu.Visibility",
           "Nav_menu.Title",
           "Nav_menu.Link",
+          "Nav_menu.Sub_menu.Visibility",
+          "Nav_menu.Sub_menu.Title",
+          "Nav_menu.Sub_menu.Link",
           "Nav_menu_search_visibility",
           "Nav_menu_language_selector_visibility",
           "Nav_menu_cart_visibility",
@@ -4286,6 +4352,9 @@
           "Nav_menu.Visibility",
           "Nav_menu.Title",
           "Nav_menu.Link",
+          "Nav_menu.Sub_menu.Visibility",
+          "Nav_menu.Sub_menu.Title",
+          "Nav_menu.Sub_menu.Link",
           "Nav_menu_search_visibility",
           "Nav_menu_language_selector_visibility",
           "Nav_menu_cart_visibility",
@@ -4388,6 +4457,9 @@
           "Nav_menu.Visibility",
           "Nav_menu.Title",
           "Nav_menu.Link",
+          "Nav_menu.Sub_menu.Visibility",
+          "Nav_menu.Sub_menu.Title",
+          "Nav_menu.Sub_menu.Link",
           "Nav_menu_search_visibility",
           "Nav_menu_language_selector_visibility",
           "Nav_menu_cart_visibility",

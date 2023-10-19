@@ -146,6 +146,20 @@
           "sortable": false
         }
       },
+      "UID": {
+        "edit": {
+          "label": "UID",
+          "description": "This field must be unique for each entry and updating this field require updating the code",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "UID",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -178,6 +192,10 @@
     "layouts": {
       "edit": [
         [
+          {
+            "name": "UID",
+            "size": 6
+          },
           {
             "name": "Title",
             "size": 6
@@ -232,6 +250,7 @@
       ],
       "list": [
         "id",
+        "UID",
         "Title",
         "Intro_blob",
         "Form"

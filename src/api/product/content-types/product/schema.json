@@ -673,6 +673,15 @@
       "relation": "manyToOne",
       "target": "api::product-category.product-category",
       "inversedBy": "products_tea_range"
+    },
+    "VatPercentage": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "decimal",
+      "required": true
     }
   }
 }

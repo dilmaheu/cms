@@ -607,6 +607,20 @@
           "sortable": true
         }
       },
+      "VatPercentage": {
+        "edit": {
+          "label": "VatPercentage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "VatPercentage",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -715,6 +729,10 @@
         [
           {
             "name": "Price",
+            "size": 4
+          },
+          {
+            "name": "VatPercentage",
             "size": 4
           },
           {
@@ -854,6 +872,7 @@
       "list": [
         "id",
         "rank",
+        "category",
         "SKU",
         "Title",
         "variant",
