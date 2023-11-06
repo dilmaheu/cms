@@ -7,8 +7,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "From_name",
-      "defaultSortBy": "From_name",
+      "mainField": "Subject",
+      "defaultSortBy": "Subject",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -30,34 +30,6 @@
         },
         "list": {
           "label": "Type",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "From_name": {
-        "edit": {
-          "label": "From_name",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "From_name",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "From_email": {
-        "edit": {
-          "label": "From_email",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "From_email",
           "searchable": true,
           "sortable": true
         }
@@ -104,44 +76,30 @@
           "sortable": false
         }
       },
-      "Overview": {
+      "Overview_Title": {
         "edit": {
-          "label": "Overview",
+          "label": "Overview_Title",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Overview",
+          "label": "Overview_Title",
           "searchable": true,
           "sortable": true
         }
       },
-      "Total": {
+      "Billing_Details_Title": {
         "edit": {
-          "label": "Total",
+          "label": "Billing_Details_Title",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Total",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Invoice": {
-        "edit": {
-          "label": "Invoice",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Invoice",
+          "label": "Billing_Details_Title",
           "searchable": true,
           "sortable": true
         }
@@ -158,6 +116,20 @@
           "label": "Preheader_text",
           "searchable": false,
           "sortable": false
+        }
+      },
+      "VAT": {
+        "edit": {
+          "label": "VAT",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "VAT",
+          "searchable": true,
+          "sortable": true
         }
       },
       "createdAt": {
@@ -192,35 +164,29 @@
     "layouts": {
       "list": [
         "id",
-        "Type",
-        "From_name",
-        "From_email"
+        "Type"
       ],
       "edit": [
         [
           {
             "name": "Type",
             "size": 6
-          },
-          {
-            "name": "From_name",
-            "size": 6
           }
         ],
         [
-          {
-            "name": "From_email",
-            "size": 6
-          },
           {
             "name": "Subject",
             "size": 6
+          },
+          {
+            "name": "Preview_text",
+            "size": 6
           }
         ],
         [
           {
-            "name": "Preview_text",
-            "size": 6
+            "name": "Preheader_text",
+            "size": 12
           }
         ],
         [
@@ -231,24 +197,18 @@
         ],
         [
           {
-            "name": "Overview",
+            "name": "VAT",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Overview_Title",
             "size": 6
           },
           {
-            "name": "Total",
+            "name": "Billing_Details_Title",
             "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Invoice",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Preheader_text",
-            "size": 12
           }
         ]
       ]

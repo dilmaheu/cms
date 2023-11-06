@@ -4,7 +4,7 @@
   "info": {
     "singularName": "e-mail",
     "pluralName": "e-mails",
-    "displayName": "E-mail",
+    "displayName": "Email",
     "description": ""
   },
   "options": {
@@ -19,30 +19,15 @@
     "Type": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "enumeration",
       "enum": [
-        "Crowdfunding confirmation"
-      ]
-    },
-    "From_name": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
-    "From_email": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "email",
+        "crowdfunding_payment_confirmation_email",
+        "ecommerce_payment_confirmation_email",
+        "magic_link_email"
+      ],
       "required": true
     },
     "Subject": {
@@ -73,7 +58,7 @@
       "type": "richtext",
       "required": true
     },
-    "Overview": {
+    "Overview_Title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -82,15 +67,7 @@
       "type": "string",
       "required": false
     },
-    "Total": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "Invoice": {
+    "Billing_Details_Title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -104,7 +81,16 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
+    },
+    "VAT": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

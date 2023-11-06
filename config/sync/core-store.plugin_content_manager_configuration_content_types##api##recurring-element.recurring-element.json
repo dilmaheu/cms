@@ -1168,6 +1168,20 @@
           "sortable": true
         }
       },
+      "From_name": {
+        "edit": {
+          "label": "From_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "From_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1198,6 +1212,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
+      ],
       "edit": [
         [
           {
@@ -1226,11 +1246,15 @@
         [
           {
             "name": "Company_name",
-            "size": 6
+            "size": 4
+          },
+          {
+            "name": "From_name",
+            "size": 4
           },
           {
             "name": "Company_email",
-            "size": 6
+            "size": 4
           }
         ],
         [
@@ -1619,12 +1643,6 @@
             "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
       ]
     }
   },

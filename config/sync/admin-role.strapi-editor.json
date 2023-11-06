@@ -1833,14 +1833,9 @@
       "properties": {
         "fields": [
           "Type",
-          "From_name",
-          "From_email",
           "Subject",
           "Preview_text",
           "Body",
-          "Overview",
-          "Total",
-          "Invoice",
           "Preheader_text"
         ],
         "locales": [
@@ -1881,14 +1876,9 @@
       "properties": {
         "fields": [
           "Type",
-          "From_name",
-          "From_email",
           "Subject",
           "Preview_text",
           "Body",
-          "Overview",
-          "Total",
-          "Invoice",
           "Preheader_text"
         ],
         "locales": [
@@ -1905,14 +1895,9 @@
       "properties": {
         "fields": [
           "Type",
-          "From_name",
-          "From_email",
           "Subject",
           "Preview_text",
           "Body",
-          "Overview",
-          "Total",
-          "Invoice",
           "Preheader_text"
         ],
         "locales": [

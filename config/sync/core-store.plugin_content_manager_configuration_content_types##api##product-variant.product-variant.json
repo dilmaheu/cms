@@ -77,6 +77,34 @@
           "sortable": false
         }
       },
+      "is_tea_bag": {
+        "edit": {
+          "label": "is_tea_bag",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "is_tea_bag",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "is_tea_bag_subvariant": {
+        "edit": {
+          "label": "is_tea_bag_subvariant",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "is_tea_bag_subvariant",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -107,6 +135,13 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "rank",
+        "Title",
+        "createdAt",
+        "updatedAt"
+      ],
       "edit": [
         [
           {
@@ -128,15 +163,16 @@
           {
             "name": "rank",
             "size": 4
+          },
+          {
+            "name": "is_tea_bag",
+            "size": 4
+          },
+          {
+            "name": "is_tea_bag_subvariant",
+            "size": 4
           }
         ]
-      ],
-      "list": [
-        "id",
-        "rank",
-        "Title",
-        "createdAt",
-        "updatedAt"
       ]
     }
   },

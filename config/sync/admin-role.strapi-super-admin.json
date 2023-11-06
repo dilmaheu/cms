@@ -1833,15 +1833,13 @@
       "properties": {
         "fields": [
           "Type",
-          "From_name",
-          "From_email",
           "Subject",
           "Preview_text",
           "Body",
-          "Overview",
-          "Total",
-          "Invoice",
-          "Preheader_text"
+          "Overview_Title",
+          "Billing_Details_Title",
+          "Preheader_text",
+          "VAT"
         ],
         "locales": [
           "en",
@@ -1881,15 +1879,13 @@
       "properties": {
         "fields": [
           "Type",
-          "From_name",
-          "From_email",
           "Subject",
           "Preview_text",
           "Body",
-          "Overview",
-          "Total",
-          "Invoice",
-          "Preheader_text"
+          "Overview_Title",
+          "Billing_Details_Title",
+          "Preheader_text",
+          "VAT"
         ],
         "locales": [
           "en",
@@ -1905,15 +1901,13 @@
       "properties": {
         "fields": [
           "Type",
-          "From_name",
-          "From_email",
           "Subject",
           "Preview_text",
           "Body",
-          "Overview",
-          "Total",
-          "Invoice",
-          "Preheader_text"
+          "Overview_Title",
+          "Billing_Details_Title",
+          "Preheader_text",
+          "VAT"
         ],
         "locales": [
           "en",
@@ -3818,7 +3812,9 @@
           "Title",
           "products",
           "rank",
-          "Icon"
+          "Icon",
+          "is_tea_bag",
+          "is_tea_bag_subvariant"
         ],
         "locales": [
           "en",
@@ -3860,7 +3856,9 @@
           "Title",
           "products",
           "rank",
-          "Icon"
+          "Icon",
+          "is_tea_bag",
+          "is_tea_bag_subvariant"
         ],
         "locales": [
           "en",
@@ -3878,7 +3876,9 @@
           "Title",
           "products",
           "rank",
-          "Icon"
+          "Icon",
+          "is_tea_bag",
+          "is_tea_bag_subvariant"
         ],
         "locales": [
           "en",
@@ -4367,7 +4367,8 @@
           "Product_other_formats_text",
           "Product_other_formats_singular_text",
           "Product_other_formats_text_sm",
-          "Product_other_formats_singular_text_sm"
+          "Product_other_formats_singular_text_sm",
+          "From_name"
         ],
         "locales": [
           "en",
@@ -4496,7 +4497,8 @@
           "Product_other_formats_text",
           "Product_other_formats_singular_text",
           "Product_other_formats_text_sm",
-          "Product_other_formats_singular_text_sm"
+          "Product_other_formats_singular_text_sm",
+          "From_name"
         ],
         "locales": [
           "en",
@@ -4601,7 +4603,8 @@
           "Product_other_formats_text",
           "Product_other_formats_singular_text",
           "Product_other_formats_text_sm",
-          "Product_other_formats_singular_text_sm"
+          "Product_other_formats_singular_text_sm",
+          "From_name"
         ],
         "locales": [
           "en",
@@ -5529,7 +5532,9 @@
           "Empty_order_blob",
           "Empty_order_text",
           "Empty_order_button_text",
-          "Empty_order_button_link"
+          "Empty_order_button_link",
+          "text_email",
+          "text_mobile_number"
         ],
         "locales": [
           "en",
@@ -5626,7 +5631,9 @@
           "Empty_order_blob",
           "Empty_order_text",
           "Empty_order_button_text",
-          "Empty_order_button_link"
+          "Empty_order_button_link",
+          "text_email",
+          "text_mobile_number"
         ],
         "locales": [
           "en",
@@ -5699,7 +5706,9 @@
           "Empty_order_blob",
           "Empty_order_text",
           "Empty_order_button_text",
-          "Empty_order_button_link"
+          "Empty_order_button_link",
+          "text_email",
+          "text_mobile_number"
         ],
         "locales": [
           "en",

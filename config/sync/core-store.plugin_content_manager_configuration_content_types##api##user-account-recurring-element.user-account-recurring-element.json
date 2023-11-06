@@ -846,6 +846,34 @@
           "sortable": true
         }
       },
+      "text_email": {
+        "edit": {
+          "label": "text_email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_mobile_number": {
+        "edit": {
+          "label": "text_mobile_number",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_mobile_number",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -876,12 +904,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Facebook_icon",
-        "Google_icon",
-        "Twitter_icon"
-      ],
       "edit": [
         [
           {
@@ -1174,7 +1196,23 @@
             "name": "text_delivered",
             "size": 4
           }
+        ],
+        [
+          {
+            "name": "text_email",
+            "size": 6
+          },
+          {
+            "name": "text_mobile_number",
+            "size": 6
+          }
         ]
+      ],
+      "list": [
+        "id",
+        "Facebook_icon",
+        "Google_icon",
+        "Twitter_icon"
       ]
     }
   },
