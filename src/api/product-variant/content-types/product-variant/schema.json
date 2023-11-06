@@ -50,6 +50,22 @@
           "localized": false
         }
       }
+    },
+    "is_tea_bag": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
+    },
+    "is_tea_bag_subvariant": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
     }
   }
 }
