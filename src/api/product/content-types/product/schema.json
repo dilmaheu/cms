@@ -617,8 +617,7 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::product-size.product-size",
-      "inversedBy": "products",
-      "required": true
+      "inversedBy": "products"
     },
     "Water_temperature_unit": {
       "pluginOptions": {
