@@ -877,7 +877,8 @@
         "Title",
         "variant",
         "Stock_amount",
-        "updatedAt"
+        "updatedAt",
+        "GTIN_Barcode"
       ]
     }
   },

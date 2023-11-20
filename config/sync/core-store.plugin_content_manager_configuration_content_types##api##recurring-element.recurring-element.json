@@ -1182,6 +1182,20 @@
           "sortable": true
         }
       },
+      "Nav_menu_profile_menu": {
+        "edit": {
+          "label": "Nav_menu_profile_menu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nav_menu_profile_menu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1212,12 +1226,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
-      ],
       "edit": [
         [
           {
@@ -1311,6 +1319,12 @@
           {
             "name": "Nav_menu_profile_icon",
             "size": 8
+          }
+        ],
+        [
+          {
+            "name": "Nav_menu_profile_menu",
+            "size": 12
           }
         ],
         [
@@ -1643,6 +1657,12 @@
             "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
       ]
     }
   },

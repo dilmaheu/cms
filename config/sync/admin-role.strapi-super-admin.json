@@ -4368,7 +4368,13 @@
           "Product_other_formats_singular_text",
           "Product_other_formats_text_sm",
           "Product_other_formats_singular_text_sm",
-          "From_name"
+          "From_name",
+          "Nav_menu_profile_menu.Menu.Visibility",
+          "Nav_menu_profile_menu.Menu.Title",
+          "Nav_menu_profile_menu.Menu.Link",
+          "Nav_menu_profile_menu.Menu.Icon",
+          "Nav_menu_profile_menu.text_log_out",
+          "Nav_menu_profile_menu.Log_out_icon"
         ],
         "locales": [
           "en",
@@ -4498,7 +4504,13 @@
           "Product_other_formats_singular_text",
           "Product_other_formats_text_sm",
           "Product_other_formats_singular_text_sm",
-          "From_name"
+          "From_name",
+          "Nav_menu_profile_menu.Menu.Visibility",
+          "Nav_menu_profile_menu.Menu.Title",
+          "Nav_menu_profile_menu.Menu.Link",
+          "Nav_menu_profile_menu.Menu.Icon",
+          "Nav_menu_profile_menu.text_log_out",
+          "Nav_menu_profile_menu.Log_out_icon"
         ],
         "locales": [
           "en",
@@ -4604,7 +4616,13 @@
           "Product_other_formats_singular_text",
           "Product_other_formats_text_sm",
           "Product_other_formats_singular_text_sm",
-          "From_name"
+          "From_name",
+          "Nav_menu_profile_menu.Menu.Visibility",
+          "Nav_menu_profile_menu.Menu.Title",
+          "Nav_menu_profile_menu.Menu.Link",
+          "Nav_menu_profile_menu.Menu.Icon",
+          "Nav_menu_profile_menu.text_log_out",
+          "Nav_menu_profile_menu.Log_out_icon"
         ],
         "locales": [
           "en",

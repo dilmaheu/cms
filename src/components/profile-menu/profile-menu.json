@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_profile_menu_profile_menus",
+  "info": {
+    "displayName": "Profile_menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Visibility": {
+      "type": "boolean"
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

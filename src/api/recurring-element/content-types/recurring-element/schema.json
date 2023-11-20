@@ -777,6 +777,16 @@
         }
       },
       "type": "string"
+    },
+    "Nav_menu_profile_menu": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "profile-menu.menu"
     }
   }
 }

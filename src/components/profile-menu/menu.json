@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_profile_menu_menus",
+  "info": {
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Menu": {
+      "displayName": "Profile_menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "profile-menu.profile-menu"
+    },
+    "text_log_out": {
+      "type": "string",
+      "required": true
+    },
+    "Log_out_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

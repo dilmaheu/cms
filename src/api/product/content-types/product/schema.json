@@ -400,7 +400,7 @@
         }
       },
       "type": "biginteger",
-      "required": true
+      "required": false
     },
     "Weight": {
       "pluginOptions": {
