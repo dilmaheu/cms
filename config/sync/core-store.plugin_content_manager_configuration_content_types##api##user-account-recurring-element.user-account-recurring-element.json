@@ -874,6 +874,34 @@
           "sortable": true
         }
       },
+      "text_show_more_products_in_this_order": {
+        "edit": {
+          "label": "text_show_more_products_in_this_order",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_show_more_products_in_this_order",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_hide_more_products_in_this_order": {
+        "edit": {
+          "label": "text_hide_more_products_in_this_order",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_hide_more_products_in_this_order",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1179,22 +1207,26 @@
         ],
         [
           {
-            "name": "text_more_products_in_this_order",
-            "size": 4
-          },
-          {
             "name": "text_estimated_delivery",
             "size": 4
           },
           {
             "name": "text_estimated_shipment",
             "size": 4
+          },
+          {
+            "name": "text_delivered",
+            "size": 4
           }
         ],
         [
           {
-            "name": "text_delivered",
-            "size": 4
+            "name": "text_show_more_products_in_this_order",
+            "size": 6
+          },
+          {
+            "name": "text_hide_more_products_in_this_order",
+            "size": 6
           }
         ],
         [
@@ -1204,6 +1236,12 @@
           },
           {
             "name": "text_mobile_number",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_more_products_in_this_order",
             "size": 6
           }
         ]

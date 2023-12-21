@@ -5245,6 +5245,10 @@
           "Personal_information.Name",
           "Personal_information.Label_billing_address",
           "Personal_information.Label_username",
+          "Personal_information.user_info_update_success_notification",
+          "Personal_information.display_name_update_success_notification_label",
+          "Personal_information.email_update_success_notification_label",
+          "Personal_information.phone_number_update_success_notification_label",
           "Block2_visibility",
           "Block2.Block2_title",
           "Block2.Label_my_selected_cause",
@@ -5316,6 +5320,10 @@
           "Personal_information.Name",
           "Personal_information.Label_billing_address",
           "Personal_information.Label_username",
+          "Personal_information.user_info_update_success_notification",
+          "Personal_information.display_name_update_success_notification_label",
+          "Personal_information.email_update_success_notification_label",
+          "Personal_information.phone_number_update_success_notification_label",
           "Block2_visibility",
           "Block2.Block2_title",
           "Block2.Label_my_selected_cause",
@@ -5363,6 +5371,10 @@
           "Personal_information.Name",
           "Personal_information.Label_billing_address",
           "Personal_information.Label_username",
+          "Personal_information.user_info_update_success_notification",
+          "Personal_information.display_name_update_success_notification_label",
+          "Personal_information.email_update_success_notification_label",
+          "Personal_information.phone_number_update_success_notification_label",
           "Block2_visibility",
           "Block2.Block2_title",
           "Block2.Label_my_selected_cause",
@@ -5552,7 +5564,9 @@
           "Empty_order_button_text",
           "Empty_order_button_link",
           "text_email",
-          "text_mobile_number"
+          "text_mobile_number",
+          "text_show_more_products_in_this_order",
+          "text_hide_more_products_in_this_order"
         ],
         "locales": [
           "en",
@@ -5651,7 +5665,9 @@
           "Empty_order_button_text",
           "Empty_order_button_link",
           "text_email",
-          "text_mobile_number"
+          "text_mobile_number",
+          "text_show_more_products_in_this_order",
+          "text_hide_more_products_in_this_order"
         ],
         "locales": [
           "en",
@@ -5726,7 +5742,9 @@
           "Empty_order_button_text",
           "Empty_order_button_link",
           "text_email",
-          "text_mobile_number"
+          "text_mobile_number",
+          "text_show_more_products_in_this_order",
+          "text_hide_more_products_in_this_order"
         ],
         "locales": [
           "en",

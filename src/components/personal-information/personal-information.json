@@ -37,6 +37,18 @@
     "Label_username": {
       "type": "string",
       "required": true
+    },
+    "user_info_update_success_notification": {
+      "type": "string"
+    },
+    "display_name_update_success_notification_label": {
+      "type": "string"
+    },
+    "email_update_success_notification_label": {
+      "type": "string"
+    },
+    "phone_number_update_success_notification_label": {
+      "type": "string"
     }
   }
 }

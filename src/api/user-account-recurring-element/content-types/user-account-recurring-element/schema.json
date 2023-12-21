@@ -448,7 +448,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "text_estimated_delivery": {
       "pluginOptions": {
@@ -547,6 +547,24 @@
         }
       },
       "type": "string"
+    },
+    "text_show_more_products_in_this_order": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "text_hide_more_products_in_this_order": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }

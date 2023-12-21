@@ -131,6 +131,62 @@
           "searchable": true,
           "sortable": true
         }
+      },
+      "user_info_update_success_notification": {
+        "edit": {
+          "label": "user_info_update_success_notification",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "user_info_update_success_notification",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "display_name_update_success_notification_label": {
+        "edit": {
+          "label": "display_name_update_success_notification_label",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "display_name_update_success_notification_label",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "email_update_success_notification_label": {
+        "edit": {
+          "label": "email_update_success_notification_label",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email_update_success_notification_label",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "phone_number_update_success_notification_label": {
+        "edit": {
+          "label": "phone_number_update_success_notification_label",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "phone_number_update_success_notification_label",
+          "searchable": true,
+          "sortable": true
+        }
       }
     },
     "layouts": {
@@ -183,6 +239,26 @@
           {
             "name": "Social_media",
             "size": 12
+          }
+        ],
+        [
+          {
+            "name": "user_info_update_success_notification",
+            "size": 6
+          },
+          {
+            "name": "display_name_update_success_notification_label",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "email_update_success_notification_label",
+            "size": 6
+          },
+          {
+            "name": "phone_number_update_success_notification_label",
+            "size": 6
           }
         ]
       ]
