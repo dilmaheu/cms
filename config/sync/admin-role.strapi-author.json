@@ -7,22 +7,19 @@
       "action": "plugin::upload.assets.copy-link",
       "subject": null,
       "properties": {},
-      "conditions": [],
-      "actionParameters": null
+      "conditions": []
     },
     {
       "action": "plugin::upload.assets.create",
       "subject": null,
       "properties": {},
-      "conditions": [],
-      "actionParameters": null
+      "conditions": []
     },
     {
       "action": "plugin::upload.assets.download",
       "subject": null,
       "properties": {},
-      "conditions": [],
-      "actionParameters": null
+      "conditions": []
     },
     {
       "action": "plugin::upload.assets.update",
@@ -30,8 +27,7 @@
       "properties": {},
       "conditions": [
         "admin::is-creator"
-      ],
-      "actionParameters": null
+      ]
     },
     {
       "action": "plugin::upload.read",
@@ -39,8 +35,7 @@
       "properties": {},
       "conditions": [
         "admin::is-creator"
-      ],
-      "actionParameters": null
+      ]
     }
   ]
 }

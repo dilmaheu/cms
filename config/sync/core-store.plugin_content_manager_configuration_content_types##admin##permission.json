@@ -34,20 +34,6 @@
           "sortable": true
         }
       },
-      "actionParameters": {
-        "edit": {
-          "label": "actionParameters",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "actionParameters",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "subject": {
         "edit": {
           "label": "subject",
@@ -132,36 +118,6 @@
           "searchable": true,
           "sortable": true
         }
-      },
-      "createdBy": {
-        "edit": {
-          "label": "createdBy",
-          "description": "",
-          "placeholder": "",
-          "visible": false,
-          "editable": true,
-          "mainField": "firstname"
-        },
-        "list": {
-          "label": "createdBy",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "updatedBy": {
-        "edit": {
-          "label": "updatedBy",
-          "description": "",
-          "placeholder": "",
-          "visible": false,
-          "editable": true,
-          "mainField": "firstname"
-        },
-        "list": {
-          "label": "updatedBy",
-          "searchable": true,
-          "sortable": true
-        }
       }
     },
     "layouts": {
@@ -198,12 +154,6 @@
           {
             "name": "role",
             "size": 6
-          }
-        ],
-        [
-          {
-            "name": "actionParameters",
-            "size": 12
           }
         ]
       ]
