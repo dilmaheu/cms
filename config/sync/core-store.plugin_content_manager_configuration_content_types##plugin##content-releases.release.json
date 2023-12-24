@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::organization.organization",
+  "key": "plugin_content_manager_configuration_content_types::plugin::content-releases.release",
   "value": {
-    "uid": "api::organization.organization",
+    "uid": "plugin::content-releases.release",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "Name",
-      "defaultSortBy": "Name",
+      "mainField": "name",
+      "defaultSortBy": "name",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,32 +20,47 @@
           "sortable": true
         }
       },
-      "Name": {
+      "name": {
         "edit": {
-          "label": "Name",
+          "label": "name",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Name",
+          "label": "name",
           "searchable": true,
           "sortable": true
         }
       },
-      "email": {
+      "releasedAt": {
         "edit": {
-          "label": "email",
+          "label": "releasedAt",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "email",
+          "label": "releasedAt",
           "searchable": true,
           "sortable": true
+        }
+      },
+      "actions": {
+        "edit": {
+          "label": "actions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "contentType"
+        },
+        "list": {
+          "label": "actions",
+          "searchable": false,
+          "sortable": false
         }
       },
       "createdAt": {
@@ -110,18 +125,24 @@
     "layouts": {
       "list": [
         "id",
-        "Name",
-        "email",
-        "createdAt"
+        "name",
+        "releasedAt",
+        "actions"
       ],
       "edit": [
         [
           {
-            "name": "Name",
+            "name": "name",
             "size": 6
           },
           {
-            "name": "email",
+            "name": "releasedAt",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "actions",
             "size": 6
           }
         ]

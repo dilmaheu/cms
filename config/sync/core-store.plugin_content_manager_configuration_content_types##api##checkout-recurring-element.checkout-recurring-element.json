@@ -425,9 +425,45 @@
           "searchable": true,
           "sortable": true
         }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "text_add",
+        "text_add_to_cart",
+        "text_add_to_cart_for"
+      ],
       "edit": [
         [
           {
@@ -559,12 +595,6 @@
             "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "text_add",
-        "text_add_to_cart",
-        "text_add_to_cart_for"
       ]
     }
   },

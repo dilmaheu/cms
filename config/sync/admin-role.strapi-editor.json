@@ -51,7 +51,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -63,7 +64,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -75,60 +77,11 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
-      "subject": "api::aria-label-recurring-element.aria-label-recurring-element",
-      "properties": {
-        "fields": [
-          "Intro_text",
-          "Latest_post_text",
-          "Wrote_by_text",
-          "Post_text",
-          "All_posts_text",
-          "Items_text",
-          "Kindness_Item_text",
-          "Kindness_Items_text",
-          "Post_intro_text",
-          "Post_details_text",
-          "Recipe_timing_text",
-          "Recipe_step_text",
-          "Howto_method_text",
-          "Estate_location_map_text",
-          "Product_quantity_minus_button_text",
-          "Product_quantity_plus_button_text",
-          "Product_quantity_text",
-          "Product_related_kindness_info_text",
-          "Crowdfunding_plans_text",
-          "Crowdfunding_plan_text",
-          "Crowdfunding_total_raised_text",
-          "Navbar_language_selectors_text",
-          "Navbar_open_cart_text",
-          "Navbar_open_sidebar_menu_text",
-          "Navbar_close_sidebar_menu_text",
-          "Product_post_of_text",
-          "Product_all_teas_text",
-          "Product_tea_item_text",
-          "Navbar_open_localization_menu_text",
-          "Navbar_close_localization_menu_text",
-          "Kindness_impact_items",
-          "Kindness_items_of_text",
-          "Highlighted_post_text",
-          "Navbar_region_selectors_text",
-          "Navbar_open_sidebar_sub_menu_text",
-          "Navbar_close_sidebar_sub_menu_text"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
       "subject": "api::aria-label-recurring-element.aria-label-recurring-element",
       "properties": {
         "fields": [
@@ -175,7 +128,59 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::aria-label-recurring-element.aria-label-recurring-element",
+      "properties": {
+        "fields": [
+          "Intro_text",
+          "Latest_post_text",
+          "Wrote_by_text",
+          "Post_text",
+          "All_posts_text",
+          "Items_text",
+          "Kindness_Item_text",
+          "Kindness_Items_text",
+          "Post_intro_text",
+          "Post_details_text",
+          "Recipe_timing_text",
+          "Recipe_step_text",
+          "Howto_method_text",
+          "Estate_location_map_text",
+          "Product_quantity_minus_button_text",
+          "Product_quantity_plus_button_text",
+          "Product_quantity_text",
+          "Product_related_kindness_info_text",
+          "Crowdfunding_plans_text",
+          "Crowdfunding_plan_text",
+          "Crowdfunding_total_raised_text",
+          "Navbar_language_selectors_text",
+          "Navbar_open_cart_text",
+          "Navbar_open_sidebar_menu_text",
+          "Navbar_close_sidebar_menu_text",
+          "Product_post_of_text",
+          "Product_all_teas_text",
+          "Product_tea_item_text",
+          "Navbar_open_localization_menu_text",
+          "Navbar_close_localization_menu_text",
+          "Kindness_impact_items",
+          "Kindness_items_of_text",
+          "Highlighted_post_text",
+          "Navbar_region_selectors_text",
+          "Navbar_open_sidebar_sub_menu_text",
+          "Navbar_close_sidebar_sub_menu_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -200,7 +205,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -212,7 +218,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -224,7 +231,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -249,7 +257,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -274,7 +283,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -300,7 +310,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -312,7 +323,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -324,7 +336,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -350,7 +363,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -376,7 +390,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -392,7 +407,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -404,7 +420,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -420,7 +437,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -436,7 +454,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -460,7 +479,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -472,7 +492,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -484,7 +505,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -508,7 +530,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -532,7 +555,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -543,19 +567,22 @@
           "Products.products"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
       "subject": "api::catalog.catalog",
       "properties": {},
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
       "subject": "api::catalog.catalog",
       "properties": {},
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -566,7 +593,8 @@
           "Products.products"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -577,7 +605,8 @@
           "Products.products"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -593,7 +622,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -605,7 +635,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -617,7 +648,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -633,7 +665,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -649,7 +682,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -693,7 +727,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -705,7 +740,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -717,54 +753,11 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
-      "subject": "api::checkout-information.checkout-information",
-      "properties": {
-        "fields": [
-          "text_contact_info",
-          "text_shipping_address",
-          "text_email_address",
-          "email_address_placeholder",
-          "text_first_name",
-          "first_name_placeholder",
-          "text_last_name",
-          "last_name_placeholder",
-          "text_country",
-          "country_placeholder",
-          "text_city",
-          "city_placeholder",
-          "text_street",
-          "street_placeholder",
-          "text_postal_code",
-          "postal_code_placeholder",
-          "text_continue_to_shipping",
-          "Meta.HTML_Title",
-          "Meta.Meta_description",
-          "Meta.noindex",
-          "Meta.nofollow",
-          "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "text_return_to_cart",
-          "checkout_step_order",
-          "Aria_label_form_text",
-          "countries",
-          "text_customer",
-          "Guest_intro_text",
-          "Sign_in_text"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
       "subject": "api::checkout-information.checkout-information",
       "properties": {
         "fields": [
@@ -805,7 +798,53 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::checkout-information.checkout-information",
+      "properties": {
+        "fields": [
+          "text_contact_info",
+          "text_shipping_address",
+          "text_email_address",
+          "email_address_placeholder",
+          "text_first_name",
+          "first_name_placeholder",
+          "text_last_name",
+          "last_name_placeholder",
+          "text_country",
+          "country_placeholder",
+          "text_city",
+          "city_placeholder",
+          "text_street",
+          "street_placeholder",
+          "text_postal_code",
+          "postal_code_placeholder",
+          "text_continue_to_shipping",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "text_return_to_cart",
+          "checkout_step_order",
+          "Aria_label_form_text",
+          "countries",
+          "text_customer",
+          "Guest_intro_text",
+          "Sign_in_text"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -830,7 +869,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -842,7 +882,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -854,7 +895,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -879,7 +921,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -904,7 +947,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -945,7 +989,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -957,7 +1002,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -969,51 +1015,11 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
-      "subject": "api::checkout-recurring-element.checkout-recurring-element",
-      "properties": {
-        "fields": [
-          "text_add",
-          "text_add_to_cart",
-          "text_add_to_cart_for",
-          "text_size",
-          "text_quantity",
-          "text_cart",
-          "text_order_summary",
-          "text_subtotal",
-          "text_shipping",
-          "text_tax",
-          "text_total",
-          "text_shipping_calculated_at_checkout",
-          "text_proceed_to_checkout",
-          "text_continue_to_payment",
-          "text_return_to_information",
-          "text_edit_cart",
-          "text_continue_shopping",
-          "text_empty_cart",
-          "Aria_label_cart_focus_text",
-          "Aria_label_cart_close_button_text",
-          "Aria_label_cart_items_text",
-          "Aria_label_remove_cart_item_button_text",
-          "Aria_label_cart_item_quantity_minus_button_text",
-          "Aria_label_cart_item_quantity_plus_button_text",
-          "Aria_label_cart_item_quantity_text",
-          "Aria_label_kindness_cause_items_text",
-          "text_variant"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
       "subject": "api::checkout-recurring-element.checkout-recurring-element",
       "properties": {
         "fields": [
@@ -1051,7 +1057,50 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::checkout-recurring-element.checkout-recurring-element",
+      "properties": {
+        "fields": [
+          "text_add",
+          "text_add_to_cart",
+          "text_add_to_cart_for",
+          "text_size",
+          "text_quantity",
+          "text_cart",
+          "text_order_summary",
+          "text_subtotal",
+          "text_shipping",
+          "text_tax",
+          "text_total",
+          "text_shipping_calculated_at_checkout",
+          "text_proceed_to_checkout",
+          "text_continue_to_payment",
+          "text_return_to_information",
+          "text_edit_cart",
+          "text_continue_shopping",
+          "text_empty_cart",
+          "Aria_label_cart_focus_text",
+          "Aria_label_cart_close_button_text",
+          "Aria_label_cart_items_text",
+          "Aria_label_remove_cart_item_button_text",
+          "Aria_label_cart_item_quantity_minus_button_text",
+          "Aria_label_cart_item_quantity_plus_button_text",
+          "Aria_label_cart_item_quantity_text",
+          "Aria_label_kindness_cause_items_text",
+          "text_variant"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -1084,7 +1133,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -1096,7 +1146,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -1108,43 +1159,11 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
-      "subject": "api::checkout-shipping.checkout-shipping",
-      "properties": {
-        "fields": [
-          "text_contact",
-          "text_delivery_address",
-          "text_change",
-          "text_shipping_method",
-          "text_continue_to_payment",
-          "text_return_to_information",
-          "Meta.HTML_Title",
-          "Meta.Meta_description",
-          "Meta.noindex",
-          "Meta.nofollow",
-          "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "checkout_step_order",
-          "Aria_label_kindness_delivery_address_form_text",
-          "Aria_label_delivery_address_text",
-          "Aria_label_email_address_text",
-          "Aria_label_change_text",
-          "Aria_label_order_summery_text",
-          "shipping_methods"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
       "subject": "api::checkout-shipping.checkout-shipping",
       "properties": {
         "fields": [
@@ -1174,7 +1193,42 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::checkout-shipping.checkout-shipping",
+      "properties": {
+        "fields": [
+          "text_contact",
+          "text_delivery_address",
+          "text_change",
+          "text_shipping_method",
+          "text_continue_to_payment",
+          "text_return_to_information",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "checkout_step_order",
+          "Aria_label_kindness_delivery_address_form_text",
+          "Aria_label_delivery_address_text",
+          "Aria_label_email_address_text",
+          "Aria_label_change_text",
+          "Aria_label_order_summery_text",
+          "shipping_methods"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -1196,7 +1250,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -1208,7 +1263,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -1220,7 +1276,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -1242,7 +1299,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -1264,7 +1322,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -1280,7 +1339,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -1292,7 +1352,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -1304,7 +1365,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -1320,7 +1382,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -1336,7 +1399,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -1360,7 +1424,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -1372,7 +1437,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -1384,7 +1450,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -1408,7 +1475,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -1432,7 +1500,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -1454,7 +1523,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -1466,7 +1536,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -1478,7 +1549,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -1500,7 +1572,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -1522,7 +1595,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -1553,7 +1627,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -1565,7 +1640,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -1577,41 +1653,11 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
-      "subject": "api::crowdfunding-home.crowdfunding-home",
-      "properties": {
-        "fields": [
-          "Title",
-          "Intro_text",
-          "Intro_blob",
-          "Heading_plans",
-          "Heading_block",
-          "Block_text",
-          "Block_blob",
-          "Meta.HTML_Title",
-          "Meta.Meta_description",
-          "Meta.noindex",
-          "Meta.nofollow",
-          "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "Heading_button_text",
-          "Heading_button_link",
-          "Heading_goal",
-          "Heading_supporters"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
       "subject": "api::crowdfunding-home.crowdfunding-home",
       "properties": {
         "fields": [
@@ -1639,7 +1685,40 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::crowdfunding-home.crowdfunding-home",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_plans",
+          "Heading_block",
+          "Block_text",
+          "Block_blob",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Heading_goal",
+          "Heading_supporters"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -1664,7 +1743,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -1676,7 +1756,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -1688,7 +1769,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -1713,7 +1795,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -1738,7 +1821,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -1759,7 +1843,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -1771,7 +1856,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -1783,7 +1869,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -1804,7 +1891,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -1825,7 +1913,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -1844,7 +1933,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -1856,7 +1946,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -1868,7 +1959,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -1887,7 +1979,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -1906,7 +1999,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -1931,7 +2025,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -1943,7 +2038,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -1955,7 +2051,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -1980,7 +2077,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -2005,7 +2103,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -2040,7 +2139,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -2052,7 +2152,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -2064,7 +2165,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -2099,7 +2201,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -2134,7 +2237,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -2155,7 +2259,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -2167,7 +2272,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -2188,7 +2294,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -2209,7 +2316,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -2242,7 +2350,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -2254,7 +2363,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -2266,7 +2376,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -2299,7 +2410,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -2332,7 +2444,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -2371,7 +2484,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -2383,49 +2497,11 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
-      "subject": "api::home-estate.home-estate",
-      "properties": {
-        "fields": [
-          "Title",
-          "Intro_text",
-          "Intro_blob",
-          "Heading_block",
-          "Block_text",
-          "Block2_text",
-          "Block2_blob",
-          "Block3",
-          "Block4_heading",
-          "Meta.HTML_Title",
-          "Meta.Meta_description",
-          "Meta.noindex",
-          "Meta.nofollow",
-          "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "blogs",
-          "Heading_button_text",
-          "Heading_button_link",
-          "Aria_label_all_estates_text",
-          "Block3_aria_label_text",
-          "Block2_aria_label_text",
-          "Impacts.Value",
-          "Impacts.Description",
-          "Impacts.Icon",
-          "Impacts.Value_unit"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
       "subject": "api::home-estate.home-estate",
       "properties": {
         "fields": [
@@ -2461,7 +2537,48 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-estate.home-estate",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_text",
+          "Intro_blob",
+          "Heading_block",
+          "Block_text",
+          "Block2_text",
+          "Block2_blob",
+          "Block3",
+          "Block4_heading",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "blogs",
+          "Heading_button_text",
+          "Heading_button_link",
+          "Aria_label_all_estates_text",
+          "Block3_aria_label_text",
+          "Block2_aria_label_text",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon",
+          "Impacts.Value_unit"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -2481,7 +2598,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -2493,7 +2611,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -2505,7 +2624,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -2525,7 +2645,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -2545,7 +2666,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -2581,7 +2703,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -2593,7 +2716,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -2605,7 +2729,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -2641,7 +2766,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -2677,7 +2803,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -2697,7 +2824,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -2709,7 +2837,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -2729,7 +2858,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -2749,7 +2879,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -2809,7 +2940,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -2821,7 +2953,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -2833,70 +2966,11 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
-      "subject": "api::homepage.homepage",
-      "properties": {
-        "fields": [
-          "Meta.HTML_Title",
-          "Meta.Meta_description",
-          "Meta.noindex",
-          "Meta.nofollow",
-          "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "Title",
-          "Intro_text",
-          "Block_title",
-          "Block2_title",
-          "Block3_title",
-          "Estates",
-          "Block4_title",
-          "Block5_title",
-          "Block5_text",
-          "Block6_title",
-          "Impacts.Value",
-          "Impacts.Description",
-          "Impacts.Icon",
-          "Impacts.Value_unit",
-          "Block_visibility",
-          "Block2_visibility",
-          "Block3_visibility",
-          "Block4_visibility",
-          "Block5_visibility",
-          "Block6_visibility",
-          "Intro_blob",
-          "Intro_blob_sm",
-          "Intro_video",
-          "Block4_text",
-          "Block4_button_text",
-          "Block4_button_link",
-          "Block4_blob",
-          "Block6_button_text",
-          "Block6_button_link",
-          "Block7_title",
-          "Block7_visibility",
-          "Block7_button_text",
-          "Block7_button_link",
-          "Block8_visibility",
-          "Block8_title",
-          "Block7_text",
-          "Block7_blob",
-          "Block6_products",
-          "Block_button_text",
-          "Block_button_link"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
       "subject": "api::homepage.homepage",
       "properties": {
         "fields": [
@@ -2953,7 +3027,69 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "fields": [
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Title",
+          "Intro_text",
+          "Block_title",
+          "Block2_title",
+          "Block3_title",
+          "Estates",
+          "Block4_title",
+          "Block5_title",
+          "Block5_text",
+          "Block6_title",
+          "Impacts.Value",
+          "Impacts.Description",
+          "Impacts.Icon",
+          "Impacts.Value_unit",
+          "Block_visibility",
+          "Block2_visibility",
+          "Block3_visibility",
+          "Block4_visibility",
+          "Block5_visibility",
+          "Block6_visibility",
+          "Intro_blob",
+          "Intro_blob_sm",
+          "Intro_video",
+          "Block4_text",
+          "Block4_button_text",
+          "Block4_button_link",
+          "Block4_blob",
+          "Block6_button_text",
+          "Block6_button_link",
+          "Block7_title",
+          "Block7_visibility",
+          "Block7_button_text",
+          "Block7_button_link",
+          "Block8_visibility",
+          "Block8_title",
+          "Block7_text",
+          "Block7_blob",
+          "Block6_products",
+          "Block_button_text",
+          "Block_button_link"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -2982,7 +3118,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -2994,7 +3131,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -3006,7 +3144,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -3035,7 +3174,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -3064,7 +3204,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -3081,7 +3222,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -3093,7 +3235,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -3105,7 +3248,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -3122,7 +3266,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -3139,7 +3284,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -3158,7 +3304,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -3170,7 +3317,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -3182,7 +3330,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -3201,7 +3350,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -3220,7 +3370,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -3236,7 +3387,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -3248,7 +3400,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -3264,7 +3417,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -3280,7 +3434,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -3303,7 +3458,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -3315,7 +3471,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -3338,7 +3495,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -3361,7 +3519,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -3392,7 +3551,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -3404,7 +3564,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -3416,41 +3577,11 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
-      "subject": "api::product-category.product-category",
-      "properties": {
-        "fields": [
-          "Title",
-          "Intro_blob",
-          "Intro_text",
-          "Heading_button_text",
-          "Sub_categories",
-          "Block_text",
-          "Relevant_items_title",
-          "Relevant_recipes",
-          "Meta.HTML_Title",
-          "Meta.Meta_description",
-          "Meta.noindex",
-          "Meta.nofollow",
-          "Meta.URL_slug",
-          "Meta.Canonical_link",
-          "Category_type",
-          "products",
-          "products_tea_range"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
       "subject": "api::product-category.product-category",
       "properties": {
         "fields": [
@@ -3478,7 +3609,40 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::product-category.product-category",
+      "properties": {
+        "fields": [
+          "Title",
+          "Intro_blob",
+          "Intro_text",
+          "Heading_button_text",
+          "Sub_categories",
+          "Block_text",
+          "Relevant_items_title",
+          "Relevant_recipes",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "Category_type",
+          "products",
+          "products_tea_range"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -3494,7 +3658,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -3506,7 +3671,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -3522,7 +3688,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -3538,7 +3705,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -3555,7 +3723,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -3567,7 +3736,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -3579,7 +3749,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -3596,7 +3767,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -3613,7 +3785,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -3630,7 +3803,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -3642,7 +3816,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -3654,7 +3829,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -3671,7 +3847,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -3688,7 +3865,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -3706,7 +3884,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -3718,7 +3897,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -3730,7 +3910,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -3748,7 +3929,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -3766,7 +3948,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -3834,7 +4017,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -3846,7 +4030,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -3858,7 +4043,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -3926,7 +4112,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -3994,7 +4181,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -4038,7 +4226,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -4050,7 +4239,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -4062,7 +4252,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -4106,7 +4297,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -4150,7 +4342,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -4255,7 +4448,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -4267,7 +4461,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -4279,115 +4474,11 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
-      "subject": "api::recurring-element.recurring-element",
-      "properties": {
-        "fields": [
-          "Logo",
-          "Logo_tagline",
-          "Footer_text",
-          "Favicon",
-          "Company_name",
-          "Company_address",
-          "Company_email",
-          "text_chapter",
-          "text_practices_to_follow",
-          "text_practices",
-          "text_explore_the_world_of_kindness",
-          "OpenGraph_default",
-          "recipe_prep",
-          "recipe_cook",
-          "recipe_total",
-          "recipe_jump_to_recipe",
-          "recipe_similar",
-          "recipe_recipe",
-          "recipe_minutes",
-          "recipe_nutrition_information",
-          "recipe_yield",
-          "recipe_amount_per_serving",
-          "recipe_ingredients",
-          "recipe_serving_size",
-          "recipe_cooking_instructions",
-          "recipe_tips",
-          "recipe_discover",
-          "recipe_minute",
-          "recipe_hour",
-          "recipe_hours",
-          "recipe_day",
-          "recipe_days",
-          "estate_location",
-          "product_kindness_impact",
-          "product_add",
-          "product_add_cart",
-          "product_add_cart_for",
-          "product_made_love_from",
-          "product_size",
-          "product_quantity",
-          "product_each_penny_you_spend",
-          "product_check_where_going",
-          "product_price_breakdown_title",
-          "product_transparency_title",
-          "product_impact_title",
-          "text_content",
-          "Item_stock_text",
-          "Product_sold_out_text",
-          "Nav_menu.Visibility",
-          "Nav_menu.Title",
-          "Nav_menu.Link",
-          "Nav_menu.Sub_menu.Visibility",
-          "Nav_menu.Sub_menu.Title",
-          "Nav_menu.Sub_menu.Link",
-          "Nav_menu_search_visibility",
-          "Nav_menu_language_selector_visibility",
-          "Nav_menu_cart_visibility",
-          "Nav_menu_cart_icon",
-          "Nav_menu_profile_visibility",
-          "Nav_menu_profile_icon",
-          "text_all_tea_variants",
-          "text_all_tea_sizes",
-          "Recipes_related_products_title_text",
-          "Product_stock_other_formats_text",
-          "Product_stock_other_formats_text_singular",
-          "Nav_menu_localization_visibility",
-          "Nav_menu_localization_icon",
-          "text_shipping_country",
-          "text_language",
-          "text_currency",
-          "Button_save_text",
-          "Button_go_back_text",
-          "search_text_no_result_found",
-          "Footer_menu.Heading_name",
-          "Footer_menu.Menu.Visibility",
-          "Footer_menu.Menu.Title",
-          "Footer_menu.Menu.Link",
-          "Footer_menu.Menu.Icon",
-          "text_lang_selector_unavailable",
-          "text_region",
-          "Nav_menu_region_selector_visibility",
-          "text_skip",
-          "text_select_your_region",
-          "Product_available_other_formats_text",
-          "Product_available_other_formats_text_singular",
-          "Product_stock_available_text",
-          "Product_available_text",
-          "Product_other_formats_text",
-          "Product_other_formats_singular_text",
-          "Product_other_formats_text_sm",
-          "Product_other_formats_singular_text_sm"
-        ],
-        "locales": [
-          "en",
-          "nl-NL",
-          "de"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
       "subject": "api::recurring-element.recurring-element",
       "properties": {
         "fields": [
@@ -4489,7 +4580,114 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::recurring-element.recurring-element",
+      "properties": {
+        "fields": [
+          "Logo",
+          "Logo_tagline",
+          "Footer_text",
+          "Favicon",
+          "Company_name",
+          "Company_address",
+          "Company_email",
+          "text_chapter",
+          "text_practices_to_follow",
+          "text_practices",
+          "text_explore_the_world_of_kindness",
+          "OpenGraph_default",
+          "recipe_prep",
+          "recipe_cook",
+          "recipe_total",
+          "recipe_jump_to_recipe",
+          "recipe_similar",
+          "recipe_recipe",
+          "recipe_minutes",
+          "recipe_nutrition_information",
+          "recipe_yield",
+          "recipe_amount_per_serving",
+          "recipe_ingredients",
+          "recipe_serving_size",
+          "recipe_cooking_instructions",
+          "recipe_tips",
+          "recipe_discover",
+          "recipe_minute",
+          "recipe_hour",
+          "recipe_hours",
+          "recipe_day",
+          "recipe_days",
+          "estate_location",
+          "product_kindness_impact",
+          "product_add",
+          "product_add_cart",
+          "product_add_cart_for",
+          "product_made_love_from",
+          "product_size",
+          "product_quantity",
+          "product_each_penny_you_spend",
+          "product_check_where_going",
+          "product_price_breakdown_title",
+          "product_transparency_title",
+          "product_impact_title",
+          "text_content",
+          "Item_stock_text",
+          "Product_sold_out_text",
+          "Nav_menu.Visibility",
+          "Nav_menu.Title",
+          "Nav_menu.Link",
+          "Nav_menu.Sub_menu.Visibility",
+          "Nav_menu.Sub_menu.Title",
+          "Nav_menu.Sub_menu.Link",
+          "Nav_menu_search_visibility",
+          "Nav_menu_language_selector_visibility",
+          "Nav_menu_cart_visibility",
+          "Nav_menu_cart_icon",
+          "Nav_menu_profile_visibility",
+          "Nav_menu_profile_icon",
+          "text_all_tea_variants",
+          "text_all_tea_sizes",
+          "Recipes_related_products_title_text",
+          "Product_stock_other_formats_text",
+          "Product_stock_other_formats_text_singular",
+          "Nav_menu_localization_visibility",
+          "Nav_menu_localization_icon",
+          "text_shipping_country",
+          "text_language",
+          "text_currency",
+          "Button_save_text",
+          "Button_go_back_text",
+          "search_text_no_result_found",
+          "Footer_menu.Heading_name",
+          "Footer_menu.Menu.Visibility",
+          "Footer_menu.Menu.Title",
+          "Footer_menu.Menu.Link",
+          "Footer_menu.Menu.Icon",
+          "text_lang_selector_unavailable",
+          "text_region",
+          "Nav_menu_region_selector_visibility",
+          "text_skip",
+          "text_select_your_region",
+          "Product_available_other_formats_text",
+          "Product_available_other_formats_text_singular",
+          "Product_stock_available_text",
+          "Product_available_text",
+          "Product_other_formats_text",
+          "Product_other_formats_singular_text",
+          "Product_other_formats_text_sm",
+          "Product_other_formats_singular_text_sm"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -4549,19 +4747,22 @@
           "white_love"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
       "subject": "api::recurring-image.recurring-image",
       "properties": {},
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
       "subject": "api::recurring-image.recurring-image",
       "properties": {},
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -4621,7 +4822,8 @@
           "white_love"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -4681,7 +4883,8 @@
           "white_love"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -4698,7 +4901,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -4710,7 +4914,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -4722,7 +4927,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -4739,7 +4945,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -4756,7 +4963,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -4779,7 +4987,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -4791,7 +5000,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -4814,7 +5024,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -4837,7 +5048,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -4854,7 +5066,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.delete",
@@ -4866,7 +5079,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.publish",
@@ -4878,7 +5092,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -4895,7 +5110,8 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -4912,37 +5128,43 @@
           "de"
         ]
       },
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::upload.assets.copy-link",
       "subject": null,
       "properties": {},
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::upload.assets.create",
       "subject": null,
       "properties": {},
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::upload.assets.download",
       "subject": null,
       "properties": {},
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::upload.assets.update",
       "subject": null,
       "properties": {},
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     },
     {
       "action": "plugin::upload.read",
       "subject": null,
       "properties": {},
-      "conditions": []
+      "conditions": [],
+      "actionParameters": null
     }
   ]
 }

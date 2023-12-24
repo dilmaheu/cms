@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::organization.organization",
+  "key": "plugin_content_manager_configuration_content_types::plugin::content-releases.release-action",
   "value": {
-    "uid": "api::organization.organization",
+    "uid": "plugin::content-releases.release-action",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "Name",
-      "defaultSortBy": "Name",
+      "mainField": "contentType",
+      "defaultSortBy": "contentType",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,30 +20,45 @@
           "sortable": true
         }
       },
-      "Name": {
+      "type": {
         "edit": {
-          "label": "Name",
+          "label": "type",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Name",
+          "label": "type",
           "searchable": true,
           "sortable": true
         }
       },
-      "email": {
+      "contentType": {
         "edit": {
-          "label": "email",
+          "label": "contentType",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "email",
+          "label": "contentType",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "release": {
+        "edit": {
+          "label": "release",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "release",
           "searchable": true,
           "sortable": true
         }
@@ -110,18 +125,24 @@
     "layouts": {
       "list": [
         "id",
-        "Name",
-        "email",
-        "createdAt"
+        "type",
+        "contentType",
+        "release"
       ],
       "edit": [
         [
           {
-            "name": "Name",
+            "name": "type",
             "size": 6
           },
           {
-            "name": "email",
+            "name": "contentType",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "release",
             "size": 6
           }
         ]
