@@ -4374,7 +4374,9 @@
           "Nav_menu_profile_menu.Menu.Link",
           "Nav_menu_profile_menu.Menu.Icon",
           "Nav_menu_profile_menu.text_log_out",
-          "Nav_menu_profile_menu.Log_out_icon"
+          "Nav_menu_profile_menu.Log_out_icon",
+          "text_in",
+          "product_from"
         ],
         "locales": [
           "en",
@@ -4510,7 +4512,9 @@
           "Nav_menu_profile_menu.Menu.Link",
           "Nav_menu_profile_menu.Menu.Icon",
           "Nav_menu_profile_menu.text_log_out",
-          "Nav_menu_profile_menu.Log_out_icon"
+          "Nav_menu_profile_menu.Log_out_icon",
+          "text_in",
+          "product_from"
         ],
         "locales": [
           "en",
@@ -4622,7 +4626,9 @@
           "Nav_menu_profile_menu.Menu.Link",
           "Nav_menu_profile_menu.Menu.Icon",
           "Nav_menu_profile_menu.text_log_out",
-          "Nav_menu_profile_menu.Log_out_icon"
+          "Nav_menu_profile_menu.Log_out_icon",
+          "text_in",
+          "product_from"
         ],
         "locales": [
           "en",
@@ -5147,7 +5153,9 @@
           "Meta.URL_slug",
           "Meta.Canonical_link",
           "Title",
-          "Block2_title"
+          "Block2_title",
+          "Block_name_delivery_address",
+          "Block2_name_billing_address"
         ],
         "locales": [
           "en",
@@ -5195,7 +5203,9 @@
           "Meta.URL_slug",
           "Meta.Canonical_link",
           "Title",
-          "Block2_title"
+          "Block2_title",
+          "Block_name_delivery_address",
+          "Block2_name_billing_address"
         ],
         "locales": [
           "en",
@@ -5219,7 +5229,9 @@
           "Meta.URL_slug",
           "Meta.Canonical_link",
           "Title",
-          "Block2_title"
+          "Block2_title",
+          "Block_name_delivery_address",
+          "Block2_name_billing_address"
         ],
         "locales": [
           "en",
@@ -5535,8 +5547,8 @@
           "Address_tag.Title",
           "Button_save_text",
           "Button_cancel_text",
-          "Checkbox_set_default_address_text",
-          "Checkbox_set_billing_address_text",
+          "Checkbox_set_default_delivery_address_text",
+          "Checkbox_set_default_billing_address_text",
           "text_more_address",
           "text_content",
           "Notification_address_update_text",
@@ -5566,7 +5578,20 @@
           "text_email",
           "text_mobile_number",
           "text_show_more_products_in_this_order",
-          "text_hide_more_products_in_this_order"
+          "text_hide_more_products_in_this_order",
+          "text_quantity",
+          "text_order_processing",
+          "text_in_stock_date",
+          "text_orders_timeline",
+          "text_show_more_product_in_this_order_singular",
+          "text_hide_more_product_in_this_order_singular",
+          "Button_go_to_my_orders_text",
+          "Button_view_more_address_text_singular",
+          "Button_view_more_address_text",
+          "Checkbox_add_delivery_address_text",
+          "Checkbox_add_billing_address_text",
+          "Checkbox_set_default_address_text",
+          "Checkbox_set_billing_address_text"
         ],
         "locales": [
           "en",
@@ -5636,8 +5661,8 @@
           "Address_tag.Title",
           "Button_save_text",
           "Button_cancel_text",
-          "Checkbox_set_default_address_text",
-          "Checkbox_set_billing_address_text",
+          "Checkbox_set_default_delivery_address_text",
+          "Checkbox_set_default_billing_address_text",
           "text_more_address",
           "text_content",
           "Notification_address_update_text",
@@ -5667,7 +5692,20 @@
           "text_email",
           "text_mobile_number",
           "text_show_more_products_in_this_order",
-          "text_hide_more_products_in_this_order"
+          "text_hide_more_products_in_this_order",
+          "text_quantity",
+          "text_order_processing",
+          "text_in_stock_date",
+          "text_orders_timeline",
+          "text_show_more_product_in_this_order_singular",
+          "text_hide_more_product_in_this_order_singular",
+          "Button_go_to_my_orders_text",
+          "Button_view_more_address_text_singular",
+          "Button_view_more_address_text",
+          "Checkbox_add_delivery_address_text",
+          "Checkbox_add_billing_address_text",
+          "Checkbox_set_default_address_text",
+          "Checkbox_set_billing_address_text"
         ],
         "locales": [
           "en",
@@ -5713,8 +5751,8 @@
           "Address_tag.Title",
           "Button_save_text",
           "Button_cancel_text",
-          "Checkbox_set_default_address_text",
-          "Checkbox_set_billing_address_text",
+          "Checkbox_set_default_delivery_address_text",
+          "Checkbox_set_default_billing_address_text",
           "text_more_address",
           "text_content",
           "Notification_address_update_text",
@@ -5744,7 +5782,20 @@
           "text_email",
           "text_mobile_number",
           "text_show_more_products_in_this_order",
-          "text_hide_more_products_in_this_order"
+          "text_hide_more_products_in_this_order",
+          "text_quantity",
+          "text_order_processing",
+          "text_in_stock_date",
+          "text_orders_timeline",
+          "text_show_more_product_in_this_order_singular",
+          "text_hide_more_product_in_this_order_singular",
+          "Button_go_to_my_orders_text",
+          "Button_view_more_address_text_singular",
+          "Button_view_more_address_text",
+          "Checkbox_add_delivery_address_text",
+          "Checkbox_add_billing_address_text",
+          "Checkbox_set_default_address_text",
+          "Checkbox_set_billing_address_text"
         ],
         "locales": [
           "en",

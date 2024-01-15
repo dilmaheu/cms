@@ -454,30 +454,30 @@
           "sortable": true
         }
       },
-      "Checkbox_set_default_address_text": {
+      "Checkbox_set_default_delivery_address_text": {
         "edit": {
-          "label": "Checkbox_set_default_address_text",
+          "label": "Checkbox_set_default_delivery_address_text",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Checkbox_set_default_address_text",
+          "label": "Checkbox_set_default_delivery_address_text",
           "searchable": true,
           "sortable": true
         }
       },
-      "Checkbox_set_billing_address_text": {
+      "Checkbox_set_default_billing_address_text": {
         "edit": {
-          "label": "Checkbox_set_billing_address_text",
+          "label": "Checkbox_set_default_billing_address_text",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Checkbox_set_billing_address_text",
+          "label": "Checkbox_set_default_billing_address_text",
           "searchable": true,
           "sortable": true
         }
@@ -902,6 +902,188 @@
           "sortable": true
         }
       },
+      "text_quantity": {
+        "edit": {
+          "label": "text_quantity",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_quantity",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_order_processing": {
+        "edit": {
+          "label": "text_order_processing",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_order_processing",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_in_stock_date": {
+        "edit": {
+          "label": "text_in_stock_date",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_in_stock_date",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_orders_timeline": {
+        "edit": {
+          "label": "text_orders_timeline",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_orders_timeline",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_show_more_product_in_this_order_singular": {
+        "edit": {
+          "label": "text_show_more_product_in_this_order_singular",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_show_more_product_in_this_order_singular",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_hide_more_product_in_this_order_singular": {
+        "edit": {
+          "label": "text_hide_more_product_in_this_order_singular",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_hide_more_product_in_this_order_singular",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_go_to_my_orders_text": {
+        "edit": {
+          "label": "Button_go_to_my_orders_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_go_to_my_orders_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_view_more_address_text_singular": {
+        "edit": {
+          "label": "Button_view_more_address_text_singular",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_view_more_address_text_singular",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_view_more_address_text": {
+        "edit": {
+          "label": "Button_view_more_address_text",
+          "description": "add <number> to show the number of address",
+          "placeholder": "View <number> more addresses",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_view_more_address_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Checkbox_add_delivery_address_text": {
+        "edit": {
+          "label": "Checkbox_add_delivery_address_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Checkbox_add_delivery_address_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Checkbox_add_billing_address_text": {
+        "edit": {
+          "label": "Checkbox_add_billing_address_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Checkbox_add_billing_address_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Checkbox_set_default_address_text": {
+        "edit": {
+          "label": "Checkbox_set_default_address_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Checkbox_set_default_address_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Checkbox_set_billing_address_text": {
+        "edit": {
+          "label": "Checkbox_set_billing_address_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Checkbox_set_billing_address_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1105,6 +1287,16 @@
         ],
         [
           {
+            "name": "Button_view_more_address_text_singular",
+            "size": 4
+          },
+          {
+            "name": "Button_view_more_address_text",
+            "size": 4
+          }
+        ],
+        [
+          {
             "name": "Button_buy_again_text",
             "size": 4
           },
@@ -1113,7 +1305,7 @@
             "size": 4
           },
           {
-            "name": "Button_view_all_orders_text",
+            "name": "Button_go_to_my_orders_text",
             "size": 4
           }
         ],
@@ -1132,6 +1324,12 @@
             "name": "Label_order",
             "size": 4
           },
+          {
+            "name": "text_quantity",
+            "size": 4
+          }
+        ],
+        [
           {
             "name": "Label_tag_text",
             "size": 4
@@ -1159,11 +1357,21 @@
         ],
         [
           {
-            "name": "Checkbox_set_default_address_text",
+            "name": "Checkbox_set_default_delivery_address_text",
             "size": 6
           },
           {
-            "name": "Checkbox_set_billing_address_text",
+            "name": "Checkbox_set_default_billing_address_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Checkbox_add_delivery_address_text",
+            "size": 6
+          },
+          {
+            "name": "Checkbox_add_billing_address_text",
             "size": 6
           }
         ],
@@ -1213,16 +1421,26 @@
         ],
         [
           {
-            "name": "text_estimated_delivery",
+            "name": "text_order_processing",
             "size": 4
           },
           {
-            "name": "text_estimated_shipment",
+            "name": "text_estimated_delivery",
             "size": 4
           },
           {
             "name": "text_delivered",
             "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_show_more_product_in_this_order_singular",
+            "size": 6
+          },
+          {
+            "name": "text_hide_more_product_in_this_order_singular",
+            "size": 6
           }
         ],
         [
@@ -1248,6 +1466,30 @@
         [
           {
             "name": "text_more_products_in_this_order",
+            "size": 6
+          },
+          {
+            "name": "text_estimated_shipment",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_in_stock_date",
+            "size": 6
+          },
+          {
+            "name": "text_orders_timeline",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Checkbox_set_default_address_text",
+            "size": 6
+          },
+          {
+            "name": "Checkbox_set_billing_address_text",
             "size": 6
           }
         ]

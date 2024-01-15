@@ -76,6 +76,34 @@
           "sortable": true
         }
       },
+      "Block_name_delivery_address": {
+        "edit": {
+          "label": "Block_name_delivery_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_name_delivery_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2_name_billing_address": {
+        "edit": {
+          "label": "Block2_name_billing_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_name_billing_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -106,12 +134,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Breadcrumb",
-        "Meta",
-        "createdAt"
-      ],
       "edit": [
         [
           {
@@ -127,6 +149,16 @@
         ],
         [
           {
+            "name": "Block_name_delivery_address",
+            "size": 6
+          },
+          {
+            "name": "Block2_name_billing_address",
+            "size": 6
+          }
+        ],
+        [
+          {
             "name": "Breadcrumb",
             "size": 12
           }
@@ -137,6 +169,12 @@
             "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Breadcrumb",
+        "Meta",
+        "createdAt"
       ]
     }
   },

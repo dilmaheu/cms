@@ -4247,7 +4247,8 @@
           "Product_other_formats_text",
           "Product_other_formats_singular_text",
           "Product_other_formats_text_sm",
-          "Product_other_formats_singular_text_sm"
+          "Product_other_formats_singular_text_sm",
+          "From_name"
         ],
         "locales": [
           "en",
@@ -4376,7 +4377,8 @@
           "Product_other_formats_text",
           "Product_other_formats_singular_text",
           "Product_other_formats_text_sm",
-          "Product_other_formats_singular_text_sm"
+          "Product_other_formats_singular_text_sm",
+          "From_name"
         ],
         "locales": [
           "en",
@@ -4481,7 +4483,8 @@
           "Product_other_formats_text",
           "Product_other_formats_singular_text",
           "Product_other_formats_text_sm",
-          "Product_other_formats_singular_text_sm"
+          "Product_other_formats_singular_text_sm",
+          "From_name"
         ],
         "locales": [
           "en",

@@ -776,7 +776,8 @@
           "localized": false
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Nav_menu_profile_menu": {
       "type": "component",
@@ -787,6 +788,22 @@
         }
       },
       "component": "profile-menu.menu"
+    },
+    "text_in": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "product_from": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

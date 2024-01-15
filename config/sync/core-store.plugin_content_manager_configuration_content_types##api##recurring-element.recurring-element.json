@@ -1196,6 +1196,34 @@
           "sortable": false
         }
       },
+      "text_in": {
+        "edit": {
+          "label": "text_in",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_in",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "product_from": {
+        "edit": {
+          "label": "product_from",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "product_from",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1226,12 +1254,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
-      ],
       "edit": [
         [
           {
@@ -1519,6 +1541,12 @@
         ],
         [
           {
+            "name": "product_from",
+            "size": 6
+          }
+        ],
+        [
+          {
             "name": "product_kindness_impact",
             "size": 12
           }
@@ -1661,8 +1689,18 @@
           {
             "name": "text_skip",
             "size": 6
+          },
+          {
+            "name": "text_in",
+            "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
       ]
     }
   },

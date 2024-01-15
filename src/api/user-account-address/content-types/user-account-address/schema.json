@@ -54,6 +54,23 @@
       },
       "type": "string",
       "required": true
+    },
+    "Block_name_delivery_address": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "Block2_name_billing_address": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
