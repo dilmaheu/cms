@@ -62,46 +62,19 @@
           "sortable": true
         }
       },
-      "Block2_title": {
+      "countries": {
         "edit": {
-          "label": "Block2_title",
+          "label": "countries",
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": true
+          "editable": true,
+          "mainField": "name"
         },
         "list": {
-          "label": "Block2_title",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Block_name_delivery_address": {
-        "edit": {
-          "label": "Block_name_delivery_address",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block_name_delivery_address",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Block2_name_billing_address": {
-        "edit": {
-          "label": "Block2_name_billing_address",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Block2_name_billing_address",
-          "searchable": true,
-          "sortable": true
+          "label": "countries",
+          "searchable": false,
+          "sortable": false
         }
       },
       "createdAt": {
@@ -143,17 +116,7 @@
         ],
         [
           {
-            "name": "Block2_title",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Block_name_delivery_address",
-            "size": 6
-          },
-          {
-            "name": "Block2_name_billing_address",
+            "name": "countries",
             "size": 6
           }
         ],

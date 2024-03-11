@@ -43,7 +43,15 @@
           "Highlighted_post_text",
           "Navbar_region_selectors_text",
           "Navbar_open_sidebar_sub_menu_text",
-          "Navbar_close_sidebar_sub_menu_text"
+          "Navbar_close_sidebar_sub_menu_text",
+          "Cart_focus_text",
+          "Cart_close_button_text",
+          "Cart_items_text",
+          "Remove_cart_item_button_text",
+          "Cart_item_quantity_minus_button_text",
+          "Cart_item_quantity_plus_button_text",
+          "Cart_item_quantity_text",
+          "Kindness_cause_items_text"
         ],
         "locales": [
           "en",
@@ -117,7 +125,15 @@
           "Highlighted_post_text",
           "Navbar_region_selectors_text",
           "Navbar_open_sidebar_sub_menu_text",
-          "Navbar_close_sidebar_sub_menu_text"
+          "Navbar_close_sidebar_sub_menu_text",
+          "Cart_focus_text",
+          "Cart_close_button_text",
+          "Cart_items_text",
+          "Remove_cart_item_button_text",
+          "Cart_item_quantity_minus_button_text",
+          "Cart_item_quantity_plus_button_text",
+          "Cart_item_quantity_text",
+          "Kindness_cause_items_text"
         ],
         "locales": [
           "en",
@@ -167,7 +183,15 @@
           "Highlighted_post_text",
           "Navbar_region_selectors_text",
           "Navbar_open_sidebar_sub_menu_text",
-          "Navbar_close_sidebar_sub_menu_text"
+          "Navbar_close_sidebar_sub_menu_text",
+          "Cart_focus_text",
+          "Cart_close_button_text",
+          "Cart_items_text",
+          "Remove_cart_item_button_text",
+          "Cart_item_quantity_minus_button_text",
+          "Cart_item_quantity_plus_button_text",
+          "Cart_item_quantity_text",
+          "Kindness_cause_items_text"
         ],
         "locales": [
           "en",
@@ -658,20 +682,6 @@
         "fields": [
           "text_contact_info",
           "text_shipping_address",
-          "text_email_address",
-          "email_address_placeholder",
-          "text_first_name",
-          "first_name_placeholder",
-          "text_last_name",
-          "last_name_placeholder",
-          "text_country",
-          "country_placeholder",
-          "text_city",
-          "city_placeholder",
-          "text_street",
-          "street_placeholder",
-          "text_postal_code",
-          "postal_code_placeholder",
           "text_continue_to_shipping",
           "Meta.HTML_Title",
           "Meta.Meta_description",
@@ -682,7 +692,6 @@
           "text_return_to_cart",
           "checkout_step_order",
           "Aria_label_form_text",
-          "countries",
           "text_customer",
           "Guest_intro_text",
           "Sign_in_text"
@@ -726,20 +735,6 @@
         "fields": [
           "text_contact_info",
           "text_shipping_address",
-          "text_email_address",
-          "email_address_placeholder",
-          "text_first_name",
-          "first_name_placeholder",
-          "text_last_name",
-          "last_name_placeholder",
-          "text_country",
-          "country_placeholder",
-          "text_city",
-          "city_placeholder",
-          "text_street",
-          "street_placeholder",
-          "text_postal_code",
-          "postal_code_placeholder",
           "text_continue_to_shipping",
           "Meta.HTML_Title",
           "Meta.Meta_description",
@@ -750,7 +745,6 @@
           "text_return_to_cart",
           "checkout_step_order",
           "Aria_label_form_text",
-          "countries",
           "text_customer",
           "Guest_intro_text",
           "Sign_in_text"
@@ -770,20 +764,6 @@
         "fields": [
           "text_contact_info",
           "text_shipping_address",
-          "text_email_address",
-          "email_address_placeholder",
-          "text_first_name",
-          "first_name_placeholder",
-          "text_last_name",
-          "last_name_placeholder",
-          "text_country",
-          "country_placeholder",
-          "text_city",
-          "city_placeholder",
-          "text_street",
-          "street_placeholder",
-          "text_postal_code",
-          "postal_code_placeholder",
           "text_continue_to_shipping",
           "Meta.HTML_Title",
           "Meta.Meta_description",
@@ -794,7 +774,6 @@
           "text_return_to_cart",
           "checkout_step_order",
           "Aria_label_form_text",
-          "countries",
           "text_customer",
           "Guest_intro_text",
           "Sign_in_text"
@@ -897,6 +876,138 @@
           "checkout_step_order",
           "kindness_causes",
           "text_submit_kindness_cause"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::checkout-payment.checkout-payment",
+      "properties": {
+        "fields": [
+          "checkout_step_order",
+          "Block_title",
+          "Block2_title",
+          "text_card_details",
+          "text_accepted_cards",
+          "Accepted_cards_icon",
+          "Card_label_number",
+          "Card_label_date",
+          "Card_label_cvv",
+          "Ideal_label_select_bank",
+          "Button_text_pay_with",
+          "Radio_button_text_same_as_shipping_address",
+          "Radio_button_text_use_different_billing_address",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "payment_methods",
+          "text_card_error_message",
+          "text_payment_error"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::checkout-payment.checkout-payment",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::checkout-payment.checkout-payment",
+      "properties": {
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::checkout-payment.checkout-payment",
+      "properties": {
+        "fields": [
+          "checkout_step_order",
+          "Block_title",
+          "Block2_title",
+          "text_card_details",
+          "text_accepted_cards",
+          "Accepted_cards_icon",
+          "Card_label_number",
+          "Card_label_date",
+          "Card_label_cvv",
+          "Ideal_label_select_bank",
+          "Button_text_pay_with",
+          "Radio_button_text_same_as_shipping_address",
+          "Radio_button_text_use_different_billing_address",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "payment_methods",
+          "text_card_error_message",
+          "text_payment_error"
+        ],
+        "locales": [
+          "en",
+          "nl-NL",
+          "de"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::checkout-payment.checkout-payment",
+      "properties": {
+        "fields": [
+          "checkout_step_order",
+          "Block_title",
+          "Block2_title",
+          "text_card_details",
+          "text_accepted_cards",
+          "Accepted_cards_icon",
+          "Card_label_number",
+          "Card_label_date",
+          "Card_label_cvv",
+          "Ideal_label_select_bank",
+          "Button_text_pay_with",
+          "Radio_button_text_same_as_shipping_address",
+          "Radio_button_text_use_different_billing_address",
+          "Meta.HTML_Title",
+          "Meta.Meta_description",
+          "Meta.noindex",
+          "Meta.nofollow",
+          "Meta.URL_slug",
+          "Meta.Canonical_link",
+          "payment_methods",
+          "text_card_error_message",
+          "text_payment_error"
         ],
         "locales": [
           "en",
@@ -3357,7 +3468,8 @@
       "properties": {
         "fields": [
           "method",
-          "supported_countries"
+          "supported_countries",
+          "icon"
         ]
       },
       "conditions": []
@@ -3380,7 +3492,8 @@
       "properties": {
         "fields": [
           "method",
-          "supported_countries"
+          "supported_countries",
+          "icon"
         ]
       },
       "conditions": []
@@ -3391,7 +3504,8 @@
       "properties": {
         "fields": [
           "method",
-          "supported_countries"
+          "supported_countries",
+          "icon"
         ]
       },
       "conditions": []
@@ -4376,7 +4490,43 @@
           "Nav_menu_profile_menu.text_log_out",
           "Nav_menu_profile_menu.Log_out_icon",
           "text_in",
-          "product_from"
+          "product_from",
+          "text_email_address",
+          "email_address_placeholder",
+          "text_first_name",
+          "first_name_placeholder",
+          "text_last_name",
+          "last_name_placeholder",
+          "text_country",
+          "country_placeholder",
+          "countries",
+          "text_city",
+          "city_placeholder",
+          "text_street",
+          "street_placeholder",
+          "text_postal_code",
+          "postal_code_placeholder",
+          "text_shipping_address",
+          "text_billing_address",
+          "text_information",
+          "text_add",
+          "text_cart",
+          "text_add_to_cart",
+          "text_add_to_cart_for",
+          "text_update_cart",
+          "text_size",
+          "text_quantity",
+          "text_order_summary",
+          "text_subtotal",
+          "text_shipping",
+          "text_tax",
+          "text_total",
+          "text_shipping_calculated_at_checkout",
+          "text_proceed_to_checkout",
+          "text_continue_to",
+          "text_empty_cart",
+          "text_variant",
+          "text_continue_shopping"
         ],
         "locales": [
           "en",
@@ -4514,7 +4664,43 @@
           "Nav_menu_profile_menu.text_log_out",
           "Nav_menu_profile_menu.Log_out_icon",
           "text_in",
-          "product_from"
+          "product_from",
+          "text_email_address",
+          "email_address_placeholder",
+          "text_first_name",
+          "first_name_placeholder",
+          "text_last_name",
+          "last_name_placeholder",
+          "text_country",
+          "country_placeholder",
+          "countries",
+          "text_city",
+          "city_placeholder",
+          "text_street",
+          "street_placeholder",
+          "text_postal_code",
+          "postal_code_placeholder",
+          "text_shipping_address",
+          "text_billing_address",
+          "text_information",
+          "text_add",
+          "text_cart",
+          "text_add_to_cart",
+          "text_add_to_cart_for",
+          "text_update_cart",
+          "text_size",
+          "text_quantity",
+          "text_order_summary",
+          "text_subtotal",
+          "text_shipping",
+          "text_tax",
+          "text_total",
+          "text_shipping_calculated_at_checkout",
+          "text_proceed_to_checkout",
+          "text_continue_to",
+          "text_empty_cart",
+          "text_variant",
+          "text_continue_shopping"
         ],
         "locales": [
           "en",
@@ -4628,7 +4814,43 @@
           "Nav_menu_profile_menu.text_log_out",
           "Nav_menu_profile_menu.Log_out_icon",
           "text_in",
-          "product_from"
+          "product_from",
+          "text_email_address",
+          "email_address_placeholder",
+          "text_first_name",
+          "first_name_placeholder",
+          "text_last_name",
+          "last_name_placeholder",
+          "text_country",
+          "country_placeholder",
+          "countries",
+          "text_city",
+          "city_placeholder",
+          "text_street",
+          "street_placeholder",
+          "text_postal_code",
+          "postal_code_placeholder",
+          "text_shipping_address",
+          "text_billing_address",
+          "text_information",
+          "text_add",
+          "text_cart",
+          "text_add_to_cart",
+          "text_add_to_cart_for",
+          "text_update_cart",
+          "text_size",
+          "text_quantity",
+          "text_order_summary",
+          "text_subtotal",
+          "text_shipping",
+          "text_tax",
+          "text_total",
+          "text_shipping_calculated_at_checkout",
+          "text_proceed_to_checkout",
+          "text_continue_to",
+          "text_empty_cart",
+          "text_variant",
+          "text_continue_shopping"
         ],
         "locales": [
           "en",
@@ -4693,7 +4915,8 @@
           "user_account_nav_background",
           "user_account_nav_background_sm",
           "nav_background_sm",
-          "white_love"
+          "white_love",
+          "logo_email"
         ]
       },
       "conditions": []
@@ -4765,7 +4988,8 @@
           "user_account_nav_background",
           "user_account_nav_background_sm",
           "nav_background_sm",
-          "white_love"
+          "white_love",
+          "logo_email"
         ]
       },
       "conditions": []
@@ -4825,7 +5049,8 @@
           "user_account_nav_background",
           "user_account_nav_background_sm",
           "nav_background_sm",
-          "white_love"
+          "white_love",
+          "logo_email"
         ]
       },
       "conditions": []
@@ -5153,9 +5378,7 @@
           "Meta.URL_slug",
           "Meta.Canonical_link",
           "Title",
-          "Block2_title",
-          "Block_name_delivery_address",
-          "Block2_name_billing_address"
+          "countries"
         ],
         "locales": [
           "en",
@@ -5203,9 +5426,7 @@
           "Meta.URL_slug",
           "Meta.Canonical_link",
           "Title",
-          "Block2_title",
-          "Block_name_delivery_address",
-          "Block2_name_billing_address"
+          "countries"
         ],
         "locales": [
           "en",
@@ -5229,9 +5450,7 @@
           "Meta.URL_slug",
           "Meta.Canonical_link",
           "Title",
-          "Block2_title",
-          "Block_name_delivery_address",
-          "Block2_name_billing_address"
+          "countries"
         ],
         "locales": [
           "en",
@@ -5544,7 +5763,6 @@
           "Button_make_default_text",
           "Tag_default_text",
           "Label_tag_text",
-          "Address_tag.Title",
           "Button_save_text",
           "Button_cancel_text",
           "Checkbox_set_default_delivery_address_text",
@@ -5564,7 +5782,6 @@
           "Button_track_package_text",
           "Button_buy_again_text",
           "Button_sold_out_text",
-          "Button_view_all_orders_text",
           "text_more_products_in_this_order",
           "text_estimated_delivery",
           "text_estimated_shipment",
@@ -5591,7 +5808,24 @@
           "Checkbox_add_delivery_address_text",
           "Checkbox_add_billing_address_text",
           "Checkbox_set_default_address_text",
-          "Checkbox_set_billing_address_text"
+          "Checkbox_set_billing_address_text",
+          "Label_delivery_address",
+          "Label_shipping_method",
+          "Button_change_text",
+          "Button_return_to_text",
+          "Aria_label_delivery_address",
+          "Aria_label_shipping_method",
+          "Aria_label_email",
+          "Aria_label_phone",
+          "text_shipping_information",
+          "text_default_delivery_address",
+          "text_default_billing_address",
+          "Tag_suggestions",
+          "Button_view_all_addresses_text",
+          "Notification_added_address",
+          "Notification_updated_address",
+          "Notification_deleted_address",
+          "text_select_or_create_tag"
         ],
         "locales": [
           "en",
@@ -5658,7 +5892,6 @@
           "Button_make_default_text",
           "Tag_default_text",
           "Label_tag_text",
-          "Address_tag.Title",
           "Button_save_text",
           "Button_cancel_text",
           "Checkbox_set_default_delivery_address_text",
@@ -5678,7 +5911,6 @@
           "Button_track_package_text",
           "Button_buy_again_text",
           "Button_sold_out_text",
-          "Button_view_all_orders_text",
           "text_more_products_in_this_order",
           "text_estimated_delivery",
           "text_estimated_shipment",
@@ -5705,7 +5937,24 @@
           "Checkbox_add_delivery_address_text",
           "Checkbox_add_billing_address_text",
           "Checkbox_set_default_address_text",
-          "Checkbox_set_billing_address_text"
+          "Checkbox_set_billing_address_text",
+          "Label_delivery_address",
+          "Label_shipping_method",
+          "Button_change_text",
+          "Button_return_to_text",
+          "Aria_label_delivery_address",
+          "Aria_label_shipping_method",
+          "Aria_label_email",
+          "Aria_label_phone",
+          "text_shipping_information",
+          "text_default_delivery_address",
+          "text_default_billing_address",
+          "Tag_suggestions",
+          "Button_view_all_addresses_text",
+          "Notification_added_address",
+          "Notification_updated_address",
+          "Notification_deleted_address",
+          "text_select_or_create_tag"
         ],
         "locales": [
           "en",
@@ -5748,7 +5997,6 @@
           "Button_make_default_text",
           "Tag_default_text",
           "Label_tag_text",
-          "Address_tag.Title",
           "Button_save_text",
           "Button_cancel_text",
           "Checkbox_set_default_delivery_address_text",
@@ -5768,7 +6016,6 @@
           "Button_track_package_text",
           "Button_buy_again_text",
           "Button_sold_out_text",
-          "Button_view_all_orders_text",
           "text_more_products_in_this_order",
           "text_estimated_delivery",
           "text_estimated_shipment",
@@ -5795,7 +6042,24 @@
           "Checkbox_add_delivery_address_text",
           "Checkbox_add_billing_address_text",
           "Checkbox_set_default_address_text",
-          "Checkbox_set_billing_address_text"
+          "Checkbox_set_billing_address_text",
+          "Label_delivery_address",
+          "Label_shipping_method",
+          "Button_change_text",
+          "Button_return_to_text",
+          "Aria_label_delivery_address",
+          "Aria_label_shipping_method",
+          "Aria_label_email",
+          "Aria_label_phone",
+          "text_shipping_information",
+          "text_default_delivery_address",
+          "text_default_billing_address",
+          "Tag_suggestions",
+          "Button_view_all_addresses_text",
+          "Notification_added_address",
+          "Notification_updated_address",
+          "Notification_deleted_address",
+          "text_select_or_create_tag"
         ],
         "locales": [
           "en",

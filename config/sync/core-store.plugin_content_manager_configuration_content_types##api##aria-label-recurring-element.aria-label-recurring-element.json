@@ -524,6 +524,118 @@
           "sortable": true
         }
       },
+      "Cart_focus_text": {
+        "edit": {
+          "label": "Cart_focus_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Cart_focus_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Cart_close_button_text": {
+        "edit": {
+          "label": "Cart_close_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Cart_close_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Cart_items_text": {
+        "edit": {
+          "label": "Cart_items_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Cart_items_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Remove_cart_item_button_text": {
+        "edit": {
+          "label": "Remove_cart_item_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Remove_cart_item_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Cart_item_quantity_minus_button_text": {
+        "edit": {
+          "label": "Cart_item_quantity_minus_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Cart_item_quantity_minus_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Cart_item_quantity_plus_button_text": {
+        "edit": {
+          "label": "Cart_item_quantity_plus_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Cart_item_quantity_plus_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Cart_item_quantity_text": {
+        "edit": {
+          "label": "Cart_item_quantity_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Cart_item_quantity_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Kindness_cause_items_text": {
+        "edit": {
+          "label": "Kindness_cause_items_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Kindness_cause_items_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -744,6 +856,46 @@
           },
           {
             "name": "Navbar_language_selectors_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Cart_focus_text",
+            "size": 6
+          },
+          {
+            "name": "Cart_close_button_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Cart_items_text",
+            "size": 6
+          },
+          {
+            "name": "Remove_cart_item_button_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Cart_item_quantity_minus_button_text",
+            "size": 6
+          },
+          {
+            "name": "Cart_item_quantity_plus_button_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Cart_item_quantity_text",
+            "size": 6
+          },
+          {
+            "name": "Kindness_cause_items_text",
             "size": 6
           }
         ]

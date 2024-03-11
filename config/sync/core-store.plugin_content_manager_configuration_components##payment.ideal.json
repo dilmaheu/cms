@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::payment.ideal",
+  "value": {
+    "uid": "payment.ideal",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Bank_name",
+      "defaultSortBy": "Bank_name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Bank_name": {
+        "edit": {
+          "label": "Bank_name",
+          "description": "get it from https://stripe.com/docs/payments/ideal/accept-a-payment?platform=web&ui=element#bank-reference",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Bank_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Value": {
+        "edit": {
+          "label": "Value",
+          "description": "get it from https://stripe.com/docs/payments/ideal/accept-a-payment?platform=web&ui=element#bank-reference",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Value",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Bank_name",
+        "Value"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Bank_name",
+            "size": 6
+          },
+          {
+            "name": "Value",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

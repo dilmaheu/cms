@@ -734,6 +734,20 @@
           "sortable": false
         }
       },
+      "logo_email": {
+        "edit": {
+          "label": "logo_email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logo_email",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1032,6 +1046,12 @@
           },
           {
             "name": "tick",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "logo_email",
             "size": 6
           }
         ]

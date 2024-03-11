@@ -1,0 +1,399 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::checkout-payment.checkout-payment",
+  "value": {
+    "uid": "api::checkout-payment.checkout-payment",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Block_title",
+      "defaultSortBy": "Block_title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "checkout_step_order": {
+        "edit": {
+          "label": "checkout_step_order",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "checkout_step_order",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block_title": {
+        "edit": {
+          "label": "Block_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2_title": {
+        "edit": {
+          "label": "Block2_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_card_details": {
+        "edit": {
+          "label": "text_card_details",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_card_details",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_accepted_cards": {
+        "edit": {
+          "label": "text_accepted_cards",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_accepted_cards",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Accepted_cards_icon": {
+        "edit": {
+          "label": "Accepted_cards_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Accepted_cards_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Card_label_number": {
+        "edit": {
+          "label": "Card_label_number",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Card_label_number",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Card_label_date": {
+        "edit": {
+          "label": "Card_label_date",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Card_label_date",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Card_label_cvv": {
+        "edit": {
+          "label": "Card_label_cvv",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Card_label_cvv",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Ideal_label_select_bank": {
+        "edit": {
+          "label": "Ideal_label_select_bank",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Ideal_label_select_bank",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_text_pay_with": {
+        "edit": {
+          "label": "Button_text_pay_with",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_text_pay_with",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Radio_button_text_same_as_shipping_address": {
+        "edit": {
+          "label": "Radio_button_text_same_as_shipping_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Radio_button_text_same_as_shipping_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Radio_button_text_use_different_billing_address": {
+        "edit": {
+          "label": "Radio_button_text_use_different_billing_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Radio_button_text_use_different_billing_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "payment_methods": {
+        "edit": {
+          "label": "payment_methods",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "method"
+        },
+        "list": {
+          "label": "payment_methods",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "text_card_error_message": {
+        "edit": {
+          "label": "text_card_error_message",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_card_error_message",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_payment_error": {
+        "edit": {
+          "label": "text_payment_error",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_payment_error",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "checkout_step_order",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Radio_button_text_same_as_shipping_address",
+            "size": 4
+          },
+          {
+            "name": "Radio_button_text_use_different_billing_address",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block2_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_card_details",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_accepted_cards",
+            "size": 6
+          },
+          {
+            "name": "Accepted_cards_icon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Card_label_number",
+            "size": 6
+          },
+          {
+            "name": "Card_label_date",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Card_label_cvv",
+            "size": 6
+          },
+          {
+            "name": "text_card_error_message",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Ideal_label_select_bank",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Button_text_pay_with",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "payment_methods",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_payment_error",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "checkout_step_order",
+        "Block_title",
+        "Block2_title"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

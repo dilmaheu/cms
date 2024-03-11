@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_payment_ideals",
+  "info": {
+    "displayName": "Ideal"
+  },
+  "options": {},
+  "attributes": {
+    "Bank_name": {
+      "type": "string",
+      "required": true
+    },
+    "Value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

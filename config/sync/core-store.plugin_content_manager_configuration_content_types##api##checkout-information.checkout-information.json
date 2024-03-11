@@ -48,202 +48,6 @@
           "sortable": true
         }
       },
-      "text_email_address": {
-        "edit": {
-          "label": "text_email_address",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_email_address",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "email_address_placeholder": {
-        "edit": {
-          "label": "email_address_placeholder",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "email_address_placeholder",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_first_name": {
-        "edit": {
-          "label": "text_first_name",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_first_name",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "first_name_placeholder": {
-        "edit": {
-          "label": "first_name_placeholder",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "first_name_placeholder",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_last_name": {
-        "edit": {
-          "label": "text_last_name",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_last_name",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "last_name_placeholder": {
-        "edit": {
-          "label": "last_name_placeholder",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "last_name_placeholder",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_country": {
-        "edit": {
-          "label": "text_country",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_country",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "country_placeholder": {
-        "edit": {
-          "label": "country_placeholder",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "country_placeholder",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_city": {
-        "edit": {
-          "label": "text_city",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_city",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "city_placeholder": {
-        "edit": {
-          "label": "city_placeholder",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "city_placeholder",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_street": {
-        "edit": {
-          "label": "text_street",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_street",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "street_placeholder": {
-        "edit": {
-          "label": "street_placeholder",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "street_placeholder",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_postal_code": {
-        "edit": {
-          "label": "text_postal_code",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_postal_code",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "postal_code_placeholder": {
-        "edit": {
-          "label": "postal_code_placeholder",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "postal_code_placeholder",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "text_continue_to_shipping": {
         "edit": {
           "label": "text_continue_to_shipping",
@@ -312,21 +116,6 @@
           "label": "Aria_label_form_text",
           "searchable": true,
           "sortable": true
-        }
-      },
-      "countries": {
-        "edit": {
-          "label": "countries",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true,
-          "mainField": "name"
-        },
-        "list": {
-          "label": "countries",
-          "searchable": false,
-          "sortable": false
         }
       },
       "text_customer": {
@@ -446,82 +235,6 @@
         ],
         [
           {
-            "name": "text_email_address",
-            "size": 6
-          },
-          {
-            "name": "email_address_placeholder",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_first_name",
-            "size": 6
-          },
-          {
-            "name": "first_name_placeholder",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_last_name",
-            "size": 6
-          },
-          {
-            "name": "last_name_placeholder",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_country",
-            "size": 6
-          },
-          {
-            "name": "country_placeholder",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "countries",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_city",
-            "size": 6
-          },
-          {
-            "name": "city_placeholder",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_street",
-            "size": 6
-          },
-          {
-            "name": "street_placeholder",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_postal_code",
-            "size": 6
-          },
-          {
-            "name": "postal_code_placeholder",
-            "size": 6
-          }
-        ],
-        [
-          {
             "name": "text_continue_to_shipping",
             "size": 6
           },
@@ -532,14 +245,14 @@
         ],
         [
           {
-            "name": "Meta",
-            "size": 12
+            "name": "text_contact_info",
+            "size": 6
           }
         ],
         [
           {
-            "name": "text_contact_info",
-            "size": 6
+            "name": "Meta",
+            "size": 12
           }
         ]
       ]
