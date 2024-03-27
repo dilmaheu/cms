@@ -65,7 +65,7 @@
       "text_card_details": {
         "edit": {
           "label": "text_card_details",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -79,7 +79,7 @@
       "text_accepted_cards": {
         "edit": {
           "label": "text_accepted_cards",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -93,7 +93,7 @@
       "Accepted_cards_icon": {
         "edit": {
           "label": "Accepted_cards_icon",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -107,7 +107,7 @@
       "Card_label_number": {
         "edit": {
           "label": "Card_label_number",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -121,7 +121,7 @@
       "Card_label_date": {
         "edit": {
           "label": "Card_label_date",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -135,7 +135,7 @@
       "Card_label_cvv": {
         "edit": {
           "label": "Card_label_cvv",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -149,7 +149,7 @@
       "Ideal_label_select_bank": {
         "edit": {
           "label": "Ideal_label_select_bank",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -163,7 +163,7 @@
       "Button_text_pay_with": {
         "edit": {
           "label": "Button_text_pay_with",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -234,7 +234,7 @@
       "text_card_error_message": {
         "edit": {
           "label": "text_card_error_message",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -248,7 +248,7 @@
       "text_payment_error": {
         "edit": {
           "label": "text_payment_error",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -320,6 +320,18 @@
         ],
         [
           {
+            "name": "payment_methods",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
+          }
+        ],
+        [
+          {
             "name": "text_card_details",
             "size": 6
           }
@@ -368,20 +380,8 @@
         ],
         [
           {
-            "name": "payment_methods",
-            "size": 6
-          }
-        ],
-        [
-          {
             "name": "text_payment_error",
             "size": 8
-          }
-        ],
-        [
-          {
-            "name": "Meta",
-            "size": 12
           }
         ]
       ],

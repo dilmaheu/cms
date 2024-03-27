@@ -23,7 +23,7 @@
       "Logo": {
         "edit": {
           "label": "Logo",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -37,7 +37,7 @@
       "Logo_tagline": {
         "edit": {
           "label": "Logo_tagline",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -65,7 +65,7 @@
       "Favicon": {
         "edit": {
           "label": "Favicon",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -121,7 +121,7 @@
       "text_chapter": {
         "edit": {
           "label": "text_chapter",
-          "description": "",
+          "description": "Basic page post details, Product details, User account layout",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -135,7 +135,7 @@
       "text_practices_to_follow": {
         "edit": {
           "label": "text_practices_to_follow",
-          "description": "",
+          "description": "How-to details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -149,7 +149,7 @@
       "text_practices": {
         "edit": {
           "label": "text_practices",
-          "description": "",
+          "description": "How to details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -163,7 +163,7 @@
       "text_explore_the_world_of_kindness": {
         "edit": {
           "label": "text_explore_the_world_of_kindness",
-          "description": "",
+          "description": "Blog details, Estate details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -177,7 +177,7 @@
       "OpenGraph_default": {
         "edit": {
           "label": "OpenGraph_default",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -191,7 +191,7 @@
       "recipe_prep": {
         "edit": {
           "label": "recipe_prep",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -205,7 +205,7 @@
       "recipe_cook": {
         "edit": {
           "label": "recipe_cook",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -219,7 +219,7 @@
       "recipe_total": {
         "edit": {
           "label": "recipe_total",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -233,7 +233,7 @@
       "recipe_jump_to_recipe": {
         "edit": {
           "label": "recipe_jump_to_recipe",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -247,7 +247,7 @@
       "recipe_similar": {
         "edit": {
           "label": "recipe_similar",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -261,7 +261,7 @@
       "recipe_recipe": {
         "edit": {
           "label": "recipe_recipe",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -275,7 +275,7 @@
       "recipe_minutes": {
         "edit": {
           "label": "recipe_minutes",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -289,7 +289,7 @@
       "recipe_nutrition_information": {
         "edit": {
           "label": "recipe_nutrition_information",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -303,7 +303,7 @@
       "recipe_yield": {
         "edit": {
           "label": "recipe_yield",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -317,7 +317,7 @@
       "recipe_amount_per_serving": {
         "edit": {
           "label": "recipe_amount_per_serving",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -331,7 +331,7 @@
       "recipe_ingredients": {
         "edit": {
           "label": "recipe_ingredients",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -345,7 +345,7 @@
       "recipe_serving_size": {
         "edit": {
           "label": "recipe_serving_size",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -359,7 +359,7 @@
       "recipe_cooking_instructions": {
         "edit": {
           "label": "recipe_cooking_instructions",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -373,7 +373,7 @@
       "recipe_tips": {
         "edit": {
           "label": "recipe_tips",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -387,7 +387,7 @@
       "recipe_discover": {
         "edit": {
           "label": "recipe_discover",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -401,7 +401,7 @@
       "recipe_minute": {
         "edit": {
           "label": "recipe_minute",
-          "description": "",
+          "description": "Product details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -415,7 +415,7 @@
       "recipe_hour": {
         "edit": {
           "label": "recipe_hour",
-          "description": "",
+          "description": "Product details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -429,7 +429,7 @@
       "recipe_hours": {
         "edit": {
           "label": "recipe_hours",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -443,7 +443,7 @@
       "recipe_day": {
         "edit": {
           "label": "recipe_day",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -457,7 +457,7 @@
       "recipe_days": {
         "edit": {
           "label": "recipe_days",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -471,7 +471,7 @@
       "estate_location": {
         "edit": {
           "label": "estate_location",
-          "description": "",
+          "description": "Estate details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -485,7 +485,7 @@
       "product_kindness_impact": {
         "edit": {
           "label": "product_kindness_impact",
-          "description": "",
+          "description": "Product details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -499,7 +499,7 @@
       "product_add": {
         "edit": {
           "label": "product_add",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -513,7 +513,7 @@
       "product_add_cart": {
         "edit": {
           "label": "product_add_cart",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -527,7 +527,7 @@
       "product_add_cart_for": {
         "edit": {
           "label": "product_add_cart_for",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -541,7 +541,7 @@
       "product_made_love_from": {
         "edit": {
           "label": "product_made_love_from",
-          "description": "",
+          "description": "Product cards, details page",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -555,7 +555,7 @@
       "product_size": {
         "edit": {
           "label": "product_size",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -569,7 +569,7 @@
       "product_quantity": {
         "edit": {
           "label": "product_quantity",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -583,7 +583,7 @@
       "product_each_penny_you_spend": {
         "edit": {
           "label": "product_each_penny_you_spend",
-          "description": "",
+          "description": "Product details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -653,7 +653,7 @@
       "text_content": {
         "edit": {
           "label": "text_content",
-          "description": "",
+          "description": "Product category, Dashboard address",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -667,7 +667,7 @@
       "Item_stock_text": {
         "edit": {
           "label": "Item_stock_text",
-          "description": "add <date> to show the estimate stock date",
+          "description": "add <date> to show the estimate stock date.  (Product card, details, Dashboard)",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -681,7 +681,7 @@
       "Product_sold_out_text": {
         "edit": {
           "label": "Product_sold_out_text",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -821,7 +821,7 @@
       "Recipes_related_products_title_text": {
         "edit": {
           "label": "Recipes_related_products_title_text",
-          "description": "",
+          "description": "Recipe details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -835,7 +835,7 @@
       "Product_stock_other_formats_text": {
         "edit": {
           "label": "Product_stock_other_formats_text",
-          "description": "add <count> to show the amount available formats/variants",
+          "description": "add <count> to show the amount available formats. (Product details)",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -849,7 +849,7 @@
       "Product_stock_other_formats_text_singular": {
         "edit": {
           "label": "Product_stock_other_formats_text_singular",
-          "description": "",
+          "description": "Product details",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -891,7 +891,7 @@
       "text_shipping_country": {
         "edit": {
           "label": "text_shipping_country",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -905,7 +905,7 @@
       "text_language": {
         "edit": {
           "label": "text_language",
-          "description": "",
+          "description": "Navbar",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -989,7 +989,7 @@
       "text_lang_selector_unavailable": {
         "edit": {
           "label": "text_lang_selector_unavailable",
-          "description": "",
+          "description": "Navbar",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1003,7 +1003,7 @@
       "text_region": {
         "edit": {
           "label": "text_region",
-          "description": "",
+          "description": "Navbar",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1045,7 +1045,7 @@
       "text_select_your_region": {
         "edit": {
           "label": "text_select_your_region",
-          "description": "",
+          "description": "Navbar",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1059,7 +1059,7 @@
       "Product_available_other_formats_text": {
         "edit": {
           "label": "Product_available_other_formats_text",
-          "description": "add <count> to show the amount available formats/variants",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1073,7 +1073,7 @@
       "Product_available_other_formats_text_singular": {
         "edit": {
           "label": "Product_available_other_formats_text_singular",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1101,7 +1101,7 @@
       "Product_available_text": {
         "edit": {
           "label": "Product_available_text",
-          "description": "",
+          "description": "Product cards",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1115,7 +1115,7 @@
       "Product_other_formats_text": {
         "edit": {
           "label": "Product_other_formats_text",
-          "description": "dd <count> to show the amount available formats/variants",
+          "description": "add <count> to show the amount available formats. (Product cards)",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1129,7 +1129,7 @@
       "Product_other_formats_singular_text": {
         "edit": {
           "label": "Product_other_formats_singular_text",
-          "description": "",
+          "description": "Product cards",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1143,7 +1143,7 @@
       "Product_other_formats_text_sm": {
         "edit": {
           "label": "Product_other_formats_text_sm",
-          "description": "dd <count> to show the amount available formats/variants",
+          "description": "add <count> to show the amount available formats/variants",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1157,7 +1157,7 @@
       "Product_other_formats_singular_text_sm": {
         "edit": {
           "label": "Product_other_formats_singular_text_sm",
-          "description": "",
+          "description": "Product cards",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1213,7 +1213,7 @@
       "product_from": {
         "edit": {
           "label": "product_from",
-          "description": "",
+          "description": "Product cards",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -1729,6 +1729,1182 @@
           "sortable": true
         }
       },
+      "favourite_tea_placeholder": {
+        "edit": {
+          "label": "favourite_tea_placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "favourite_tea_placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_favourite_tea": {
+        "edit": {
+          "label": "text_favourite_tea",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_favourite_tea",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_plans": {
+        "edit": {
+          "label": "text_plans",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_plans",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Empty_order_button_text": {
+        "edit": {
+          "label": "Empty_order_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Empty_order_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Empty_order_button_link": {
+        "edit": {
+          "label": "Empty_order_button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Empty_order_button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_phone": {
+        "edit": {
+          "label": "text_phone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_phone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "phone_placeholder": {
+        "edit": {
+          "label": "phone_placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "phone_placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_or": {
+        "edit": {
+          "label": "text_or",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_or",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_update": {
+        "edit": {
+          "label": "text_update",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_update",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_add_new_address": {
+        "edit": {
+          "label": "text_add_new_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_add_new_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_save": {
+        "edit": {
+          "label": "text_save",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_save",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_cancel": {
+        "edit": {
+          "label": "text_cancel",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_cancel",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_set_default": {
+        "edit": {
+          "label": "text_set_default",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_set_default",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_view_more_address_singular": {
+        "edit": {
+          "label": "text_view_more_address_singular",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_view_more_address_singular",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_view_more_address": {
+        "edit": {
+          "label": "text_view_more_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_view_more_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_view_all_addresses": {
+        "edit": {
+          "label": "text_view_all_addresses",
+          "description": "add <number> to show the number of address",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_view_all_addresses",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_buy_again": {
+        "edit": {
+          "label": "text_buy_again",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_buy_again",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_sold_out": {
+        "edit": {
+          "label": "text_sold_out",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_sold_out",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_go_to_my_orders": {
+        "edit": {
+          "label": "text_go_to_my_orders",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_go_to_my_orders",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_track_package": {
+        "edit": {
+          "label": "Button_track_package",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_track_package",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Button_track_package_text": {
+        "edit": {
+          "label": "Button_track_package_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button_track_package_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_order": {
+        "edit": {
+          "label": "text_order",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_order",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Label_tag_text": {
+        "edit": {
+          "label": "Label_tag_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label_tag_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Tag_default_text": {
+        "edit": {
+          "label": "Tag_default_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Tag_default_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Tag_add_text": {
+        "edit": {
+          "label": "Tag_add_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Tag_add_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Tag_add_placeholder": {
+        "edit": {
+          "label": "Tag_add_placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Tag_add_placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Tag_suggestions": {
+        "edit": {
+          "label": "Tag_suggestions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Tag_suggestions",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Checkbox_set_default_delivery_address_text": {
+        "edit": {
+          "label": "Checkbox_set_default_delivery_address_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Checkbox_set_default_delivery_address_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Checkbox_set_default_billing_address_text": {
+        "edit": {
+          "label": "Checkbox_set_default_billing_address_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Checkbox_set_default_billing_address_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Checkbox_add_delivery_address_text": {
+        "edit": {
+          "label": "Checkbox_add_delivery_address_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Checkbox_add_delivery_address_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Checkbox_add_billing_address_text": {
+        "edit": {
+          "label": "Checkbox_add_billing_address_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Checkbox_add_billing_address_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Notification_added_address": {
+        "edit": {
+          "label": "Notification_added_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Notification_added_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Notification_updated_address": {
+        "edit": {
+          "label": "Notification_updated_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Notification_updated_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Notification_deleted_address": {
+        "edit": {
+          "label": "Notification_deleted_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Notification_deleted_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_saved_Addresses": {
+        "edit": {
+          "label": "text_saved_Addresses",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_saved_Addresses",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_more_address": {
+        "edit": {
+          "label": "text_more_address",
+          "description": "add <number> to show the number of address",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_more_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_hide_more_address": {
+        "edit": {
+          "label": "text_hide_more_address",
+          "description": "add <number> to show the number of address",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_hide_more_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_estimated_delivery": {
+        "edit": {
+          "label": "text_estimated_delivery",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_estimated_delivery",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_delivered": {
+        "edit": {
+          "label": "text_delivered",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_delivered",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_show_more_product_in_this_order_singular": {
+        "edit": {
+          "label": "text_show_more_product_in_this_order_singular",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_show_more_product_in_this_order_singular",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_hide_more_product_in_this_order_singular": {
+        "edit": {
+          "label": "text_hide_more_product_in_this_order_singular",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_hide_more_product_in_this_order_singular",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_show_more_products_in_this_order": {
+        "edit": {
+          "label": "text_show_more_products_in_this_order",
+          "description": "add <number> to show the number of products",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_show_more_products_in_this_order",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_hide_more_products_in_this_order": {
+        "edit": {
+          "label": "text_hide_more_products_in_this_order",
+          "description": "add <number> to show the number of products",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_hide_more_products_in_this_order",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_estimated_shipment": {
+        "edit": {
+          "label": "text_estimated_shipment",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_estimated_shipment",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_orders_timeline": {
+        "edit": {
+          "label": "text_orders_timeline",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_orders_timeline",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_shipping_method": {
+        "edit": {
+          "label": "text_shipping_method",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_shipping_method",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_change": {
+        "edit": {
+          "label": "text_change",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_change",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_return_to": {
+        "edit": {
+          "label": "text_return_to",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_return_to",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_default_delivery_address": {
+        "edit": {
+          "label": "text_default_delivery_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_default_delivery_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_default_billing_address": {
+        "edit": {
+          "label": "text_default_billing_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_default_billing_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_select_or_create_tag": {
+        "edit": {
+          "label": "text_select_or_create_tag",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_select_or_create_tag",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_bad_request": {
+        "edit": {
+          "label": "error_bad_request",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_bad_request",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_unauthorized": {
+        "edit": {
+          "label": "error_unauthorized",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_unauthorized",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_no_user_account_exists": {
+        "edit": {
+          "label": "error_no_user_account_exists",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_no_user_account_exists",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_contact_already_exists": {
+        "edit": {
+          "label": "error_contact_already_exists",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_contact_already_exists",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_invalid_i18n_phone": {
+        "edit": {
+          "label": "error_invalid_i18n_phone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_invalid_i18n_phone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_something_went_wrong": {
+        "edit": {
+          "label": "error_something_went_wrong",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_something_went_wrong",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_magic_link_creation_failed": {
+        "edit": {
+          "label": "error_magic_link_creation_failed",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_magic_link_creation_failed",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_magic_link_sending_failed": {
+        "edit": {
+          "label": "error_magic_link_sending_failed",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_magic_link_sending_failed",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_invalid_address_details": {
+        "edit": {
+          "label": "error_invalid_address_details",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_invalid_address_details",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_address_tag_exists": {
+        "edit": {
+          "label": "error_address_tag_exists",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_address_tag_exists",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_duplicate_address": {
+        "edit": {
+          "label": "error_duplicate_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_duplicate_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_address_not_found": {
+        "edit": {
+          "label": "error_address_not_found",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_address_not_found",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_nothing_to_update": {
+        "edit": {
+          "label": "error_nothing_to_update",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_nothing_to_update",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_delete_default_delivery_address": {
+        "edit": {
+          "label": "error_delete_default_delivery_address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_delete_default_delivery_address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_invalid_token": {
+        "edit": {
+          "label": "error_invalid_token",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_invalid_token",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_expired_token": {
+        "edit": {
+          "label": "error_expired_token",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_expired_token",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_invalid_email": {
+        "edit": {
+          "label": "error_invalid_email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_invalid_email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_invalid_phone": {
+        "edit": {
+          "label": "error_invalid_phone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_invalid_phone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_card_details": {
+        "edit": {
+          "label": "text_card_details",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_card_details",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_accepted_cards": {
+        "edit": {
+          "label": "text_accepted_cards",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_accepted_cards",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Accepted_cards_icon": {
+        "edit": {
+          "label": "Accepted_cards_icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Accepted_cards_icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "text_card_number": {
+        "edit": {
+          "label": "text_card_number",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_card_number",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_card_date": {
+        "edit": {
+          "label": "text_card_date",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_card_date",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_card_cvv": {
+        "edit": {
+          "label": "text_card_cvv",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_card_cvv",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_select_bank": {
+        "edit": {
+          "label": "text_select_bank",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_select_bank",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_pay_with": {
+        "edit": {
+          "label": "text_pay_with",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_pay_with",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_invalid_card": {
+        "edit": {
+          "label": "error_invalid_card",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_invalid_card",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_payment": {
+        "edit": {
+          "label": "error_payment",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_payment",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_contact_type_email": {
+        "edit": {
+          "label": "text_contact_type_email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_contact_type_email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_contact_type_phone": {
+        "edit": {
+          "label": "text_contact_type_phone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_contact_type_phone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "error_too_many_requests": {
+        "edit": {
+          "label": "error_too_many_requests",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_too_many_requests",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "label_auto_tag": {
+        "edit": {
+          "label": "label_auto_tag",
+          "description": "Used as prefix for automatically created tags, e.g. Adres #6",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "label_auto_tag",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_plan": {
+        "edit": {
+          "label": "text_plan",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_plan",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -1759,31 +2935,13 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
+      ],
       "edit": [
-        [
-          {
-            "name": "Logo",
-            "size": 4
-          },
-          {
-            "name": "Logo_tagline",
-            "size": 4
-          },
-          {
-            "name": "Favicon",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "Footer_text",
-            "size": 6
-          },
-          {
-            "name": "OpenGraph_default",
-            "size": 6
-          }
-        ],
         [
           {
             "name": "Company_name",
@@ -1801,7 +2959,11 @@
         [
           {
             "name": "Company_address",
-            "size": 8
+            "size": 6
+          },
+          {
+            "name": "Footer_text",
+            "size": 6
           }
         ],
         [
@@ -1869,446 +3031,416 @@
         [
           {
             "name": "text_language",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_region",
-            "size": 6
+            "size": 4
           },
           {
-            "name": "text_select_your_region",
-            "size": 6
+            "name": "text_lang_selector_unavailable",
+            "size": 4
+          },
+          {
+            "name": "text_region",
+            "size": 4
           }
         ],
         [
           {
-            "name": "text_shipping_country",
-            "size": 6
+            "name": "text_select_your_region",
+            "size": 4
           },
           {
             "name": "text_currency",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Button_save_text",
-            "size": 6
+            "size": 4
           },
           {
-            "name": "Button_go_back_text",
-            "size": 6
+            "name": "Button_save_text",
+            "size": 4
           }
         ],
         [
           {
             "name": "text_chapter",
-            "size": 6
+            "size": 4
           },
           {
-            "name": "text_practices_to_follow",
-            "size": 6
+            "name": "text_content",
+            "size": 4
+          },
+          {
+            "name": "Recipes_related_products_title_text",
+            "size": 4
           }
         ],
         [
           {
             "name": "text_practices",
-            "size": 6
+            "size": 4
+          },
+          {
+            "name": "text_practices_to_follow",
+            "size": 4
           },
           {
             "name": "text_explore_the_world_of_kindness",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
             "name": "recipe_prep",
-            "size": 6
+            "size": 4
           },
           {
             "name": "recipe_cook",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "recipe_total",
-            "size": 6
+            "size": 4
           },
           {
-            "name": "recipe_jump_to_recipe",
-            "size": 6
+            "name": "recipe_total",
+            "size": 4
           }
         ],
         [
           {
+            "name": "recipe_jump_to_recipe",
+            "size": 4
+          },
+          {
             "name": "recipe_similar",
-            "size": 6
+            "size": 4
           },
           {
             "name": "recipe_recipe",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
             "name": "recipe_day",
-            "size": 6
+            "size": 4
           },
           {
             "name": "recipe_days",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "recipe_hour",
-            "size": 6
+            "size": 4
           },
           {
-            "name": "recipe_hours",
-            "size": 6
+            "name": "recipe_hour",
+            "size": 4
           }
         ],
         [
           {
+            "name": "recipe_hours",
+            "size": 4
+          },
+          {
             "name": "recipe_minute",
-            "size": 6
+            "size": 4
           },
           {
             "name": "recipe_minutes",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
             "name": "recipe_nutrition_information",
-            "size": 6
+            "size": 4
           },
           {
             "name": "recipe_yield",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "recipe_amount_per_serving",
-            "size": 6
+            "size": 4
           },
           {
-            "name": "recipe_ingredients",
-            "size": 6
+            "name": "recipe_amount_per_serving",
+            "size": 4
           }
         ],
         [
           {
+            "name": "recipe_ingredients",
+            "size": 4
+          },
+          {
             "name": "recipe_serving_size",
-            "size": 6
+            "size": 4
           },
           {
             "name": "recipe_cooking_instructions",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
             "name": "recipe_tips",
-            "size": 6
+            "size": 4
           },
           {
             "name": "recipe_discover",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Recipes_related_products_title_text",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "estate_location",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_content",
-            "size": 6
+            "size": 4
           },
           {
-            "name": "product_made_love_from",
-            "size": 6
+            "name": "estate_location",
+            "size": 4
           }
         ],
         [
           {
             "name": "product_from",
-            "size": 6
+            "size": 4
+          },
+          {
+            "name": "product_made_love_from",
+            "size": 4
+          },
+          {
+            "name": "product_each_penny_you_spend",
+            "size": 4
           }
         ],
         [
           {
             "name": "product_kindness_impact",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "product_add",
-            "size": 6
-          },
-          {
-            "name": "product_add_cart",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "product_add_cart_for",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "product_size",
-            "size": 6
-          },
-          {
-            "name": "product_quantity",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "product_each_penny_you_spend",
-            "size": 6
-          },
-          {
-            "name": "product_check_where_going",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "product_price_breakdown_title",
-            "size": 6
-          },
-          {
-            "name": "product_transparency_title",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "product_impact_title",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Product_sold_out_text",
-            "size": 6
+            "size": 8
           }
         ],
         [
           {
             "name": "Item_stock_text",
-            "size": 6
-          }
-        ],
-        [
+            "size": 4
+          },
           {
             "name": "Product_stock_other_formats_text",
-            "size": 6
+            "size": 4
           },
           {
             "name": "Product_stock_other_formats_text_singular",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Product_available_other_formats_text",
-            "size": 6
-          },
-          {
-            "name": "Product_available_other_formats_text_singular",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
             "name": "Product_stock_available_text",
-            "size": 6
+            "size": 4
           },
           {
             "name": "Product_available_text",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Product_other_formats_text",
-            "size": 6
+            "size": 4
           },
           {
-            "name": "Product_other_formats_singular_text",
-            "size": 6
+            "name": "Product_other_formats_text",
+            "size": 4
           }
         ],
         [
           {
+            "name": "Product_other_formats_singular_text",
+            "size": 4
+          },
+          {
             "name": "Product_other_formats_text_sm",
-            "size": 6
+            "size": 4
           },
           {
             "name": "Product_other_formats_singular_text_sm",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
             "name": "text_all_tea_variants",
-            "size": 6
+            "size": 4
           },
           {
             "name": "text_all_tea_sizes",
-            "size": 6
+            "size": 4
+          },
+          {
+            "name": "product_check_where_going",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "product_price_breakdown_title",
+            "size": 4
+          },
+          {
+            "name": "product_transparency_title",
+            "size": 4
+          },
+          {
+            "name": "product_impact_title",
+            "size": 4
           }
         ],
         [
           {
             "name": "search_text_no_result_found",
-            "size": 6
+            "size": 4
           },
           {
-            "name": "text_lang_selector_unavailable",
-            "size": 6
-          }
-        ],
-        [
-          {
             "name": "text_skip",
-            "size": 6
+            "size": 4
           },
           {
             "name": "text_in",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
-            "name": "text_information",
-            "size": 6
+            "name": "text_favourite_tea",
+            "size": 4
+          },
+          {
+            "name": "favourite_tea_placeholder",
+            "size": 4
           }
         ],
         [
           {
             "name": "text_email_address",
-            "size": 6
+            "size": 4
           },
           {
             "name": "email_address_placeholder",
-            "size": 6
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_phone",
+            "size": 4
+          },
+          {
+            "name": "phone_placeholder",
+            "size": 4
           }
         ],
         [
           {
             "name": "text_first_name",
-            "size": 6
+            "size": 4
           },
           {
             "name": "first_name_placeholder",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
             "name": "text_last_name",
-            "size": 6
+            "size": 4
           },
           {
             "name": "last_name_placeholder",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_country",
-            "size": 6
-          },
-          {
-            "name": "country_placeholder",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "countries",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
             "name": "text_city",
-            "size": 6
+            "size": 4
           },
           {
             "name": "city_placeholder",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
             "name": "text_street",
-            "size": 6
+            "size": 4
           },
           {
             "name": "street_placeholder",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
             "name": "text_postal_code",
-            "size": 6
+            "size": 4
           },
           {
             "name": "postal_code_placeholder",
-            "size": 6
+            "size": 4
           }
         ],
         [
           {
+            "name": "text_country",
+            "size": 4
+          },
+          {
+            "name": "country_placeholder",
+            "size": 4
+          },
+          {
+            "name": "countries",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_card_number",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_card_date",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_card_cvv",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_select_bank",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_card_details",
+            "size": 4
+          },
+          {
+            "name": "text_accepted_cards",
+            "size": 4
+          },
+          {
+            "name": "Accepted_cards_icon",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_pay_with",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_information",
+            "size": 4
+          },
+          {
             "name": "text_shipping_address",
-            "size": 6
+            "size": 4
           },
           {
             "name": "text_billing_address",
-            "size": 6
+            "size": 4
           }
         ],
         [
-          {
-            "name": "text_add",
-            "size": 4
-          },
           {
             "name": "text_cart",
-            "size": 4
-          },
-          {
-            "name": "text_add_to_cart",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "text_add_to_cart_for",
             "size": 4
           },
           {
@@ -2317,6 +3449,20 @@
           },
           {
             "name": "text_update_cart",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_add",
+            "size": 4
+          },
+          {
+            "name": "text_add_to_cart",
+            "size": 4
+          },
+          {
+            "name": "text_add_to_cart_for",
             "size": 4
           }
         ],
@@ -2370,6 +3516,10 @@
           {
             "name": "text_continue_shopping",
             "size": 4
+          },
+          {
+            "name": "text_shipping_method",
+            "size": 4
           }
         ],
         [
@@ -2377,13 +3527,367 @@
             "name": "text_empty_cart",
             "size": 12
           }
+        ],
+        [
+          {
+            "name": "Empty_order_button_text",
+            "size": 4
+          },
+          {
+            "name": "Empty_order_button_link",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_or",
+            "size": 4
+          },
+          {
+            "name": "text_update",
+            "size": 4
+          },
+          {
+            "name": "text_add_new_address",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_save",
+            "size": 4
+          },
+          {
+            "name": "text_cancel",
+            "size": 4
+          },
+          {
+            "name": "text_buy_again",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_sold_out",
+            "size": 4
+          },
+          {
+            "name": "Button_track_package",
+            "size": 4
+          },
+          {
+            "name": "Button_track_package_text",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_saved_Addresses",
+            "size": 4
+          },
+          {
+            "name": "text_more_address",
+            "size": 4
+          },
+          {
+            "name": "text_hide_more_address",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_view_more_address_singular",
+            "size": 4
+          },
+          {
+            "name": "text_view_all_addresses",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_order",
+            "size": 4
+          },
+          {
+            "name": "text_go_to_my_orders",
+            "size": 4
+          },
+          {
+            "name": "text_orders_timeline",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Label_tag_text",
+            "size": 4
+          },
+          {
+            "name": "text_select_or_create_tag",
+            "size": 4
+          },
+          {
+            "name": "Tag_default_text",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Tag_add_text",
+            "size": 4
+          },
+          {
+            "name": "Tag_add_placeholder",
+            "size": 4
+          },
+          {
+            "name": "Tag_suggestions",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_set_default",
+            "size": 4
+          },
+          {
+            "name": "text_default_delivery_address",
+            "size": 4
+          },
+          {
+            "name": "text_default_billing_address",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Checkbox_set_default_delivery_address_text",
+            "size": 4
+          },
+          {
+            "name": "Checkbox_set_default_billing_address_text",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Notification_added_address",
+            "size": 6
+          },
+          {
+            "name": "Notification_updated_address",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Notification_deleted_address",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_estimated_shipment",
+            "size": 4
+          },
+          {
+            "name": "text_estimated_delivery",
+            "size": 4
+          },
+          {
+            "name": "text_delivered",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_show_more_product_in_this_order_singular",
+            "size": 4
+          },
+          {
+            "name": "text_hide_more_product_in_this_order_singular",
+            "size": 4
+          },
+          {
+            "name": "text_show_more_products_in_this_order",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_hide_more_products_in_this_order",
+            "size": 4
+          },
+          {
+            "name": "text_change",
+            "size": 4
+          },
+          {
+            "name": "text_return_to",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_shipping_country",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "label_auto_tag",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Logo",
+            "size": 4
+          },
+          {
+            "name": "Logo_tagline",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Favicon",
+            "size": 4
+          },
+          {
+            "name": "Product_sold_out_text",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "OpenGraph_default",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_bad_request",
+            "size": 6
+          },
+          {
+            "name": "error_unauthorized",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_too_many_requests",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_contact_already_exists",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_contact_type_email",
+            "size": 6
+          },
+          {
+            "name": "text_contact_type_phone",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_invalid_i18n_phone",
+            "size": 6
+          },
+          {
+            "name": "error_no_user_account_exists",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_something_went_wrong",
+            "size": 6
+          },
+          {
+            "name": "error_magic_link_creation_failed",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_magic_link_sending_failed",
+            "size": 6
+          },
+          {
+            "name": "error_invalid_address_details",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_address_tag_exists",
+            "size": 6
+          },
+          {
+            "name": "error_duplicate_address",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_address_not_found",
+            "size": 6
+          },
+          {
+            "name": "error_nothing_to_update",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_delete_default_delivery_address",
+            "size": 6
+          },
+          {
+            "name": "error_invalid_token",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_expired_token",
+            "size": 6
+          },
+          {
+            "name": "error_invalid_email",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_invalid_phone",
+            "size": 6
+          },
+          {
+            "name": "error_invalid_card",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "error_payment",
+            "size": 6
+          },
+          {
+            "name": "text_plan",
+            "size": 6
+          }
         ]
-      ],
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
       ]
     }
   },

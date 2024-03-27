@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "checkout_informations",
+  "collectionName": "crowdfunding_payments",
   "info": {
-    "singularName": "checkout-information",
-    "pluralName": "checkout-informations",
-    "displayName": "Checkout Information",
+    "singularName": "crowdfunding-payment",
+    "pluralName": "crowdfunding-payments",
+    "displayName": "Crowdfunding payment",
     "description": ""
   },
   "options": {
@@ -16,84 +16,69 @@
     }
   },
   "attributes": {
-    "text_contact_info": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "Block_title": {
       "type": "string",
-      "required": false
-    },
-    "text_shipping_address": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
-      "required": false
-    },
-    "text_continue_to_shipping": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": false
-    },
-    "Meta": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "search-engine.meta",
       "required": true
     },
-    "text_return_to_cart": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "checkout_step_order": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "integer"
-    },
-    "Aria_label_form_text": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "text_customer": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "Block2_title": {
       "type": "string",
-      "required": false
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "Block3_title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "return_button_text": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "return_button_link": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
     },
     "Guest_intro_text": {
+      "type": "richtext",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "richtext"
+      }
+    },
+    "Meta": {
+      "displayName": "Meta",
+      "type": "component",
+      "repeatable": false,
+      "component": "social-media.meta",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Sign_in_text": {
       "pluginOptions": {
@@ -104,16 +89,12 @@
       "type": "richtext",
       "required": true
     },
-    "Block_title": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
+    "payment_methods": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::payment-method.payment-method"
     },
-    "Block2_title": {
+    "success_url": {
       "pluginOptions": {
         "i18n": {
           "localized": true

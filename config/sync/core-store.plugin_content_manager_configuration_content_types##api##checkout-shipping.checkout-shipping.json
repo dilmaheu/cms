@@ -217,6 +217,20 @@
           "sortable": false
         }
       },
+      "Block_title": {
+        "edit": {
+          "label": "Block_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -247,17 +261,29 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Meta",
-        "createdAt",
-        "updatedAt"
-      ],
       "edit": [
         [
           {
             "name": "checkout_step_order",
             "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "shipping_methods",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Meta",
+            "size": 12
           }
         ],
         [
@@ -292,12 +318,6 @@
         ],
         [
           {
-            "name": "shipping_methods",
-            "size": 6
-          }
-        ],
-        [
-          {
             "name": "Aria_label_kindness_delivery_address_form_text",
             "size": 6
           },
@@ -315,13 +335,13 @@
             "name": "Aria_label_change_text",
             "size": 6
           }
-        ],
-        [
-          {
-            "name": "Meta",
-            "size": 12
-          }
         ]
+      ],
+      "list": [
+        "id",
+        "Meta",
+        "createdAt",
+        "updatedAt"
       ]
     }
   },

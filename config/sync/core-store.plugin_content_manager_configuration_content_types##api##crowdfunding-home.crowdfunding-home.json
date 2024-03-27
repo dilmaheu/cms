@@ -65,7 +65,7 @@
       "Heading_plans": {
         "edit": {
           "label": "Heading_plans",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -79,7 +79,7 @@
       "Heading_block": {
         "edit": {
           "label": "Heading_block",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -93,7 +93,7 @@
       "Block_text": {
         "edit": {
           "label": "Block_text",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -107,7 +107,7 @@
       "Block_blob": {
         "edit": {
           "label": "Block_blob",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -163,7 +163,7 @@
       "Heading_goal": {
         "edit": {
           "label": "Heading_goal",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -177,13 +177,97 @@
       "Heading_supporters": {
         "edit": {
           "label": "Heading_supporters",
-          "description": "",
+          "description": "to be deleted",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
           "label": "Heading_supporters",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block_title": {
+        "edit": {
+          "label": "Block_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2_title": {
+        "edit": {
+          "label": "Block2_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block2_text": {
+        "edit": {
+          "label": "Block2_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Block2_blob": {
+        "edit": {
+          "label": "Block2_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block2_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "text_heading_goal": {
+        "edit": {
+          "label": "text_heading_goal",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_heading_goal",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_heading_supporters": {
+        "edit": {
+          "label": "text_heading_supporters",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_heading_supporters",
           "searchable": true,
           "sortable": true
         }
@@ -218,12 +302,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Title",
-        "Intro_blob",
-        "Heading_plans"
-      ],
       "edit": [
         [
           {
@@ -241,27 +319,49 @@
           {
             "name": "Intro_blob",
             "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Heading_button_text",
+            "size": 4
           },
           {
-            "name": "Heading_plans",
+            "name": "Heading_button_link",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "text_heading_goal",
+            "size": 4
+          },
+          {
+            "name": "text_heading_supporters",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block_title",
             "size": 6
           }
         ],
         [
           {
-            "name": "Heading_block",
+            "name": "Block2_title",
             "size": 6
           }
         ],
         [
           {
-            "name": "Block_text",
+            "name": "Block2_text",
             "size": 12
           }
         ],
         [
           {
-            "name": "Block_blob",
+            "name": "Block2_blob",
             "size": 6
           }
         ],
@@ -273,24 +373,42 @@
         ],
         [
           {
-            "name": "Heading_button_text",
+            "name": "Heading_block",
             "size": 6
           },
           {
-            "name": "Heading_button_link",
+            "name": "Heading_plans",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Block_blob",
             "size": 6
           }
         ],
         [
           {
             "name": "Heading_goal",
-            "size": 6
+            "size": 4
           },
           {
             "name": "Heading_supporters",
-            "size": 6
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Block_text",
+            "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Title",
+        "Intro_blob",
+        "Heading_plans"
       ]
     }
   },

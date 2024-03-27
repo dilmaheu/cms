@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_social_media_metas",
+  "info": {
+    "displayName": "Meta"
+  },
+  "options": {},
+  "attributes": {
+    "HTML_Title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 60,
+      "minLength": 30
+    },
+    "Meta_description": {
+      "type": "string",
+      "required": true,
+      "maxLength": 120,
+      "minLength": 70
+    },
+    "noindex": {
+      "type": "boolean",
+      "default": false
+    },
+    "nofollow": {
+      "type": "boolean",
+      "default": false
+    },
+    "URL_slug": {
+      "type": "string",
+      "required": true
+    },
+    "Canonical_link": {
+      "type": "string"
+    }
+  }
+}

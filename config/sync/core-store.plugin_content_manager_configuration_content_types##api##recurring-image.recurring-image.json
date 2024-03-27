@@ -748,6 +748,34 @@
           "sortable": false
         }
       },
+      "Empty_order_blob": {
+        "edit": {
+          "label": "Empty_order_blob",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Empty_order_blob",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "OpenGraph_default": {
+        "edit": {
+          "label": "OpenGraph_default",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "OpenGraph_default",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -778,20 +806,24 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "hero_background",
-        "crowdfunding_info_section_background",
-        "footer_background"
-      ],
       "edit": [
+        [
+          {
+            "name": "OpenGraph_default",
+            "size": 6
+          },
+          {
+            "name": "favicon",
+            "size": 6
+          }
+        ],
         [
           {
             "name": "logo",
             "size": 6
           },
           {
-            "name": "favicon",
+            "name": "logo_email",
             "size": 6
           }
         ],
@@ -1051,10 +1083,16 @@
         ],
         [
           {
-            "name": "logo_email",
+            "name": "Empty_order_blob",
             "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "hero_background",
+        "crowdfunding_info_section_background",
+        "footer_background"
       ]
     }
   },

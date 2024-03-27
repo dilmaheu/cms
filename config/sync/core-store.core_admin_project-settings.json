@@ -1,0 +1,28 @@
+{
+  "key": "core_admin_project-settings",
+  "value": {
+    "menuLogo": {
+      "name": "mstile-150x150.png",
+      "hash": "mstile_150x150_f95aea76be",
+      "url": "/uploads/mstile_150x150_f95aea76be.png",
+      "width": 150,
+      "height": 150,
+      "ext": ".png",
+      "size": 3.19,
+      "provider": "local"
+    },
+    "authLogo": {
+      "name": "mstile-150x150.png",
+      "hash": "mstile_150x150_a9a1c8827a",
+      "url": "/uploads/mstile_150x150_a9a1c8827a.png",
+      "width": 150,
+      "height": 150,
+      "ext": ".png",
+      "size": 3.19,
+      "provider": "local"
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

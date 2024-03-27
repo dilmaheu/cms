@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::cart.cart",
+  "key": "plugin_content_manager_configuration_components::social-media.meta",
   "value": {
-    "uid": "api::cart.cart",
+    "uid": "social-media.meta",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "text_cart",
-      "defaultSortBy": "text_cart",
+      "mainField": "HTML_Title",
+      "defaultSortBy": "HTML_Title",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -16,165 +16,138 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_cart": {
-        "edit": {
-          "label": "text_cart",
-          "description": "to be deleted",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_cart",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_product": {
-        "edit": {
-          "label": "text_product",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_product",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_go_to_checkout": {
-        "edit": {
-          "label": "text_go_to_checkout",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_go_to_checkout",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Meta": {
-        "edit": {
-          "label": "Meta",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Meta",
           "searchable": false,
           "sortable": false
         }
       },
-      "text_remove": {
+      "HTML_Title": {
         "edit": {
-          "label": "text_remove",
-          "description": "to be deleted",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_remove",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Title": {
-        "edit": {
-          "label": "Title",
+          "label": "HTML_Title",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Title",
+          "label": "HTML_Title",
           "searchable": true,
           "sortable": true
         }
       },
-      "createdAt": {
+      "Meta_description": {
         "edit": {
-          "label": "createdAt",
+          "label": "Meta_description",
           "description": "",
           "placeholder": "",
-          "visible": false,
+          "visible": true,
           "editable": true
         },
         "list": {
-          "label": "createdAt",
+          "label": "Meta_description",
           "searchable": true,
           "sortable": true
         }
       },
-      "updatedAt": {
+      "noindex": {
         "edit": {
-          "label": "updatedAt",
+          "label": "noindex",
           "description": "",
           "placeholder": "",
-          "visible": false,
+          "visible": true,
           "editable": true
         },
         "list": {
-          "label": "updatedAt",
+          "label": "noindex",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "nofollow": {
+        "edit": {
+          "label": "nofollow",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nofollow",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "URL_slug": {
+        "edit": {
+          "label": "URL_slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "URL_slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Canonical_link": {
+        "edit": {
+          "label": "Canonical_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Canonical_link",
           "searchable": true,
           "sortable": true
         }
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "HTML_Title",
+        "Meta_description",
+        "noindex"
+      ],
       "edit": [
         [
           {
-            "name": "Title",
+            "name": "HTML_Title",
             "size": 6
           }
         ],
         [
           {
-            "name": "text_product",
+            "name": "Meta_description",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "noindex",
+            "size": 4
+          },
+          {
+            "name": "nofollow",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "URL_slug",
             "size": 6
           },
           {
-            "name": "text_go_to_checkout",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Meta",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "text_cart",
-            "size": 6
-          },
-          {
-            "name": "text_remove",
+            "name": "Canonical_link",
             "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "text_cart",
-        "text_product",
-        "text_go_to_checkout"
       ]
-    }
+    },
+    "isComponent": true
   },
   "type": "object",
   "environment": null,

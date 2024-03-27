@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::checkout-information.checkout-information",
+  "key": "plugin_content_manager_configuration_content_types::api::crowdfunding-payment.crowdfunding-payment",
   "value": {
-    "uid": "api::checkout-information.checkout-information",
+    "uid": "api::crowdfunding-payment.crowdfunding-payment",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "id",
-      "defaultSortBy": "id",
+      "mainField": "Block_title",
+      "defaultSortBy": "Block_title",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -18,146 +18,6 @@
           "label": "id",
           "searchable": true,
           "sortable": true
-        }
-      },
-      "text_contact_info": {
-        "edit": {
-          "label": "text_contact_info",
-          "description": "to be deleted",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_contact_info",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_shipping_address": {
-        "edit": {
-          "label": "text_shipping_address",
-          "description": "to be deleted",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_shipping_address",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_continue_to_shipping": {
-        "edit": {
-          "label": "text_continue_to_shipping",
-          "description": "to be deleted",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_continue_to_shipping",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Meta": {
-        "edit": {
-          "label": "Meta",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Meta",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "text_return_to_cart": {
-        "edit": {
-          "label": "text_return_to_cart",
-          "description": "to be deleted",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_return_to_cart",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "checkout_step_order": {
-        "edit": {
-          "label": "checkout_step_order",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "checkout_step_order",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Aria_label_form_text": {
-        "edit": {
-          "label": "Aria_label_form_text",
-          "description": "to be deleted",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Aria_label_form_text",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "text_customer": {
-        "edit": {
-          "label": "text_customer",
-          "description": "to be deleted",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "text_customer",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "Guest_intro_text": {
-        "edit": {
-          "label": "Guest_intro_text",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Guest_intro_text",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "Sign_in_text": {
-        "edit": {
-          "label": "Sign_in_text",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Sign_in_text",
-          "searchable": false,
-          "sortable": false
         }
       },
       "Block_title": {
@@ -184,6 +44,119 @@
         },
         "list": {
           "label": "Block2_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Block3_title": {
+        "edit": {
+          "label": "Block3_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Block3_title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "return_button_text": {
+        "edit": {
+          "label": "return_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "return_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "return_button_link": {
+        "edit": {
+          "label": "return_button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "return_button_link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Guest_intro_text": {
+        "edit": {
+          "label": "Guest_intro_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Guest_intro_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Meta": {
+        "edit": {
+          "label": "Meta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Sign_in_text": {
+        "edit": {
+          "label": "Sign_in_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Sign_in_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "payment_methods": {
+        "edit": {
+          "label": "payment_methods",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "method"
+        },
+        "list": {
+          "label": "payment_methods",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "success_url": {
+        "edit": {
+          "label": "success_url",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "success_url",
           "searchable": true,
           "sortable": true
         }
@@ -221,12 +194,6 @@
       "edit": [
         [
           {
-            "name": "checkout_step_order",
-            "size": 4
-          }
-        ],
-        [
-          {
             "name": "Block_title",
             "size": 6
           }
@@ -251,46 +218,44 @@
         ],
         [
           {
+            "name": "Block3_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "payment_methods",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "return_button_text",
+            "size": 4
+          },
+          {
+            "name": "return_button_link",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "success_url",
+            "size": 4
+          }
+        ],
+        [
+          {
             "name": "Meta",
             "size": 12
-          }
-        ],
-        [
-          {
-            "name": "text_continue_to_shipping",
-            "size": 6
-          },
-          {
-            "name": "text_return_to_cart",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Aria_label_form_text",
-            "size": 6
-          },
-          {
-            "name": "text_contact_info",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_customer",
-            "size": 6
-          },
-          {
-            "name": "text_shipping_address",
-            "size": 6
           }
         ]
       ],
       "list": [
         "id",
-        "createdAt",
-        "updatedAt",
-        "text_contact_info"
+        "Block3_title",
+        "return_button_text",
+        "return_button_link"
       ]
     }
   },
