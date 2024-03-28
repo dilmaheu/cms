@@ -22,9 +22,6 @@
       "action": "api::crowdfunding-email.crowdfunding-email.find"
     },
     {
-      "action": "api::crowdfunding-form.crowdfunding-form.find"
-    },
-    {
       "action": "api::crowdfunding-home.crowdfunding-home.find"
     },
     {

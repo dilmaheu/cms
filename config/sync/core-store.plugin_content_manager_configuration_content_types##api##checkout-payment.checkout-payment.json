@@ -329,60 +329,6 @@
             "name": "Meta",
             "size": 12
           }
-        ],
-        [
-          {
-            "name": "text_card_details",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_accepted_cards",
-            "size": 6
-          },
-          {
-            "name": "Accepted_cards_icon",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Card_label_number",
-            "size": 6
-          },
-          {
-            "name": "Card_label_date",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Card_label_cvv",
-            "size": 6
-          },
-          {
-            "name": "text_card_error_message",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Ideal_label_select_bank",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Button_text_pay_with",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_payment_error",
-            "size": 8
-          }
         ]
       ],
       "list": [

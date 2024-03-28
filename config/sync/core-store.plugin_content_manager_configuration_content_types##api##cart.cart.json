@@ -156,16 +156,6 @@
             "name": "Meta",
             "size": 12
           }
-        ],
-        [
-          {
-            "name": "text_cart",
-            "size": 6
-          },
-          {
-            "name": "text_remove",
-            "size": 6
-          }
         ]
       ],
       "list": [

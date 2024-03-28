@@ -370,38 +370,6 @@
             "name": "Meta",
             "size": 12
           }
-        ],
-        [
-          {
-            "name": "Heading_block",
-            "size": 6
-          },
-          {
-            "name": "Heading_plans",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Block_blob",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Heading_goal",
-            "size": 4
-          },
-          {
-            "name": "Heading_supporters",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "Block_text",
-            "size": 12
-          }
         ]
       ],
       "list": [

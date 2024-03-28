@@ -254,36 +254,6 @@
             "name": "Meta",
             "size": 12
           }
-        ],
-        [
-          {
-            "name": "text_continue_to_shipping",
-            "size": 6
-          },
-          {
-            "name": "text_return_to_cart",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Aria_label_form_text",
-            "size": 6
-          },
-          {
-            "name": "text_contact_info",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "text_customer",
-            "size": 6
-          },
-          {
-            "name": "text_shipping_address",
-            "size": 6
-          }
         ]
       ],
       "list": [

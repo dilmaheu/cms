@@ -2935,12 +2935,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
-      ],
       "edit": [
         [
           {
@@ -3730,39 +3724,11 @@
         ],
         [
           {
-            "name": "text_shipping_country",
-            "size": 4
-          }
-        ],
-        [
-          {
             "name": "label_auto_tag",
             "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Logo",
-            "size": 4
           },
           {
-            "name": "Logo_tagline",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "Favicon",
-            "size": 4
-          },
-          {
-            "name": "Product_sold_out_text",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "OpenGraph_default",
+            "name": "text_plan",
             "size": 6
           }
         ],
@@ -3882,12 +3848,14 @@
           {
             "name": "error_payment",
             "size": 6
-          },
-          {
-            "name": "text_plan",
-            "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
       ]
     }
   },
