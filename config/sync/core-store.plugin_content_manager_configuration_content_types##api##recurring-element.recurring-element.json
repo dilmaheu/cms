@@ -2905,6 +2905,20 @@
           "sortable": true
         }
       },
+      "error_provide_email_or_phone": {
+        "edit": {
+          "label": "error_provide_email_or_phone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "error_provide_email_or_phone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -2935,6 +2949,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
+      ],
       "edit": [
         [
           {
@@ -3848,14 +3868,12 @@
           {
             "name": "error_payment",
             "size": 6
+          },
+          {
+            "name": "error_provide_email_or_phone",
+            "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
       ]
     }
   },

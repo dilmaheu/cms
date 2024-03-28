@@ -1788,6 +1788,14 @@
         }
       },
       "type": "string"
+    },
+    "error_provide_email_or_phone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
