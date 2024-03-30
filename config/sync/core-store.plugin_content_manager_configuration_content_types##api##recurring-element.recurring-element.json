@@ -1578,7 +1578,7 @@
       "text_order_summary": {
         "edit": {
           "label": "text_order_summary",
-          "description": "Checkout pages order-summery",
+          "description": "Checkout pages order-summary",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -2919,6 +2919,20 @@
           "sortable": true
         }
       },
+      "text_pay": {
+        "edit": {
+          "label": "text_pay",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_pay",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -2949,12 +2963,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
-      ],
       "edit": [
         [
           {
@@ -3434,6 +3442,10 @@
         ],
         [
           {
+            "name": "text_pay",
+            "size": 4
+          },
+          {
             "name": "text_pay_with",
             "size": 4
           }
@@ -3874,6 +3886,12 @@
             "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
       ]
     }
   },

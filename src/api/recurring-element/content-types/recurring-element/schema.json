@@ -1796,6 +1796,14 @@
         }
       },
       "type": "string"
+    },
+    "text_pay": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
