@@ -4516,7 +4516,9 @@
           "label_auto_tag",
           "text_plan",
           "error_provide_email_or_phone",
-          "text_pay"
+          "text_pay",
+          "DEV_EMAIL",
+          "SALES_EMAIL"
         ],
         "locales": [
           "en",
@@ -4776,7 +4778,9 @@
           "label_auto_tag",
           "text_plan",
           "error_provide_email_or_phone",
-          "text_pay"
+          "text_pay",
+          "DEV_EMAIL",
+          "SALES_EMAIL"
         ],
         "locales": [
           "en",
@@ -5012,7 +5016,9 @@
           "label_auto_tag",
           "text_plan",
           "error_provide_email_or_phone",
-          "text_pay"
+          "text_pay",
+          "DEV_EMAIL",
+          "SALES_EMAIL"
         ],
         "locales": [
           "en",

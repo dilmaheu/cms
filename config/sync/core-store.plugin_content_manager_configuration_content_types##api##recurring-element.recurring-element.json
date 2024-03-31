@@ -2933,6 +2933,34 @@
           "sortable": true
         }
       },
+      "DEV_EMAIL": {
+        "edit": {
+          "label": "DEV_EMAIL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "DEV_EMAIL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "SALES_EMAIL": {
+        "edit": {
+          "label": "SALES_EMAIL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SALES_EMAIL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -2967,14 +2995,24 @@
         [
           {
             "name": "Company_name",
-            "size": 4
+            "size": 6
           },
           {
             "name": "From_name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Company_email",
             "size": 4
           },
           {
-            "name": "Company_email",
+            "name": "DEV_EMAIL",
+            "size": 4
+          },
+          {
+            "name": "SALES_EMAIL",
             "size": 4
           }
         ],

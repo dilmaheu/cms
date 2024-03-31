@@ -1804,6 +1804,22 @@
         }
       },
       "type": "string"
+    },
+    "DEV_EMAIL": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    },
+    "SALES_EMAIL": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }
