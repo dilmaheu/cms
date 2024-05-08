@@ -636,6 +636,90 @@
           "sortable": true
         }
       },
+      "Advanced_notification_close_button_text": {
+        "edit": {
+          "label": "Advanced_notification_close_button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Advanced_notification_close_button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Estate_location_map_link_text": {
+        "edit": {
+          "label": "Estate_location_map_link_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Estate_location_map_link_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Go_to_next_page_text": {
+        "edit": {
+          "label": "Go_to_next_page_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Go_to_next_page_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Recipe_serving_size_text": {
+        "edit": {
+          "label": "Recipe_serving_size_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Recipe_serving_size_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Select_tea_variant_text": {
+        "edit": {
+          "label": "Select_tea_variant_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Select_tea_variant_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Select_tea_size_text": {
+        "edit": {
+          "label": "Select_tea_size_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Select_tea_size_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -751,6 +835,10 @@
         ],
         [
           {
+            "name": "Recipe_serving_size_text",
+            "size": 6
+          },
+          {
             "name": "Howto_method_text",
             "size": 6
           }
@@ -847,6 +935,10 @@
           {
             "name": "Navbar_close_localization_menu_text",
             "size": 6
+          },
+          {
+            "name": "Advanced_notification_close_button_text",
+            "size": 6
           }
         ],
         [
@@ -896,6 +988,26 @@
           },
           {
             "name": "Kindness_cause_items_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Estate_location_map_link_text",
+            "size": 6
+          },
+          {
+            "name": "Go_to_next_page_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Select_tea_variant_text",
+            "size": 6
+          },
+          {
+            "name": "Select_tea_size_text",
             "size": 6
           }
         ]

@@ -51,7 +51,13 @@
           "Cart_item_quantity_minus_button_text",
           "Cart_item_quantity_plus_button_text",
           "Cart_item_quantity_text",
-          "Kindness_cause_items_text"
+          "Kindness_cause_items_text",
+          "Advanced_notification_close_button_text",
+          "Estate_location_map_link_text",
+          "Go_to_next_page_text",
+          "Recipe_serving_size_text",
+          "Select_tea_variant_text",
+          "Select_tea_size_text"
         ],
         "locales": [
           "en",
@@ -133,7 +139,13 @@
           "Cart_item_quantity_minus_button_text",
           "Cart_item_quantity_plus_button_text",
           "Cart_item_quantity_text",
-          "Kindness_cause_items_text"
+          "Kindness_cause_items_text",
+          "Advanced_notification_close_button_text",
+          "Estate_location_map_link_text",
+          "Go_to_next_page_text",
+          "Recipe_serving_size_text",
+          "Select_tea_variant_text",
+          "Select_tea_size_text"
         ],
         "locales": [
           "en",
@@ -191,7 +203,13 @@
           "Cart_item_quantity_minus_button_text",
           "Cart_item_quantity_plus_button_text",
           "Cart_item_quantity_text",
-          "Kindness_cause_items_text"
+          "Kindness_cause_items_text",
+          "Advanced_notification_close_button_text",
+          "Estate_location_map_link_text",
+          "Go_to_next_page_text",
+          "Recipe_serving_size_text",
+          "Select_tea_variant_text",
+          "Select_tea_size_text"
         ],
         "locales": [
           "en",
