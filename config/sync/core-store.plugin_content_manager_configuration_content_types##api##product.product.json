@@ -621,6 +621,20 @@
           "sortable": true
         }
       },
+      "Shopify_URL": {
+        "edit": {
+          "label": "Shopify_URL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Shopify_URL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -876,6 +890,10 @@
         [
           {
             "name": "rank",
+            "size": 6
+          },
+          {
+            "name": "Shopify_URL",
             "size": 6
           }
         ]

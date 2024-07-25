@@ -3556,7 +3556,8 @@
           "rank",
           "Active_from",
           "category_tea_range",
-          "VatPercentage"
+          "VatPercentage",
+          "Shopify_URL"
         ],
         "locales": [
           "en",
@@ -3648,7 +3649,8 @@
           "rank",
           "Active_from",
           "category_tea_range",
-          "VatPercentage"
+          "VatPercentage",
+          "Shopify_URL"
         ],
         "locales": [
           "en",
@@ -3716,7 +3718,8 @@
           "rank",
           "Active_from",
           "category_tea_range",
-          "VatPercentage"
+          "VatPercentage",
+          "Shopify_URL"
         ],
         "locales": [
           "en",
