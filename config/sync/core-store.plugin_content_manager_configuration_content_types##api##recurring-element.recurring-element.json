@@ -2961,6 +2961,20 @@
           "sortable": true
         }
       },
+      "text_buy": {
+        "edit": {
+          "label": "text_buy",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_buy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -2991,6 +3005,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "Logo",
+        "Logo_tagline",
+        "Footer_text"
+      ],
       "edit": [
         [
           {
@@ -3923,13 +3943,13 @@
             "name": "error_provide_email_or_phone",
             "size": 6
           }
+        ],
+        [
+          {
+            "name": "text_buy",
+            "size": 6
+          }
         ]
-      ],
-      "list": [
-        "id",
-        "Logo",
-        "Logo_tagline",
-        "Footer_text"
       ]
     }
   },

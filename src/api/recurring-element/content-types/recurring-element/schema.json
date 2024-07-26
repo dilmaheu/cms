@@ -1820,6 +1820,15 @@
         }
       },
       "type": "string"
+    },
+    "text_buy": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false
     }
   }
 }

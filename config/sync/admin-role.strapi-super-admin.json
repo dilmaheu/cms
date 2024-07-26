@@ -4539,7 +4539,8 @@
           "error_provide_email_or_phone",
           "text_pay",
           "DEV_EMAIL",
-          "SALES_EMAIL"
+          "SALES_EMAIL",
+          "text_buy"
         ],
         "locales": [
           "en",
@@ -4801,7 +4802,8 @@
           "error_provide_email_or_phone",
           "text_pay",
           "DEV_EMAIL",
-          "SALES_EMAIL"
+          "SALES_EMAIL",
+          "text_buy"
         ],
         "locales": [
           "en",
@@ -5039,7 +5041,8 @@
           "error_provide_email_or_phone",
           "text_pay",
           "DEV_EMAIL",
-          "SALES_EMAIL"
+          "SALES_EMAIL",
+          "text_buy"
         ],
         "locales": [
           "en",
